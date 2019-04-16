@@ -1,6 +1,6 @@
 [![privacytools](assets/img/layout/logo.png)](https://www.privacidade.digital/)
 
-_Encriptação Contra Vigilância Global em Massa._
+_Encriptação Contra Vigilância Global em Massa_
 
 ##### TODO: configurar travis para este repo
 
