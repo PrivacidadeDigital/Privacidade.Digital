@@ -31,7 +31,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 
 ##### TODO: incluir seção de ajudar este projeto
 
-# Projeto original
+# Projeto original (em Inglês)
 
 [![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
 
