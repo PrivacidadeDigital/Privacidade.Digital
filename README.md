@@ -29,9 +29,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 1. Rodar `bundle install` para instalar as dependências necessárias.
 1. Usar `bundle exec jekyll build` para construir o site. _Output_ estará na pasta `_site`. Previsão automática com `bundle exec jekyll serve`.
 
-# Ajudar este projeto
-
-##### TODO: atualizar esta seção
+##### TODO: incluir seção de ajudar este projeto
 
 # Projeto original
 
@@ -45,7 +43,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 
 # Traduções da Comunidade
 
-- Português (nossa tradução).
+- __Português__.
 - [繁体中文 / Chinês](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Espanhol](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / Alemão](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
