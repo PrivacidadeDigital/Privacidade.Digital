@@ -1,4 +1,4 @@
-[![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
+# privacidade.digital
 
 _Encriptação Contra Vigilância Global em Massa._
 
@@ -34,7 +34,9 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 ##### TODO: atualizar esta seção
 
 # Projeto original
-[privacytools.io](https://privacytools.io/)
+
+[![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
+
 - [Doar](https://www.privacytools.io/donate/).
 - [Compartilhar](https://www.privacytools.io/#participate).
 - [Fazer sugestões no Reddit](https://www.reddit.com/r/privacytoolsIO/).
@@ -42,7 +44,8 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - Visitar e ajudar os projetos traduzidos pela comunidade, cujos links estão abaixo.
 
 # Traduções da Comunidade
-- Português: Esta tradução.
+
+- Português (nossa tradução).
 - [繁体中文 / Chinês](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Espanhol](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / Alemão](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
