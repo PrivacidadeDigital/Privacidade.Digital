@@ -1,4 +1,4 @@
-[![privacytools](img/layout/logo.png)](https://www.privacidade.digital/)
+[![privacytools](assets/img/layout/logo.png)](https://www.privacidade.digital/)
 
 _Encriptação Contra Vigilância Global em Massa._
 
