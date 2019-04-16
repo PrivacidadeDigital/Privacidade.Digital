@@ -2,13 +2,7 @@
 
 _Encriptação Contra Vigilância Global em Massa_
 
-##### TODO: configurar travis para este repo
-##### TODO: contratar VPS pra hospedar o site
-
-```
-[![Build Status](https://travis-ci.com/privacytoolsIO/privacytools.io.svg?branch=master)](https://travis-ci.com/privacytoolsIO/privacytools.io)
-
-```
+[![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital)
 
 # Contribuir
 
