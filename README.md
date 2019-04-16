@@ -21,8 +21,6 @@ _Informações sobre contribuições em Português em breve_!
 1. Rode `bundle install` para instalar as dependências necessárias.
 1. Usar `bundle exec jekyll build` para construir o site. O _output_ estará na pasta `_site`. Previsão automática também é possível através do comando `bundle exec jekyll serve`.
 
-##### TODO: incluir seção de ajudar este projeto
-
 # Projeto original
 
 [![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
@@ -46,5 +44,3 @@ _Informações sobre contribuições em Português em breve_!
 # Licença
 
 [Do What The Fuck You Want To Public License](https://github.com/abbluiz/privacidade.digital/blob/master/LICENSE.txt)
-
-##### TODO: talvez mudar licença
