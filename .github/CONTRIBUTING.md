@@ -1,28 +1,27 @@
-# Contributing Guidelines
+# Regras de Contribuição
 
-Please read this before contributing.
+Por favor leia estas regras antes de contribuir no projeto.
 
-## Rules
+## Regras
 
-- Be nice and respectful.
-- English only.
-- Be constructive.
+- Seja educado e respeitoso.
+- Somente Português.
+- Seja construtivo.
 
-## Quality over Quantity
+## Qualidade é melhor que Quantidade
 
-We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im))
+Nós estamos tentanto manter o site simples e recomendar as melhores ferramentas, não todas. O máximo são 3 escolhas de _software_, mas é possível adicionar mais nas seções "Menções Honrosas".
 
-## Software Criteria
+## Critérios de _Software_
 
-- Open Source
-- Cross-platform
-- Easy to use
-- Privacy respecting
+- Deve ter código aberto
+- Deve ser multi-plataforma
+- Deve ser fácil de usar
+- Deve respeitar a privacidade dos usuários
 
-There can be exceptions if no software is available that meet the criteria.
+Podem existir exceções caso não existam _softwares_ que satisfaçam os critérios.
 
-## Images
+## Imagens
 
-- Provider logos should be exactly 200 x 70 ([example](https://www.privacytools.io/assets/img/provider/AirVPN.png))
-- Tool logos should be exactly 120 x 120 ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
-
+- Logotipos de provedores devem ter exatamente 200 x 70 ([exemplo](https://www.privacytools.io/assets/img/provider/AirVPN.png))
+- Logotipos de ferramentas devem ter exatamente 120 x 120 ([exemplo](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
