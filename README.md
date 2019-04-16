@@ -23,11 +23,10 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 
 ## Construir projeto
 
-1. Intalar [Ruby](https://www.ruby-lang.org/pt/documentation/installation/)
+1. Instalar [Ruby](https://www.ruby-lang.org/pt/documentation/installation/).
 1. Instalar [bundler](https://bundler.io/) com `gem install bundler`.
 1. Rodar `bundle install` para instalar as dependências necessárias.
-1. Usar `bundle exec jekyll build` para construir o site. _Output_ estará na pasta `_site`. Previsão automática com `bundle exec jekyll serve`
-1. Seguir instruções no terminal (em inglês).
+1. Usar `bundle exec jekyll build` para construir o site. _Output_ estará na pasta `_site`. Previsão automática com `bundle exec jekyll serve`.
 
 # Ajudar este projeto
 
