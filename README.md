@@ -33,15 +33,16 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 
 ##### TODO: atualizar esta seção
 
-# Ajudar [projeto original em Inglês](https://privacytools.io/)
-
-- [Doar.](https://www.privacytools.io/donate/)
-- [Compartilhar a página.](https://www.privacytools.io/#participate)
-- [Fazer sugestões no Reddit.](https://www.reddit.com/r/privacytoolsIO/)
-- Ver e editar o [código fonte do site no GitHub](https://github.com/privacytoolsIO/privacytools.io) 
-- Visitar e ajudar os projetos traduzidos/localizados cujos links estão abaixo
+# Projeto original
+[privacytools.io](https://privacytools.io/)
+- [Doar](https://www.privacytools.io/donate/).
+- [Compartilhar](https://www.privacytools.io/#participate).
+- [Fazer sugestões no Reddit](https://www.reddit.com/r/privacytoolsIO/).
+- Verificar e editar o [código fonte no GitHub](https://github.com/privacytoolsIO/privacytools.io).
+- Visitar e ajudar os projetos traduzidos pela comunidade, cujos links estão abaixo.
 
 # Traduções da Comunidade
+- Português: Esta tradução.
 - [繁体中文 / Chinês](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Espanhol](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / Alemão](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
