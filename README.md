@@ -18,7 +18,7 @@ Para um site como o privacidade.digital, é importante estar atualizado. Fique d
 
 Você pode fazer sugestões no GitHub do projeto original [(_Issues_)](https://github.com/privacytoolsIO/privacytools.io/issues) ou em seu [_subreddit_](https://www.reddit.com/r/privacytoolsIO/). Essas sugestões, porém, devem estar em Inglês, conforme as [Regras de Contribuição](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) do projeto original.
 
-_Informações sobre contribuições em Português em breve!_
+_Informações sobre contribuições em Português em breve_!
 
 ## Construir projeto
 
@@ -29,7 +29,7 @@ _Informações sobre contribuições em Português em breve!_
 
 ##### TODO: incluir seção de ajudar este projeto
 
-# Projeto original (em Inglês)
+# Projeto original
 
 [![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
 
