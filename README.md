@@ -48,7 +48,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Deutsch / Alemão](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
 - [Français / Francês](https://privacytools.dreads-unlock.fr/) - [GitLab](https://gitlab.com/Booteille/privacytools)
 - [Italiano / Italiano](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
-- __Português__.
+- __Português__
 - [Русский / Russo](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
 # Licença
