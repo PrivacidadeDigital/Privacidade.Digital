@@ -2,13 +2,7 @@
 
 _Encriptação Contra Vigilância Global em Massa_
 
-##### TODO: configurar travis para este repo
-##### TODO: contratar VPS pra hospedar o site
-
-```
-[![Build Status](https://travis-ci.com/privacytoolsIO/privacytools.io.svg?branch=master)](https://travis-ci.com/privacytoolsIO/privacytools.io)
-
-```
+[![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital)
 
 # Contribuir
 
@@ -26,8 +20,6 @@ _Informações sobre contribuições em Português em breve_!
 1. Instale [bundler](https://bundler.io/) com `gem install bundler`.
 1. Rode `bundle install` para instalar as dependências necessárias.
 1. Usar `bundle exec jekyll build` para construir o site. O _output_ estará na pasta `_site`. Previsão automática também é possível através do comando `bundle exec jekyll serve`.
-
-##### TODO: incluir seção de ajudar este projeto
 
 # Projeto original
 
@@ -52,5 +44,3 @@ _Informações sobre contribuições em Português em breve_!
 # Licença
 
 [Do What The Fuck You Want To Public License](https://github.com/abbluiz/privacidade.digital/blob/master/LICENSE.txt)
-
-##### TODO: talvez mudar licença
