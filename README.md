@@ -12,15 +12,13 @@ _Encriptação Contra Vigilância Global em Massa._
 
 # Contribuir
 
-##### TODO: traduzir/localizar texto abaixo
+Para um site como o privacidade.digital, é importante estar atualizado. Fique de olho em atualizações de __software__ dos aplicativos listados aqui. Siga notícias recentes sobre provedores que são recomendados. Nós tentamos nosso melhor para manter tudo atualizado, mas não somos perfeitos e a internet está mudando rápido. Então se você encontrar um erro, ou pensa que um provedor não deveria estar listado aqui, ou um provedor de qualidade está faltando ou um __plugin__ de navegadoror não é a melhor opção mais ou qualquer outra coisa...
 
-```
-It's important for a website like privacytools.io to be up-to-date. Keep an eye on software updates of the applications listed here. Follow recent news about providers that are recommended. We try our best to keep up but we're not perfect and the internet is changing fast. So if you find an error, or you think a provider should not be listed here, or a qualified service provider is missing or a browser plugin is not the best choice anymore or anything else...
+**Fala com a gente, por favor.** Junte-se ao [_subreddit_](https://www.reddit.com/r/privacytoolsIO/) do projeto original e inicie sua discussão em Inglês. Este é um projeto comunitário e temos o objetivo de entregar a melhor informação disponível para um mundo com mais privacidade digital. Nós também usamos [/r/privacy](https://www.reddit.com/r/privacy). Obrigado por participar.
 
-**Talk to us please.** Join our [subreddit](https://www.reddit.com/r/privacytoolsIO/) and start a discussion. This is a community project and we're aiming to deliver the best information available for a better privacy. We are also using [/r/privacy](https://www.reddit.com/r/privacy). Thank you for participating.
+Você pode fazer sugestões no GitHub do projeto original [(_Issues_)](https://github.com/privacytoolsIO/privacytools.io/issues) ou em seu [_subreddit_](https://www.reddit.com/r/privacytoolsIO/). Essas sugestões, porém, devem estar em Inglês, conforme as [Regras de Contribuição](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) do projeto original.
 
-You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Please refer to the [Contributing Guidelines](.github/CONTRIBUTING.md) before submitting. Thank you.
-```
+_Informações sobre contribuições em Português em breve!_
 
 ## Construir projeto
 
