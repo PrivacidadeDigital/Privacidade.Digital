@@ -1,8 +1,10 @@
 ---
-name: "💬 Discussion"
+name: "\U0001F4AC Discussion"
 about: Discuss the website or any mentioned software in general.
-title: "💬 Discussion | "
-labels: 💬 discussion, feedback wanted
+title: "\U0001F4AC Discussion | "
+labels: ''
+assignees: ''
+
 ---
 
 <!-- Remember to stay civil! -->
