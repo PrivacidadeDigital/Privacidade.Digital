@@ -53,4 +53,6 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 
 # Licença
 
+[Do What The Fuck You Want To Public License](https://github.com/abbluiz/privacidade.digital/blob/master/LICENSE.txt)
+
 ##### TODO: talvez mudar licença
