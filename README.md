@@ -2,11 +2,16 @@
 
 _Encriptação Contra Vigilância Global em Massa._
 
+##### TODO: configurar travis para este repo
+
+```
 [![Build Status](https://travis-ci.com/privacytoolsIO/privacytools.io.svg?branch=master)](https://travis-ci.com/privacytoolsIO/privacytools.io)
+
+```
 
 # Contribuir
 
-* TODO: traduzir/localizar texto abaixo
+##### TODO: traduzir/localizar texto abaixo
 
 ```
 It's important for a website like privacytools.io to be up-to-date. Keep an eye on software updates of the applications listed here. Follow recent news about providers that are recommended. We try our best to keep up but we're not perfect and the internet is changing fast. So if you find an error, or you think a provider should not be listed here, or a qualified service provider is missing or a browser plugin is not the best choice anymore or anything else...
@@ -24,12 +29,17 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 1. Usar `bundle exec jekyll build` para construir o site. _Output_ estará na pasta `_site`. Previsão automática com `bundle exec jekyll serve`
 1. Seguir instruções no terminal (em inglês).
 
-# Ajudar privacytools.io (projeto original em Inglês)
+# Ajudar este projeto
+
+##### TODO: atualizar esta seção
+
+# Ajudar [projeto original em Inglês](https://privacytools.io/)
 
 - [Doar.](https://www.privacytools.io/donate/)
 - [Compartilhar a página.](https://www.privacytools.io/#participate)
 - [Fazer sugestões no Reddit.](https://www.reddit.com/r/privacytoolsIO/)
-- Ver e editar o [código fonte do site no GitHub](https://github.com/privacytoolsIO/privacytools.io).
+- Ver e editar o [código fonte do site no GitHub](https://github.com/privacytoolsIO/privacytools.io) 
+- Visitar e ajudar os projetos traduzidos/localizados cujos links estão abaixo
 
 # Traduções da Comunidade
 - [繁体中文 / Chinês](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
