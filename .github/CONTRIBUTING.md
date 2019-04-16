@@ -1,11 +1,11 @@
 # Regras de Contribuição
 
-Por favor leia estas regras antes de contribuir no projeto.
+Estas são as regras para contribuições em Português. Você também pode contribuir diretamente em Inglês no repositório do projeto original ou em outras línguas, em seus respectivos repositórios (links no `README.md` deste projeto). Por favor leia tudo antes de contribuir! 
 
 ## Regras
 
 - Seja educado e respeitoso.
-- Somente Português.
+- Publique conteúdo somente em Português.
 - Seja construtivo.
 
 ## Qualidade é melhor que Quantidade
