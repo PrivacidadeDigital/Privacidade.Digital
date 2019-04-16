@@ -1,11 +1,11 @@
-<!-- PLEASE READ OUR [CONTRIBUTING GUIDELINES](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) BEFORE SUBMITTING -->
+<!-- POR FAVOR LEIA NOSSAS [REGRAS DE CONTRIBUIÇÃO](https://github.com/abbluiz/privacidade.digital/blob/master/.github/CONTRIBUTING.md) ANTES DE SUBMETER -->
 
-## Description
+## Descrição
 
-Resolves: #none <!-- The number of the issue that is resolved by this pull request. If there is none, feel free to delete this line -->
+Resolve: #nenhum <!-- Número de problemas que são resolvidos por este _pull request_. Se não há nenhum, sinta-se livre para deletar esta linha -->
 
 <!--
-## Screenshots
+## Capturas de tela
 
-Please add screenshots if applicable
+Por favor adicione capturas de tela se assim for necessário
 -->
