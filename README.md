@@ -50,4 +50,5 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Русский / Russo](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
 # Licença
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt_BR)
+
+##### TODO: talvez mudar licença
