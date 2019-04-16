@@ -2,7 +2,6 @@
 
 _Encriptação Contra Vigilância Global em Massa._
 
-##### TODO: atualizar logotipo
 ##### TODO: configurar travis para este repo
 
 ```
