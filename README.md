@@ -11,20 +11,20 @@ _Encriptação Contra Vigilância Global em Massa_
 
 # Contribuir
 
-Para um site como o privacidade.digital, é importante estar atualizado. Fique de olho em atualizações de __software__ dos aplicativos listados aqui. Siga notícias recentes sobre provedores que são recomendados. Nós tentamos nosso melhor para manter tudo atualizado, mas não somos perfeitos e a internet está mudando rápido. Então se você encontrar um erro, ou pensa que um provedor não deveria estar listado aqui, ou um provedor de qualidade está faltando ou um __plugin__ de navegadoror não é a melhor opção mais ou qualquer outra coisa...
+É importante para um site como o privacidade.digital estar atualizado. Fique de olho em atualizações de __software__ dos aplicativos listados aqui. Siga notícias recentes sobre provedores que são recomendados. Nós tentamos nosso melhor para manter tudo atualizado, mas não somos perfeitos e a internet está mudando rápido. Então se você encontrar um erro, ou pensa que um provedor não deveria estar listado aqui, ou um provedor de qualidade está faltando, ou um __plugin__ de navegador não é a melhor opção, ou qualquer outra coisa...
 
-**Fala com a gente, por favor.** Junte-se ao [_subreddit_](https://www.reddit.com/r/privacytoolsIO/) do projeto original e inicie sua discussão em Inglês. Este é um projeto comunitário e temos o objetivo de entregar a melhor informação disponível para um mundo com mais privacidade digital. Nós também usamos [/r/privacy](https://www.reddit.com/r/privacy). Obrigado por participar.
+**Fale com a gente, por favor.** Junte-se ao [_subreddit_](https://www.reddit.com/r/privacytoolsIO/) do projeto original e inicie sua discussão em inglês. Este é um projeto comunitário e temos o objetivo de entregar a melhor informação disponível por um mundo com mais privacidade digital. Nós também usamos [/r/privacy](https://www.reddit.com/r/privacy). Obrigado por participar.
 
 Você pode fazer sugestões no GitHub do projeto original [(_Issues_)](https://github.com/privacytoolsIO/privacytools.io/issues) ou em seu [_subreddit_](https://www.reddit.com/r/privacytoolsIO/). Essas sugestões, porém, devem estar em Inglês, conforme as [Regras de Contribuição](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) do projeto original.
 
 _Informações sobre contribuições em Português em breve_!
 
-## Construir projeto
+## Construindo o projeto
 
-1. Instalar [Ruby](https://www.ruby-lang.org/pt/documentation/installation/).
-1. Instalar [bundler](https://bundler.io/) com `gem install bundler`.
-1. Rodar `bundle install` para instalar as dependências necessárias.
-1. Usar `bundle exec jekyll build` para construir o site. _Output_ estará na pasta `_site`. Previsão automática com `bundle exec jekyll serve`.
+1. Instale [Ruby](https://www.ruby-lang.org/pt/documentation/installation/).
+1. Instale [bundler](https://bundler.io/) com `gem install bundler`.
+1. Rode `bundle install` para instalar as dependências necessárias.
+1. Usar `bundle exec jekyll build` para construir o site. O _output_ estará na pasta `_site`. Previsão automática também é possível através do comando `bundle exec jekyll serve`.
 
 ##### TODO: incluir seção de ajudar este projeto
 
