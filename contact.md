@@ -1,38 +1,38 @@
 ---
 layout: page
 permalink: /contact/
-title: "Contact Us"
-description: "Contact the privacytoolsIO team if you have any suggestions or are experiencing any issues."
+title: "Entre em Contato"
+description: "Entre em contato com o time Privacidade Digital se você tem alguma dúvida ou esteje com algum problema."
 ---
 
-## Editorial Team
+## Time Editorial
 
-It's very important to us to stay up-to-date on the latest changes in the privacy space. If you have a software recommendation for us, or an issue with this website, please don't hesitate to reach out!
+É muito importante para nós estar atualizado com as últimas mudanças no mundo da privacidade. Se você tem alguma recomendação para nós, ou algum problema com este site, não hesite em entrar em contato!
 
-[<i class="fab fa-github"></i> Open an Issue or Pull Request on GitHub](https://github.com/privacytoolsIO/privacytools.io/issues)
+[<i class="fab fa-github"></i> Abra um issue ou requisição pull no GitHub](https://github.com/privacytoolsIO/privacytools.io/issues) (em Inglês)
 
-[<i class="fab fa-reddit"></i> Suggest something new on Reddit](https://www.reddit.com/r/privacytoolsIO/)
+[<i class="fab fa-reddit"></i> Sugira algo novo no Reddit](https://www.reddit.com/r/privacytoolsIO/) (em Inglês)
 
-For complete transparency, software will only be considered for this website after discussions take place on either of the above platforms. Please do not reach out to any of our collaborators directly to discuss any editorial changes to this website.
+Softwares precisam ser discutidoo em alguma das plataformas acima antes de serem recomendados neste site. Por favor não contate algum dos nossos colaboradores diretamente para discutir uma mudança editorial no site.
 
-<span class="text-success"><i class="fas fa-comment"></i> New:</span> We're now on Matrix! Join us at `#general:privacytools.io` to chat with us and other members about this site and privacy in general. If you need a Matrix account, you can sign up with our own homeserver (`https://chat.privacytools.io`) using [riot.privacytools.io](https://riot.privacytools.io/) or any Matrix client! If you prefer XMPP, you're welcome to [use the Matrix.org XMPP bridge to join the discussion](https://conversations.im/j/%23general%23privacytools.io@bridge.xmpp.matrix.org).
+<span class="text-success"><i class="fas fa-comment"></i> Novo:</span> Agora nós usamos Matrix! Junte-se a nós em `#general:privacytools.io` para conversar sobre este site e privacidade em geral conosco e outros membros. Se você precisar de uma conta Matrix, você pode criá-la em nosso servidor local (`https://chat.privacytools.io`) usando [riot.privacytools.io](https://riot.privacytools.io/) ou qualquer cliente Matrix! Se você prefere XMPP, recomendamos que use [a ponte XMPP do Matrix.org pra participar do chat](https://conversations.im/j/%23general%23privacytools.io@bridge.xmpp.matrix.org).
 
-## Services Team
+## Time de Serviços
 
-We take the operation of our various [services](/services/) very seriously. If you experience any issues, or have any concerns or suggestions please contact our service administrators. You may also feel free to reach out to the services team if you experience any technical issues with this website itself, as they operate the general webservers. Do not contact regarding any editorial changes.
+Nós encaramos a operação de nossos [serviços](/services/) de forma bastante séria. Se você encontrar algum problema, ou possui alguma dúvida ou sugestões por favor entre em contato com nossos administradores de serviços. Sinta-se livre para entrar em contato com o time de serviços caso você presencie algum problema técnico ou este site em específico, pois é o mesmo time que opera os servidores web. Não entre em contato para discutir decisões editorais.
 
 <div class="row">
   <div class="col-12 col-sm-7 col-md-8 col-lg-9">
     <div class="card mb-4">
       <div class="card-header">
-        Contact Emails
+        Emails de Contato
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><strong>Abuse:</strong> abuse at privacytools dot io</li>
+        <li class="list-group-item"><strong>Abuso:</strong> abuse at privacytools dot io</li>
         <li class="list-group-item"><strong>Webmaster:</strong> webmaster at privacytools dot io</li>
         <li class="list-group-item"><strong>Hostmaster:</strong> hostmaster at privacytools dot io</li>
         <li class="list-group-item"><strong>Postmaster:</strong> postmaster at privacytools dot io</li>
-        <li class="list-group-item"><strong>Security:</strong> security at privacytools dot io</li>
+        <li class="list-group-item"><strong>Segurança:</strong> security at privacytools dot io</li>
       </ul>
     </div>
     <div class="card mb-4">
@@ -51,7 +51,7 @@ We take the operation of our various [services](/services/) very seriously. If y
         <img class="card-img-top" src="/assets/img/layout/jonah.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Jonah</h5>
-          <h6 class="card-subtitle mb-2 text-light">Lead Administrator</h6>
+          <h6 class="card-subtitle mb-2 text-light">Administrador Líder</h6>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item text-white bg-dark"><a href="mailto:jonah@privacytools.io" class="card-link text-white">Email</a></li>
