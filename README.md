@@ -43,4 +43,4 @@ _Informações sobre contribuições em Português em breve_!
 
 # Licença
 
-[Do What The Fuck You Want To Public License](https://github.com/abbluiz/privacidade.digital/blob/master/LICENSE.txt)
+[CC0 / Domínio Público](https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR)
