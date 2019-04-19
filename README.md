@@ -21,6 +21,8 @@ _Mais informações sobre contribuições em breve_!
 
 [![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
 
+Privacidade Digital é um projeto baseado no site `privacytools.io`. Jeitos de contribuir:
+
 - [Doar](https://www.privacytools.io/donate/).
 - [Compartilhar](https://www.privacytools.io/#participate).
 - [Fazer sugestões no Reddit](https://www.reddit.com/r/privacytoolsIO/).
