@@ -6,13 +6,9 @@ _Encriptação Contra Vigilância Global em Massa_
 
 # Contribuir
 
-É importante para um site como o privacidade.digital estar atualizado. Fique de olho em atualizações de __software__ dos aplicativos listados aqui. Siga notícias recentes sobre provedores que são recomendados. Nós tentamos nosso melhor para manter tudo atualizado, mas não somos perfeitos e a internet está mudando rápido. Então se você encontrar um erro, ou pensa que um provedor não deveria estar listado aqui, ou um provedor de qualidade está faltando, ou um __plugin__ de navegador não é a melhor opção, ou qualquer outra coisa...
+É muito importante para um site como o privacidade.digital estar atualizado. Fique de olho em atualizações nas recomendações que damos no site. Siga notícias recentes sobre provedores que recomendamos. Nós damos o melhor para manter tudo atualizado, mas não somos perfeitos e a internet está em constante e rápida mudança. Se você encontrar um erro, ou pensa que um provedor não deveria estar listado aqui, ou um serviço bom está de fora, ou uma extensão de navegador não é mais a melhor escolha, ou qualquer outra coisa... **Fale conosco, por favor**.
 
-**Fale com a gente, por favor.** Junte-se ao [_subreddit_](https://www.reddit.com/r/privacytoolsIO/) do projeto original e inicie sua discussão em inglês. Este é um projeto comunitário e temos o objetivo de entregar a melhor informação disponível por um mundo com mais privacidade digital. Nós também usamos [/r/privacy](https://www.reddit.com/r/privacy). Obrigado por participar.
-
-Você pode fazer sugestões no GitHub do projeto original [(_Issues_)](https://github.com/privacytoolsIO/privacytools.io/issues) ou em seu [_subreddit_](https://www.reddit.com/r/privacytoolsIO/). Essas sugestões, porém, devem estar em Inglês, conforme as [Regras de Contribuição](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) do projeto original.
-
-_Informações sobre contribuições em Português em breve_!
+_Mais informações sobre contribuições em breve_!
 
 ## Construindo o projeto
 
