@@ -1,19 +1,19 @@
 ---
 layout: page
-permalink: /contact/
+permalink: /contato/
 title: "Entre em Contato"
-description: "Entre em contato com o time Privacidade Digital se você tem alguma dúvida ou esteje com algum problema."
+description: "Entre em contato com o time Privacidade Digital se você tiver alguma dúvida ou esteje com algum problema."
 ---
 
 ## Time Editorial
 
-É muito importante para nós estar atualizado com as últimas mudanças no mundo da privacidade. Se você tem alguma recomendação para nós, ou algum problema com este site, não hesite em entrar em contato!
+É muito importante para nós estar atualizado com as últimas mudanças no mundo da privacidade. Se você tiver alguma recomendação para nós, ou algum problema com este site, não hesite em entrar em contato!
 
 [<i class="fab fa-github"></i> Abra um issue ou requisição pull no GitHub](https://github.com/privacytoolsIO/privacytools.io/issues) (em Inglês)
 
 [<i class="fab fa-reddit"></i> Sugira algo novo no Reddit](https://www.reddit.com/r/privacytoolsIO/) (em Inglês)
 
-Softwares precisam ser discutidoo em alguma das plataformas acima antes de serem recomendados neste site. Por favor não contate algum dos nossos colaboradores diretamente para discutir uma mudança editorial no site.
+Softwares precisam ser discutidos em alguma das plataformas acima antes de serem recomendados neste site. Por favor não contate algum dos nossos colaboradores diretamente para discutir uma mudança editorial no site.
 
 <span class="text-success"><i class="fas fa-comment"></i> Novo:</span> Agora nós usamos Matrix! Junte-se a nós em `#general:privacytools.io` para conversar sobre este site e privacidade em geral conosco e outros membros. Se você precisar de uma conta Matrix, você pode criá-la em nosso servidor local (`https://chat.privacytools.io`) usando [riot.privacytools.io](https://riot.privacytools.io/) ou qualquer cliente Matrix! Se você prefere XMPP, recomendamos que use [a ponte XMPP do Matrix.org pra participar do chat](https://conversations.im/j/%23general%23privacytools.io@bridge.xmpp.matrix.org).
 
