@@ -8,6 +8,8 @@ _Encriptação Contra Vigilância Global em Massa_
 
 É muito importante para um site como o privacidade.digital estar atualizado. Fique de olho em atualizações nas recomendações que damos no site. Siga notícias recentes sobre provedores que recomendamos. Nós damos o melhor para manter tudo atualizado, mas não somos perfeitos e a internet está em constante e rápida mudança. Se você encontrar um erro, ou pensa que um provedor não deveria estar listado aqui, ou um serviço bom está de fora, ou uma extensão de navegador não é mais a melhor escolha, ou qualquer outra coisa... **Fale conosco, por favor**.
 
+Você pode submeter suas sugestões aqui pelo GitHub (criando um novo _Issue_). Por favor, leia as [Regras de Contribuições](./.github/CONTRIBUIÇÕES.md) antes de submeter algo. **Obrigado**
+
 _Mais informações sobre contribuições em breve_!
 
 ## Construindo o projeto
