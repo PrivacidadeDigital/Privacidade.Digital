@@ -19,7 +19,7 @@ Softwares precisam ser discutidos em alguma das plataformas acima antes de serem
 
 ## Time de Serviços
 
-Nós encaramos a operação de nossos [serviços](/services/) de forma bastante séria. Se você encontrar algum problema, ou possui alguma dúvida ou sugestões por favor entre em contato com nossos administradores de serviços. Sinta-se livre para entrar em contato com o time de serviços caso você presencie algum problema técnico ou este site em específico, pois é o mesmo time que opera os servidores web. Não entre em contato para discutir decisões editorais.
+Nós encaramos a operação de nossos [serviços](/servicos/) de forma bastante séria. Se você encontrar algum problema, ou possui alguma dúvida ou sugestões por favor entre em contato com nossos administradores de serviços. Sinta-se livre para entrar em contato com o time de serviços caso você presencie algum problema técnico ou este site em específico, pois é o mesmo time que opera os servidores web. Não entre em contato para discutir decisões editorais.
 
 <div class="row">
   <div class="col-12 col-sm-7 col-md-8 col-lg-9">
