@@ -21,13 +21,15 @@ _Mais informações sobre contribuições em breve_!
 
 [![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
 
-Privacidade Digital é um projeto baseado no site `privacytools.io`. Jeitos de contribuir:
+Privacidade Digital é um projeto baseado no site `privacytools.io`, e existem formas de contribuir:
 
 - [Doar](https://www.privacytools.io/donate/).
 - [Compartilhar](https://www.privacytools.io/#participate).
 - [Fazer sugestões no Reddit](https://www.reddit.com/r/privacytoolsIO/).
 - Verificar e editar o [código fonte no GitHub](https://github.com/privacytoolsIO/privacytools.io).
 - Visitar e ajudar os projetos traduzidos pela comunidade, cujos links estão abaixo.
+
+_O time responsável pelo desenvolvimento do projeto original não necessariamente apoia este projeto_.
 
 # Traduções da Comunidade
 
