@@ -102,23 +102,23 @@ Atualmente não existem vulnerabilidades conhecidas no Ricochet. O software é s
 programa Tor incluído para sua versão mais nova.
 
 <ol class="long-string-list">
-  <li>Download the <a href="{{ site.url }}/navegadores/"><i class="fas fa-link"></i> Tor Browser</a>.</li>
-  <li>Run the Tor Browser installer or extract package for your platform. Windows (.exe), MacOSX (.dmg) and Linux
+  <li>Baixe o <a href="{{ site.url }}/navegadores/"><i class="fas fa-link"></i> Navegador Tor</a>.</li>
+  <li>Rode o instalador do Navegador Tor ou extraia o pacote da sua plataforma. Windows (.exe), MacOSX (.dmg) e Linux
     (.tar.bz2).</li>
-  <li>Copy the Tor binary or create a symbolic link to it: </li>
+  <li>Copie o programa Tor ou crie um link simbólico pra ele: </li>
   <br>
   <ul>
-    <li><strong>Windows: </strong>Copy the Tor binary included with the Tor Browser and overwrite the old one included
-      with Ricochet.</li>
+    <li><strong>Windows: </strong>Copie o programa Tor incluído no Navegador Tor e sobrescreva o antigo incluído no
+      Ricochet.</li>
     <ul>
-      <li>Tor Browser binary: <code>%HOMEPATH%\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe</code></li>
-      <li>Ricochet's included binary: <code>%HOMEPATH%\Desktop\Ricochet\tor.exe</code></li>
+      <li>Programa Tor: <code>%HOMEPATH%\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe</code></li>
+      <li>Programa Tor incluído no Ricochet: <code>%HOMEPATH%\Desktop\Ricochet\tor.exe</code></li>
     </ul>
     <br>
-    <li><strong>MacOSX: </strong>Assuming you copied the <code>Tor Browser.app</code> and <code>Ricochet.app</code> from
-      their respective .dmg install media to <code>/Applications</code>: <br>
-      Create a symbolic link to the Tor binary in Terminal. Ricochet will continue to use the up to date version of the
-      Tor binary when you update the Tor Browser Bundle.</li>
+    <li><strong>MacOSX: </strong>Assumindo que você copiou o <code>Tor Browser.app</code> e <code>Ricochet.app</code>
+      de seus arquivos .dmg respectivos para <code>/Applications</code>: <br>
+      Criar link simbólico para o programa Tor pelo Terminal. Ricochet irá continuar a usar a versão atualizada do
+      programa Tor quando, mesmo que você atualize o Navegador Tor.</li>
     <ul>
       <li><code>rm ~/Applications/Ricochet.app/Contents/MacOS/tor <br>
                     ln -s ~/Applications/Tor\ Browser.app/Contents/Resources/TorBrowser/Tor/tor \ <br>
@@ -126,8 +126,7 @@ programa Tor incluído para sua versão mais nova.
       </li>
     </ul>
     <br>
-    <li><strong>Linux: </strong>Assuming you extracted the Tor Browser Bundle and Ricochet tarball to your home
-      directory:</li>
+    <li><strong>Linux: </strong>Assumindo que você extraiu o Navegador Tor e Ricochet no seu diretório home:</li>
     <ul>
       <li><code>rm ~/ricochet/tor <br>
                     ln -s ~/tor-browser_en-US/Browser/TorBrowser/Tor/tor ~/ricochet/tor</code>
