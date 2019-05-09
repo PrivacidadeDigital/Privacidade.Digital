@@ -2,26 +2,22 @@
 layout: page
 permalink: /contato/
 title: "Entre em Contato"
-description: "Entre em contato com o time Privacidade Digital se você tiver alguma dúvida ou esteje com algum problema."
+description: "Entrar em contato com o time Privacidade Digital caso tiver alguma dúvida ou estiver com algum problema."
 ---
 
-## Time Editorial
+## Time de Tradução & Desenvolvimento
 
-É muito importante para nós estar atualizado com as últimas mudanças no mundo da privacidade. Se você tiver alguma recomendação para nós, ou algum problema com este site, não hesite em entrar em contato!
+É muito importante para nós estarmos atualizados com as últimas mudanças no mundo da privacidade. Se você tiver alguma recomendação para nós, ou algum problema com este site, não hesite em entrar em contato!
 
-[<i class="fab fa-github"></i> Abra um issue ou requisição pull no GitHub](https://github.com/privacytoolsIO/privacytools.io/issues) (em Inglês)
-
-[<i class="fab fa-reddit"></i> Sugira algo novo no Reddit](https://www.reddit.com/r/privacytoolsIO/) (em Inglês)
+[<i class="fab fa-github"></i> Abra um issue ou requisição pull no GitHub](https://github.com/PrivacidadeDigital/privacidade.digital/issues)
 
 Softwares precisam ser discutidos em alguma das plataformas acima antes de serem recomendados neste site. Por favor não contate algum dos nossos colaboradores diretamente para discutir uma mudança editorial no site.
 
-<span class="text-success"><i class="fas fa-comment"></i> Novo:</span> Agora nós usamos Matrix! Junte-se a nós em `#general:privacytools.io` para conversar sobre este site e privacidade em geral conosco e outros membros. Se você precisar de uma conta Matrix, você pode criá-la em nosso servidor local (`https://chat.privacytools.io`) usando [riot.privacytools.io](https://riot.privacytools.io/) ou qualquer cliente Matrix! Se você prefere XMPP, recomendamos que use [a ponte XMPP do Matrix.org pra participar do chat](https://conversations.im/j/%23general%23privacytools.io@bridge.xmpp.matrix.org).
+<span class="text-success"><i class="fas fa-comment"></i> Novo:</span> Agora nós usamos Matrix! Junte-se a nós em `#privacidade.digital-geral:matrix.org` para conversar conosco e outros membros sobre este site e privacidade em geral. Se você precisar de uma conta Matrix, você pode criá-la em [Riot.im](https://riot.im/) ou qualquer cliente Matrix! Se você prefere XMPP, recomendamos que use [a ponte XMPP do Matrix.org pra participar do chat](https://conversations.im/j/%23privacidade.digital-geral%23matrix.org@bridge.xmpp.matrix.org).
 
-## Time de Serviços
+Em breve serão adicionados novos métodos de contato como email e informações de desenvolvedores frequentes.
 
-Nós encaramos a operação de nossos [serviços](/servicos/) de forma bastante séria. Se você encontrar algum problema, ou possui alguma dúvida ou sugestões por favor entre em contato com nossos administradores de serviços. Sinta-se livre para entrar em contato com o time de serviços caso você presencie algum problema técnico ou este site em específico, pois é o mesmo time que opera os servidores web. Não entre em contato para discutir decisões editorais.
-
-<div class="row">
+<!-- <div class="row">
   <div class="col-12 col-sm-7 col-md-8 col-lg-9">
     <div class="card mb-4">
       <div class="card-header">
@@ -61,4 +57,4 @@ Nós encaramos a operação de nossos [serviços](/servicos/) de forma bastante 
       </div>
     </div>
   </div>
-</div>
+</div> -->
