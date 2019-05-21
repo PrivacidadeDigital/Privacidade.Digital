@@ -8,32 +8,43 @@
   </strong>
 </div>
 
-<div class="row mb-2">
+{% include cardv2.html
+title="searx - Decentral"
+image="/assets/img/provider/searx.jpg"
+description='An <a href="https://github.com/asciimoo/searx">open source</a> metasearch engine, aggregating the results of other search engines while not storing information about its users. No logs, no ads and no tracking. <a href="https://github.com/asciimoo/searx/wiki/Searx-instances">List of Instances</a> or try <a href="https://search.privacytools.io/">search.privacytools.io</a>'
+website="https://searx.me/"
+tor="http://ulrn6sryqaifefld.onion"
+forum="https://forum.privacytools.io/t/discussion-searx/283"
+github="https://github.com/asciimoo/searx"
+%}
 
-  {% include card.html color="success"
-  title="searx"
-  image="/assets/img/provider/searx.jpg"
-  url="https://searx.me/"
-  tor="http://ulrn6sryqaifefld.onion"
-  extra_button='<a class="btn btn-success mb-1" href="https://github.com/asciimoo/searx/wiki/Searx-instances">Lista de Instâncias</a>'
-  description='Um motor de metabusca de <a href="https://github.com/asciimoo/searx">código aberto</a>, que agrega os resultados de outros motores de busca ao mesmo tempo que não armazena informação de seus usuários. Sem registros, sem anúncios e sem rastreamento.'
-  %}
+{% include cardv2.html
+title="StartPage - Netherlands"
+image="/assets/img/provider/StartPage.png"
+description="Google search results, with complete privacy protection. Behind StartPage is a European company that has been obsessive about privacy since 2006."
+website="https://www.startpage.com/"
+forum="https://forum.privacytools.io/t/discussion-startpage/284"
+%}
 
-  {% include card.html color="primary"
-  title="StartPage"
-  image="/assets/img/provider/StartPage.png"
-  url="https://www.startpage.com/"
-  description="Resultados de busca do Google com proteção à privacidade. A empresa europeia por trás do StartPage é obsessiva quanto a privacidade desde 2006."
-  %}
+{% include cardv2.html
+title="DuckDuckGo - USA"
+image="/assets/img/provider/DuckDuckGo.jpg"
+description='The search engine that doesn\'t track you. Some of DuckDuckGo\'s code is free software hosted at GitHub, but the core is proprietary. <span class="flag-icon flag-icon-us"></span> <a href="../../providers/#ukusa">The company is based in the USA.</a>'
+website="https://duckduckgo.com/"
+tor="http://3g2upl4pq6kufc4m.onion"
+forum="https://forum.privacytools.io/t/discussion-duckduckgo/285"
+github="https://github.com/duckduckgo"
+%}
 
-  {% include card.html color="warning"
-  title="DuckDuckGo"
-  image="/assets/img/provider/DuckDuckGo.jpg"
-  url="https://duckduckgo.com/"
-  tor="http://3g2upl4pq6kufc4m.onion"
-  description='O motor de busca que não te rastreia. Parte do código do DuckDuckGo é livre e hospedado no <a href="https://github.com/duckduckgo">GitHub</a>, mas seu núcleo é proprietário. <span class="flag-icon flag-icon-us"></span> <a href="../../provedores/#ukusa">A empresa é baseada nos EUA.</a>'
-  %}
-</div>
+{% include cardv2.html
+title="Qwant - France"
+image="/assets/img/provider/qwant.jpg"
+description='Qwants philosophy is based on two principles: no user tracking and no filter bubble. Qwant was launched in France in February 2013. <a href="https://www.qwant.com/privacy">Privacy Policy.</a>'
+website="https://www.qwant.com/"
+forum="https://forum.privacytools.io/t/discussion-qwant/286"
+github="https://github.com/Qwant/"
+%}
+
 
 <h3>Extensão de Firefox</h3>
 
@@ -50,15 +61,7 @@
 <h3>Menções honrosas</h3>
 
 <ul>
-  <!-- filter bubble: termo que pode ser melhor traduzido -->
-  <li><a href="https://www.qwant.com/">Qwant</a> - A filosofia do Qwant é baseada em dois princípios: não para
-    rastreamento de usuários e não para bolhas de filtro. Qwant foi lançado na França em Fevereiro de 2013. <a
-      href="https://www.qwant.com/privacy">Política de Privacidade.</a></li>
-  <li><a href="https://yacy.net/">YaCy</a> - Motor de busca que é software livre e P2P. Pelo fato de ser P2P, os
-    usuários do motor de busca literalmente
-    fazem o software funcionar.</a></li>
-  <li><a href="https://jivesearch.com/">Jive Search</a> - Um motor de busca que é software livre e com um o design
-    parecido com o Google.</a></li>
-  <li><a href="https://metager.de/en/">MetaGer</a> - Um motor de metabusca de código livre, que é da Alemanha. Tem por
-    foco proteger a privacidade de seus usuários.</li>
+  <li><a href="https://yacy.net/">YaCy</a> - A free software P2P search engine powered by its users.</a></li>  
+  <li><a href="https://jivesearch.com/">Jive Search</a> - A free software search engine with a similar look and feel to Google.</a></li>  
+  <li><a href="https://metager.de/en/">MetaGer</a> - An open source metasearch engine, which is based in Germany. It focuses on protecting the user's privacy.</li>
 </ul>
