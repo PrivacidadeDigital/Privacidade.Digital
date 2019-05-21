@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://privacidade.digital/sitemap.xml
+Sitemap: https://www.privacidade.digital/sitemap.xml
