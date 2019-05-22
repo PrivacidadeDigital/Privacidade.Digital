@@ -2,20 +2,22 @@
 layout: page
 permalink: /contato/
 title: "Entre em Contato"
-description: "Entrar em contato com o time Privacidade Digital caso tiver alguma dúvida ou estiver com algum problema."
+description: "Entre em contato com nosso time de colaboradores frequentes caso tenha dúvidas, problemas ou sugestões."
 ---
 
 ## Time de Tradução & Desenvolvimento
 
-É muito importante para nós estarmos atualizados com as últimas mudanças no mundo da privacidade. Se você tiver alguma recomendação para nós, ou algum problema com este site, não hesite em entrar em contato!
+É muito importante para nós estarmos atualizados com as últimas mudanças no mundo da privacidade. Se você possui alguma recomendação para melhorar este site, ou algum problema, não hesite em entrar em contato!
 
 [<i class="fab fa-github"></i> Abra um issue ou requisição pull no GitHub](https://github.com/PrivacidadeDigital/privacidade.digital/issues)
 
-Softwares precisam ser discutidos em alguma das plataformas acima antes de serem recomendados neste site. Por favor não contate algum dos nossos colaboradores diretamente para discutir uma mudança editorial no site.
+Para manter a transparência no desenvolvimento do projeto, a inclusão de softwares e mudanças no site precisam ser discutidas no GitHub anteriormente. Por favor não entre em contato com algum dos nossos colaboradores diretamente para discutir uma mudança editorial no site, sempre utilize o GitHub primeiro.
 
 <span class="text-success"><i class="fas fa-comment"></i> Novo:</span> Agora nós usamos Matrix! Junte-se a nós em `#privacidade.digital-geral:matrix.org` para conversar conosco e outros membros sobre este site e privacidade em geral. Se você precisar de uma conta Matrix, você pode criá-la em [Riot.im](https://riot.im/) ou qualquer cliente Matrix! Se você prefere XMPP, recomendamos que use [a ponte XMPP do Matrix.org pra participar do chat](https://conversations.im/j/%23privacidade.digital-geral%23matrix.org@bridge.xmpp.matrix.org).
 
-Em breve serão adicionados novos métodos de contato como email e informações de desenvolvedores frequentes.
+Caso prefira entrar em contato por email, envie sua mensagem para o seguinte endereço:
+<p><a class="btn btn-primary bg-success border-0 mb-1"
+      href="mailto:contato@privacidade.digital">contato@privacidade.digital</a></p>
 
 <!-- <div class="row">
   <div class="col-12 col-sm-7 col-md-8 col-lg-9">
