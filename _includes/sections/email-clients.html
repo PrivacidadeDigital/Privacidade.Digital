@@ -1,39 +1,60 @@
 <h1 id="clients" class="anchor"><a href="#clients"><i class="fas fa-link anchor-icon"></i></a> Clientes de Email</h1>
-<div class="row mb-2">
 
-  {% include card.html color="success"
-  title="Thunderbird"
-  image="/assets/img/tools/Thunderbird.png"
-  url="https://mozilla.org/thunderbird"
-  website="mozilla.org"
-  footer="SO: Windows, macOS, Linux, BSD."
-  description="Mozilla Thunderbird é uma plataforma gratuita e open source de email, notícias, e conversas desenvolvido pela Mozilla Foundation. Thunderbird é um email, jornal de notícias, e cliente de chat (XMPP, IRC, Twitter)."
-  %}
-  {% include card.html color="primary"
-  title="Claws Mail"
-  image="/assets/img/tools/Claws-Mail.png"
-  url="https://www.claws-mail.org/"
-  footer="SO: Windows, macOS, Linux, BSD, Solaris, Unix."
-  description="Claws Mail é email baseado em GTK+ e um cliente de notícias gratuito e open source. Ele oferece uma configuração fácil e uma abundância de ferramentas. Ele também vem com Gpg4win incluído, uma coleção de programas de encriptografia para Windows." %}
-  <!--Melhorar traducao de "Encryption suite"-->
+{% include cardv2.html
+title="Thunderbird"
+image="/assets/img/tools/Thunderbird.png"
+description="Mozilla Thunderbird é uma plataforma gratuita e open source de email, notícias, e conversas desenvolvido pela Mozilla
+Foundation. Thunderbird é um email, jornal de notícias, e cliente de chat (XMPP, IRC, Twitter)."
+website="https://mozilla.org/thunderbird"
+github="https://github.com/mozilla"
+windows=""
+mac=""
+linux=""
+bsd=""
+%}
 
-</div>
+{% include cardv2.html
+title="Claws Mail"
+image="/assets/img/tools/Claws-Mail.png"
+description="Claws Mail é email baseado em GTK+ e um cliente de notícias gratuito e open source. Ele oferece uma configuração fácil e
+uma abundância de ferramentas. Ele também vem com Gpg4win incluído, uma coleção de programas de encriptografia para
+Windows."
+website="https://www.claws-mail.org/"
+git="https://git.claws-mail.org/"
+windows=""
+mac=""
+linux=""
+bsd=""
+%}
 
 <h3>Ferramentas de Email Privado</h3>
 
 <ul>
-  <li><a href="https://www.gpg4usb.org/">gpg4usb</a> - Um editor portátil muito fácil de usar para encriptar e desencriptar qualquer mensagem de texto ou arquivo. Para Windows e Linux.<a href="https://theprivacyguide.org/tutorials/gpg.html">Tutorial GPG</a>.</li>
-  <li><a href="https://www.mailvelope.com/">Mailvelope</a> - Uma extensão de navegador que permite a troca de email encriptados seguindo o <a href="https://theprivacyguide.org/tutorials/pgp.html">padrão de criptografia OpenPGP</a>.</li>
-  <li><a href="https://www.enigmail.net/">Enigmail</a> - Uma extensão de segurança para Thunderbird e Seamonkey. Ele permite você escrever e receber mensagens de email marcadas e/ou encriptadas com o <a href="https://theprivacyguide.org/tutorials/pgp.html">padrão OpenPGP</a>.</li>
-  <li><a href="https://addons.mozilla.org/thunderbird/addon/torbirdy/">TorBirdy</a> - TorBirdy configura Thunderbird para se conectar através da rede anônima Tor. Essa extensão está em fase beta e deveria ser considerada como experimental.</li>
-  <li><a href="https://emailprivacytester.com/">Email Privacy Tester</a> - Essa ferramenta irá enviar um email para o seu endereço e realizar testes de privacidade.</li>
+  <li><a href="https://www.gpg4usb.org/">gpg4usb</a> - Um editor portátil muito fácil de usar para encriptar e
+    desencriptar qualquer mensagem de texto ou arquivo. Para Windows e Linux.<a
+      href="https://theprivacyguide.org/tutorials/gpg.html">Tutorial GPG</a>.</li>
+  <li><a href="https://www.mailvelope.com/">Mailvelope</a> - Uma extensão de navegador que permite a troca de email
+    encriptados seguindo o <a href="https://theprivacyguide.org/tutorials/pgp.html">padrão de criptografia OpenPGP</a>.
+  </li>
+  <li><a href="https://www.enigmail.net/">Enigmail</a> - Uma extensão de segurança para Thunderbird e Seamonkey. Ele
+    permite você escrever e receber mensagens de email marcadas e/ou encriptadas com o <a
+      href="https://theprivacyguide.org/tutorials/pgp.html">padrão OpenPGP</a>.</li>
+  <li><a href="https://addons.mozilla.org/thunderbird/addon/torbirdy/">TorBirdy</a> - TorBirdy configura Thunderbird
+    para se conectar através da rede anônima Tor. Essa extensão está em fase beta e deveria ser considerada como
+    experimental.</li>
+  <li><a href="https://emailprivacytester.com/">Email Privacy Tester</a> - Essa ferramenta irá enviar um email para o
+    seu endereço e realizar testes de privacidade.</li>
 </ul>
 
 <h3>Menções honrosas</h3>
 
 <ul>
-  <li><a href="https://github.com/k9mail/k-9/releases">K-9 Mail</a> - Uma aplicação de Email independente para Android. Ele suporta as caixas de email POP3 e IMAP, porém possui suporte apenas para <i>push mail</i> em IMAP.</li>
-  <li><a href="https://www.gnupg.org/">GNU Privacy Guard</a> - Encriptacao de Email. GnuPG e uma alternativa com licenca GPL para os softwares de criptografia PGP. <a href="https://theprivacyguide.org/tutorials/gpg.html">Tutorial.</a> Use <a href="https://gpgtools.org/">GPGTools para macOS.</a></li>
+  <li><a href="https://github.com/k9mail/k-9/releases">K-9 Mail</a> - Uma aplicação de Email independente para Android.
+    Ele suporta as caixas de email POP3 e IMAP, porém possui suporte apenas para <i>push mail</i> em IMAP.</li>
+  <li><a href="https://www.gnupg.org/">GNU Privacy Guard</a> - Encriptacao de Email. GnuPG e uma alternativa com licenca
+    GPL para os softwares de criptografia PGP. <a href="https://theprivacyguide.org/tutorials/gpg.html">Tutorial.</a>
+    Use <a href="https://gpgtools.org/">GPGTools para macOS.</a></li>
   <!--Melhorar traducao de "GNU Privacy Guard - Email Encryption. GnuPG is a GPL Licensed alternative to the PGP suite of cryptographic software."-->
-  <li><a href="https://www.mailpile.is/">Mailpile (Beta)</a> - Um cliente de email moderno e rápido com fácil de usar criptografia e ferramentas de privacidade.</li>
+  <li><a href="https://www.mailpile.is/">Mailpile (Beta)</a> - Um cliente de email moderno e rápido com fácil de usar
+    criptografia e ferramentas de privacidade.</li>
 </ul>
