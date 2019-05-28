@@ -1,31 +1,31 @@
 <h1 id="host" class="anchor"><a href="#host"><i class="fas fa-link anchor-icon"></i></a> Provedor de Hospedagem Segura
 </h1>
 
-<div class="row mb-2">
-  {% include card.html color="success"
-  title="BAHNHOF"
-  image="/assets/img/provider/bahnhof.png"
-  url="https://www.bahnhof.net/"
-  description="BAHNHOF é uma empresa de hospedagem conhecida por ser bastante segura e 'a prova de balas'. É lá que o Wikileaks é hospedado."
-  %}
-  {% include card.html color="primary"
-  title="Colocation: DataCell"
-  image="/assets/img/provider/datacell.png"
-  url="https://datacell.is/"
-  description="DataCell é um data center que fornece colocation segura na Suíça e Islândia."
-  %}
+{% include cardv2.html
+title="Data Center: Bahnhof"
+image="/assets/img/provider/bahnhof.png"
+description="Bahnhof é uma das maiores operadoras de redes da Suécia, fundada em 1994. Eles são especializados em construções inovadoras de data centers: Segurança ao extremo acompanhada de energia sustentável de baixo custo os tornaram internacionalmente famosos."
+website="https://www.bahnhof.net/"
+%}
 
-  {% include card.html color="warning"
-  title="VPS/Hospedagem Web: Orange Website"
-  image="/assets/img/provider/orange_hosting.png"
-  url="https://www.orangewebsite.com/"
-  description="Orange Website é um provedor de hospedagem web Islandês que se orgulham de proteger privacidade online e liberdade de expressão."
-  %}
-</div>
+{% include cardv2.html
+title="VPS & Domínios: Njalla"
+image="/assets/img/provider/Njalla.png"
+description="Criado pelas pessoas responsáveis pelo The Pirate Bay e IPredator VPN. Métodos de pagamento aceitos: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash e PayPal. Um provedor de VPN e registro de domínios consciente sobre privacidade."
+website="https://njal.la/"
+tor="http://njalladnspotetti.onion"
+%}
 
-<h3>Menção honrosa</h3>
+{% include cardv2.html
+title="Colocation: DataCell"
+image="/assets/img/provider/datacell.png"
+description="DataCell é um data center que fornece colocating de forma segura em dois países: Suíça e Islândia."
+website="https://datacell.is/"
+%}
 
-<ul>
-  <li><a href="https://njal.la/">Njalla</a> - Serviço VPS e registrador de domínios da Suécia e que se importa com sua
-    privacidade.</li>
-</ul>
+{% include cardv2.html
+title="VPS & Hospedagem: Orange Website"
+image="/assets/img/provider/orange_hosting.png"
+description="Orange Website é um provedor islandês de hospedagem web que se orgulha de proteger a privacidade digital e a liberdade de expressão na Internet."
+website="https://www.orangewebsite.com/"
+%}

@@ -1,33 +1,34 @@
 <h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Sistema de Nomes de Domínio</h1>
 
-<div class="row mb-2">
+{% include cardv2.html
+title="OpenNIC - Serviço"
+image="/assets/img/tools/OpenNIC.png"
+description="OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN
+and its registries. Like all alternative root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority
+of the Internet."
+website="https://www.opennic.org/"
+github="https://github.com/OpenNIC"
+%}
 
-  <!-- Tradução difícil -->
-  {% include card.html color="success"
-  title="OpenNIC - Serviço"
-  image="/assets/img/tools/OpenNIC.png"
-  url="https://www.opennic.org/"
-  description="OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries. Like all alternative root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet."
-  %}
+{% include cardv2.html
+title="Njalla - Registro de Domínios"
+image="/assets/img/provider/Njalla.png"
+description="Njalla só precisa do seu email ou endereço jabber para registrar um nome de domínio para você. Criado por pessoas do The
+Pirate Bay e VPN IPredator. Métodos de pagamento: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash e PayPal. Um serviço de
+registro de domínios conscientes acerca de privacidade."
+website="https://njal.la/"
+tor="http://njalladnspotetti.onion"
+%}
 
-  {% include card.html color="primary"
-  title="Njalla - Registro de Domínios"
-  image="/assets/img/provider/Njalla.png"
-  url="https://njal.la/"
-  tor="http://njalladnspotetti.onion"
-  description="Njalla só precisa do seu email ou endereço jabber para registrar um nome de domínio para você. Criado por pessoas do The Pirate Bay e VPN IPredator. Métodos de pagamento: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash e PayPal. Um serviço de registro de domínios conscientes acerca de privacidade."
-  %}
-
-  <!-- Tradução pode melhorar -->
-  {% include card.html color="warning"
-  title="DNSCrypt - Ferramenta"
-  image="/assets/img/tools/DNSCrypt.png"
-  url="https://dnscrypt.info/"
-  description="Um protocolo responsável por proteger a comunicação entre o cleinte o provedor DNS. O protocolo DNSCrypt usa criptografia de curvas elípticas de alta velocidade e segurança e é bastante similar ao DNSCurve, mas com foco na segurança da comunicação entre um cliente e seu resolvedor de primeiro nível."
-  %}
-
-
-</div>
+{% include cardv2.html
+title="DNSCrypt - Ferramenta"
+image="/assets/img/tools/DNSCrypt.png"
+description="Um protocolo responsável por proteger a comunicação entre o cleinte o provedor DNS. O protocolo DNSCrypt usa
+criptografia de curvas elípticas de alta velocidade e segurança e é bastante similar ao DNSCurve, mas com foco na
+segurança da comunicação entre um cliente e seu resolvedor de primeiro nível."
+website="https://dnscrypt.info/"
+github="https://github.com/jedisct1/dnscrypt-proxy"
+%}
 
 <h3>Menções honrosas</h3>
 
@@ -35,7 +36,9 @@
   <li><a href="https://github.com/quidsup/notrack">NoTrack</a> - Um servidor DNS que bloqueia sites de rastreamento.
     Atualmente funciona em Debian e Ubuntu.</li>
   <li><a href="https://namecoin.info/">Namecoin</a> - Um sistema de registro de informção DNS decentralizado e de código
-    livre. Também é um sistema de transferência de informações, baseado na criptomoeda Bitcoin.</li>
+    livre. Também é um sistema de transferência de
+    informações, baseado na criptomoeda Bitcoin.</li>
   <li><a href="https://pi-hole.net/">Pi-hole</a> - Um servidor de DNS para o Raspberry Pi. Bloqueia domínios de
-    anunciantes e de rastreadores para todos os dispositivos na sua rede.</li>
+    anunciantes e de rastreadores para todos os dispositivos na
+    sua rede.</li>
 </ul>

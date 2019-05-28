@@ -1,37 +1,11 @@
-<h1 id="paste" class="anchor"><a href="#paste"><i class="fas fa-link anchor-icon"></i></a> Serviços Paste</h1>
+<h1 id="paste" class="anchor"><a href="#paste"><i class="fas fa-link anchor-icon"></i></a> Serviços Pastebin</h1>
 
-<!-- Tradução "Paste" pode melhorar -->
-
-<div class="row mb-2">
-
-  {% include card.html color="success"
-  title="PrivateBin"
-  image="/assets/img/tools/PrivateBin.png"
-  url="https://privatebin.net/"
-  description="PrivateBin é um serviço pastebin de código livre online minimalista, sendo que o servidor tem zero conhecimento do conteúdo postado. Os dados são encriptados/desencriptados no navegador usando AES 256bits. É a versão melhorada do ZeroBin."
-  %}
-
-  {% include card.html color="primary"
-  title="Zerobin.net"
-  image="/assets/img/tools/ZeroBin.png"
-  url="https://zerobin.net/"
-  tor="http://zerobinqmdqd236y.onion"
-  description="Zerobin é um serviço pastebin de código livre online minimalista, sendo que o servidor tem zero conhecimento do conteúdo postado. Os dados são encriptados/desencriptados no navegador usando AES 256bits."
-  %}
-
-  {% include card.html color="warning"
-  title="Ghostbin"
-  image="/assets/img/tools/Ghostbin.png"
-  url="https://ghostbin.com/"
-  description="Ghostbin suporta encriptação, expiração, sessões, permissão de usuários para editor suas notas e dados em até um megabyte. Você também pode criar sua própria conta e salvar seus dados.<br>
-  O software é bom mas a segurança de ghostbin.com é <a href=\"https://github.com/privacytoolsIO/privacytools.io/issues/454\">duvidosa</a>."
-  %}
-
-</div>
-
-<h3>Menção honrosa</h3>
-
-<ul>
-  <li><a href="https://disroot.org/">disroot.org</a> - Serviço gratuito que se importa com sua privacidade e oferece
-    PrivateBin e outras aplicações.</li>
-</ul>
+{% include cardv2.html
+title="PrivateBin"
+image="/assets/img/tools/PrivateBin.png"
+description="PrivateBin é um serviço pastebin de código livre online minimalista, sendo que o servidor tem zero conhecimento do
+conteúdo postado. Os dados são encriptados/desencriptados no navegador usando AES 256bits. É a versão melhorada do
+ZeroBin."
+website="https://privatebin.net/"
+github="https://github.com/PrivateBin/PrivateBin"
+%}

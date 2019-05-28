@@ -1,12 +1,12 @@
 [![privacytools](assets/img/layout/logo.png)](https://www.privacidade.digital/)
 
-_Encriptação Contra Vigilância Global em Massa_
+_Encriptação Contra A Vigilância Global em Massa_
 
 [![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital)
 
 # Contribuir
 
-É muito importante para um site como o privacidade.digital estar atualizado. Fique de olho em atualizações nas recomendações que damos no site. Siga notícias recentes sobre provedores que recomendamos. Nós damos o melhor para manter tudo atualizado, mas não somos perfeitos e a internet está em constante e rápida mudança. Se você encontrar um erro, ou pensa que um provedor não deveria estar listado aqui, ou um serviço bom está de fora, ou uma extensão de navegador não é mais a melhor escolha, ou qualquer outra coisa... **Fale conosco, por favor**.
+É muito importante para um site como o **www.privacidade.digital** estar atualizado. Fique de olho em atualizações nas recomendações que damos no site e em nossas redes sociais. Siga notícias recentes sobre provedores que recomendamos. Nós damos o melhor para manter tudo atualizado, mas não somos perfeitos e a internet está em constante e rápida mudança. Se você encontrar um erro, ou pensa que um provedor não deveria estar listado no site, ou um bom serviço está de fora, ou uma extensão de navegador não é mais a melhor escolha, ou qualquer outra coisa... **Fale conosco, por favor**.
 
 Você pode submeter suas sugestões aqui pelo GitHub (criando um novo _Issue_). Por favor, leia as [Regras de Contribuições](./.github/CONTRIBUIÇÕES.md) antes de submeter algo. **Obrigado**
 
@@ -30,8 +30,6 @@ Privacidade Digital é um projeto baseado no site `privacytools.io`, e existem f
 - [Fazer sugestões no Reddit](https://www.reddit.com/r/privacytoolsIO/).
 - Verificar e editar o [código fonte no GitHub](https://github.com/privacytoolsIO/privacytools.io).
 - Visitar e ajudar os projetos traduzidos pela comunidade, cujos links estão abaixo.
-
-_O time responsável pelo desenvolvimento do projeto original não necessariamente apoia este projeto_.
 
 # Traduções da Comunidade
 

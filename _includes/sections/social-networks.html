@@ -2,58 +2,93 @@
   Descentralizadas</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong> Se você atualmente usa redes sociais como Facebook ou Twitter, você deve escolher uma alternativa daqui.
+  <strong> Se você atualmente usa redes sociais como Facebook ou Twitter, recomendamos que escolha uma alternativa
+    daqui.
   </strong>
 </div>
 
-<div class="row mb-2">
+{% include cardv2.html
+title="Mastodon - Alternativa à Twitter"
+image="/assets/img/tools/Mastodon.png"
+description='Mastodon é uma rede social baseada em protocolos open web e é gratuita, de código aberto. É descentralizada, como o
+email. Também é a que tem mais usuários, e a mais diversa em termos de interesses. Ela tem um bom design e é fácil de
+configurar.'
+website="https://joinmastodon.org/"
+github="https://github.com/tootsuite/mastodon"
+android=""
+ios=""
+web=""
+%}
 
-  {% include card.html color="success"
-  title="Mastodon"
-  image="/assets/img/tools/Mastodon.png"
-  url="https://joinmastodon.org/"
-  website="joinmastodon.org"
-  description='Mastodon é uma rede social baseada em protocolos open web e é gratuita, de código aberto. É descentralizada, como o email. Também é a que tem mais usuários, e a mais diversa em termos de interesses. Ela tem um bom design e é fácil de configurar. <!--Desativar link da instância privacytools.io Feel welcome to join our hosted instance: <a href="https://social.privacytools.io/">social.privacytools.io</a>-->'
-  %}
+{% include cardv2.html
+title="diaspora* - Similar à Google+"
+image="/assets/img/tools/diaspora.png"
+description="diaspora* é baseada em três filosofias chave: Descentralização, liberdade e privacidade. Tem por objetivo tratar
+problemas de privacidade relacionados a redes sociais centralizadas, permitindo que seus usuários montem seus pŕoprio
+servidor (ou \"pod\") para hospedar conteúdo; pods podem então interatgir entre si para compartilhar atualizações de
+status, fotos, e outros dados sociais."
+website="https://diasporafoundation.org/"
+github="https://github.com/diaspora/diaspora"
+android=""
+web=""
+%}
 
-  {% include card.html color="primary"
-  title="diaspora*"
-  image="/assets/img/tools/diaspora.png"
-  url="https://diasporafoundation.org/"
-  description="diaspora* é baseada em três filosofias chave: Descentralização, liberdade e privacidade. Tem por objetivo tratar problemas de privacidade relacionados a redes sociais centralizadas, permitindo que seus usuários montem seus pŕoprio servidor (ou \"pod\") para hospedar conteúdo; pods podem então interatgir entre si para compartilhar atualizações de status, fotos, e outros dados sociais."
-  %}
+{% include cardv2.html
+title="Friendica - Alternativa à Facebook"
+image="/assets/img/tools/Friendica.png"
+description="Friendica tem ênfase em configurações extensivas de privacidade e fácil instalação do servidor. Tem por objetivo se
+integrar com o máximo de redes sociais possível. Atualmente, usuários do Friendica podem integrar contatos do Facebook,
+Twitter, Diaspora, GNU social, App.net, Pump.io e outros serviços em suas streams sociais."
+website="https://friendi.ca/"
+github="https://github.com/friendica/friendica"
+windows=""
+linux=""
+android=""
+web=""
+%}
 
-  <!-- Tradução pode melhorar -->
-  {% include card.html color="warning"
-  title="Friendica"
-  image="/assets/img/tools/Friendica.png"
-  url="https://friendi.ca/"
-  description="Friendica tem ênfase em configurações extensivas de privacidade e fácil instalação do servidor. Tem por objetivo se integrar com o máximo de redes sociais possível. Atualmente,
-  usuários do Friendica podem integrar contatos do Facebook, Twitter, Diaspora, GNU social, App.net, Pump.io e outros serviços em suas streams sociais."
-  %}
+{% include cardv2.html
+title="PixelFed - Alternativa à Instagram"
+image="/assets/img/provider/pixelfed.png"
+description='Uma plataforma de compartilhamento de fotos gratuita e ética, mantido pela federação ActivityPub. Pixelfed tem código aberto e é descentralizada. Você pode rodar sua própria instância ou <a href="https://fediverse.party/en/pixelfed/">se juntar a uma</a>.'
+website="https://pixelfed.social/"
+github="https://github.com/pixelfed"
+web=""
+%}
 
-</div>
+{% include cardv2.html
+title="GNU social - Alternativa à Twitter"
+image="/assets/img/provider/gnu-social.png"
+description="Um software de comunicação social para comunicação pública e privada. É bem mantido e usado por muitos usuários. Já é utilizado pela Free Software Foundation."
+website="https://gnu.io/social/"
+github="https://github.com/foocorp/gnu-social"
+android=""
+ios=""
+linux=""
+windows=""
+web=""
+%}
 
-<h3>Menção honrosa</h3>
-
+<h3>Menções honrosas</h3>
 <ul>
-  <li><a href="https://gnu.io/social/">GNU Social</a> - Uma rede social descentralizada, grátis e de código aberto
-    compatível com Mastodon e Friendica.</li>
+  <li><a href="https://www.minds.com/">Minds</a> - Um serviço distribuído de rede social com <a
+      href="https://gitlab.com/minds">código aberto</a>, integrando uma blockchain para recompensar seus usuários.</li>
+  <li><a href="https://movim.eu/">Movim</a> - Plataforma social descentralizada que depende do protocolo XMPP, portanto
+    te permite que mude o cliente em vários dispositivos.</li>
 </ul>
 
 <h3>Informações relacionadas</h3>
-
 <ul>
-  <li><a href="https://justdeleteme.xyz/pt_br">JustDeleteMe</a> - Um diretório de links diretos para deletar sua conta
-    em
+  <li><a href="https://justdeleteme.xyz/">JustDeleteMe</a> - Um diretório de links diretos para deletar sua conta em
     serviços da web.</li>
   <li><a href="https://forget.codl.fr/">Forget</a> - Um serviço que automaticamente deleta os seus posts antigos que
     todos já esqueceram do Twitter e Mastodon.</li>
-  <li><a href="https://addons.mozilla.org/firefox/addon/facebook-container/">Facebook Container by Mozilla</a> - Previne
+  <li><a href="https://addons.mozilla.org/firefox/addon/facebook-container/">Facebook Container, por Mozilla</a> -
+    Previne
     que o Facebook te rastreie através da web.</li>
-  <li><a href="https://www.facebook.com/help/delete_account">Deletar sua conta do Facebook</a> - Link direto para
-    deletar sua conta do Facebook sem poder reativá-la novamente.</li>
-  <!-- Desabilitar link pois não está disponível em Português -->
-  <!-- <li><a href="https://deletefacebook.com/">How To Permanently Delete A Facebook Account</a> - This guide will take you
-    through a smooth and successful Facebook account deletion.</li>-->
+  <li><a href="https://www.facebook.com/help/delete_account">Delete your Facebook account</a> - Link direto para deletar
+    sua conta do Facebook sem poder reativá-la novamente.</li>
+  <li><a href="https://deletefacebook.com/">Como deletar sua conta do Facebook de forma permanente</a> - Esse guia irá
+    te ensinar a deletar sua conta do Facebook de forma tranquila.</li>
+  <li><a href="https://www.stopusingfacebook.co/">Para de usar o Facebook</a> - Uma boa lista de razões para parar de usar o Facebook e como fazê-lo.</li>
 </ul>

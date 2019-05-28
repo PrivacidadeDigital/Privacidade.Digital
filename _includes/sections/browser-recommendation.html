@@ -1,32 +1,46 @@
 <h1 id="browser" class="anchor"><a href="#browser"><i class="fas fa-link anchor-icon"></i></a> Recomendações de
   Navegador</h1>
 
-<div class="row mb-2">
+{% include cardv2.html
+title="Mozilla Firefox"
+image="/assets/img/tools/Firefox.png"
+description='Firefox é rápido, confiável, de código aberto e respeita sua privacidade. Não se esqueça de ajustar as configurações de
+acordo com nossas recomendações: <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a>, <a href="#about_config"><i class="fas fa-link"></i> about:config</a> e instale as <a href="#addons"><i class="fas fa-link"></i> extensões de privacidade</a>.'
+website="https://www.firefox.com/"
+github="https://github.com/mozilla"
+windows=""
+mac=""
+linux=""
+android=""
+ios=""
+bsd=""
+%}
 
-  {% include card.html color="success"
-  title="Tor"
-  image="/assets/img/tools/Tor-Browser.png"
-  url="https://www.torproject.org/"
-  tor="http://expyuzz4wqqyqhjn.onion"
-  footer='SO: Windows, macOS, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/docs/android.html.en">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a>'
-  description="O navegador Tor deve ser sua escolha caso precise de uma camada extra de anonimidade. É uma versão modificada do Firefox, vem com várias extensões de privacidade instaladas, encriptação e um proxy avançado."
-  %}
+{% include cardv2.html
+title="Tor Browser - Para Experts"
+image="/assets/img/tools/Tor-Browser.png"
+description='O navegador Tor deve ser sua escolha caso precise de uma camada extra de anonimidade. É uma versão modificada do
+Firefox, vem com várias extensões de privacidade instaladas, encriptação e um proxy avançado.'
+website="https://www.torproject.org/"
+git="https://trac.torproject.org/projects/tor"
+windows=""
+mac=""
+linux=""
+android=""
+ios=""
+bsd=""
+%}
 
-  {% include card.html color="primary"
-  title="Mozilla Firefox"
-  image="/assets/img/tools/Firefox.png"
-  url="https://www.firefox.com/"
-  footer="SO: Windows, macOS, Linux, Android, iOS, BSD."
-  description='Firefox é rápido, confiável, de código aberto e respeita sua privacidade. Não se esqueça de ajustar as configurações de acordo com nossas recomendações: <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> e <a href="#about_config"><i class="fas fa-link"></i> about:config</a> e instale as <a href="#addons"><i class="fas fa-link"></i> extensões de privacidade</a>.'
-  %}
-
-  {% include card.html color="warning"
-  title="Brave"
-  labels="warning:experimental:Brave é uma boa escolha se você quiser utilizar um navegador baseado em Chromium. Mas no atual estado de desenvolvimento do Chromium&comma; ele não é tão bom quanto o Firefox com as extensões de privacidade."
-  image="/assets/img/tools/Brave.png"
-  url="https://www.brave.com/"
-  footer="SO: Windows, macOS, Linux, Android, iOS."
-  description="O novo navegador de código aberto \"Brave\" bloqueia anúncios e rastreadores automaticamente, o tornando mais rápido e seguro do que seu navegador atual. Brave é baseado no navegador Chromium."
-  %}
-
-</div>
+{% include cardv2.html
+title="Brave Browser - Completo, porém Experimental"
+image="/assets/img/tools/Brave.png"
+description="O novo navegador de código aberto Brave bloqueia anúncios e rastreadores automaticamente, o tornando mais rápido e seguro do que seu navegador atual. Brave é baseado no navegador Chromium. <span class=\"badge badge-warning\" data-toggle=\"tooltip\" title=\"Brave é uma boa escolha se você quiser utilizar um navegador baseado em Chromium. Mas no atual
+estado de desenvolvimento do Chromium, ele não é tão bom quanto o Firefox com as extensões de privacidade.\">experimental <i class=\"far fa-question-circle\"></i></span>"
+website="https://brave.com/"
+github="https://github.com/brave"
+windows=""
+mac=""
+linux=""
+android=""
+ios=""
+%}
