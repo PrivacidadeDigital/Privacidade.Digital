@@ -1,47 +1,75 @@
-<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Chamadas Encriptadas de Vídeo & Voz</h1>
+<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Chamadas Encriptadas de Vídeo &
+  Voz</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Se você estiver usando algum serviço de chamadas de vídeo & voz como Skype, Viber ou Google Hangouts, você deveria escolher alguma das alternativas listadas aqui.</strong>
+  <strong>Se você estiver usando algum serviço de chamadas de vídeo & voz como Skype, Viber ou Google Hangouts, você
+    deveria escolher alguma das alternativas listadas aqui.</strong>
 </div>
-<div class="row mb-2">
-  {% include card.html color="success"
-  title="Signal"
-  image="/assets/img/tools/Signal.png"
-  url="https://signal.org"
-  footer="SO: Android, iOS, macOS, Windows, Linux"
-  description="Signal é um aplicativo desenvolvido pela Open Whisper Systems. O app provê mensagens instantâneas como também chamadas de vídeo e voz. Todas as comunicações são encriptadas de ponta-a-ponta. Signal é gratuito e open source, permitindo que qualquer um verifique sua segurança realizando uma auditoria no código. O seu time de desenvolvedores é opoiado por doações e contribuições da comunidade. Não existem propagandas, e não custa absolutamente nada para usar."
-  %}
 
-  {% include card.html color="primary"
-  title="Wire"
-  image="/assets/img/tools/wire.png"
-  url="https://get.wire.com"
-  footer="SO: Android, iOS, macOS, Windows, Linux, Web"
-  description="Wire é um aplicativo desenvolvido pela Wire Swiss GmbH. Wire permite que seus usuários troquem mensagens instantâneas com criptografia ponta-a-ponta. Wire também permite realizar chamadas de vídeo e voz criptografadas. Wire é gratuito e open source, permitindo que qualquer um verifique sua segurança realizando uma auditoria no código. O seu time de desenvolvedores é opoiado pela Iconical e eles irão monetizar o aplicativo no futuro implementando serviços e ferramentas <i>premium</i>.<br>
-  <b>Atenção:</b> A empresa mantém uma lista de todos os usuários com quem você se comunicou até que você delete a sua conta."
-  %}
+{% include cardv2.html
+title="Móvel: Signal"
+image="/assets/img/tools/Signal.png"
+website="https://signal.org"
+description="Signal é um aplicativo desenvolvido pela Open Whisper Systems. O app provê mensagens instantâneas como também chamadas
+de vídeo e voz. Todas as comunicações são encriptadas de ponta-a-ponta. Signal é gratuito e open source, permitindo que
+qualquer um verifique sua segurança realizando uma auditoria no código. O seu time de desenvolvedores é opoiado por
+doações e contribuições da comunidade. Não existem propagandas, e não custa absolutamente nada para usar."
+github="https://github.com/signalapp"
+android=""
+ios=""
+mac=""
+windows=""
+linux=""
+%}
 
-  {% include card.html color="warning"
-  title="Linphone"
-  image="/assets/img/tools/Linphone.png"
-  url="https://www.linphone.org/"
-  footer="SO: iOS, Android, Windows Phone, Linux, Windows, macOS, Browser (Web)"
-  description="Linphone é um serviço de ligações celular SIP gratuito e open source com chamadas gratuitas através de IP. Disponível para celulares, desktops e navegadores. Ele suporta ZRTP para chamadas de vídeo e voz criptografadas ponta-a-ponta."
-  %}
+{% include cardv2.html
+title="Wire"
+image="/assets/img/tools/wire.png"
+website="https://wire.com/download/"
+description="Wire é um aplicativo desenvolvido pela Wire Swiss GmbH. Wire permite que seus usuários troquem mensagens instantâneas
+com criptografia ponta-a-ponta. Wire também permite realizar chamadas de vídeo e voz criptografadas. Wire é gratuito e
+open source, permitindo que qualquer um verifique sua segurança realizando uma auditoria no código. <span class=\"badge badge-warning\" data-toggle=\"tooltip\" title=\"A empresa mantém uma lista de todos os usuários com quem você se comunicou até que você delete a sua conta.\">Cuidado <i class=\"far fa-question-circle\"></i></span>"
+github="https://github.com/wireapp"
+android=""
+ios=""
+mac=""
+windows=""
+linux=""
+web=""
+%}
 
-</div>
+{% include cardv2.html
+title="Linphone"
+image="/assets/img/tools/Linphone.png"
+website="https://www.linphone.org/"
+description="Linphone é um serviço de ligações celular SIP gratuito e open source com chamadas gratuitas através de IP. Disponível
+para celulares, desktops e navegadores. Ele suporta ZRTP para chamadas de vídeo e voz criptografadas ponta-a-ponta."
+github="https://github.com/BelledonneCommunications"
+ios=""
+android=""
+windows=""
+linux=""
+mac=""
+web=""
+%}
 
 <h3>Menções honrosas</h3>
 
 <ul>
-  <li><a href="https://jitsi.org/">Jitsi</a> - Jitsi é uma multiplataforma gratuita e open source para chamadas de voz (VoIP), videoconferências e mensagens instantâneas.</li>
-  <li> <a href="https://tox.chat/">Tox</a> - <span class="badge badge-warning">Experimental</span> Um software gratuito e open source, <i>peer-to-peer</i>, para mensagens instantâneas, e chamadas de vídeo ou voz encriptadas. </li>
-  <li><a href="https://jami.net/">Jami (antigo Ring/SFLphone)</a> - Jami dá a você controle total sobre suas comunicações e um nível de privacidade sem igual.</li>
+  <li><a href="https://jitsi.org/">Jitsi</a> - Jitsi é uma multiplataforma gratuita e open source para chamadas de voz
+    (VoIP), videoconferências e mensagens instantâneas.</li>
+  <li> <a href="https://tox.chat/">Tox</a> - <span class="badge badge-warning">Experimental</span> Um software gratuito
+    e open source, <i>peer-to-peer</i>, para mensagens instantâneas, e chamadas de vídeo ou voz encriptadas. </li>
+  <li><a href="https://jami.net/">Jami (antigo Ring/SFLphone)</a> - Jami dá a você controle total sobre suas
+    comunicações e um nível de privacidade sem igual.</li>
 </ul>
 
 <h3>Informações relacionadas</h3>
 
 <ul>
-  <li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
-  <li><a href="https://www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
+  <li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly.
+      Most users should not do this under normal circumstances.</a></li>
+  <li><a
+      href="https://www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure
+      Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
 </ul>
