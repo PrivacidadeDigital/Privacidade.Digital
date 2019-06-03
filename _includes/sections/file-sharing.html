@@ -1,29 +1,46 @@
 <h1 id="filesharing" class="anchor"><a href="#filesharing"><i class="fas fa-link anchor-icon"></i></a> Compartilhamento
   de Arquivos</h1>
 
-<div class="row mb-2">
-  {% include card.html color="success"
-  title="OnionShare"
-  image="/assets/img/tools/OnionShare.png"
-  url="https://onionshare.org/"
-  tor="http://elx57ue5uyfplgva.onion/"
-  footer="SO: Windows, macOS, Linux."
-  description="OnionShare é uma ferramenta de código aberto que te deixa compartilhar arquivos de qualquer tamanho de maneira segura e anônima. A ferramenta funciona iniciando um servidor web, tornando-o acessível por um serviço onion Tor, e gerando uma URL impossível de adivinhar para acessar e baixar os arquivos. Não é necessária a configuração de um servidor na Internet ou usar serviços de terceiros para compartilhar os arquivos. Você hospeda os arquivos no seu próprio computador e usar o serviço onion Tor para fazer com que ele seja temporariamente acessível pela Internet."
-  %}
+{% include cardv2.html
+title="Firefox Send"
+image="/assets/img/tools/Firefox-Send.png"
+website="https://send.firefox.com/"
+description="Firefox Send usa encriptação ponta-a-ponta para manter seus dados seguros do momento que você compartilha até o momento
+que o arquivo é aberto. Também oferece controles de segurança que você pode selecionar. Você pode escolher quando o link
+do seu arquivo expira, o número de downloads, e se você quer usar uma senha opcional ou não para uma camada extra de
+segurança."
+github="https://github.com/mozilla/send"
+web=""
+android=""
+%}
 
-  {% include card.html color="primary"
-  title="Firefox Send"
-  image="/assets/img/tools/Firefox-Send.png"
-  url="https://send.firefox.com/"
-  footer='SO: Navegador e Android'
-  description="Firefox Send usa encriptação ponta-a-ponta para manter seus dados seguros do momento que você compartilha até o momento que o arquivo é aberto. Também oferece controles de segurança que você pode selecionar. Você pode escolher quando o link do seu arquivo expira, o número de downloads, e se você quer usar uma senha opcional ou não para uma camada extra de segurança."
-  %}
+{% include cardv2.html
+title="OnionShare"
+image="/assets/img/tools/OnionShare.png"
+website="https://onionshare.org/"
+tor="http://elx57ue5uyfplgva.onion/"
+description="OnionShare é uma ferramenta de código aberto que te deixa compartilhar arquivos de qualquer tamanho de maneira segura e
+anônima. A ferramenta funciona iniciando um servidor web, tornando-o acessível por um serviço onion Tor, e gerando uma
+URL impossível de adivinhar para acessar e baixar os arquivos. Não é necessária a configuração de um servidor na
+Internet ou usar serviços de terceiros para compartilhar os arquivos. Você hospeda os arquivos no seu próprio computador
+e usar o serviço onion Tor para fazer com que ele seja temporariamente acessível pela Internet."
+github="https://github.com/micahflee/onionshare"
+windows=""
+mac=""
+linux=""
+%}
 
-  {% include card.html color="warning"
-  title="Magic Wormhole"
-  image="/assets/img/tools/Magic-Wormhole.png"
-  url="https://github.com/warner/magic-wormhole"
-  footer="SO: multi-platforma"
-  description="Seja produtivo e cumpra tarefas de um computador a outro, de forma segura. Esse pacote oferece uma biblioteca e uma ferramenta de linha de comando chamada wormhole, que torna possível baixar arquivos de tamanho arbitrário e diretórios (ou pequenos textos) de um computador a outro. Os dois pontos de saída são identificados quando dois códigos wormhole idênticos são usados: em geral, a máquina que envia dados que gera e mostra o código, no qual deve ser digitado na máquina que irá receber os dados."
-  %}
-</div>
+{% include cardv2.html
+title="Magic Wormhole"
+image="/assets/img/tools/Magic-Wormhole.png"
+website="https://github.com/warner/magic-wormhole"
+description="Seja produtivo e cumpra tarefas de um computador a outro, de forma segura. Esse pacote oferece uma biblioteca e uma
+ferramenta de linha de comando chamada wormhole, que torna possível baixar arquivos de tamanho arbitrário e diretórios
+(ou pequenos textos) de um computador a outro. Os dois pontos de saída são identificados quando dois códigos wormhole
+idênticos são usados: em geral, a máquina que envia dados que gera e mostra o código, no qual deve ser digitado na
+máquina que irá receber os dados."
+github="https://github.com/warner/magic-wormhole"
+windows=""
+mac=""
+linux=""
+%}
