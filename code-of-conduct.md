@@ -54,8 +54,7 @@ esclarecida pelos administradores do projeto.
 ## Aplicação
 
 Comportamento abusivo, de assédio ou de outros tipos pode ser
-comunicado contatando a equipe do projeto [INSIRA O ENDEREÇO
-DE EMAIL]. Todas as queixas serão revistas e investigadas e
+comunicado contatando a equipe do projeto em [time@privacidade.digital](mailto:time@privacidade.digital) ou [outro meio de contato](https://www.privacidade.digital/contato). Todas as queixas serão revistas e investigadas e
 resultarão numa resposta necessária e apropriada à situação.
 A equipe é obrigada a manter a confidencialidade em relação
 ao elemento que reportou o incidente. Demais detalhes de
@@ -68,4 +67,8 @@ determinadas por outros membros da liderança do projeto.
 ## Atribuição
 
 Este Código de Conduta é adaptado do [Contributor Covenant](https://www.contributor-covenant.org),
-versão 1.4, disponível em https://www.contributor-covenant.org/pt-br/version/1/4/code-of-conduct.html
+versão 1.4, disponível em https://www.contributor-covenant.org/pt-br/version/1/4/code-of-conduct.html.
+
+## Licença
+
+Este trabalho está licenciado com uma Licença [Creative Commons - Atribuição  4.0 Internacional]( http://creativecommons.org/licenses/by/4.0/).
