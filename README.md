@@ -44,4 +44,4 @@ Privacidade Digital é um projeto baseado no site `privacytools.io`, e existem f
 
 # Licença
 
-[Creative Commons Zero v1.0 Universal](https://www.privacidade.digital/LICENSE.txt)
+[Creative Commons Zero v1.0 Universal](https://www.privacidade.digital/LICENSE.txt), exceto quando outra licença for especificada.
