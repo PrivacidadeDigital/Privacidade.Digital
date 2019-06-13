@@ -15,11 +15,7 @@ Para manter a transparência no desenvolvimento dos projetos desta comunidade, a
 
 ## Grupos de Conversa
 
-<span class="text-success"><i class="fas fa-comment"></i> Novo:</span> Agora nós usamos Matrix! Junte-se a nós em `#privacidade.digital-geral:matrix.org` para conversar conosco e outros membros sobre este site e privacidade em geral. Se você precisar de uma conta Matrix, você pode criá-la em [Riot.im](https://riot.im/) ou qualquer cliente Matrix! Se você prefere XMPP, recomendamos que use [a ponte XMPP do Matrix.org pra participar do chat](https://conversations.im/j/%23privacidade.digital-geral%23matrix.org@bridge.xmpp.matrix.org).
-
-## Redes Sociais
-
-[<i class="fab fa-twitter"></i> Acompanhe nossos tweets](https://twitter.com/PrivacidadeJa)
+<span class="text-success"><i class="fas fa-comment"></i> Novo:</span> Agora nós usamos Matrix! Junte-se a nós em `#privacidade.digital-geral:matrix.org` para conversar conosco e outros membros sobre este site e privacidade em geral. Se você precisar de uma conta Matrix, você pode criá-la em [Riot.im](https://riot.im/) ou qualquer cliente Matrix! Se você prefere XMPP, recomendamos que use [a ponte XMPP do Matrix.org pra participar do chat](https://conversations.im/j/%23privacidade.digital-geral:matrix.org@bridge.xmpp.matrix.org).
 
 ## Email
 
