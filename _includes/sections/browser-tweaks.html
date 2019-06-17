@@ -1,15 +1,18 @@
 <h1 id="about_config" class="anchor"><a href="#about_config"><i class="fas fa-link anchor-icon"></i></a> Firefox:
   Configurações relacionadas à privacidade</h1>
 
-<div class="alert alert-success" role="alert">Esta página é uma coleção de configurações <strong>about:config</strong>
+<div class="alert alert-success" role="alert">Esta seção é uma coleção de configurações <strong>about:config</strong>
   relacionadas à privacidade. Nós iremos te mostrar como fortalecer a privacidade do seu navegador Firefox.</div>
 
 <h3>Preparação:</h3>
 
 <ol>
-  <li>Digite "about:config" na barra de endereço do seu Firefox e aperto enter.</li>
-  <li>Aperte o botão "Eu aceito o risco!" para continuar</li>
-  <li>Siga as instruções abaixo...</li>
+  <li>Digite "about:config" na barra de endereço do seu Firefox e aperte enter.</li>
+  <li>Clique no botão "Eu aceito o risco!" para continuar</li>
+  <li>Pesquise a configuração da lista abaixo e troque seu valor para o valor que recomendamos...</li>
+  <li>Para que você entenda melhor: true significa verdadeiro e <code>false</code> significa falso em Inglês. 
+  Por isso, preferências com o valor <code>true</code> serão ativadas e preferências com o valor <code>false</code> serão desativadas.
+  No entanto, os valores das configurações nem sempre serão definidos em termos de falso e verdadeiro.</li>
 </ol>
 
 <h3>Começando:</h3>
@@ -19,8 +22,7 @@
   <dd>Um resultado do projeto <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a>, esta preferência
     isola todas as fontes de identificadores do navegador (exemplo: cookies) para o domínio principal, com o objetivo de
     previnir rastreamento entre domínios diferentes. (Não faça isso se estiver utilizando a extensão Firefox "Cookie
-    AutoDelete" com
-    Firefox versão 58 ou mais baixa.)</dd>
+    AutoDelete" com Firefox versão 58 ou mais baixa.)</dd>
 
   <dt>privacy.resistFingerprinting = true</dt>
   <dd>Outro resultado do projeto <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a>, esta preferência
@@ -34,8 +36,7 @@
 
   <dt>privacy.trackingprotection.enabled = true</dt>
   <dd>Essa é a proteção de rastreamento nova da Mozilla. Ela usa uma lista da Disconnect.me para filtrar rastreadores, o
-    que é redundante se você já estiver usando uBlock Origin, portanto você deve deixá-la em false caso você esteja
-    usando as funcionalidades dessa extensão.</dd>
+    que é redundante se você já estiver usando uBlock Origin, portanto só deixe em <code>true</code> caso você não esteja utilizando essa extensão.</dd>
 
   <dt>browser.cache.offline.enable = false</dt>
   <dd>Desativa cache offline.</dd>
@@ -47,52 +48,49 @@
   <dd>Desativa a proteção de phishing do Google. Risco de segurança, mas um ganho em privacidade.</dd>
 
   <dt>browser.send_pings = false</dt>
-  <dd>The attribute would be useful for letting websites track visitors' clicks.</dd>
+  <dd>Caso esteja habilitada, essa preferência ajuda sites a rastrear seus cliques.</dd>
 
   <dt>browser.sessionstore.max_tabs_undo = 0</dt>
-  <dd>Mesmo que o Firefox esteja configurado para não armazenar o histórico, suas as abas fechadas são armazenadas
-    temporariamente em
-    Menu -&gt; Biblioteca -&gt; Histórico -&gt;
-    Abas fechadas recentemente.</dd>
+  <dd>Mesmo que o Firefox esteja configurado para não armazenar o histórico, abas fechadas são armazenadas
+    temporariamente em Menu -&gt; Biblioteca -&gt; Histórico -&gt;Abas fechadas recentemente. 
+    Siga essa recomendação para não armazenar nenhuma aba fechada.</dd>
 
   <dt>browser.urlbar.speculativeConnect.enabled = false</dt>
-  <dd>Desative o pré-carregamento e auto-completar URLs. Firefox carrega URLs previamente que autocompletam quando um
-    usuário digita na barra de endereço, o que é um problema se as URLs sugeridas não sejam de sites que o usuário
-    queira se conectar. <a
-      href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Fonte</a></dd>
+  <dd>Desativa o pré-carregamento e autocompletamento de URLs. Firefox carrega URLs previamente que autocompletam quando um
+    usuário digita na barra de endereço, o que é um problema se as URLs sugeridas não forem sites que o usuário queira se conectar. 
+    <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Fonte</a></dd>
 
   <dt>dom.battery.enabled = false</dt>
-  <dd>O status da bateria do seu dispositivo poderia estar sendo rastreado.</dd>
+  <dd>O status da bateria do seu dispositivo pode estar sendo rastreado caso essa preferência estiver habilitada.</dd>
 
   <dt>dom.event.clipboardevents.enabled = false</dt>
-  <dd>Desative a funcionalidade que permite que sites recebam uma notificação quando você copia, cola ou corta algo de
-    uma página, e os deixa saber qual parte da página foi selecionada.</dd>
+  <dd>Desativa a funcionalidade que permite que sites recebam uma notificação quando você copia, cola ou corta algo de
+    uma página, o que os deixariam saber qual parte da página foi selecionada.</dd>
 
   <dt>geo.enabled = false</dt>
-  <dd>Desative geolocalização.</dd>
+  <dd>Desativa geolocalização.</dd>
 
   <dt>media.eme.enabled = false</dt>
   <dd>
-    <p>Desative a reprodução de conteúdo HTML5 controlados por DRM, que, se habilitada, automaticamente faz download do
-      Módulo de Desencriptação Widevine distribuído pela Google Inc. <a
-        href="https://support.mozilla.org/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads">Detalhes</a>
+    <p>Desativa a reprodução de conteúdos HTML5 controlados por DRM, que, se habilitada, faz download automático do
+      Módulo de Desencriptação Widevine distribuído pela Google Inc. 
+      <a href="https://support.mozilla.org/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads">Detalhes</a>
     </p>
-    <p>Conteúdo controlado por DRM precisa que plugins Adobe Flash ou Microsoft Silverlight ainda sejam capazes de serem
+    <p>Conteúdos controlados por DRM precisa que plugins Adobe Flash ou Microsoft Silverlight ainda sejam capazes de serem
       executados, instalados e habilitados no Firefox.</p>
   </dd>
 
   <dt>media.gmp-widevinecdm.enabled = false</dt>
-  <dd>Desativa o Módulo de Desencriptação Widevine distribuído pela Google the Widevine Content Decryption Module
-    provided by Google Inc., usado para reproduzir conteúdo HTML5 controlado por DRM. <a
-      href="https://support.mozilla.org/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling">Detalhes</a>
+  <dd>Desativa o Módulo de Desencriptação Widevine distribuído pela Google Inc., usado para reproduzir conteúdos HTML5 controlados por DRM. 
+    <a href="https://support.mozilla.org/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling">Detalhes</a>
   </dd>
 
   <dt>media.navigator.enabled = false</dt>
-  <dd>Sites podem rastrear o status do microfone e câmera do seu dispositivo.</dd>
+  <dd>Sites podem rastrear o status do microfone e câmera do seu dispositivo caso essa preferência estiver habilitada.</dd>
 
   <dt>network.cookie.cookieBehavior = 1</dt>
   <dd>
-    Desativar cookies
+    Desativa cookies de terceiros.
     <ul>
       <li>0 = Aceitar todos os cookies por padrão</li>
       <li>1 = Aceitar somente cookies do site atual (bloqueia cookies de terceiros)</li>
@@ -102,7 +100,7 @@
 
   <dt>network.cookie.lifetimePolicy = 2</dt>
   <dd>
-    Cookies são deletados no fim da sessão
+    Cookies são deletados no fim da sessão.
     <ul>
       <li>0 = Aceitar cookies normalmente</li>
       <li>1 = Perguntar toda vez antes de aceitar um cookie</li>
@@ -113,8 +111,7 @@
 
   <dt>network.http.referer.trimmingPolicy = 2</dt>
   <dd>
-    <!-- Traduções horríveis a seguir; muitos termos técnicos em inglês -->
-    Enviar somente scheme, host, e porta no cabeçalho <code>Referer</code>
+    Envia somente scheme, host, e porta no cabeçalho <code>Referer</code>. <a href="https://pt.wikipedia.org/wiki/HTTP_referer">Saiba o que é Referer</a>
     <ul>
       <li>0 = Enviar a URL completa no cabeçalho <code>Referer</code></li>
       <li>1 = Enviar a URL sem a string query no cabeçalho <code>Referer</code></li>
@@ -124,7 +121,7 @@
 
   <dt>network.http.referer.XOriginPolicy = 2</dt>
   <dd>
-    Enviar cabeçalho <code>Referer</code> somende quando os hostnames são exatamente iguais. (Nota: se você perceber que
+    Envia cabeçalho <code>Referer</code> somende quando os hostnames são exatamente iguais. (Nota: se você perceber que
     os sites não estiverem funcionando da forma correta, você
     pode tentar <code>1</code> combinado com a configuração <code>XOriginTrimmingPolicy</code> abaixo.) <a
       href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Fonte</a>
@@ -137,10 +134,8 @@
 
   <dt>network.http.referer.XOriginTrimmingPolicy = 2</dt>
   <dd>
-    Quando enviando o cabeçalho <code>Referer</code> através de diferentes origens, enviar somente scheme, host, e porta
-    no cabeçalho <code>Referer</code>
-    de requisições com diferentes origens. <a
-      href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Fonte</a>
+    Enviar somente scheme, host, e porta no cabeçalho <code>Referer</code> de requisições com diferentes origens. 
+    <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Fonte</a>
     <ul>
       <li>0 = Enviar URL completa no cabeçalho <code>Referer</code></li>
       <li>1 = Enviar URL sem a string query no cabeçalho <code>Referer</code></li>
@@ -149,14 +144,14 @@
   </dd>
 
   <dt>webgl.disabled = true</dt>
-  <dd>Desabilitar WebGL, que pode ser um risco de segurança. <a
-      href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Fonte</a></dd>
+  <dd>Desabilita WebGL, que pode ser um risco de segurança. 
+    <a href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Fonte</a></dd>
 
   <dt>browser.sessionstore.privacy_level = 2</dt>
   <dd>
-    Essa preferência controla quando armazenar informação extra sobre a sessão: conteúdos de formulários, posições de
-    barras de rolagem,
-    cookies, e dados de POST. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">Detalhes</a>
+    Essa preferência controla quando armazenar informações extra sobre a sessão. Tais informações incluem conteúdos de formulários, posições de
+    barras de rolagem, cookies, e dados de POST. 
+    <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">Detalhes</a>
     <ul>
       <li>0 = Armazenar dados extra da sessão para qualquer site. (Padrão a partir do Firefox 4.)</li>
       <li>1 = Armazenar dados extra da sessão somente para sites não encriptados (sem HTTPS). (Padrão antes do
@@ -166,46 +161,48 @@
   </dd>
 
   <dt>extensions.pocket.enabled = false</dt>
-  <dd>Desabilitar completamente a extensão Pocket.</dd>
+  <dd>Desabilita completamente a extensão Pocket.</dd>
 
   <dt>network.IDN_show_punycode = true</dt>
   <dd>Não renderizar IDNs como seu equivalente em Punycode te deixa vulnerável a ataques de phising que podem ser muito
-    difíceis de notar. <a
-      href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Fonte</a>
+    difíceis de notar. Essa preferência mostra o código Punycode do domínio do site que você está visitando para evitar ser enganado 
+    por indivíduos mal intencionados que criam sites que se parecem com o verdadeiro, mas na verdade só usa caracteres muito parecidos em seu nome,
+    com o objetivo de enganar e roubar as informações dos usuários. 
+    <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Fonte</a>
   </dd>
 
   <dt>extensions.blocklist.url = https://blocklists.settings.services.mozilla.com/v1/blocklist/3/%20/%20/</dt>
   <dd>
-    <p>Limitar a quantidade de informação identificável enviada quando requisitando a lista de extensões perigosas da
-      Mozilla.
+    <p>Limita a quantidade de informação identificável enviada quando requisitando a lista de extensões perigosas do Mozilla.
       <p>Opcionalmente, a lista pode ser desabilitada completamente ao modificar
-        <code>extensions.blocklist.enabled</code> para
-        false para melhor privacidade, porém piora a segurança. <a
-          href="https://old.reddit.com/r/privacytoolsIO/comments/9uqeew/firefox_tip_sanitize_firefox_blocklist_url_so_it/">Fonte</a>
+        <code>extensions.blocklist.enabled</code> para <code>false</code> para melhorar a privacidade, porém piorar sua segurança.
+        <a href="https://old.reddit.com/r/privacytoolsIO/comments/9uqeew/firefox_tip_sanitize_firefox_blocklist_url_so_it/">Fonte</a>
       </p>
   </dd>
 </dl>
 
 <h3>Modelos de user.js</h3>
+
+<div class="alert alert-success" role="alert">O <strong>user.js</strong> é um arquivo de configuração que pode controlar centenas de preferências do Firefox. 
+  Nesta seção iremos mostrar alguns links de arquivos pré-configurados para melhorar sua privacidade no Firefox.</div>
+
 <ul>
-  <!-- anti-fingerprinting: termo não traduzido -->
-  <li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - Um template user.js
-    para configurar e enrijecer a privacidade, segurança e anti-fingerprinting do Firefox.</li>
-  <li><a href="https://github.com/pyllyukko/user.js">pyllyukko/user.js</a> - Esse é um arquivo de configuração user.js
-    configuration para enrijecer as configurações do Firefox e deixá-lo mais seguro.</li>
+  <li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - 
+  Um modelo user.js de Firefox para configurar e enrijecer a privacidade, segurança e prevenção de idenficação por impressão digital.</li>
+  <li><a href="https://github.com/pyllyukko/user.js">pyllyukko/user.js</a> - 
+  Esse é um arquivo de configuração user.js para enrijecer as configurações do Firefox e deixá-lo mais seguro.</li>
 </ul>
 
 <h3>Informações relacionadas</h3>
 
 <ul>
   <li><a href="https://ffprofile.com/">ffprofile.com</a> - Te ajuda a criar um perfil de Firefox com as configurações
-    padrão que você gosta.</li>
+    padrão que você gosta. No fim do processo, você pode salvar o arquivo do seu perfil e usá-lo em qualquer instalação Firefox.</li>
   <li><a href="http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences">mozillazine.org</a> -
-    Preferências relacionadas a segurança e privacidade. </li>
+    Preferências relacionadas à segurança e privacidade. </li>
   <li><a href="https://addons.mozilla.org/firefox/addon/privacy-settings/">Privacy Settings</a> - Uma extensão de
-    Firefox que serve para alterar as configurações de segurança de forma fácil com um painel na barra de ferramentas.
+    Firefox que serve para alterar as configurações de segurança de forma fácil, com um painel na barra de ferramentas.
   </li>
   <li><a href="https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/">Firefox Privacy Guide
-      For Dummies</a> - Guia com métodos para melhorar sua privacidade e segurança no Firefox Guide on ways (alguns já
-    foram tratados aqui).</li>
+      For Dummies</a> - Guia com métodos para melhorar sua privacidade e segurança no Firefox (alguns desses métodos já foram tratados aqui).</li>
 </ul>
