@@ -2,7 +2,7 @@
 
 _Encriptação Contra A Vigilância Global em Massa_
 
-[![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital)
+[![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
 
 # Contribuir
 
@@ -44,4 +44,4 @@ Privacidade Digital é um projeto baseado no site `privacytools.io`, e existem f
 
 # Licença
 
-[Creative Commons Zero v1.0 Universal](https://www.privacidade.digital/LICENSE.txt)
+[Creative Commons Zero v1.0 Universal](https://www.privacidade.digital/LICENSE.txt), exceto quando outra licença for especificada.
