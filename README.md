@@ -2,7 +2,7 @@
 
 _Encriptação Contra A Vigilância Global em Massa_
 
-[![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+[![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 # Contribuir
 
