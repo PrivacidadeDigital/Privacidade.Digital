@@ -6,13 +6,13 @@ Este documento é uma coleção de guias para contribuições em Português, par
 
 #### Sumário
 
-[Código de Conduta](#codigo-de-conduta)
+[Código de Conduta](#código-de-conduta)
 
-[Eu não quero ler esse texto gigante, só quero perguntar uma coisa!](#eu-nao-quero-ler-esse-texto-gigante-so-quero-perguntar-uma-coisa)
+[Eu não quero ler esse texto gigante, só quero perguntar uma coisa!](#eu-não-quero-ler-esse-texto-gigante-só-quero-perguntar-uma-coisa)
 
-[O que devo saber antes de começar?](#o-que-devo-saber-antes-de-comecar)
+[O que devo saber antes de começar?](#o-que-devo-saber-antes-de-começar)
 * [O projeto Privacidade Digital](#o-projeto-privacidade-digital)
-* [Requisitos intelectuais e métodos alternativos de contribuição](#requisitos-intelectuais-e-metodos-alternativos-de-contribuicao)
+* [Requisitos intelectuais e métodos alternativos de contribuição](#requisitos-intelectuais-e-métodos-alternativos-de-contribuição)
 
 [Como posso contribuir?](#como-posso-contribuir)
 * [Reportando erros no projeto](#reportando-erros-no-projeto)
