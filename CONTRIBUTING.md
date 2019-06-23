@@ -60,19 +60,9 @@ Caso acredite que o projeto possua erros, você pode reportá-lo através do Git
 
 ### Sugerindo novidades e melhorias
 
-Você também pode sugerir coisas novas para o projeto, ou melhorias de coisas que já tenham sido feitas ou iniciadas. Para sugerir, basta abrir uma [Issue](#criando-issues). Exemplos de sugestão incluem, mas não se limitam a:
+Você também pode sugerir coisas novas para o projeto, ou melhorias de coisas que já tenham sido feitas ou iniciadas. Para sugerir, basta abrir uma [Issue](wiki/Criando-Issues). Exemplos de sugestão incluem, mas não se limitam a:
 
 * Nova ferramenta ou recurso de privacidade digital a ser incluída no site e/ou divulgada nas redes sociais. Isso pode incluir links, textos, recomendações de software, podcasts, canais de vídeos, livros, etc.
 * Melhorias no design e identidade visual do projeto e seus diferentes segmentos. Isso pode incluir a troca de logotipos, cores, imagens, web design, etc.
 * Melhoria da forma de escrever em textos de qualquer arquivo deste repositório e posts em outros segmentos do projeto.
 * Novos projetos e segmentos. Isso pode incluir um novo site, campanha digital, perfil em rede social, etc.
-
-### Criando Issues
-
-O método preferido de reportar problemas e sugestões é através do Issue do Github, e qualquer usuário da plataforma pode criá-la. Cada issue funciona como se fosse um tópico/post num fórum online, onde é apresentado um problema e os membros da comunidade podem discuti-lo e se guiar nele para melhorar o projeto. Assim que a discussão terminar, ou quando um colaborador fazer as modificações necessárias no projeto, o issue é fechado e considerado resolvido. No entanto, em alguns casos, pode ser reaberto por administradores do repositório, caso necessário.
-
-Para abrir uma **Issue**, vá para a [página inicial do repositório](https://github.com/PrivacidadeDigital/privacidade.digital/), clique em [Issues](https://github.com/PrivacidadeDigital/privacidade.digital/issues/) para entrar na lista de issues, e depois no botão [New issue](https://github.com/PrivacidadeDigital/privacidade.digital/issues/new) para criar sua issue. Escolha um modelo de issue da lista e siga as diretrizes escritas nos comentários do modelo antes de clicar em **Submit new issue** para criá-la. Depois, você pode editá-la ou comentar nela para adicionar informações e discutir com os membros da comunidade.
-
-**Nota:** Repare que este é um método público de contribuir. Isso é feito em prol da transparência do projeto. Mesmo que você [sugira algo de forma alternativa](#requisitos-intelectuais-e-metodos-alternativos-de-contribuicao) a algum contribuidor frequente, o issue provavelmente será aberto por outra pessoa e você só será mencionado caso queira.
-
-
