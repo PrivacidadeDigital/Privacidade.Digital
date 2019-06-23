@@ -71,4 +71,4 @@ versão 1.4, disponível em https://www.contributor-covenant.org/pt-br/version/1
 
 ## Licença
 
-Este trabalho está licenciado com uma Licença [Creative Commons - Atribuição  4.0 Internacional]( http://creativecommons.org/licenses/by/4.0/).
+Este código de conduta está licenciado com uma Licença [Creative Commons - Atribuição  4.0 Internacional]( http://creativecommons.org/licenses/by/4.0/).
