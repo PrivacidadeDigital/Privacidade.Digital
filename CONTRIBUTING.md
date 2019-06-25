@@ -115,6 +115,8 @@ Manter um site custa tempo e dinheiro, o que é parcialmente financiado por cola
 
 Para começar, doe 1 real. Saiba mais em: https://www.privacidade.digital/doar.
 
+Em breve também serão aceitas criptomoedas.
+
 ## Padrões no Código
 
 Em breve.
