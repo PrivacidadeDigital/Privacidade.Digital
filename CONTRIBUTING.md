@@ -19,7 +19,7 @@ Este documento é uma coleção de guias para contribuições em Português, par
 * [Reportando erros no projeto](#reportando-erros-no-projeto)
 * [Sugerindo novidades e melhorias](#sugerindo-novidades-e-melhorias)
 * [Criando Pull Requests](#criando-pull-requests)
-* [Entrando no time de colaborades frequentes](#entrando-no-time-de-colaboradores-frequentes)
+* [Entrando no Time de Colaborades Frequentes (TCF)](#entrando-no-time-de-colaboradores-frequentes-tcf)
 * [Doando para o projeto](#doando-para-o-projeto)
 
 [Padrões no Código](#padrões-no-código)
@@ -95,12 +95,14 @@ Para evitar que seu código seja rejeitado, verifique se já não existe uma iss
 
 Caso não saiba utilizar Git/GitHub, não se preocupe, pois serão feitos tutoriais amigáveis em breve.
 
-### Entrando no time de colaboradores frequentes
+### Entrando no Time de Colaboradores Frequentes (ECF)
 
-Você acha que tem algo consistente para contribuir neste projeto, de forma voluntária? Você acha que terá tempo para se dedicar ao projeto, pelo menos 1 vez por semana? Se sim para ambas as perguntas, entre em contato. Exemplos de trabalhos que você poderá exercer como um colaborador frequente são, mas não se limitam a:
+Você acha que tem algo de valor intelectual para doar o projeto de forma consistente e voluntária? Você acha que terá tempo para se dedicar ao projeto pelo menos 1 vez por semana? Se sim para ambas as perguntas, entre em contato. Exemplos de trabalhos que você poderá exercer como um colaborador frequente são, mas não se limitam a:
 
 * Participar ativamente de reuniões virtuais internas sobre o estado atual e futuro do projeto.
-* 
+* Gerenciar perfis oficiais do projeto em redes sociais.
+* Melhorar traduções Inglês-Português; melhorar linguagem do site para que seja mais acessível; revisar o site por erros gramaticais e de concordância.
+* Providenciar conselho legal para questões de privacidade digital e tecnologia no Brasil e outros países cuja língua oficial é Português.
 
 ### Doando para o projeto
 
