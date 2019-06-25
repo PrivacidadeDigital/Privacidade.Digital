@@ -2,7 +2,7 @@
 
 Muito obrigado por tirar um tempo e interesse para ajudar o site! :+1:
 
-Este documento é uma coleção de guias para contribuições em Português, para que o trabalho feito neste site seja mais padronizado. No entanto, o que for apresentado aqui não são regras estritamente cobradas. Existem várias formas de contribuir, e aconselhamos que leia estas diretrizes, especialmente na seção relacionada ao tipo de ajuda que deseja usar ao contribuir.
+Este documento é uma coleção de guias para contribuições em Português, para que o trabalho feito neste projeto seja mais padronizado. No entanto, o que for apresentado aqui não são regras estritamente cobradas. Existem várias formas de contribuir, e aconselhamos que leia estas diretrizes, especialmente na seção relacionada à sua forma de contribuir.
 
 #### Sumário
 
@@ -26,7 +26,7 @@ Este documento é uma coleção de guias para contribuições em Português, par
 
 ## Código de Conduta
 
-Este projeto e suas contribuições precisam respeitar o [Código de Conduta deste repositório](CODE_OF_CONDUCT.md). Conformidade com mencionado código de conduta é esperado de você ao participar. Comportamento inaceitável deve ser reportado através de email para [time@privacidade.digital](mailto:time@privacidade.digital).
+Este projeto e suas contribuições precisam respeitar o [Código de Conduta deste repositório](CODE_OF_CONDUCT.md). Conformidade com tal código de conduta é esperado de você ao participar. Comportamento inaceitável deve ser reportado através de email para [time@privacidade.digital](mailto:time@privacidade.digital).
 
 ## Eu não quero ler esse texto gigante, só quero perguntar uma coisa!
 
@@ -40,7 +40,7 @@ Neste caso, entre em contato com o time de colaboradores frequentes e faça sua 
 
 ### O projeto Privacidade Digital
 
-Privacidade Digital nasceu da vontade de um punhado de desenvolvedores web brasileiros em traduzir o site privacytools.io. No entanto, verificou-se a necessidade de algo com proporções um pouco mais amplas, para se adaptar à realidade brasileira e ajudar a população a se defender de invasões de privacidade digitais. No momento, os segmentos ativos do projeto são:
+Privacidade Digital nasceu da vontade de um punhado de desenvolvedores web brasileiros em traduzir o site `www.privacytools.io`. No entanto, verificou-se a necessidade de algo com proporções um pouco mais amplas, para se adaptar à realidade brasileira e ajudar a população a se defender de invasões de privacidade digitais. No momento, os segmentos ativos do projeto são:
 
 * [Este repositório](https://github.com/PrivacidadeDigital/privacidade.digital/) e sua [wiki](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/): onde o desenvolvimento do projeto ocorre; onde damos dicas de como utilizar as plataformas Git e GitHub de forma facilitada
 * [Site](https://www.privacidade.digital/): onde residem dicas valiosas sobre como defender sua privacidade digital
@@ -97,12 +97,14 @@ Caso não saiba utilizar Git/GitHub, não se preocupe, pois serão feitos tutori
 
 ### Entrando no Time de Colaboradores Frequentes (ECF)
 
-Você acha que tem algo de valor intelectual para doar o projeto de forma consistente e voluntária? Você acha que terá tempo para se dedicar ao projeto pelo menos 1 vez por semana? Se sim para ambas as perguntas, entre em contato. Exemplos de trabalhos que você poderá exercer como um colaborador frequente são, mas não se limitam a:
+Você acha que tem algo de **valor intelectual** para doar ao projeto de forma consistente e voluntária? Você acha que terá tempo para se dedicar ao projeto pelo menos 1 vez por semana? Se sim para ambas as perguntas, entre em contato. Exemplos de trabalhos que você poderá exercer como um colaborador frequente são, mas não se limitam a:
 
 * Participar ativamente de reuniões virtuais internas sobre o estado atual e futuro do projeto.
 * Gerenciar perfis oficiais do projeto em redes sociais.
 * Melhorar traduções Inglês-Português; melhorar linguagem do site para que seja mais acessível; revisar o site por erros gramaticais e de concordância.
 * Providenciar conselho legal para questões de privacidade digital e tecnologia no Brasil e outros países cuja língua oficial é Português.
+* Escrever artigos sobre privacidade e tecnologia.
+* Preparar pequenos cursos ou tutoriais para tornar o conhecimento sobre privacidade mais acessível.
 
 ### Doando para o projeto
 
