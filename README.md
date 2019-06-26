@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital) [![Contributor Convenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
-#### :loudspeaker: Links & Documentos Importantes
+#### Links & Documentos Importantes
 
 :loudspeaker: [Código de Conduta](CODE_OF_CONDUCT.md)
 
