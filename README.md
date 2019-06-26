@@ -34,6 +34,8 @@ Privacidade Digital é um projeto baseado no site `privacytools.io`. Contribua c
 
 ## Línguas :earth_africa:
 
+Traduções da Comunidade:
+
 - [繁体中文 / Chinês](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Espanhol](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / Alemão](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
