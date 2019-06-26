@@ -10,7 +10,7 @@
 
 :loudspeaker: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
 
-## Construindo o Site :hammer:
+## Construindo o Site
 
 Teste e modifique o site na sua máquina local:
 
@@ -19,7 +19,7 @@ Teste e modifique o site na sua máquina local:
 1. Rode `bundle install` para instalar as dependências necessárias.
 1. Usar `bundle exec jekyll build` para construir o site. O _output_ estará na pasta `_site`. Previsão automática também é possível através do comando `bundle exec jekyll serve`.
 
-## Línguas :earth_africa:
+## Línguas
 
 Projeto Original:
 
@@ -34,6 +34,6 @@ Traduções da Comunidade:
 - [Italiano / Italiano](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
 - [Русский / Russo](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
-## Licença deste Projeto :copyright:
+## Licença deste Projeto
 
 Site disponível sob a licença "CC0" [Creative Commons Zero v1.0 Universal](https://www.privacidade.digital/LICENSE.txt), exceto quando outra for especificada. Onde a CC0 está em efeito, você pode copiar, modificar, distribuir e executar o projeto, mesmo para fins comerciais, tudo sem pedir autorização. [Saiba mais](https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR)
