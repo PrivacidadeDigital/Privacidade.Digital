@@ -10,6 +10,10 @@
 
 :loudspeaker: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
 
+:bird: [Twitter](https://twitter.com/PrivacidadeJa)
+
+:camera: [Instagram](https://www.instagram.com/privacidade.digital)
+
 ## Construindo o Site
 
 Teste e modifique o site na sua máquina local:
