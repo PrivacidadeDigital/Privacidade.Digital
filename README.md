@@ -1,4 +1,4 @@
-[![privacidade.digital](assets/img/layout/logo.png)](https://www.privacidade.digital/)
+[![www.privacidade.digital](assets/img/layout/logo.png)](https://www.privacidade.digital/)
 
 [![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital) [![Contributor Convenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
@@ -10,8 +10,6 @@
 
 :loudspeaker: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
 
-:loudspeaker: [Site do Projeto Original em Inglês](https://www.privacytools.io) / [GitHub](https://github.com/privacytoolsIO/privacytools.io)
-
 ## Construindo o Site :hammer:
 
 Teste e modifique o site na sua máquina local:
@@ -22,6 +20,10 @@ Teste e modifique o site na sua máquina local:
 1. Usar `bundle exec jekyll build` para construir o site. O _output_ estará na pasta `_site`. Previsão automática também é possível através do comando `bundle exec jekyll serve`.
 
 ## Línguas :earth_africa:
+
+Projeto Original:
+
+- [English / Inglês](https://www.privacytools.io) - [GitHub](https://github.com/privacytoolsIO/privacytools.io)
 
 Traduções da Comunidade:
 
