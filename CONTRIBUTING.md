@@ -129,6 +129,7 @@ Você acha que tem algo de **valor intelectual** para doar ao projeto de forma c
 Manter um site custa tempo e dinheiro, o que é parcialmente financiado por colaboradores. Atualmente, gastamos dinheiro com as seguintes coisas:
 
 :money_with_wings: Domínio "privacidade.digital"
+
 :money_with_wings: Servidores de Email, Web e DNS 
 
 Para começar, doe 1 real. Saiba mais em: https://www.privacidade.digital/doar.
