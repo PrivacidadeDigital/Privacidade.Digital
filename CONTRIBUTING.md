@@ -1,8 +1,8 @@
-# Contribuindo para www.privacidade.digital
+# Contribuindo para Privacidade Digital
 
-Muito obrigado por tirar um tempo e interesse para ajudar o site! :+1:
+Esta comunidade agradece a sua pessoa por tirar um pouco do seu tempo e interesse para ajudar o projeto, pois ele precisa de você! :+1:
 
-Este documento é uma coleção de guias para contribuições em Português, para que o trabalho feito neste projeto seja mais padronizado. No entanto, o que for apresentado aqui não são regras estritamente cobradas. Existem várias formas de contribuir, e aconselhamos que leia estas diretrizes, especialmente na seção relacionada à sua forma de contribuir.
+Este documento é uma coleção de diretrizes para contribuições em Português, para que o trabalho feito aqui seja mais padronizado. No entanto, o que for apresentado não são regras rigorosamente cobradas. Estas diretrizes te ajudarão a contribuir de forma mais efetiva, para que as contribuições sejam aplicadas da forma mais rápida e adequada.
 
 #### Sumário
 
@@ -26,21 +26,25 @@ Este documento é uma coleção de guias para contribuições em Português, par
 
 ## Código de Conduta
 
-Este projeto e suas contribuições precisam respeitar o [Código de Conduta deste repositório](CODE_OF_CONDUCT.md). Conformidade com tal código de conduta é esperado de você ao participar. Comportamento inaceitável deve ser reportado através de email para [time@privacidade.digital](mailto:time@privacidade.digital).
+Este repositório e suas contribuições precisam respeitar o [Código de Conduta](CODE_OF_CONDUCT.md). A conformidade com tal código de conduta é absolutamente necessária. Comportamento inaceitável deve ser reportado através de email para [contato@privacidade.digital](mailto:contato@privacidade.digital).
 
 ## Eu não quero ler esse texto gigante, só quero perguntar uma coisa!
 
-Neste caso, entre em contato com o time de colaboradores frequentes e faça sua pergunta diretamente:
+Embora a resposta para sua pergunta possa estar neste documento, reconhecemos a eventual necessidade de conversa mais direta, ou específica. Entre em contato com o time de colaboradores frequentes:
 
-* Email: [contato@privacidade.digital](mailto:contato@privacidade.digital) (Recomendado)
-* Sala Matrix: `#privacidade.digital-geral:matrix.org` (Recomendado)
-* DM no Twitter: [@PrivacidadeJa](https://twitter.com/PrivacidadeJa)
+:email: Email: [contato@privacidade.digital](mailto:contato@privacidade.digital)
+
+:speech_balloon: Grupo Matrix: `#privacidade.digital-geral:matrix.org`
+
+:bird: DM no Twitter: [@PrivacidadeJa](https://twitter.com/PrivacidadeJa)
+
+:exclamation: O método mais seguro de comunicação é por troca de email encriptado. No grupo de conversa Matrix, é possível enviar mensagens seguras para colaboradores individuais. No Twitter, porém, a comunicação não possui criptografia ponta a ponta, portanto é o método de comunicação menos recomendado para sua privacidade, embora válido.
 
 ## O que devo saber antes de começar?
 
 ### O projeto Privacidade Digital
 
-Privacidade Digital nasceu da vontade de um punhado de desenvolvedores web brasileiros em traduzir o site `www.privacytools.io`. No entanto, verificou-se a necessidade de algo com proporções um pouco mais amplas, para se adaptar à realidade brasileira e ajudar a população a se defender de invasões de privacidade digitais. No momento, os segmentos ativos do projeto são:
+:shield: Privacidade Digital nasceu da vontade de um punhado de desenvolvedores web brasileiros em traduzir o site `www.privacytools.io`. No entanto, verificou-se a necessidade de algo com proporções um pouco mais amplas, para se adaptar à realidade brasileira e ajudar a população a se defender de invasões de privacidade digitais. No momento, os segmentos ativos do projeto são:
 
 * [Este repositório](https://github.com/PrivacidadeDigital/privacidade.digital/) e sua [wiki](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/): onde o desenvolvimento do projeto ocorre; onde damos dicas de como utilizar as plataformas Git e GitHub de forma facilitada
 * [Site](https://www.privacidade.digital/): onde residem dicas valiosas sobre como defender sua privacidade digital
@@ -62,10 +66,13 @@ Um dos jeitos mais fáceis de contribuir é divulgando o projeto! Como o objetiv
 
 O domínio "privacidade.digital" foi escolhido justamente para ser algo fácil de ser acessado e lembrado por todas as pessoas falantes da Língua Portuguesa. Outros exemplos de divulgação incluem, mas não se limitam a:
 
-* Compartilhar links do site na sua rede social preferida.
-* Compartilhar posts feitos em perfis oficiais do projeto nas redes sociais.
-* Mencionar o site sempre quando discutir o assunto com as pessoas.
-* Imprimir o conteúdo do site e entregar para pessoas da sua comunidade ou curso.
+🗣️ Compartilhar links do site na sua rede social preferida.
+
+🗣️ Compartilhar posts feitos em perfis oficiais do projeto nas redes sociais.
+
+🗣️ Mencionar o site sempre quando discutir o assunto com as pessoas.
+
+🗣️ Imprimir o conteúdo do site e entregar para pessoas da sua comunidade ou curso.
 
 O conteúdo do site é dedicado ao domínio público. Você tem máxima liberdade judicial para divulgá-lo, da forma que desejar.
 
@@ -73,19 +80,25 @@ O conteúdo do site é dedicado ao domínio público. Você tem máxima liberdad
 
 Caso acredite que o projeto possua erros, você pode reportá-los através do GitHub. Mais especificadamente, abrindo uma instância da chamada [Issue](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/Criando-Issues), que nada mais é do que um post que registra um "problema" do repositório. Exemplos de erro incluem, mas não se limitam a:
 
-* Texto em outras línguas. Exceção: quando o texto é devidamente explicado em Português.
-* Links quebrados e links que levam para páginas em outras línguas. Exceção: quando é avisado no texto que o link vai para página em outra língua.
-* Erros de Português no site ou qualquer segmento do projeto. Isso também inclui quando o texto fica confuso para o visitante, mesmo que não haja erro gramatical.
-* Erros gerais e de sintaxe no código do site, ou problemas em sua organização. Isso também inclui erros de design.
+:beetle: Texto em outras línguas. Exceção: quando o texto é devidamente explicado em Português.
+
+:beetle: Links quebrados e links que levam para páginas em outras línguas. Exceção: quando é avisado no texto que o link vai para página em outra língua.
+
+:beetle: Erros de Português no site ou qualquer segmento do projeto. Isso também inclui quando o texto fica confuso para o visitante, mesmo que não haja erro gramatical.
+
+:beetle: Erros gerais e de sintaxe no código do site, ou problemas em sua organização. Isso também inclui erros de design.
 
 ### Sugerindo novidades e melhorias
 
 Você também pode sugerir coisas novas para o projeto, ou melhorias de coisas que já tenham sido feitas ou iniciadas. Para sugerir, basta abrir uma [Issue](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/Criando-Issues). Exemplos de sugestão incluem, mas não se limitam a:
 
-* Nova ferramenta ou recurso de privacidade digital a ser incluído no site e/ou divulgado nas redes sociais. Isso pode incluir links, textos, recomendações de software, podcasts, canais de vídeos, livros, etc.
-* Melhorias no design e identidade visual do projeto e seus diferentes segmentos. Isso pode incluir a troca de logotipos, cores, imagens, web design, etc.
-* Melhoria na forma de escrever em textos de qualquer arquivo deste repositório e posts em outros segmentos do projeto.
-* Novos projetos e segmentos. Isso pode incluir um novo site, campanha digital, perfil em rede social, etc.
+ :star2: Nova ferramenta ou recurso de privacidade digital a ser incluído no site e/ou divulgado nas redes sociais. Isso pode incluir links, textos, recomendações de software, podcasts, canais de vídeos, livros, etc.
+ 
+ :star2: Melhorias no design e identidade visual do projeto e seus diferentes segmentos. Isso pode incluir a troca de logotipos, cores, imagens, web design, etc.
+ 
+ :star2: Melhoria na forma de escrever em textos de qualquer arquivo deste repositório e posts em outros segmentos do projeto.
+ 
+ :star2: Novos projetos e segmentos. Isso pode incluir um novo site, campanha digital, perfil em rede social, etc.
 
 ### Criando Pull Requests
 
@@ -95,23 +108,28 @@ Para evitar que seu código seja rejeitado, verifique se já não existe uma iss
 
 Caso não saiba utilizar Git/GitHub, não se preocupe, pois serão feitos tutoriais amigáveis em breve.
 
-### Entrando no Time de Colaboradores Frequentes (ECF)
+### Entrando no Time de Colaboradores Frequentes (TCF)
 
 Você acha que tem algo de **valor intelectual** para doar ao projeto de forma consistente e voluntária? Você acha que terá tempo para se dedicar ao projeto pelo menos 1 vez por semana? Se sim para ambas as perguntas, entre em contato. Exemplos de trabalhos que você poderá exercer como um colaborador frequente são, mas não se limitam a:
 
-* Participar ativamente de reuniões virtuais internas sobre o estado atual e futuro do projeto.
-* Gerenciar perfis oficiais do projeto em redes sociais.
-* Melhorar traduções Inglês-Português; melhorar linguagem do site para que seja mais acessível; revisar o site por erros gramaticais e de concordância.
-* Providenciar conselho legal para questões de privacidade digital e tecnologia no Brasil e outros países cuja língua oficial é Português.
-* Escrever artigos sobre privacidade e tecnologia.
-* Preparar pequenos cursos ou tutoriais para tornar o conhecimento sobre privacidade mais acessível.
+:muscle: Participar ativamente de reuniões virtuais internas sobre o estado atual e futuro do projeto.
+
+:muscle: Gerenciar perfis oficiais do projeto em redes sociais.
+
+:muscle: Melhorar traduções Inglês-Português; melhorar linguagem do site para que seja mais acessível; revisar o site por erros gramaticais e de concordância.
+
+:muscle: Providenciar conselho legal para questões de privacidade digital e tecnologia no Brasil e outros países cuja língua oficial é Português.
+
+:muscle: Escrever artigos sobre privacidade e tecnologia.
+
+:muscle: Preparar pequenos cursos ou tutoriais para tornar o conhecimento sobre privacidade mais acessível.
 
 ### Doando para o projeto
 
 Manter um site custa tempo e dinheiro, o que é parcialmente financiado por colaboradores. Atualmente, gastamos dinheiro com as seguintes coisas:
 
-* Domínio "privacidade.digital"
-* Servidores de Email, Web e DNS 
+:money_with_wings: Domínio "privacidade.digital"
+:money_with_wings: Servidores de Email, Web e DNS 
 
 Para começar, doe 1 real. Saiba mais em: https://www.privacidade.digital/doar.
 
