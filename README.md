@@ -2,15 +2,15 @@
 
 [![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital) [![Contributor Convenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
-#### Links & Documentos Importantes
-
-:globe_with_meridians: [Site](https://www.privacidade.digital/)
+#### Links & Documentos Importante
 
 :loudspeaker: [Código de Conduta](CODE_OF_CONDUCT.md)
 
 :loudspeaker: [Contribuindo com o Projeto](CONTRIBUTING.md)
 
 :loudspeaker: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
+
+:globe_with_meridians: [Site](https://www.privacidade.digital/)
 
 :bird: [Twitter](https://twitter.com/PrivacidadeJa)
 
