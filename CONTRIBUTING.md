@@ -38,7 +38,7 @@ Embora a resposta para sua pergunta possa estar neste documento, reconhecemos a 
 
 :bird: DM no Twitter: [@PrivacidadeJa](https://twitter.com/PrivacidadeJa)
 
-:exclamation: O método mais seguro de comunicação é por troca de email encriptado. No grupo de conversa Matrix, é possível enviar mensagens seguras para colaboradores individuais. No Twitter, porém, a comunicação não possui criptografia ponta a ponta, portanto é o método de comunicação menos recomendado para sua privacidade, embora válido.
+:exclamation: O método mais seguro de comunicação é por troca de email encriptado. No grupo de conversa Matrix, é possível enviar mensagens seguras para colaboradores individuais. Embora se comunicar no Twitter seja válido, DMs não possuem criptografia ponta a ponta, portanto é o método de comunicação menos recomendado para sua privacidade.
 
 ## O que devo saber antes de começar?
 
