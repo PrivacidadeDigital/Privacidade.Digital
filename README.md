@@ -10,8 +10,6 @@
 
 :loudspeaker: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
 
-:globe_with_meridians: [Site](https://www.privacidade.digital/)
-
 :bird: [Twitter](https://twitter.com/PrivacidadeJa)
 
 :camera: [Instagram](https://www.instagram.com/privacidade.digital)
