@@ -10,6 +10,8 @@
 
 :loudspeaker: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
 
+:loudspeaker: [Entrar em Contato](https://www.privacidade.digital/contato)
+
 :bird: [Twitter](https://twitter.com/PrivacidadeJa)
 
 :camera: [Instagram](https://www.instagram.com/privacidade.digital)
