@@ -1,4 +1,4 @@
-[![www.privacidade.digital](assets/img/layout/logo.png)](https://www.privacidade.digital/)
+[![privacidade.digital](./assets/img/layout/logo.png)](https://www.privacidade.digital/)
 
 [![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital) [![Contributor Convenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
@@ -38,6 +38,7 @@ Traduções da Comunidade:
 - [Deutsch / Alemão](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
 - [Français / Francês](https://privacytools.dreads-unlock.fr/) - [GitLab](https://gitlab.com/Booteille/privacytools)
 - [Italiano / Italiano](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
+- [Polski / Polonês](https://pl.privacytools.io) - [Gitea](https://git.privacytools.io/pl-privacytoolsIO/pl.privacytools.io)
 - [Русский / Russo](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
 ## Licença deste Projeto

@@ -2,43 +2,44 @@
   Móveis</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Mesmo que o código fonte do Android e derivados seja aberto, instalar aplicativos do Google pode comprometer
-    seu setup.</strong>
+  <strong>Mesmo que o código-fonte do Android e derivados seja aberto, instalar aplicativos proprietários do Google pode comprometer
+    sua segurança.</strong>
 </div>
 
-<div class="row mb-2">
+{% include cardv2.html
+title="GrapheneOS"
+image="/assets/img/tools/GrapheneOS.png"
+description='GrapheneOS (sucessor do CopperheadOS) é um sistema operacional móvel gratuito, livre e de código-fonte aberto focado em segurança e privacidade, criado a partir do Android Open Source Project. Atualmente só está disponível para dispositivos que já possuem um hardware relativamente seguro.'
+badges="info:AOSP"
+labels="warning:contrib:Este SO pode depender ou recomendar software não-livre."
+website="https://grapheneos.org/"
+github="https://github.com/GrapheneOS/"
+%}
 
-  {% include card.html color="success"
-  title="LineageOS"
-  image="/assets/img/tools/LineageOS.png"
-  url="https://www.lineageos.org/"
-  description="LineageOS é um sistema operacional de código aberto para smartphones e tablets, baseado nos lançamentos oficiais do
-  Android pela Google. É a continuação do projeto CyanogenMod."
-  %}
+{% include cardv2.html
+title="LineageOS"
+image="/assets/img/tools/LineageOS.png"
+description='LineageOS é um sistema operacional de código aberto para smartphones e tablets, baseado nos lançamentos oficiais do Android Open Source Project. É a continuação do projeto CyanogenMod.'
+badges="info:AOSP"
+labels="warning:contrib:Este SO pode depender ou recomendar software não-livre."
+website="https://www.lineageos.org/"
+github="https://github.com/LineageOS"
+%}
 
-  {% include card.html color="primary"
-  title="Ubuntu Touch"
-  image="/assets/img/tools/Ubuntu-Touch.png"
-  url="https://ubuntu-touch.io/"
-  description="Ubuntu Touch é um sistema operacional grátis de código aberto para smartphones e tablets. É uma alternativa aos sistemas
-  operacionais móveis mais populares do mercado. É compatível somente com <a href=https://devices.ubuntu-touch.io/>alguns dispositivos</a>."
-  %}
-
-  {% include card.html color="warning"
-  title="GrapheneOS"
-  image="/assets/img/tools/GrapheneOS.png"
-  url="https://grapheneos.org/"
-  description="GrapheneOS é um sistema operacional móvel gratuito e de código aberto, focado em segurança e privacidade. É construído a partir do Android Open Source Project (AOSP). Atualmente o SO é focado em dispositivos específicos, que já tenham um hardware com certa segurança."
-  %}
-
-</div>
+{% include cardv2.html
+title="Ubuntu Touch"
+image="/assets/img/tools/Ubuntu-Touch.png"
+description="Ubuntu Touch é um sistema operacional grátis de código-fonte aberto para smartphones e tablets. É uma alternativa aos sistemas operacionais móveis mais populares do mercado. É compatível somente com <a href=https://devices.ubuntu-touch.io/>alguns dispositivos</a>."
+badges="info:GNU/Linux"
+labels="warning:contrib:Este SO pode depender ou recomendar software não-livre."
+website="https://ubuntu-touch.io/"
+github="https://github.com/ubports"
+%}
 
 <h3>Menções honrosas</h3>
 
 <ul>
-  <li><a href="https://www.replicant.us/">Replicant</a> - Um sistema operacional de código aberto baseado no Android,
-    com o objetivo de substituir todos os componentes proprietários por software livre.</li>
-  <li><a href="https://www.omnirom.org/">OmniROM</a> - Um sistema operacional de software livre para smartphones e tablets, baseado no Android.</li>
-  <li><a href="https://microg.org/">MicroG</a> - Um projeto que tem por objetivo reimplementar os Serviços Google Play
-    proprietários no sistema operacional Android por um substituto FLOSS.
+  <li><a href="https://www.replicant.us/">Replicant</a> <span class="badge badge-info">AOSP</span> - Um sistema operacional de código-fonte aberto baseado no Android, com o objetivo de substituir todos os componentes proprietários por software livre.</li>
+  <li><a href="https://www.omnirom.org/">OmniROM</a> <span class="badge badge-info">AOSP</span> <span class="badge badge-warning" data-toggle="tooltip" title="Este SO pode depender ou recomendar software não-livre.">contrib <i class="far fa-question-circle"></i></span> - Um sistema operacional de software livre para smartphones e tablets, baseado no Android.</li>
+  <li><a href="https://microg.org/">MicroG</a> <span class="badge badge-info">Pacote de Extensões</span> <span class="badge badge-warning" data-toggle="tooltip" title="Este pacote pode depender ou recomendar software não-livre.">contrib <i class="far fa-question-circle"></i></span> - Um projeto que tem por objetivo reimplementar os Serviços Google Play proprietários no sistema operacional Android por um substituto FLOSS. O projeto microG também mantém um fork do LineageOS com microG e F-Droid pré-instalados em <a href="https://lineage.microg.org/">Lineage para microG</a>.</li>
 </ul>

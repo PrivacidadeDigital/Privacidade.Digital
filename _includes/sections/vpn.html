@@ -1,329 +1,90 @@
-<h1 id="vpn" class="anchor"><a href="#vpn"><i class="fas fa-link anchor-icon"></i></a> Serviços de VPN focados em Privacidade</h1>
+<h1 id="vpn" class="anchor"><a href="#vpn"><i class="fas fa-link anchor-icon"></i></a> Serviço de VPN Recomendado</h1>
 
 <div class="alert alert-success" role="alert">
-  <strong>
-    Todos os provedores aqui listados são de fora dos EUA, usam encriptação, aceitam Bitcoin, aderem ao software OpenVPN e possuem uma política de não manter registros 
-    do seu tráfego e outras informações.</strong>
+  <strong>Nossa recomendação de provedor fica fora dos EUA, usa encriptação, aceita Bitcoin, suporta OpenVPN, e tem uma política de não armazenar logs de registro. <a href="/providers/vpn/#criteria">Leia nossa lista completa de critérios para mais informações</a>.</strong>
 </div>
 
-{% assign eur_to_usd = 1.14 %}
-<div class="table-responsive">
-  <table class="table sortable-theme-bootstrap" data-sortable>
-    <thead>
-      <tr>
-        <th data-sortable="true">Tabela ordenável de provedores VPN</th>
-        <th data-sortable="true">Preço Anual</th>
-        <th data-sortable="true">Teste Grátis</th>
-        <th data-sortable="true" title="Número de Servidores"># Servidores</th>
-        <th data-sortable="true">WireGuard</th>
-        <th data-sortable="true">Jurisdição</th>
-        <th data-sortable="false">Site</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-value="AirVPN">
-          <a href="https://airvpn.org/"><img alt="AirVPN" src="/assets/img/provider/AirVPN.png" width="200"
-              height="70"></a></td>
-        <td data-value="{{ 54 | times: eur_to_usd }}">54 €</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>162</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-it"></span> Itália</td>
-        <td><a href="https://airvpn.org/">AirVPN.org</a></td>
-      </tr>
+<div class="container-fluid">
 
-      <tr>
-        <td data-value="AzireVPN">
-          <a href="https://www.azirevpn.com/"><img alt="AzireVPN" src="/assets/img/provider/AzireVPN.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="{{ 45 | times: eur_to_usd }}">45 €</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>22</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td><span class="flag-icon flag-icon-se"></span> Suécia</td>
-        <td><a href="https://www.azirevpn.com/">AzireVPN.com</a></td>
-      </tr>
+  <div class="row mb-2">
+    <div class="col-lg-3 col-sm-12 pt-lg-5">
+      <img src="/assets/img/provider/Mullvad.png" height="70" width="200" class="img-fluid d-block mr-auto ml-auto align-middle" alt="Mullvad">
+    </div>
+    <div class="col">
+    <h2>Mullvad <span class="badge badge-info">EUR €60/Ano</span></h2>
+    <p><strong>Mullvad</strong> fornece uma VPN rápida e econômica com um foco sério em transparência e segurança, estando em operação desde <strong>2009</strong>. É o único provedor de VPN que atende nossos critérios de recomendação. Mullvad é sediado na <span class="flag-icon flag-icon-se"></span> Suécia e não possui opção de avaliação gratuita. Visite <a href="https://mullvad.net/">mullvad.net</a> para criar uma conta.</p>
+    <h5><span class="badge badge-success">409+ Servidores</span></h5>
+    <p>Mullvad tem 409 servidor em 38 países no momento em que esta página está sendo escrita. Normalmenteo quanto mais servidores um provedor oferece, melhor: Com centenas de servidores em operação, você tem bem mais chances de encontrar uma conexão rápida num servidor geograficamente perto de você.</p>
+    <h5><span class="badge badge-success">Suporte a WireGuard</span></h5>
+    <p>Além de conexões OpenVPN padrão, Mullvad suporta Wireguard. Wireguard é um protocolo experimental que, em teoria, possui melhor segurança e mais confiabilidade, apesar de não ser recomendado para uso em produção.</p>
+    <h5><span class="badge badge-success">Auditado Independentemente</span></h5>
+    <p>Os clientes VPN da Mullvad foram auditados por Cure53 e Assured AB num relatório de pentest <a href="https://cure53.de/pentest-report_mullvad_v2.pdf">publicado em cure53.de</a>. Os pesquisadores de segurança concluíram (tradução livre de parte do relatório original):</p>
+    <blockquote class="blockquote">
+      <p class="mb-0">...Cure53 e Assured AB estão felizes com os resultados da auditoria e o software deixa uma impressão positiva, em geral. Com dedicação à segurança por parte do time interno nas facilidades físicas da Mullvad, os testadores não tem dúvidas de que o projeto está no caminho certo de um ponto de vista relacionado à segurança.</p>
+    </blockquote>
+    <h5><span class="badge badge-success">Aceita Bitcoin</span></h5>
+    <p>Mullvad não só aceita cartões de crédito/débito e PayPal, como também <strong>Bitcoin</strong>, <strong>Bitcoin Cash</strong>, e <strong>dinheiro/moeda local</strong> como métodos anônimos de pagamento. Eles também aceitam transferências bancárias da Suíça.</p>
+    <h5><span class="badge badge-warning">Não Possui Cliente Móvel</span></h5>
+    <p>Apesar de clientes para iOS e Android estarem em desenvolvimento, usuários de dispositivos móveis precisarão depender um cliente OpenVPN de terceiros bem como arquivos de configuração OpenVPN, o que é algo um pouco mais complicado de configurar.</p>
+    <h5><span class="badge badge-info">Funcionalidades Extra</span></h5>
+    <p>Os clientes VPN Mullvad tem um killswitch embutido para bloquear conexões à Internet que não passam pela VPN. Eles também são capazes de iniciar a VPN junto com a inicialização do dispositivo em que o cliente é utilizado. O site da Mullvad também é acessível pela rede Tor em <a href="http://xcln5hkbriyklr6n.onion/">xcln5hkbriyklr6n.onion</a>.</p>
+    </div>
+  </div>
 
-      <tr>
-        <td data-value="blackVPN">
-          <a href="https://www.blackvpn.com/"><img alt="blackVPN" src="/assets/img/provider/blackVPN.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="{{ 49 | times: eur_to_usd }}">49 €</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>31</td>
-        <td><span class="label label-warning">No</span></td>
-        <td><span class="flag-icon flag-icon-hk"></span> Hong Kong</td>
-        <td><a href="https://www.blackvpn.com/">blackVPN.com</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="Cryptostorm">
-          <a href="https://cryptostorm.is/"><img alt="Cryptostorm" src="/assets/img/provider/Cryptostorm.png"
-              width="200" height="70"></a>
-        </td>
-        <td data-value="52">$ 52</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>28</td>
-        <td><span class="label label-warning">Sim</span></td>
-        <td><span class="flag-icon flag-icon-is"></span> Islândia</td>
-        <td><a href="https://cryptostorm.is/">Cryptostorm.is</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="ExpressVPN">
-          <a href="https://www.expressvpn.com/"><img alt="ExpressVPN" src="/assets/img/provider/ExpressVPN.png"
-              width="200" height="70"></a>
-        </td>
-        <td data-value="100">$ 99.95</td> <!-- USD on December 28, 2018 -->
-        <td><span class="label label-success">Sim</span></td>
-        <td>148</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-vg"></span> Ilhas Virgens Britânicas</td>
-        <td><a href="https://www.expressvpn.com/">ExpressVPN.com</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="FrootVPN">
-          <a href="https://www.frootvpn.com/"><img alt="FrootVPN" src="/assets/img/provider/FrootVPN.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="36">$ 35.88</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td>27</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-se"></span> Suécia</td>
-        <td><a href="https://www.frootvpn.com/">FrootVPN.com</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="hide.me">
-          <a href="https://hide.me/"><img alt="hide.me" src="/assets/img/provider/hide.me.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="0"><a data-toggle="tooltip" data-placement="bottom"
-            data-original-title="2 GB de transferência de dados, 1 conexão simultânea"
-            href="https://hide.me/pricing">Grátis</a>
-        </td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>160+</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-my"></span> Malásia</td>
-        <td><a href="https://hide.me/">hide.me</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="IVPN">
-          <a href="https://www.ivpn.net/"><img alt="IVPN" src="/assets/img/provider/IVPN.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="100">$ 100</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>38</td>
-        <td><span class="label label-success">Yes</span></td>
-        <td><span class="flag-icon flag-icon-gi"></span> Gibraltar</td>
-        <td><a href="https://www.ivpn.net/">IVPN.net</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="Mullvad">
-          <a href="https://mullvad.net/"><img alt="Mullvad" src="/assets/img/provider/Mullvad.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="{{ 60 | times: eur_to_usd }}">60 €</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>281</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td><span class="flag-icon flag-icon-se"></span> Suécia</td>
-        <td><a href="https://mullvad.net/">Mullvad.net</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="NordVPN">
-          <a href="https://nordvpn.com/"><img alt="NordVPN" src="/assets/img/provider/NordVPN.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="84">$ 83.88</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>5200+</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-pa"></span> Panamá</td>
-        <td><a href="https://nordvpn.com/">NordVPN.com</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="OVPN.com">
-          <a href="https://www.ovpn.com/"><img alt="OVPN" src="/assets/img/provider/ovpn.png" width="200" height="70"></a>
-        </td>
-        <td data-value="{{ 84 | times: eur_to_usd }}">84 €</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>67</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-se"></span> Suécia</td>
-        <td><a href="https://www.ovpn.com/">OVPN.com</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="Perfect Privacy">
-          <a href="https://www.perfect-privacy.com/"><img alt="Perfect Privacy"
-              src="/assets/img/provider/Perfect-Privacy.png" width="200" height="70"></a>
-        </td>
-        <td data-value="{{ 119.99 | times: eur_to_usd }}">119.99 €</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td>54</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-ch"></span> Suíça</td>
-        <td><a href="https://www.perfect-privacy.com/">Perfect-Privacy.com</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="ProtonVPN">
-          <a href="https://protonvpn.com/"><img alt="ProtonVPN" src="/assets/img/provider/ProtonVPN.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="0"><a data-toggle="tooltip" data-placement="bottom" data-original-title="3 países, 1 dispositivo, baixa velocidade" href="https://protonvpn.com/pricing">Free</a></td>
-        <td><span class="label label-success">Yes</span></td>
-        <td>396</td>
-        <td><span class="label label-warning">No</span></td>
-        <td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
-        <td><a href="https://protonvpn.com/">ProtonVPN.com</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="Proxy.sh">
-          <a href="https://proxy.sh/"><img alt="Proxy.sh" src="/assets/img/provider/Proxy.sh.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="40">$ 40</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td>300+</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-sc"></span> Seicheles</td>
-        <td><a href="https://proxy.sh/">Proxy.sh</a></td>
-      </tr>
-
-      <tr>
-        <td data-value="Trust.Zone">
-          <a href="https://trust.zone/"><img alt="Trust.Zone" src="/assets/img/provider/Trust.Zone.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="40">$ 39.95</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>164</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-sc"></span> Seicheles</td>
-        <td><a href="https://trust.zone/">Trust.Zone</a></td>
-      </tr>
-      <tr>
-        <td data-value="VPN.ht">
-          <a href="https://vpn.ht/"><img alt="VPN.ht" src="/assets/img/provider/VPN.ht.png" width="200" height="70"></a>
-        </td>
-        <td data-value="40">$ 39.99</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td>128</td>
-        <td><span class="label label-warning">No</span></td>
-        <td><span class="flag-icon flag-icon-hk"></span> Hong Kong</td>
-        <td><a href="https://vpn.ht/">VPN.ht</a></td>
-      </tr>
-      <tr>
-        <td data-value="VPNArea">
-          <a href="https://vpnarea.com/"><img alt="VPNArea" src="/assets/img/provider/vpnarea.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="59">$ 59</td>
-        <td><span class="label label-success">Sim</span></td>
-        <td>204</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-bg"></span> Bulgária</td>
-        <td><a href="https://vpnarea.com/">VPNArea.com</a></td>
-      </tr>
-      <tr>
-        <td data-value="VPNTunnel">
-          <a href="https://vpntunnel.com/"><img alt="VPNTunnel" src="/assets/img/provider/VPNTunnel.png" width="200"
-              height="70"></a>
-        </td>
-        <td data-value="{{ 35.88 | times: eur_to_usd }}">35.88 €</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td>800+</td>
-        <td><span class="label label-warning">Não</span></td>
-        <td><span class="flag-icon flag-icon-sc"></span> Seicheles</td>
-        <td><a href="https://vpntunnel.com/">VPNTunnel.com</a></td>
-      </tr>
-
-    </tbody>
-  </table>
 </div>
 
 <div class="alert alert-warning" role="alert">
-  <strong>
-    Nota: Usar um provedor de VPN não irá torná-lo anônimo, mas irá te dar mais privacidade. Uma VPN não é uma ferramenta para atividades ilegais. 
-    Não dependa de uma política de não manter registros.
-  </strong>
+  <strong>Nota: Usar um provedor de VPN não irá tornar sua navegação anônima, mas irá melhorar sua privacidade em certas situações. Uma VPN não é uma ferramenta para atividades ilegais. Não dependa de uma política "sem logs de registro".</strong>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <h3>Nossos critérios para provedores de VPN</h3>
+<h1 id="vpn" class="anchor"><a href="#worth-mentioning"><i class="fas fa-link anchor-icon"></i></a> Menção Honrosa de Provedores</h1>
 
-      <ul>
-        <li>
-          Devem operar de fora dos EUA ou outros países membros dos Cinco Olhos.
-          <p>Saiba mais: <a href="https://www.bestvpn.com/the-ultimate-privacy-guide/#avoidus"> Evite serviços baseados nos EUA e Reino Unido.</a></p>
-        </li>
-        <li>Devem ter suporte a OpenVPN.</li>
-        <li>Devem aceitar Bitcoin, dinheiro, cartões de débito ou cartões pré-pagos como método de pagamento.</li>
-        <li>
-          Não devem pedir informações pessoais além de usuário, senha e <a href="/provedores/email/"><i class="fas fa-link"></i> Email</a> para criar contas.
-        </li>
-      </ul>
+<div class="container-fluid">
 
-      <p>Nós não somos afiliados com nenhum dos provedores de VPN listados nesta página. Dessa forma, podemos te dar recomendações honestas sobre os serviços.</p>
-
-      <h3>Mais provedores VPN</h3>
-      <p>
-        <a href="https://thatoneprivacysite.net/vpn-comparison-chart/">
-          Planilha com dados verificados independentemente e imparcialmente sobre mais de 100 serviços VPN.
-        </a>
-      </p>
+  <div class="row mb-2">
+    <div class="col-lg-3 col-sm-12 pt-lg-5">
+      <img src="/assets/img/provider/ProtonVPN.png" height="70" width="200" class="img-fluid d-block mr-auto ml-auto align-middle" alt="ProtonVPN">
     </div>
-
-    <div class="col-md-6">
-
-      <h3>Informações relacionadas</h3>
-
-      <ul>
-        <li>
-          <a href="https://vikingvpn.com/blogs/off-topic/beware-of-vpn-marketing-and-affiliate-programs">Tome cuidado com análises falsas - Marketing de VPNs e programas de afiliados</a>
-        </li>
-        <li>
-          <a href="https://www.goldenfrog.com/take-back-your-internet/articles/7-myths-about-vpn-logging-and-anonymity">Eu sou anônimo quando uso uma VPN - 7 mitos desmascarados</a><br />
-          (<strong>Nota:</strong> Apesar de ser uma boa leitura, esse artigo é usado para autopromoção)
-        </li>
-        <li>
-          <a href="https://torrentfreak.com/proxy-sh-vpn-provider-monitored-traffic-to-catch-hacker-130930/">Provedor VPN Proxy.sh VPN vasculhou o tráfego do servidor para pegar hacker</a>
-        </li>
-        <li>
-          <a href="https://proxy.sh/panel/knowledgebase.php?action=displayarticle&id=5">Política ética - Todos os motivos pelos quais a Proxy.sh pode habilitar o registro de tráfego</a>
-        </li>
-        <li>
-          <a href="https://www.ivpn.net/privacy">IVPN.net irá coletar seu email e endereço de IP após o registro</a><br />
-          Leia a 
-          <a data-toggle="tooltip" data-placement="top" data-original-title="O IP coletado no registro é somente usado por alguns segundos pelo módulo anti-fraude e descartado, 
-          ou seja, não é registrado. Armazená-los iria aumentar a responsabilidade e certamente não está em seu interesse. Você pode usar Tor ou uma VPN para se registrar.">
-            Declaração sobre Email
-          </a> da IVPN.
-        </li>
-        <li>
-          <a href="https://medium.com/@blackVPN/no-logs-6d65d95a3016">blackVPN anunciou que irá deletar registros de conexão após desconexão</a>
-        </li>
-        <li>
-          <a href="https://gist.github.com/kennwhite/1f3bc4d889b02b35d8aa">Não use LT2P IPSec, utilize outros protocolos.</a>
-        </li>
-      </ul>
-
+    <div class="col">
+    <h2>ProtonVPN <span class="badge badge-info">Free</span> <span class="badge badge-info">USD $96/year</span></h2>
+    <p><strong>ProtonVPN</strong> is a strong contender in the VPN space, and they have been in operation since <strong>2016</strong>. ProtonVPN is based in <span class="flag-icon flag-icon-ch"></span> Switzerland and offers a limited free pricing tier, as well as premium options. Unfortunately due to its lack of an independent security audit it does not meet the complete criteria for recommendation, see our notes below.</p>
+    <h5><span class="badge badge-danger">Not Audited</span></h5>
+    <p>ProtonVPN has not undergone a security audit by an independent third party, and therefore cannot be strongly recommended at this time. We have still chosen to list it on this page with the assumption that an audit will be published soon:</p>
+    <blockquote class="blockquote">
+      <p class="mb-0">We are currently undergoing a complete security audit of our VPN applications by a reputable Swiss security company. The results of the audit will be summarized in a public report for cases like this.</p>
+      <footer class="blockquote-footer">Marc Loebekken, ProtonVPN AG Legal counsel</footer>
+    </blockquote>
+    <p>We will reevaluate this listing at the end of 2019 or when the aforementioned report has been published, whichever is sooner.
+    <h5><span class="badge badge-success">442+ Servers</span></h5>
+    <p>ProtonVPN has 442 servers in 33 countries at the time of writing this page. Typically the more servers a provider offers, the better: With hundreds of servers in operation, you are far more likely to find a fast connection and a server geographically closest to you.</p>
+    <h5><span class="badge badge-success">Accepts Bitcoin</span></h5>
+    <p>ProtonVPN does technically accept Bitcoin payments, however you either need to have an existing account, or contact their support team in advance to register with Bitcoin.</p>
+    <h5><span class="badge badge-success">Mobile Clients</span></h5>
+    <p>In addition to providing standard OpenVPN configuration files, ProtonVPN has mobile clients for iOS or Android allowing for easy connections to their servers.</p>
+    <h5><span class="badge badge-info">Extra Functionality</span></h5>
+    <p>The ProtonVPN clients have a built-in killswitch to block internet connections outside of the VPN. They also are able to automatically start on boot. ProtonVPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using the official Tor Browser for this purpose.</p>
     </div>
   </div>
+
+  <div class="row mb-2">
+    <div class="col-lg-3 col-sm-12 pt-lg-5">
+      <img src="/assets/img/provider/IVPN.png" height="70" width="200" class="img-fluid d-block mr-auto ml-auto align-middle" alt="IVPN">
+    </div>
+    <div class="col">
+    <h2>IVPN <span class="badge badge-info">USD $100/Year</span></h2>
+    <p><strong>IVPN</strong> is another strong premium VPN provider, and they have been in operation since <strong>2009</strong>. IVPN is based in <span class="flag-icon flag-icon-gi"></span> Gibraltar and offers a 3 day free trial. Unfortunately due to its lack of an independent security audit it does not meet the complete criteria for recommendation, see our notes below.</p>
+    <h5><span class="badge badge-danger">No Security Audit</span></h5>
+    <p>IVPN has undergone a <a href="https://cure53.de/audit-report_ivpn.pdf">no-logging audit from Cure53</a> which concluded in agreement with IVPN's no-logging claim. However, IVPN has not undergone a more comprehensive security audit by an independent third party, and therefore cannot be strongly recommended at this time. We have still chosen to list it on this page with the assumption that an audit will be published soon: The IVPN team <a href="https://twitter.com/yaelwrites/status/1161796418220089344">reportedly plans to begin the process in September</a>.</p>
+    <p>We will reevaluate this listing at the end of 2019 or when the aforementioned report has been published, whichever is sooner.
+    <h5><span class="badge badge-success">70+ Servers</span></h5>
+    <p>IVPN has 70 servers in 29 countries at the time of writing this page. Typically the more servers a provider offers, the better. IVPN has a decent (but not exceptional) server count that will most likely provide adequate coverage to most users.</p>
+    <h5><span class="badge badge-success">Accepts Bitcoin</span></h5>
+    <p>In addition to accepting credit/debit cards and PayPal, IVPN accepts <strong>Bitcoin</strong> and <strong>cash/local currency</strong> (on annual plans) as anonymous forms of payment.</p>
+    <h5><span class="badge badge-success">Mobile Clients</span></h5>
+    <p>In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for iOS or Android allowing for easy connections to their servers.</p>
+    <h5><span class="badge badge-info">Extra Functionality</span></h5>
+    <p>The IVPN clients have a built-in killswitch to block internet connections outside of the VPN. They also are able to automatically start on boot. IVPN also provides "AntiTracker" functionality, which blocks advertising networks and trackers from the network level.</p>
+    </div>
+  </div>
+
 </div>

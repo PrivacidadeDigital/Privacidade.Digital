@@ -1,35 +1,39 @@
 <h1 id="so" class="anchor"><a href="#so"><i class="fas fa-link anchor-icon"></i></a> Sistemas Operacionais de PC</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Se você usa um sistema operacional como Windows ou macOS, recomendamos que escolha uma alternativa daqui.</strong>
+  <strong>Se você utiliza um sistema operacional como o Windows 10, recomendamos que escolha uma alternativa daqui.</strong>
 </div>
 
-<div class="row mb-2">
+{% include cardv2.html
+title="Qubes OS"
+image="/assets/img/tools/Qubes-OS.png"
+description='Qubes é um sistema operacional de código-fonte aberto criado para fornecer maior segurança à computadores de mesa. Qubes é baseado em Xen, X Window System e Linux. Ele roda a maioria dos aplicativos e drivers do Linux.'
+badges="info:Xen"
+labels="warning:contrib:Este SO pode depender ou recomendar software não-livre."
+website="https://www.qubes-os.org/"
+github="https://github.com/QubesOS"
+tor="http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/"
+%}
 
-  {% include card.html color="success"
-  title="Qubes OS"
-  image="/assets/img/tools/Qubes-OS.png"
-  url="https://www.qubes-os.org/"
-  tor="http://qubesos4rrrrz6n4.onion"
-  description="Qubes é um sistema operacional de código aberto criado para entregar maior segurança à computadores de mesa. Qubes é baseado em Xen, X Window System e Linux. Ele roda a maioria dos aplicativos e drivers do Linux."
-  %}
+{% include cardv2.html
+title="Fedora Workstation"
+image="/assets/img/tools/Fedora.png"
+description='Fedora é uma distribuição Linux desenvolvida pela Fedora Project e patrocinada pela Red Hat. Fedora Workstation é uma edição segura, confiável e fácil de usar desenvolvida para desktops e notebooks, utilizando GNOME como interface gráfica do usuário.'
+badges="info:GNU/Linux"
+labels="warning:contrib:Este SO pode depender ou recomendar software não-livre."
+website="https://getfedora.org/"
+git="https://src.fedoraproject.org/"
+%}
 
-  {% include card.html color="primary"
-  title="Debian"
-  image="/assets/img/tools/Debian.png"
-  url="https://www.debian.org/"
-  tor="http://sejnfjrq6szgca7v.onion"
-  description="Debian é um sistema operacional tipo Unix e uma distribuição Linux composta inteiramente por software livre e de código aberto, muitos sob a licença pública GNU, e distribuídos por um grupo de indivíduos conhecidos como Projeto Debian."
-  %}
-
-  {% include card.html color="warning"
-  title="Trisquel"
-  image="/assets/img/tools/Trisquel.png"
-  url="https://trisquel.info/"
-  description="Trisquel é um sistema operacional baseado em Linux e derivado do Ubuntu. O projeto tem por objetivo ser um sistema totalmente composto por software livre, ou seja, sem software ou firmware proprietário. O SO usa Linux-libre, uma versão do kernel Linux sem o código não-livre (também chamado de binary blobs)."
-  %}
-
-</div>
+{% include cardv2.html
+title="Debian"
+image="/assets/img/tools/Debian.png"
+description='Debian é um sistema operacional tipo Unix e uma distribuição Linux composta inteiramente por software livre e de código-fonte aberto, muitos sob a licença pública GNU, e distribuídos por um grupo de indivíduos conhecidos como Debian Project.'
+badges="info:GNU/Linux"
+website="https://www.debian.org/"
+git="https://salsa.debian.org/qa/debsources"
+tor="http://sejnfjrq6szgca7v.onion"
+%}
 
 <h3>Aviso</h3>
 
@@ -40,18 +44,8 @@
 <h3>Menções honrosas</h3>
 
 <ul>
-  <li><a href="https://www.openbsd.org/">OpenBSD</a> - Um projeto que mantém um sistema operacional tipo Unix, grátis, multiplataforma e baseado no 4.4BSD. 
-    Com ênfase em portabilidade, padronização, exatidão e segurança proativa com criptografia integrada.</li>
-  <li><a href="https://www.archlinux.org/">Arch Linux</a> - Uma distribuição Linux leve e simples. É composta por
-    software de código aberto e livre em sua maioria, e tem um forte envolvimento da comunidade. 
-      <a href="https://www.parabola.nu/">Parabola</a> é uma versão do Arch Linux com código completamente aberto.</li>
-  <li><a href="https://www.whonix.org/">Whonix</a> - Uma distribuição Linux baseada em Debian com foco em segurança. Ela
-    almeja a privacidade, segurança e anonimidade na Internet. O sistema operacional consiste em duas máquinas virtuais,
-    uma "Estação de Trabalho" e uma "Porta Tor". Toda a comunicação é forçada a passar pela rede Tor.
-  </li>
-  <li><a href="https://subgraph.com/">Subgraph OS</a> - Outra distribuição Linux baseada em Debian, com recursos de
-    segurança reforçados o que a faz mais resistente a vulnerabilidades de segurança. Subgraph roda muitas aplicações
-    numa área isolada do sistema para limitar os riscos em casos de infecções.
-    O SO anonimiza o tráfego de Internet através da rede Tor por padrão. Nota: Ainda está em fase alpha de desenvolvimento e muitos testes e
-    melhorias ainda precisam ser feitos para que se torne um sistema estável.</li>
+  <li><a href="https://www.openbsd.org/">OpenBSD</a> <span class="badge badge-info">BSD</span> - Um projeto que mantém um sistema operacional tipo Unix, grátis, multi-plataforma e baseado no 4.4BSD. Tem ênfase em portabilidade, padronização, exatidão e segurança proativa com criptografia integrada.</li>
+  <li><a href="https://www.archlinux.org/">Arch Linux</a> <span class="badge badge-info">GNU/Linux</span> <span class="badge badge-warning" data-toggle="tooltip" title="Este SO pode depender ou recomendar software não-livre.">contrib <i class="far fa-question-circle"></i></span> - Uma distribuição Linux leve e simples. É composta por software de código-fonte aberto e livre em sua maioria, e tem um forte envolvimento da comunidade. <a href="https://www.parabola.nu/">Parabola</a> é uma versão do Arch Linux com código-fonte completamente aberto.</li>
+  <li><a href="https://trisquel.info/">Trisquel</a> <span class="badge badge-info">GNU/Linux</span> - Derivado do Ubuntu, este projeto tem por objetivo ser um sistema com software completamente livre, sem nenhuma parte proprietária, e usa o Linux-libre, uma versão do kernel Linux com o código-fonte não-livre (binary blobs) removido.</li>
+  <li><a href="https://www.whonix.org/">Whonix</a> <span class="badge badge-info">GNU/Linux</span> - Uma distribuição Linux baseada em Debian com foco em segurança. Ela almeja a privacidade, segurança e anonimidade na Internet. O sistema operacional consiste em duas máquinas virtuais, uma "Estação de Trabalho" e uma "Porta Tor". Toda a comunicação é forçada a passar primeiro pela rede Tor.</li>
 </ul>

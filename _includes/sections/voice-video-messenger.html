@@ -1,47 +1,9 @@
-<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Chamadas Encriptadas de Vídeo & Voz</h1>
+<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Chamadas de Vídeo/Voz</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>
-    Se você estiver utilizando algum serviço de chamadas de vídeo & voz como Skype, Viber ou Google Hangouts, recomendamos que escolha uma alternativa daqui.
-  </strong>
+  <strong>Se você estiver utilizando apps de chamadas de vídeo/voz como Skype, Viber ou Google Hangouts, recomendamos que escolha uma alternativa daqui.</strong> 
+  Note que muitos dos apps mencionados acima também suportam <span class="badge badge-success">VoIP</span>. Os softwares listados abaixo são <em>principalmente</em> focados em chamadas de Vídeo/Voz.
 </div>
-
-{% include cardv2.html
-title="Signal: Móvel"
-image="/assets/img/tools/Signal.png"
-website="https://signal.org"
-description="Signal é um aplicativo desenvolvido pela Open Whisper Systems. O app tem recursos de mensagens instantâneas, assim como chamadas de vídeo e voz.
-Todas as comunicações são encriptadas de ponta a ponta e é gratuito e de código-fonte aberto, permitindo que a comunidade e especialistas de segurança de todo o mundo
-possam atestar sua segurança ao auditar o código. O time de desenvolvimento é apoiado por doações da comunidade e concessões: não possui anúncios."
-github="https://github.com/signalapp"
-android=""
-ios=""
-mac=""
-windows=""
-linux=""
-%}
-
-{% include cardv2.html
-title="Wire"
-image="/assets/img/tools/wire.png"
-website="https://wire.com/download/"
-description="Wire é um aplicativo desenvolvido pela Wire Swiss GmbH. Wire permite que seus usuários troquem mensagens instantâneas com criptografia ponta-a-ponta. 
-Wire também permite realizar chamadas de vídeo e voz criptografadas. Wire é gratuito e de código-fonte aberto, permitindo que membros da comunidade e especialistas 
-verifiquem sua segurança, realizando uma auditoria no código. 
-<span 
-  class=\"badge badge-warning\" 
-  data-toggle=\"tooltip\" 
-  title=\"A empresa mantém uma lista de todos os usuários com quem você se comunicou até que você delete a sua conta.\">
-    Cuidado <i class=\"far fa-question-circle\"></i>
-</span>"
-github="https://github.com/wireapp"
-android=""
-ios=""
-mac=""
-windows=""
-linux=""
-web=""
-%}
 
 {% include cardv2.html
 title="Linphone"
@@ -58,33 +20,29 @@ mac=""
 web=""
 %}
 
-<h3>Menções honrosas</h3>
+{% include cardv2.html
+title="Mumble"
+image="/assets/img/tools/Mumble.png"
+website="https://mumble.info/"
+description="Mumble é um chat de voz de baixa latência e alta qualidade, com código-fonte aberto e criado principalmente para utilizar ao jogar. Note que, mesmo que o Mumble não mantenha registros de mensagens por padrão, <a href=\"https://github.com/mumble-voip/mumble/issues/1813\">não há criptografia de ponta-a-ponta</a>, por isso auto-hospedagem é recomendado."
+github="https://github.com/mumble-voip/"
+windows=""
+linux=""
+mac=""
+%}
+
+<h3>Menção honrosa</h3>
 
 <ul>
-  <li>
-    <a href="https://jitsi.org/">Jitsi</a> - 
-    Jitsi é um aplicativo multiplataforma gratuito e de código-fonte aberto para chamadas de voz (VoIP), videoconferências e mensagens instantâneas.
-  </li>
-  <li>
-    <a href="https://tox.chat/">Tox</a> - <span class="badge badge-warning">Experimental</span> 
-    Um software gratuito, peer-to-peer e de código-fonte aberto. Criado para mensagens instantâneas e chamadas encriptadas de vídeo e voz.
-  </li>
-  <li>
-    <a href="https://jami.net/">Jami (antigo Ring/SFLphone)</a> - Jami dá a você controle total das suas comunicações e um nível de privacidade sem igual.
-  </li>
+  <li><a href="https://jitsi.org/">Jitsi Meet</a> - Jitsi Meet é um aplicativo multi-plataforma gratuito e de código-fonte aberto para chamadas de voz (VoIP), videoconferências e mensagens instantâneas. <span class="badge badge-warning" data-toggle="tooltip" title="Nós recomendamos desabilitar WebRTC do Firefox, pois essa tecnologia pode ser usada para vazar seu endereço IP ainda que use VPN. Por isso que o navegador Tor desabilita WebRTC por padrão.">Precisa de WebRTC</span></li>
 </ul>
 
 <h3>Informações relacionadas</h3>
 
 <ul>
-  <li>
-    <a href="https://signal.org/android/apk/">
-      Usuários avançados podem fazer o download da APK do Signal diretamente. A maioria dos usuários não deve fazer isto em situações normais.
-    </a>
-  </li>
-  <li>
-    <a href="https://www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">
-      Aplicativo Seguro de Troca de Mensagens Armazena Lista de Todas as Pessoas com Quem Você Conversou de Forma Não Encriptada | Motherboard
-    </a>
-  </li>
+  <li>Mais informações sobre o Mumble:</li>
+  <ul>
+  <li><a href="https://wiki.mumble.info/wiki/Running_Murmur">Rodando um servidor Mumble</a> e <a href="https://wiki.mumble.info/wiki/Murmur.ini">seu arquivo de configurações</a>, <a href="https://wiki.mumble.info/wiki/Murmur.ini#obfuscate">obfuscando endereços IPv4</a> e <a href="https://wiki.mumble.info/wiki/Murmur.ini#Process_Administrivia">logging</a></li>
+  <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/Mumble">Usando Mumble com Tor</a>
+  </ul>
 </ul>

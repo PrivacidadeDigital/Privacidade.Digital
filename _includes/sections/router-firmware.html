@@ -1,30 +1,34 @@
 <h1 id="firmware" class="anchor"><a href="#firmware"><i class="fas fa-link anchor-icon"></i></a> Firmware para Roteadores</h1>
 
-<div class="row mb-2">
+{% include cardv2.html
+title="OpenWrt"
+image="/assets/img/tools/OpenWrt.png"
+description="OpenWrt é um sistema operacional baseado em Linux, usado principalmente em sistemas embarcados para rotear o tráfego de redes. Os principais componentes são o kernel Linux, util-linux, uClibc e BusyBox. Todos os componentes são otimizados para seu tamanho, para que o SO seja pequeno o suficiente para caber num armazenamento e memória limitados, o que é comum em roteadores caseiros."
+badges="info:Linux"
+labels="warning:contrib:Este SO pode depender ou recomendar software não-livre."
+website="https://openwrt.org/"
+git="https://git.openwrt.org/"
+github="https://github.com/openwrt"
+%}
 
-  {% include card.html color="success"
-  title="OpenWrt"
-  image="/assets/img/tools/OpenWrt.png"
-  url="https://openwrt.org/"
-  description="OpenWrt é um sistema operacional baseado em Linux, usado principalmente em sistemas embarcados para rotear o tráfego de redes. Os principais componentes são o kernel Linux, util-linux, uClibc e BusyBox. Todos os componentes são otimizados para seu tamanho, para que o SO seja pequeno o suficiente para caber num armazenamento e memória limitados, o que é comum em roteadores caseiros."
-  %}
+{% include cardv2.html
+title="pfSense"
+image="/assets/img/tools/pfSense.png"
+description="pfSense é uma distribuição FreeBSD de firewall e roteador. É instalado num computador para criar um firewall/roteador dedicado para uma rede. Se destaca por sua confiabilidade e recursos que costumam estar disponíveis somente para alguns poucos firewalls comerciais caros. pfSense é comumente implantado como um firewall de perímetro, roteador, ponto de acesso wireless, servidor DHCP, servidor DNS, e ponto de saída VPN."
+badges="info:BSD"
+labels="warning:contrib:Este SO pode depender ou recomendar software não-livre."
+website="https://www.pfsense.org/"
+github="https://github.com/pfsense/"
+%}
 
-  <!-- Tradução pode melhorar -->
-  {% include card.html color="primary"
-  title="pfSense"
-  image="/assets/img/tools/pfSense.png"
-  url="https://pfsense.org/"
-  description="pfSense é uma distribuição FreeBSD de firewall e roteador. É instalado num computador para criar um firewall/roteador dedicado para uma rede. Se destaca por sua confiabilidade e recursos que costumam estar disponíveis somente para alguns poucos firewalls comerciais caros. pfSense é comumente implantado como um firewall de perímetro, roteador, ponto de acesso wireless, servidor DHCP, servidor DNS, e ponto de saída VPN."
-  %}
-
-  {% include card.html color="warning"
-  title="LibreCMC"
-  image="/assets/img/tools/LibreCMC.png"
-  url="https://librecmc.org"
-  description="LibreCMC é uma distribuição GNU/Linux-libre para computadores com recursos mínimos, como o Ben Nanonote, roteadores Wi-FI baseados em ath9k, e outros hardwares com ênfase em software livre. O objetivo atual do projeto é conseguir estar em conformidade com o GNU Free System Distribution Guidelines (GNU FSDG) e assegurar que o projeto continue a cumprir as exigências colocadas pela Free Software Foundation (FSF)."
-  %}
-
-</div>
+{% include cardv2.html
+title="LibreCMC"
+image="/assets/img/tools/LibreCMC.png"
+description="LibreCMC é uma distribuição GNU/Linux-libre para computadores com recursos mínimos, como o Ben Nanonote, roteadores Wi-FI baseados em ath9k, e outros hardwares com ênfase em software livre. O objetivo atual do projeto é conseguir estar em conformidade com o GNU Free System Distribution Guidelines (GNU FSDG) e assegurar que o projeto continue a cumprir as exigências colocadas pela Free Software Foundation (FSF)."
+badges="info:GNU/Linux"
+website="https://librecmc.org"
+git="https://gogs.librecmc.org/libreCMC/libreCMC"
+%}
 
 <h3>Menções honrosas</h3>
 

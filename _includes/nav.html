@@ -1,119 +1,154 @@
-<nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir/fechar barra de navegação">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="fixed-top bg-dark">
+  <nav id="navbar">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html"><i class="fas fa-home"></i> <span class="sr-only">Início</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/provedores/" id="providerDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Provedor
-          </a>
-          <div class="dropdown-menu" aria-labelledby="providerDropdown">
-            <a class="dropdown-item" href="/provedores/armazenamento-na-nuvem/"><i class="fas fa-cloud fa-fw"></i> Armazenamento na Nuvem</a>
-            <a class="dropdown-item" href="/provedores/dns/"><i class="fa fa-tasks fa-fw"></i> DNS</a>
-            <a class="dropdown-item" href="/provedores/email/"><i class="fas fa-mail-bulk fa-fw"></i> Email Seguro</a>
-            <a class="dropdown-item" href="/provedores/hospedagem/"><i class="fas fa-database fa-fw"></i> Hospedagem</a>
-            <a class="dropdown-item" href="/provedores/busca/"><i class="fab fa-searchengin fa-fw"></i> Motores de Busca</a>
-            <a class="dropdown-item" href="/provedores/redes-sociais/"><i class="fas fa-expand-arrows-alt fa-fw"></i> Redes Sociais</a>
-            <a class="dropdown-item" href="/provedores/vpn/"><i class="far fa-eye-slash fa-fw"></i> VPNs para Privacidade e Segurança</a>
-            <a class="dropdown-item" href="/provedores/#ukusa"><i class="fab fa-creative-commons-nc fa-fw"></i> Evitar serviços hospedados nos EUA e Reino Unido</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/navegadores/" id="browserDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Navegador
-          </a>
-          <div class="dropdown-menu" aria-labelledby="browserDropdown">
-            <a class="dropdown-item" href="/navegadores/#extensoes"><i class="far fa-list-alt fa-fw"></i> Extensões de Privacidade para o Firefox</a>
-            <a class="dropdown-item" href="/navegadores/#about_config"><i class="fas fa-wrench fa-fw"></i> Firefox: Configurações relacionadas à privacidade</a>
-            <a class="dropdown-item" href="/navegadores/#impressao_digital"><i class="fas fa-fingerprint fa-fw"></i> Impressão Digital do Navegador</a>
-            <a class="dropdown-item" href="/navegadores/#navegador"><i class="fas fa-check fa-fw"></i> Recomendações de Navegador</a>
-            <a class="dropdown-item" href="/navegadores/#webrtc"><i class="far fa-eye fa-fw"></i> Vazamento de IP por WebRTC</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/software/" id="softwareDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Software
-          </a>
-          <div class="dropdown-menu" aria-labelledby="softwareDropdown">
-            <a class="dropdown-item" href="/software/email/#mensagens"><i class="fas fa-random fa-fw"></i> Alternativas ao Email</a>
-            <a class="dropdown-item" href="/software/chamadas/"><i class="fas fa-phone fa-fw"></i> Chamadas de Vídeo & Voz</a>
-            <a class="dropdown-item" href="/software/email/"><i class="fas fa-envelope fa-fw"></i> Clientes de Email</a>
-            <a class="dropdown-item" href="/software/compartilhamento-de-arquivos/"><i class="fas fa-file-export fa-fw"></i> Compartilhamento de Arquivos</a>
-            <a class="dropdown-item" href="/software/encriptacao/"><i class="fas fa-lock fa-fw"></i> Encriptação de Arquivos</a>
-            <a class="dropdown-item" href="/software/produtividade/"><i class="fas fa-briefcase fa-fw"></i> Ferramentas de Produtividade</a>
-            <a class="dropdown-item" href="/software/senhas/"><i class="fas fa-user-lock fa-fw"></i> Gerenciador de Senhas</a>
-            <a class="dropdown-item" href="/software/mensagens/"><i class="fab fa-telegram-plane fa-fw"></i> Mensagens Instantâneas</a>
-            <a class="dropdown-item" href="/software/notas/"><i class="far fa-sticky-note fa-fw"></i> Notas Digitais</a>
-            <a class="dropdown-item" href="/software/redes/"><i class="fas fa-user-secret fa-fw"></i> Redes Independentes</a>
-            <a class="dropdown-item" href="/software/nuvem/"><i class="fas fa-hdd fa-fw"></i> Servidor Auto-Hospedado na Nuvem</a>
-            <a class="dropdown-item" href="/software/calendario-e-contatos/"><i class="far fa-calendar-alt fa-fw"></i> Sincronização de Calendário e Contatos</a>
-            <a class="dropdown-item" href="/software/sincronizacao-de-arquivos/"><i class="fas fa-copy fa-fw"></i> Sincronização Segura de Arquivos</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/sistemas-operacionais/" id="osDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            SO
-          </a>
-          <div class="dropdown-menu" aria-labelledby="osDropdown">
-            <a class="dropdown-item" href="/sistemas-operacionais/#extensoes_android"><i class="fas fa-th fa-fw"></i> Extensões de Privacidade para Android</a>
-            <a class="dropdown-item" href="/sistemas-operacionais/#firmware"><i class="fas fa-signal fa-fw"></i> Firmware para Roteadores</a>
-            <a class="dropdown-item" href="/sistemas-operacionais/#win10"><i class="far fa-thumbs-down fa-fw"></i> Não use Windows 10</a>
-            <a class="dropdown-item" href="/sistemas-operacionais/#so_live"><i class="fas fa-compact-disc fa-fw"></i> Sistemas Operacionais Live CD</a>
-            <a class="dropdown-item" href="/sistemas-operacionais/#so_movel"><i class="fas fa-mobile-alt fa-fw"></i> Sistemas Operacionais Móveis</a>
-            <a class="dropdown-item" href="/sistemas-operacionais/#so"><i class="fas fa-th-large fa-fw"></i> Sistemas Operacionais de PC</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html#participar">Participe</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="browserDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="true"><i class="fas fa-language text-danger"></i>
-            Língua
-          </a>
-          <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-            <a href="https://www.privacytools.io" class="dropdown-item">English</a>
+    <input type="checkbox" id="nav-toggle" checked />
+    <label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
+    <a id="nav-home-mobile" class="nav-anchor" href="/index.html">
+      <img src="/assets/img/layout/logo_smaller.png" width="148px" height="22px" />
+    </a>
+
+    <div class="menu">
+
+      <div id="nav-left" class="position-relative flex-col">
+        <a class="nav-anchor" href="/index.html">
+          <span id="nav-home" class="fas fa-home"></span>
+        </a>
+
+        <!-- Provedor -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              Provedor
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="/provedores/agregadores-sociais-noticias/"><span class="far fa-newspaper fa-fw"></span> Agregadores Sociais de Notícias</a>
+            <a class="dropdown-item" href="/provedores/armazenamento-na-nuvem/"><span class="fas fa-cloud fa-fw"></span> Armazenamento na Nuvem</a>
+            <a class="dropdown-item" href="/provedores/dns/"><span class="fa fa-tasks fa-fw"></span> DNS</a>
+            <a class="dropdown-item" href="/provedores/email/"><span class="fas fa-mail-bulk fa-fw"></span> Email</a>
+            <a class="dropdown-item" href="/provedores/#ukusa"><span class="fab fa-creative-commons-nc fa-fw"></span> Evite serviços hospedados nos EUA e Reino Unido</a>
+            <a class="dropdown-item" href="/provedores/hospedagem/"><span class="fas fa-database fa-fw"></span> Hospedagem</a>
+            <a class="dropdown-item" href="/provedores/busca/"><span class="fab fa-searchengin fa-fw"></span> Motores de Busca</a>
+            <a class="dropdown-item" href="/provedores/paste/"><span class="fas fa-paste fa-fw"></span> Pastebins</a>
+            <a class="dropdown-item" href="/provedores/redes-sociais/"><span class="fas fa-expand-arrows-alt fa-fw"></span> Redes Sociais</a>
+            <a class="dropdown-item" href="/provedores/vpn/"><span class="far fa-eye-slash fa-fw"></span> VPN</a>
+          </span>
+        </details>
+
+        <!-- Navegador -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              Navegador
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="/navegadores/#navegador"><span class="fas fa-check fa-fw"></span> Recomendações de Navegadores</a>
+            <a class="dropdown-item" href="/navegadores/#impressao_digital"><span class="fas fa-fingerprint fa-fw"></span> Info. sobre Impressão Digital</a>
+            <a class="dropdown-item" href="/navegadores/#webrtc"><span class="far fa-eye fa-fw"></span> Vazamento de IP por WebRTC</a>
+            <a class="dropdown-item" href="/navegadores/#extensoes"><span class="far fa-list-alt fa-fw"></span> Extensões de Navegador</a>
+            <a class="dropdown-item" href="/navegadores/#about_config"><span class="fas fa-wrench fa-fw"></span> Configurações do Firefox</a>
+          </span>
+        </details>
+
+        <!-- Software -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              Software
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="/software/email/#mensagens"><span class="fas fa-random fa-fw"></span> Alternativas ao Email</a>
+            <a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> Clientes de Email</a>
+            <a class="dropdown-item" href="/software/compartilhamento-arquivos/"><span class="fas fa-file-export fa-fw"></span> Compartilhamento de Arquivos</a>
+            <a class="dropdown-item" href="/software/comunicacao-tempo-real/"><span class="fas fa-comments fa-fw"></span> Comunicação em Tempo Real</a>
+            <a class="dropdown-item" href="/software/encriptacao/"><span class="fas fa-lock fa-fw"></span> Encriptação de Arquivos</a>
+            <a class="dropdown-item" href="/software/produtividade/"><span class="fas fa-briefcase fa-fw"></span> Ferramentas de Produtividade</a>
+            <a class="dropdown-item" href="/software/senhas/"><span class="fas fa-user-lock fa-fw"></span> Gerenciador de Senhas</a>
+            <a class="dropdown-item" href="/software/notas/"><span class="far fa-sticky-note fa-fw"></span> Notas Digitais</a>
+            <a class="dropdown-item" href="/software/redes/"><span class="fas fa-user-secret fa-fw"></span> Redes Independentes</a>
+            <a class="dropdown-item" href="/software/nuvem/"><span class="fas fa-hdd fa-fw"></span> Servidor Auto-Hospedado na Nuvem</a>
+            <a class="dropdown-item" href="/software/calendario-contatos/"><span class="fas fa-calendar fa-fw"></span> Sincronização de Calendário e Contatos</a>            
+            <a class="dropdown-item" href="/software/sincronizacao-arquivos/"><span class="fas fa-copy fa-fw"></span> Sincronização Segura de Arquivos</a>
+          </span>
+        </details>
+
+        <!-- SO -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              Sistema Operacional
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="/sistemas-operacionais/#so"><span class="fas fa-th-large fa-fw"></span> Sistemas Operacionais de PC</a>
+            <a class="dropdown-item" href="/sistemas-operacionais/#so_live"><span class="fas fa-compact-disc fa-fw"></span> Sistemas Operacionais Live CD</a>
+            <a class="dropdown-item" href="/sistemas-operacionais/#so_movel"><span class="fas fa-mobile-alt fa-fw"></span> Sistemas Operacionais Móveis</a>
+            <a class="dropdown-item" href="/sistemas-operacionais/#extensoes_android"><span class="fas fa-th fa-fw"></span> Extensões de Privacidade para Android</a>
+            <a class="dropdown-item" href="/sistemas-operacionais/#firmware"><span class="fas fa-signal fa-fw"></span> Firmware para Roteadores</a>
+            <a class="dropdown-item" href="/sistemas-operacionais/#win10"><span class="far fa-thumbs-down fa-fw"></span> Não use Windows 10</a>
+          </span>
+        </details>
+
+        <a class="nav-anchor" href="/index.html#participar">Participe</a>
+      </div>
+
+      <!-- Língua -->
+      <div id="nav-right">
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              <span class="fas fa-language text-danger"></span>
+              Língua
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a href="https://privacytools.io/" class="dropdown-item">English</a>
             <a href="https://privacytools.twngo.xyz/" class="dropdown-item">繁體中文</a>
             <a href="https://victorhck.gitlab.io/privacytools-es/" class="dropdown-item">Español</a>
+            <a href="https://pl.privacytools.io/" class="dropdown-item">Polski</a>
+            <a href="https://www.privacidade.digital/" class="dropdown-item">Português</a>
             <a href="https://privacytools.it-sec.rocks/" class="dropdown-item">Deutsch</a>
             <a href="https://privacytools-it.github.io/" class="dropdown-item">Italiano</a>
             <a href="https://privacytools.ru" class="dropdown-item">Русский</a>
             <a href="https://privacytools.dreads-unlock.fr" class="dropdown-item">Français</a>
-          </div>
-        </li>
-        <!-- Dropdown de serviços desabilitado, porque nossa versão em Português ainda não administra nenhum dos serviços disponíveis no projeto original em Inglês.
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/servicos/" id="browserDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Serviços
-          </a>
-          <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-            <a class="dropdown-item" href="https://search.privacytools.io/"><i class="fas fa-search fa-fw"></i> Searx - Privacy Friendly Search</a>
-            <a class="dropdown-item" href="https://social.privacytools.io/"><i class="fas fa-retweet fa-fw"></i> Mastodon - Social Network</a>
-            <a class="dropdown-item" href="https://chat.privacytools.io/"><i class="fas fa-comment fa-fw"></i> Matrix - Federated Chat</a>
-            <a class="dropdown-item" href="https://forum.privacytools.io/"><i class="fab fa-discourse fa-fw"></i> Discourse - Forum</a>
-            <a class="dropdown-item" href="https://git.privacytools.io/"><i class="fab fa-git fa-fw"></i> Gitea - Git-Repository Manager</a>
-            <a class="dropdown-item" href="https://write.privacytools.io/"><i class="fas fa-pen-alt fa-fw"></i> Write Freely - Federated Blog</a>
-            <a class="dropdown-item" href="https://bin.privacytools.io/"><i class="fas fa-clipboard fa-fw"></i> PrivateBin - Encrypted Pastebin</a>
-          </div>
-        </li>
-      -->
-        <li class="nav-item">
-          <a class="nav-link" href="/doar/">Doações <i class="fas fa-heart text-danger"></i></a>
-        </li>
-      </ul>
+          </span>
+        </details>
+
+        <!-- Serviços -->
+        <!-- 
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              Services
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="https://forum.privacytools.io/"><span class="fab fa-discourse fa-fw"></span> Discourse - Forum</a>
+            <a class="dropdown-item" href="https://git.privacytools.io/"><span class="fab fa-git fa-fw"></span> Gitea - Git-Repository Manager</a>
+            <a class="dropdown-item" href="https://social.privacytools.io/"><span class="fas fa-retweet fa-fw"></span> Mastodon - Social Network</a>
+            <a class="dropdown-item" href="https://chat.privacytools.io/"><span class="fas fa-comment fa-fw"></span> Matrix - Federated Chat</a>
+            <a class="dropdown-item" href="https://bin.privacytools.io/"><span class="fas fa-clipboard fa-fw"></span> PrivateBin - Encrypted Pastebin</a>
+            <a class="dropdown-item" href="https://search.privacytools.io/"><span class="fas fa-search fa-fw"></span> Searx - Privacy Friendly Search</a>
+            <a class="dropdown-item" href="https://write.privacytools.io/"><span class="fas fa-pen-alt fa-fw"></span> Write Freely - Federated Blog</a>
+          </span>
+        </details>
+        -->
+
+        <!-- 
+        <a href="https://blog.privacytools.io/" class="nav-anchor">Blog </a> 
+        -->
+        <a href="/doar/" class="nav-anchor">
+          Doar <span class="fas fa-heart text-danger"></span>
+        </a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>
