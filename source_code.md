@@ -203,16 +203,28 @@ Menções Honrosas
 
 - Password Safe: https://sourceforge.net/projects/passwordsafe/files/
 
+<<<<<<< HEAD
 ## Sincronização de Calendário e Contatos
   Nextcloud: https://github.com/nextcloud
+=======
+## Calendar and Contacts Sync
+>>>>>>> upstream/master
 
-  EteSync: https://github.com/etesync
+Nextcloud: https://github.com/nextcloud
 
+<<<<<<< HEAD
    Menções Honrosas:
 .
     fruux: https://fruux.com/opensource/
 .
     Flock: https://github.com/signalapp/Flock
+=======
+EteSync: https://github.com/etesync
+
+Worth Mentioning:
+
+- fruux: https://fruux.com/opensource/
+>>>>>>> upstream/master
 
 ## Encriptação de Arquivos
 
@@ -222,8 +234,12 @@ GNU Privacy Guard: https://github.com/gpg/gnupg
 
 PeaZip: https://github.com/giorgiotani/PeaZip/
 
+<<<<<<< HEAD
 
 Menções Honrosas:
+=======
+Worth Mentioning:
+>>>>>>> upstream/master
 - Cryptomator: https://github.com/cryptomator/cryptomator
 
 - DiskCryptor: https://github.com/smartinm/diskcryptor
@@ -232,7 +248,13 @@ Menções Honrosas:
 
 - Hat.sh: https://github.com/sh-dv/hat.sh
 
+<<<<<<< HEAD
 ## Redes Independentes
+=======
+- Keka: https://www.keka.io/
+
+## Self-contained Networks
+>>>>>>> upstream/master
  TorBrowser: https://gitweb.torproject.org/tor.git
 
  I2p: https://github.com/i2p
@@ -280,19 +302,11 @@ Raddle: https://gitlab.com/postmill
 
 Njalla: Non-free/Proprietary Software
 
-DNSCrypt: https://github.com/dnscrypt
-
-DNSCrypt-proxy: https://github.com/jedisct1/dnscrypt-proxy/
-
-OpenNic: https://github.com/opennic/ (mostly)
-
-Webpage: https://github.com/opennic/opennic-web
+DNSCrypt-Proxy: https://github.com/jedisct1/dnscrypt-proxy/
 
 ### Menções Honrosas
 
 - NoTrack: https://github.com/quidsup/notrack
-
-- Namecoin: https://github.com/namecoin
 
 - Pi-hole: https://github.com/pi-hole
 
@@ -304,15 +318,29 @@ BlahDNS: https://github.com/ookangzheng/blahdns/
 
 CloudFlare DNS: https://github.com/cloudflare/dns
 
+NixNet DNS: https://git.nixnet.xyz/NixNet/dns
+
 PowerDNS: https://github.com/PowerDNS/pdns
 
 ### Menções Honrosas e Informações Adicionais
 
+#### Mobile
+
 - DNSCloak: https://github.com/s-s/dnscloak
+
+- Nebulo: https://git.frostnerd.com/PublicAndroidApps/smokescreen/
+
+#### Local DNS servers
 
 - Stubby: https://github.com/getdnsapi/stubby
 
+<<<<<<< HEAD
 ## Notas Digitais
+=======
+- Unbound: https://github.com/NLnetLabs/unbound
+
+## Digital Notebook
+>>>>>>> upstream/master
  Joplin: https://github.com/laurent22/joplin
 
  Standard Notes: https://github.com/standardnotes/
@@ -340,11 +368,16 @@ PowerDNS: https://github.com/PowerDNS/pdns
   website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
 
 
+<<<<<<< HEAD
 ## Ferramentas de Produtividade
  Etherpad: https://github.com/ether/etherpad-lite
+=======
+## Productivity Tools
+>>>>>>> upstream/master
 
- Write.as: https://code.as/writeas
+CryptPad: https://github.com/xwiki-labs/cryptpad
 
+<<<<<<< HEAD
  Texto Protegido:
 Frontend: ?
 Backend: proprietário
@@ -373,11 +406,29 @@ Backend: proprietário
   Project Board:
  Taiga: https://github.com/taigaio/
  Website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
+=======
+Etherpad: https://github.com/ether/etherpad-lite
 
+Write.as: https://code.as/writeas
 
-   Dudle: https://github.com/kellerben/dudle/
+### Worth Mentioning
 
-   LibreOffice: https://gerrit.libreoffice.org/
+- Cryptee: https://github.com/cryptee
+
+- EtherCalc: https://github.com/audreyt/ethercalc
+
+- Disroot: https://git.fosscommunity.in/disroot
+
+- Dudle: https://github.com/kellerben/dudle/
+
+- Framadate: https://framagit.org/framasoft/framadate/framadate
+>>>>>>> upstream/master
+
+- LibreOffice: https://gerrit.libreoffice.org/
+
+- VSCodium: https://github.com/VSCodium/vscodium
+
+MAT2: https://0xacab.org/jvoisin/mat2
 
 ## Sistemas Operacionais de PC
  QubesOS: https://github.com/QubesOS

@@ -67,9 +67,12 @@
   <dd>Desativa a funcionalidade que permite que sites recebam uma notificação quando você copia, cola ou corta algo de
     uma página, o que os deixariam saber qual parte da página foi selecionada.</dd>
 
+<<<<<<< HEAD
   <dt>geo.enabled = false</dt>
   <dd>Desativa geolocalização.</dd>
 
+=======
+>>>>>>> upstream/master
   <dt>media.eme.enabled = false</dt>
   <dd>
     <p>Desativa a reprodução de conteúdos HTML5 controlados por DRM, que, se habilitada, faz download automático do
@@ -143,23 +146,8 @@
     </ul>
   </dd>
 
-  <dt>network.trr.mode = 2</dt>
-  <dd>
-  Use Trusted Recursive Resolver (DNS-over-HTTPS) first and if it fails, use the system resolver <a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver">Source</a>
-  <ul>
-    <li>0 = disabled by default, may change in the future</li>
-    <li>1 = use the faster resolver</li>
-    <li>2 = use DoH first, fallback to system resolver</li>
-    <li>3 = only use DoH. This may require <code>network.trr.bootstrapAddress</code> or using an IP address in <code>network.trr.uri</code>.</li>
-    <li>5 = explicitly disable DoH</li>
-  </ul>
-  </dd>
-
-  <dt>network.trr.uri = CHANGEME</dt>
-  <dd>The address of your DNS-over-HTTPS provider, if you don't have one, <a href="/providers/dns/#icanndns">check our encrypted DNS recommendations</a>. It can also be changed in <em>Settings, Network Settings, Enable DNS over HTTPS, Use Provider, Custom</em>.</dd>
-
-  <dt>network.security.esni.enabled = true</dt>
-  <dd>Hide the address which you are requesting SSL certificate for if the server supports it. This <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1500289">requires DoH/TRR to be enabled</a> even <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1542754">on Android 9+ when Private DNS is enabled</a>.</dd>
+  <dt>Looking for TRR, DoH or ESNI?</dt>
+  <dd>They have moved to <a href="/providers/dns/#icanndns">our DNS page</a>.</dd>
 
   <dt>webgl.disabled = true</dt>
   <dd>Desabilita WebGL, que pode ser um risco de segurança. 
@@ -199,6 +187,7 @@
   </dd>
 </dl>
 
+<<<<<<< HEAD
 <h3>Modelos de user.js</h3>
 
 <div class="alert alert-success" role="alert">O <strong>user.js</strong> é um arquivo de configuração que pode controlar centenas de preferências do Firefox. 
@@ -209,6 +198,11 @@
   Um modelo user.js de Firefox para configurar e enrijecer a privacidade, segurança e prevenção de idenficação por impressão digital.</li>
   <li><a href="https://github.com/pyllyukko/user.js">pyllyukko/user.js</a> - 
   Esse é um arquivo de configuração user.js para enrijecer as configurações do Firefox e deixá-lo mais seguro.</li>
+=======
+<h3 id="user.js">Firefox user.js Templates</h3>
+<ul>
+	<li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting.</li>
+>>>>>>> upstream/master
 </ul>
 
 <h3>Informações relacionadas</h3>

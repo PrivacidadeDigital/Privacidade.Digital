@@ -6,11 +6,11 @@
   </strong>
 </div>
 
-<div class="row mb-2">
-
-  {% include card.html color="success"
+{%
+  include cardv2.html
   title="Nextcloud"
   image="/assets/img/provider/Nextcloud.png"
+<<<<<<< HEAD
   url="https://nextcloud.com/"
   footer="SO do Cliente: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Servidor: Linux."
   description="NextCloud é um pacote de softwares (tanto para clientes quanto servidores) para criar e usar serviços de armazenamento de arquivos. 
@@ -27,10 +27,32 @@
   description="Muitos provedores de email também oferecem serviços de sincronização de calendário ou contatos. 
   Recorra a <a href=\"../../provedores/email\">seção de Provedores de Email</a> para escolher um provedor e checar se eles também oferecem essa funcionalidade."
   %}
+=======
+  description="<strong>Nextcloud</strong> is a suite of client-server software for creating and using file hosting services. This includes calendar sync via CalDAV and contacts sync via CardDAV. Nextcloud is free and open-source, thereby allowing anyone to install and operate it without charge on a private server."
+  website="https://nextcloud.com/"
+  forum="https://forum.privacytools.io/t/discussion-nextcloud-calender-contacts-sync-tools/1535"
+  github="https://github.com/nextcloud"
+  windows="https://nextcloud.com/install/"
+  linux="https://nextcloud.com/install/"
+  mac="https://nextcloud.com/install/"
+  android="https://nextcloud.com/install/"
+  ios="https://nextcloud.com/install/"
+%}
 
-  {% include card.html color="warning"
+{%
+  include cardv2.html
+  title="Email Providers"
+  image="/assets/img/misc/email.png"
+  description='Many email providers also offer calendar and or contacts sync services. Refer to the <a href="/providers/email">Email Providers section</a> to choose an email provider and check if they also offer calendar and or contacts sync.'
+  website="/providers/email"
+%}
+>>>>>>> upstream/master
+
+{%
+  include cardv2.html
   title="EteSync"
   image="/assets/img/provider/etesync.png"
+<<<<<<< HEAD
   url="https://www.etesync.com/"
   footer="SO do Cliente: Android, Web. SO do Servidor: Linux."
   description="EteSync é um serviço seguro com encriptação ponta-a-ponta, sincronização na nuvem de informações pessoais da agenda e backup. 
@@ -38,6 +60,16 @@
   %}
 
 </div>
+=======
+  description="<strong>EteSync</strong> is a secure, end-to-end encrypted and journaled personal information (e.g. contacts and calendar) cloud synchronization and backup for Android and any OS that supports CalDAV/CardDAV. It costs $14 per year to use, or you can host the server yourself for free."
+  website="https://www.etesync.com/"
+  forum="https://forum.privacytools.io/t/discussion-etesync-calender-contacts-sync-tools/1536"
+  github="https://github.com/etesync"
+  web="https://www.etesync.com/"
+  linux="https://www.etesync.com/"
+  android="https://www.etesync.com/"
+%}
+>>>>>>> upstream/master
 
 <h3>Menções honrosas</h3>
 
@@ -47,7 +79,11 @@
   </li>
 
   <li>
+<<<<<<< HEAD
     <a href="../nuvem">Backups na nuvem</a> - considere exportar seu calendário e/ou contatos regularmente e salvá-los em dispositivos de armazenamento separados,
      ou fazer upload num serviço na nuvem (após <a href="../encriptacao/#encriptar">encriptá-los</a>).
+=======
+    <a href="../cloud">cloud backups</a> - consider regularly exporting your calendar and or contacts and backing them up on a separate storage drive or uploading them to cloud storage (ideally after <a href="../encryption-tools/">encrypting</a> them).
+>>>>>>> upstream/master
   </li>
 </ul>
