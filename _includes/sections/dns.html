@@ -1,56 +1,25 @@
 <h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Domain Name Systems (DNS)</h1>
 
-<<<<<<< HEAD
-{% include cardv2.html
-title="OpenNIC: Serviço"
-image="/assets/img/tools/OpenNIC.png"
-description="OpenNIC é uma rede alternativa à ICANN e seus registros. Como todos os sistemas alternativos de DNS raiz, os domínios hospedados no OpenNIC são inacessíveis para a grande maioria da Internet."
-website="https://www.opennic.org/"
-github="https://github.com/OpenNIC"
-%}
-
-{% include cardv2.html
-title="Njalla: Registro de Domínios"
-image="/assets/img/provider/Njalla.png"
-description="Njalla só precisa do seu email ou endereço jabber para registrar um nome de domínio para você. Criado por pessoas do The
-Pirate Bay e VPN IPredator. Métodos de pagamento: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash e PayPal. Um serviço de
-registro de domínios consciente acerca de privacidade."
-website="https://njal.la/"
-tor="http://njalladnspotetti.onion"
-%}
-
-{% include cardv2.html
-title="DNSCrypt: Ferramenta"
-image="/assets/img/tools/DNSCrypt.png"
-description="Um protocolo responsável por proteger a comunicação entre o cliente e provedor DNS. O protocolo DNSCrypt usa
-criptografia de curvas elípticas de alta velocidade e segurança e é bastante similar ao DNSCurve, mas com foco na
-segurança da comunicação entre um cliente e seu resolvedor de primeiro nível."
-website="https://dnscrypt.info/"
-github="https://github.com/jedisct1/dnscrypt-proxy"
-=======
-{%
+{% 
   include cardv2.html
-  title="Njalla - Domain Registration"
+  title="Njalla: Registro de Domínios"
   image="/assets/img/provider/Njalla.png"
-  description="Njalla only needs your email or XMPP address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service."
+  description="Njalla só precisa do seu email ou endereço jabber para registrar um nome de domínio para você. Criado por pessoas do The Pirate Bay e VPN IPredator. Métodos de pagamento: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash e PayPal. Um serviço de registro de domínios consciente acerca de privacidade."
   website="https://njal.la/"
   tor="http://njalladnspotetti.onion"
-  forum="https://forum.privacytools.io/t/discussion-njalla/339"
 %}
 
-{%
+{% 
   include cardv2.html
-  title="DNSCrypt-Proxy - Tool"
-  image="/assets/img/tools/DNSCrypt-Proxy.png"
-  description="DNSCrypt-Proxy is a command-line DNS proxy with support for the encrypted DNS protocols, DNS over HTTPS and DNSCrypt. Can cache results to improve speed, and allows filtering, forwarding, and cloaking."
-  website="https://github.com/jedisct1/dnscrypt-proxy/"
-  forum="https://forum.privacytools.io/t/discussion-dnscrypt-proxy/1498"
-  github="https://github.com/jedisct1/dnscrypt-proxy/"
+  title="DNSCrypt: Ferramenta"
+  image="/assets/img/tools/DNSCrypt.png"
+  description="Um protocolo responsável por proteger a comunicação entre o cliente e provedor DNS. O protocolo DNSCrypt usa criptografia de curvas elípticas de alta velocidade e segurança e é bastante similar ao DNSCurve, mas com foco na segurança da comunicação entre um cliente e seu resolvedor de primeiro nível."
+  website="https://dnscrypt.info/"
+  github="https://github.com/jedisct1/dnscrypt-proxy"
   linux=""
   mac=""
   android=""
   ios=""
->>>>>>> upstream/master
 %}
 
 <h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> Provedores de DNS ICANN Encriptados</h1>
@@ -65,8 +34,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
   <table class="table sortable-theme-bootstrap" data-sortable>
     <thead>
       <tr>
-<<<<<<< HEAD
-        <th data-sorted="true" data-sorted-direction="descending">Provedor DNS ICANN</th>
+        <th data-sorted="true" data-sorted-direction="ascending">Provedor DNS ICANN</th>
         <th data-sortable="true">Localizações dos Servidores</th>
         <th data-sortable="false">Política de Privacidade</th>
         <th data-sortable="true">Tipo</th>
@@ -76,19 +44,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <th data-sortable="true">Minimização QNAME</th>
         <th data-sortable="true">Filtragem</th>
         <th data-sortable="true">Código-fonte</th>
-=======
-        <th data-sorted="true" data-sorted-direction="ascending">ICANN DNS Provider</th>
-        <th data-sortable="true">Server Locations</th>
-        <th data-sortable="false">Privacy Policy</th>
-        <th data-sortable="true">Type</th>
-        <th data-sortable="true">Logging</th>
-        <th data-sortable="true">Protocols</th>
-        <th data-sortable="true">DNSSEC</th>
-        <th data-sortable="true">QNAME Minimization</th>
-        <th data-sortable="true">Filtering</th>
-        <th data-sortable="true">Source Code</th>
-        <th data-sortable="true">Hosting Provider</th>
->>>>>>> upstream/master
+        <th data-sortable="true">Provedor de Hospedagem</th>
       </tr>
     </thead>
     <tbody>
@@ -96,16 +52,12 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td data-value="AdGuard">
           <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a>
         </td>
-<<<<<<< HEAD
-        <td>Anycast (sediado em <span class="flag-icon flag-icon-cy"></span> Chipre)</td>
-=======
-        <td>Anycast (based in
+        <td>Anycast (sediado em 
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-cy"></span>
-              Cyprus)
+              Chipre)
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://adguard.com/en/privacy/dns.html" href="https://adguard.com/en/privacy/dns.html">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -114,22 +66,16 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Comercial</td>
         <td>Não</td>
         <td>DoH, DoT, DNSCrypt</td>
-<<<<<<< HEAD
         <td>Sim</td>
         <td>Sim</td>
-        <td>Anúncios, rastreadores, domínios maliciosos</td>
-=======
-        <td>Yes</td>
-        <td>Yes</td>
         <td>
           <span class="no-text-wrap">
-            Ads, trackers,
+            Anúncios, rastreadores, 
           </span>
           <span class="no-text-wrap">
-            malicious domains
+            domínios maliciosos
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/AdguardTeam/AdGuardDNS/" href="https://github.com/AdguardTeam/AdGuardDNS/">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -146,60 +92,47 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td data-value="BlahDNS">
           <a href="https://blahdns.com/">BlahDNS</a>
         </td>
-<<<<<<< HEAD
-        <td><span class="flag-icon flag-icon-ch"></span> Suíça, <span class="flag-icon flag-icon-jp"></span> Japão, <span class="flag-icon flag-icon-de"></span> Alemanha</td>
-=======
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-ch"></span>
-            Switzerland,
+            Suíça,
           </span>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-jp"></span>
-            Japan,
+            Japão,
           </span>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-de"></span>
-            Germany
+            Alemanha
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Sem log de dados."'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-<<<<<<< HEAD
         <td>Projeto Hobby</td>
         <td>Não</td>
-        <td data-value="dot/443">DoH, <span data-toggle="tooltip" data-placement="bottom" data-original-title="Além da porta 853, também suporta a 443"><strong>DoT</strong></span>, DNSCrypt</td>
-        <td>Sim</td>
-        <td>Sim</td>
-        <td>Anúncios, rastreadores, domínios maliciosos <span class="badge badge-warning" data-toggle="tooltip" data-original-title="E alguns domínios adicionais."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span></td>
-=======
-        <td>Hobby Project</td>
-        <td>No</td>
         <td data-value="dot/443">
           <span class="no-text-wrap">
             DoH,
-            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853">
+            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Além da porta 853, também suporta a 443">
               DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>,
             </span>
           </span>
           DNSCrypt
         </td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>Sim</td>
+        <td>Sim</td>
         <td>
           <span class="no-text-wrap">
-            Ads, trackers,
+            Ads, rastreadores,
           </span>
           <span class="no-text-wrap">
-            malicious domains
-            <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard, IDN, and non-ASCII domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
+             domínios maliciosos
+            <span class="badge badge-warning" data-toggle="tooltip" data-original-title="E alguns domínios adicionais."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/ookangzheng/blahdns/" href="https://github.com/ookangzheng/blahdns/">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -222,16 +155,12 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td data-value="Cloudflare">
           <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare é uma das maiores redes do mundo, e pode ser um problema ao se considerar anonimidade e descentralização."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
         </td>
-<<<<<<< HEAD
-        <td>Anycast (sediado nos <span class="flag-icon flag-icon-us"></span> EUA)</td>
-=======
-        <td>Anycast (based in
+        <td>Anycast (sediado nos
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-us"></span>
-            US)
+            EUA)
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.cloudflare.com/privacypolicy/" href="https://www.cloudflare.com/privacypolicy/">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -240,38 +169,23 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Comercial</td>
         <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nós iremos coletar dados limitados de requisições DNS enviadas aos resolvedores. Esses dados não contém endereços de IP de usuários ou qualquer tipo de informação identificável, e grande parte dos dados é armazenado por apenas 24 horas."' href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Parcial</a></td>
         <td>DoH, DoT, DNSCrypt</td>
-<<<<<<< HEAD
         <td>Sim</td>
         <td>Sim</td>
         <td>Não</td>
-        <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/cloudflare/dns" href="https://github.com/cloudflare/dns">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
-          </a>
-        </td>
-=======
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
         <td>?</td>
-        <td>Self</td>
->>>>>>> upstream/master
+        <td>Auto-Hospedagem</td>
       </tr>
 
       <tr>
         <td data-value="CZ.NIC">
           <a href="https://www.nic.cz/odvr/">CZ.NIC</a>
         </td>
-<<<<<<< HEAD
-        <td><span class="flag-icon flag-icon-cz"></span> República Checa</td>
-=======
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-cz"></span>
-            Czech Republic
+            República Checa
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Resolvedores de CZ.NIC não coletam nenhum dado pessoal, nem informações sobre páginas das quais seu computador envia dados."'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -282,57 +196,44 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>DoH, DoT</td>
         <td>Sim</td>
         <td>Sim</td>
-        <td data-value="No">?</td>
+        <td data-value="Não">?</td>
         <td>?</td>
-        <td>Self</td>
+        <td>Auto-Hospedagem</td>
       </tr>
 
       <tr>
         <td data-value="dnswarden">
           <a href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md">dnswarden</a>
         </td>
-<<<<<<< HEAD
-        <td><span class="flag-icon flag-icon-de"></span> Alemanha</td>
-=======
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-de"></span>
-            Germany
+            Alemanha
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc" href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-<<<<<<< HEAD
         <td>Projeto Hobby</td>
         <td>Não</td>
-        <td data-value="dot/443">DoH, <span data-toggle="tooltip" data-placement="bottom" data-original-title="Além da porta 853, também suporta a 443"><strong>DoT</strong></span>, DNSCrypt</td>
-        <td>Sim</td>
-        <td>Sim</td>
-        <td>Depende do servidor escolhido</td>
-=======
-        <td>Hobby Project</td>
-        <td>No</td>
         <td data-value="dot/443">
           <span class="no-text-wrap">
             DoH,
-            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853">
+            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Além da porta 853, também suporta a 443">
               DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>,
             </span>
           </span>
           DNSCrypt
         </td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>Sim</td>
+        <td>Sim</td>
         <td>
           <span class="no-text-wrap">
-            Based on server choice
+            Depende do servidor escolhido
           </span>
         </td>
->>>>>>> upstream/master
         <td>?</td>
         <td>
           <span class="no-text-wrap">
@@ -345,43 +246,30 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td data-value="Foundation for Applied Privacy">
           <a href="https://appliedprivacy.net/services/dns/">Foundation for Applied Privacy</a>
         </td>
-<<<<<<< HEAD
-        <td><span class="flag-icon flag-icon-at"></span> Áustria</td>
-=======
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-at"></span>
-            Austria
+            Áustria
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://appliedprivacy.net/privacy-policy" href="https://appliedprivacy.net/privacy-policy">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-<<<<<<< HEAD
         <td>Sem fins lucrativos</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nós NÃO salvamos logs de dados com seu endereço de IP our requisições DNS durante operações normais. Nós NÃO compartilhamos dados de requisições com terceiros que não estão diretamente envolvidos em resolver a requisição (por exemplo enviando requisições para nameservers autoritários para resolvâ-las)."' href="https://appliedprivacy.net/privacy-policy/">Parcial</a></td>
-        <td data-value="dot/443">DoH, <span data-toggle="tooltip" data-placement="bottom" data-original-title="Além da porta 853, também suporta a 443"><strong>DoT</strong></span></td>
-        <td>Sim</td>
-        <td>Sim</td>
-        <td>Não</td>
-=======
-        <td>Non-Profit</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We do NOT log your IP address or DNS queries during normal operations. We do NOT share query data with third parties that are not directly involved with resolving the query (i.e. sending queries to authoritative nameservers for resolution)."' href="https://appliedprivacy.net/privacy-policy/">Some</a></td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nós NÃO salvamos logs de dados com seu endereço de IP ou requisições DNS durante operações normais. Nós NÃO compartilhamos dados de requisições com terceiros que não estão diretamente envolvidos em resolver a requisição (por exemplo enviando requisições para nameservers autoritários para resolvâ-las)."' href="https://appliedprivacy.net/privacy-policy/">Parcial</a></td>
         <td data-value="dot/443">
           <span class="no-text-wrap">
             DoH,
-            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853">
+            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Além da porta 853, também suporta a 443">
               DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>
             </span>
           </span>
         </td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
->>>>>>> upstream/master
+        <td>Sim</td>
+        <td>Sim</td>
+        <td>Não</td>
         <td>?</td>
         <td>
           <span class="no-text-wrap">
@@ -394,44 +282,31 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td data-value="nextdns">
           <a href="https://www.nextdns.io/">NextDNS</a>
         </td>
-        <td>Anycast (based in
+        <td>Anycast (sediado nos
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-us"></span>
-            US)
+            EUA)
           </span>
         </td>
-<<<<<<< HEAD
-        <td>Anycast (sediado nos <span class="flag-icon flag-icon-us"></span> EUA)</td>
-=======
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.nextdns.io/privacy" href="https://www.nextdns.io/privacy">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-<<<<<<< HEAD
         <td>Comercial</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Algumas das funcionalidades precisam de certa forma de retenção de dados. Nesses casos, nós damos aos nossos usuários a opção de desabilitar parcialmente ou completamente tal funcionalidade (e retenções de dados relacionadas a elas), e então prosseguimos a seguir com essa promessa imediatamente"' href="https://www.nextdns.io/privacy">Depende de escolhas do usuário</a></td>
-        <td>DoH, DoT, DNSCrypt</td>
-        <td>Sim</td>
-        <td>Sim</td>
-        <td>Depende de escolhas do usuário</td>
-=======
-        <td>Commercial</td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Some of the features require some sort of data retention. In that case, we give our users the choice to granularly or completely disable those features (and associated data retention), and we follow up immediately on that promise"' href="https://www.nextdns.io/privacy">Based on user choice</a>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Algumas das funcionalidades precisam de certa retenção de dados. Nesses casos, nós damos aos nossos usuários a opção de desabilitar parcialmente ou completamente tal funcionalidade (e retenções de dados relacionadas a elas), e então atendemos a escolha de nossos usuários imediatamente."' href="https://www.nextdns.io/privacy">Depende de escolhas do usuário</a>
         </td>
         <td>DoH, DoT, DNSCrypt</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>Sim</td>
+        <td>Sim</td>
         <td>
           <span class="no-text-wrap">
-            Based on server choice
+            Depende do servidor escolhido
           </span>
         </td>
->>>>>>> upstream/master
         <td>?</td>
-        <td>Self</td>
+        <td>Auto-Hospedagem</td>
       </tr>
 
       <tr>
@@ -440,17 +315,17 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>
           <span class="no-text-wrap">
-            Anycast (based in
+            Anycast (basedo nos
             <span class="flag-icon flag-icon-us"></span>
-            US),
+            EUA),
           </span>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-us"></span>
-            US,
+            EUA,
           </span>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-lu"></span>
-            Luxembourg
+            Luxemburgo
           </span>
         </td>
         <td>
@@ -459,17 +334,17 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
           </a>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='Part of LibreHosters, "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."' href="https://libreho.st/">
-            Informal collective
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='Faz parte da LibreHosters, "uma rede de cooperação e solidariedade que usa software livre para encorajar a descentralização através de federação e plataformas distribuídas."' href="https://libreho.st/">
+            Coletivo informal
           </a>
         </td>
-        <td>No</td>
+        <td>Não</td>
         <td>DoT</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>Sim</td>
+        <td>Sim</td>
         <td>
           <span class="no-text-wrap">
-            Based on server choice
+            Depende do servidor escolhido
           </span>
         </td>
         <td>
@@ -488,16 +363,12 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td data-value="PowerDNS">
           <a href="https://powerdns.org/">PowerDNS</a>
         </td>
-<<<<<<< HEAD
-        <td><span class="flag-icon flag-icon-nl"></span> Países Baixos</td>
-=======
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-nl"></span>
-            The Netherlands
+            Países Baixos
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://powerdns.org/doh/privacy.html" href="https://powerdns.org/doh/privacy.html">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -525,16 +396,12 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td data-value="Quad9">
           <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Fundadores incluem a Global Cyber Alliance, composta pela City of London Police e Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></span>
         </td>
-<<<<<<< HEAD
-        <td>Anycast (sediado nos <span class="flag-icon flag-icon-us"></span> EUA)</td>
-=======
-        <td>Anycast (based in
+        <td>Anycast (sediado nos
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-us"></span>
-            US)
+            EUA)
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://quad9.net/policy/" href="https://quad9.net/policy/">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -543,22 +410,16 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Sem fins lucrativos</td>
         <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nosso curso normal de gestão de dados não inclui o armazenamento em disco de endereços IP ou outro tipo de informação, nem a transmissão dessas informações fora do local em que a requisição foi recebida."' href="https://quad9.net/policy/">Parcial</a></td>
         <td>DoH, DoT, DNSCrypt</td>
-<<<<<<< HEAD
         <td>Sim</td>
         <td>Sim</td>
-        <td>Domínios maliciosos</td>
-=======
-        <td>Yes</td>
-        <td>Yes</td>
         <td>
           <span class="no-text-wrap">
-            Malicious domains
+            Domínios maliciosos
           </span>
         </td>
->>>>>>> upstream/master
         <td>?</td>
         <td>
-          Self,
+          Auto-Hospedagem,
           <span class="no-text-wrap">
             <a href="https://www.pch.net/">Packet Clearing House</a>
           </span>
@@ -569,16 +430,12 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td data-value="SecureDNS">
           <a href="https://securedns.eu/">SecureDNS</a>
         </td>
-<<<<<<< HEAD
-        <td><span class="flag-icon flag-icon-nl"></span> Países Baixos</td>
-=======
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-nl"></span>
-            The Netherlands
+            Países Baixos
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://securedns.eu/#privacy" href="https://securedns.eu/#privacy">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -587,19 +444,13 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Projeto Hobby</td>
         <td>Não</td>
         <td>DoH, DoT, DNSCrypt</td>
-<<<<<<< HEAD
         <td>Sim</td>
         <td>Sim</td>
-        <td>Depende do servidor escolhido</td>
-=======
-        <td>Yes</td>
-        <td>Yes</td>
         <td>
           <span class="no-text-wrap">
-            Based on server choice
+            Depende do servidor escolhido
           </span>
         </td>
->>>>>>> upstream/master
         <td>?</td>
         <td>
           <span class="no-text-wrap">
@@ -612,26 +463,22 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td data-value="UncensoredDNS">
           <a href="https://blog.uncensoreddns.org/">UncensoredDNS</a>
         </td>
-<<<<<<< HEAD
-        <td>Anycast (sediado na <span class="flag-icon flag-icon-dk"></span> Dinamarca)</td>
-=======
-        <td>Anycast (based in
+        <td>Anycast (sediado na
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-dk"></span>
-            Denmark),
+            Dinamarca),
           </span>
 
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-dk"></span>
-            Denmark,
+            Dinamarca,
             </span>
 
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-us"></span>
-            US
+            EUA
           </span>
         </td>
->>>>>>> upstream/master
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nada é logado, nem informações sobre os usuários nem do uso deste serviço. Eu mantenho gráficos do número total de requisições, mas nenhuma informação pessoalmente identificável é salva. Os dados que são salvos nunca serão vendidos nem usados para nada exceto planejar a capacidade do serviço."'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -645,7 +492,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Não</td>
         <td>?</td>
         <td>
-          Self,
+          Auto-Hospedagem,
           <span class="no-text-wrap">
             <a href="https://www.teliacompany.com">Telia Company AB</a>
           </span>
@@ -655,106 +502,81 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
   </table>
 </div>
 
-<<<<<<< HEAD
-  <h4>Glossário</h4>
-
-  <ul>
-    <li>DNS-over-TLS (DoT) - Um protocolo de segurança para DNS encriptado na porta 853. Alguns provedores suportam a porta 443 que geralmente funciona em qualquer local, enquanto a porta 853 é comumente bloqueada por firewalls restritivos.</li>
-    <li>DNS-over-HTTPS (DoH) - Similar ao DoT, mas utilizando HTTPS, com tráfego indistinguível do tráfego "normal" de HTTPS na porta 443.</li>
-    <li>DNSCrypt - Um método antigo, porém robusto de encriptar DNS.</li>
-  </ul>
-
-  <h3>Menções Honrosas e Informações Adicionais</h3>
-
-  <ul>
-    <li>Firefox inclui suporte a DoH embutido com o Cloudflare definido como resolvedor padrão, mas pode ser configurado para usar qualquer outro resolvedor DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='"Cloudflare concorda em coletar apenas uma quantidade limitada de dados sobre as requisições DNS que são enviadas pelo resolvedor Cloudflare para Firefox."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Atualmente, a Mozilla está <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conduzindo estudos</a> antes de habilitar o DoH por padrão para todos os usuários americanos do Firefox.</li>
-    <li>Android 9 inclui um cliente DoT por <a href="https://support.google.com/android/answer/9089903">padrão</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...mas com algumas ressalvas"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
-    <li><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a> - Um cliente DNSCrypt e DoH para iOS de <a href="https://github.com/s-s/dnscloak">código-fonte aberto</a> criado pelo <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Uma organização sem fins lucrativos, hospedeira de projetos internacionais de software livre."' href="https://techcultivation.org/">Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</li>
-      <li><a href="https://pi-hole.net/">Pi-hole</a> - Um servidor DNS usado primariamente com o Raspberry Pi. Bloqueia anúncios, rastreadores, e domínios maliciosos para todos os dispositivos da sua rede.</li>
-      <li><a href="https://gitlab.com/quidsup/notrack">NoTrack</a> - Um servidor DNS similar ao Pi-hole para bloquear anúncios, rastreadores, e domínios maliciosos.</li>
-    <li><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a> - Uma aplicação de código-fonte aberto para Linux, macOS, e Windows que age como um resolvedor local DNS de privacidade utilizando DoT.</li>
-    <li><a href="https://namecoin.info/">Namecoin</a> - Um sistema descentralizado de registro e transferência com código-fonte aberto, baseado na criptomoeda Bitcoin.</li>
-    <li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">QNAME Minimization and Your Privacy</a> por Internet Systems Consortium (ISC)</li>
-    <li><a href="https://www.isc.org/dnssec/">DNSSEC and BIND 9</a> por ISC</li>
-  </ul>
-</div>
-=======
-<h4>Terms</h4>
+<h4>Glossário</h4>
 
 <ul>
-  <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls. DoT has two modes:</li>
+  <li>DNS-over-TLS (DoT) - Um protocolo de segurança para DNS encriptado na porta 853. Alguns provedores suportam a porta 443 que geralmente funciona em qualquer local, enquanto a porta 853 é comumente bloqueada por firewalls restritivos. DoT tem dois modos:</li>
     <ul>
-        <li>Oppurtunistic mode: the client attempts to form a DNS-over-TLS connection to the server on port 853 without performing certificate validation. If it fails, it will use unencrypted DNS. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="In other words automatic mode leaves your DNS traffic vulnerable to SSL strip and MITM attacks"><i class="fas fa-exclamation-triangle"></i></span></li>
-        <li>Strict mode: the client connects to a specific hostname and performs certificate validation for it. If it fails, no DNS queries are made until it succeeds.</li>
+        <li>Modo Oportunístico: o cliente tentar estabelecer uma conexão DNS-over-TLS com o servidor na porta 853 sem verificar a validade do certificado de segurança. Se a conexão falhar, DNS não-encriptado será utilizado. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="Em outras palavras este modo deixa seu tráfego DNS vulnerável à SSL Strip e ataques MITM"><i class="fas fa-exclamation-triangle"></i></span></li>
+        <li>Modo Estrito: o cliente se conecta com um hostname específico e verifica a validade do certificado de segurança para o mesmo. Se a validação falha, nenhuma requisição DNS é feita até que a mesma ocorra com sucesso</li>
     </ul>
-  <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server."><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
-  <li>DNSCrypt - An older yet robust method of encrypting DNS.</li>
+  <li>DNS-over-HTTPS (DoH) - Similar ao DoT, mas utilizando HTTPS, com tráfego indistinguível do tráfego "normal" de HTTPS na porta 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contém metadados como o user-agent (no qual pode incluir informações do sistema), que são enviados ao servidor DNS."><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+  <li>DNSCrypt - Um método antigo, porém robusto de encriptar DNS.</li>
 </ul>
 
-<h4>How to verify DNS is encrypted</h4>
+<h4>Como verificar se o DNS está encriptado</h4>
 
 <ul>
   <li>DoH / DoT
     <ul>
-      <li>Check <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="Your DNS provider may not appear with their own name, so compare the responses to what you know or can find about your DNS provider. Just ensure you don't see your ISP or old unencrypted DNS provider."><i class="fas fa-exclamation-triangle"></i></span></li>
-      <li>Check the website of your DNS provider. They may have a page for telling "you are using our DNS." Examples include <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> and <a href="https://1.1.1.1/help">Cloudflare</a>.</li>
-      <li>If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='Some fields will say "false" depending on the the value of network.trr.mode in about:config'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+      <li>Verifique o site <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="Seu provedor de DNS pode não aparecer com seu próprio nome, então compare as respostas com o que você conhece ou pode encontrar a respeito do seu provedor DNS. Apenas lembre-se de certificar que você não veja seu provedor de Internet ou algum provedor DNS não-encriptado antigo seu."><i class="fas fa-exclamation-triangle"></i></span></li>
+      <li>Verifique o site do seu provedor de DNS. Eles podem ter alguma página que verifica que você está utilizando o DNS deles. Exemplos incluem <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> e <a href="https://1.1.1.1/help">Cloudflare</a>.</li>
+      <li>Se estiver utilizando o Trusted Recursive Resolver (TRR) do Firefox, navegue até <code>about:networking#dns</code>. Se a coluna TRR estiver como "true" para alguns campus, você está utilizando DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='Alguns campus irão ter o valor "false" dependendo do valor do atributo network.trr.mode em about:config'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
     </ul>
   </li>
-  <li>dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.</li>
-  <li>DNSSEC - Check <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test by Matthäus Wander</a>.</li>
-  <li>QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
+  <li>dnscrypt-proxy - Verifique <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">na wiki dnscrypt-proxy a guia de como verificar se sua DNS está encriptada</a>.</li>
+  <li>DNSSEC - Verifique o <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test por Matthäus Wander</a>.</li>
+  <li>Minimização QNAME - Rode <code>dig +short txt qnamemintest.internet.nl</code> na linha de comando do seu sistema operacional (dica <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">desse slide da NLnet Labs</a>). Se você estiver utilizando Windows 10, rode <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> pelo PowerShell. A seguinte mensagem deve ser retornada: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
 </ul>
 
-<h3>Worth Mentioning and Additional Information</h3>
+<h3>Menções Honrosas e Informações Adicionais</h3>
 
 <ul>
-  <li><strong>Encrypted DNS clients for desktop:</strong>
+  <li><strong>Clientes de DNS Encriptado para desktop:</strong>
     <ul>
-      <li><em>Firefox</em> comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='"Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users.</li>
+      <li><em>Firefox</em> vem com suporte a DoH embutido com Cloudflare selecionado como resolvedor padrão, mas pode ser configurado para utilizar qualquer resolvedor DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='"Cloudflare concordou em coletar somente uma quantidade limitada de dados sobre as requisições DNS que são enviadas para o resolvedor Cloudflare para Firefox."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Atualmente a Mozilla está <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conduzindo estudos</a> antes de habilitar DoH por padrão para todos os usuários Firefox residentes dos EUA.</li>
           <ul>
-              <li>DNS over HTTPS can be enabled in Menu -> Preferences (<code>about:preferences</code>) -> Network Settings -> Enable DNS over HTTPS. Set "Use Provider" to "Custom", and enter your DoH provider's address.</li>
-              <li>Advanced users may enable it in <code>about:config</code> by setting <code>network.trr.custom_uri</code> and <code>network.trr.uri</code> as the address you find from the documentation of your DoH provider and <code>network.trr.mode</code> as <code>2</code>. It may also be desirable to set <code>network.security.esni.enabled</code> to <code>True</code> in order to enable encrypted SNI and make sites supporting ESNI a bit more difficult to track.</li>
+              <li>DNS sobre HTTPS pode ser habilitado em Menu -> Preferências (<code>about:preferences</code>) -> Configurações de rede -> Ativar DNS sobre HTTPS. Em "Usar provedor" selecione "Personalizado", e digite o endereço do seu provedor DoH.</li>
+              <li>Usuários avançados podem habilitar a configuração em <code>about:config</code> ao mudar os valores de <code>network.trr.custom_uri</code> e <code>network.trr.uri</code> para o endereço que você encontrar na documentação do seu provedor DoH e o valor de <code>network.trr.mode</code> para <code>2</code>. Também pode ser vantajoso mudar o valor de <code>network.security.esni.enabled</code> para <code>True</code>, de forma que habilita SNI encriptado e faça sites que suportam ESNI um pouco mais difíceis de rastrear.</li>
           </ul>
     </ul>
   </li>
-  <li><strong>Encrypted DNS clients for mobile:</strong>
+  <li><strong>Clientes de DNS Encriptado para dispositivos móveis:</strong>
     <ul>
-      <li><em>Android 9</em> comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+      <li><em>Android 9</em> já incluí um cliente DoT embutido <a href="https://support.google.com/android/answer/9089903">por padrão</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...mas com algumas desvantagens"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
         <ul>
-          <li>We recommend selecting <em>Private DNS provider hostname</em> and entering the DoT address from documentation of your DoT provider to enable strict mode (see Terms above). <span class="badge badge-warning" data-toggle="tooltip" data-original-title="If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity."><i class="fas fa-exclamation-triangle"></i></span></li>
+          <li>Nós recomendamos selecionar <em>Nome do host do provedor de DNS particular</em> e digitar o endereço DoT da documentação do seu provedor DoT para habilitar modo estrito (ver Termos acima). <span class="badge badge-warning" data-toggle="tooltip" data-original-title="If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity."><i class="fas fa-exclamation-triangle"></i></span></li>
         </ul>
-      <li><em><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a></em> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</li>
-      <li><em><a href="https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md">Nebulo</a></em> - An open-source application for Android supporting DoH and DoT. It also supports caching DNS responses and locally logging DNS queries.</li>
+      <li><em><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a></em> - Um cliente DNSCrypt e DoH com <a href="https://github.com/s-s/dnscloak">código-fonte aberto</a> para iOS por <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Organização de hospedagem sem fins lucrativos e de caridade para projetos internacionais de Software Livre."' href="https://techcultivation.org/">Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</li>
+      <li><em><a href="https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md">Nebulo</a></em> - Um aplicativo Android com código-fonte aberto que suporta DoH e DoT. Também suporta cachê para respostas DNS e salvar logs de registro locais para requisições DNS.</li>
     </ul>
   </li>
-  <li><strong>Local DNS servers:</strong>
+  <li><strong>Servidores DNS locais:</strong>
     <ul>
-      <li><em><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a></em> - An open-source application for Linux, macOS, and Windows that acts as a local DNS Privacy stub resolver using DoT.</li>
-      <li><em><a href="https://nlnetlabs.nl/projects/unbound/about/">Unbound</a></em> - a validating, recursive, caching DNS resolver. It can also be ran network-wide and has supported DNS-over-TLS since version 1.7.3.</li>
+      <li><em><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a></em> - Um programa com código-fonte aberto para Linux, macOS, e Windows que age como um resolvedor DNS local usando DoT.</li>
+      <li><em><a href="https://nlnetlabs.nl/projects/unbound/about/">Unbound</a></em> - um resolvedor de DNS com validação, cachê e recursividade. Também pode ser rodado na rede local tem suporte para DNS-over-TLS desde a versão 1.7.3.</li>
       <ul>
-          <li>See also <a href="https://www.ctrl.blog/entry/unbound-tls-forwarding.html">Actually secure DNS over TLS in Unbound on ctrl.blog</a>.</li>
+          <li>Veja também <a href="https://www.ctrl.blog/entry/unbound-tls-forwarding.html">Actually secure DNS over TLS in Unbound on ctrl.blog</a>.</li>
       </ul>
     </ul>
   </li>
-  <li><strong>Network wide DNS servers:</strong>
+  <li><strong>Servidores DNS para Redes:</strong>
     <ul>
-      <li><em><a href="https://pi-hole.net/">Pi-hole</a></em> - A network-wide DNS server mainly for the Raspberry Pi. Blocks ads, tracking, and malicious domains for all devices on your network.</li>
-      <li><em><a href="https://gitlab.com/quidsup/notrack">NoTrack</a></em> - A network-wide DNS server like Pi-hole for blocking ads, tracking, and malicious domains.</li>
+      <li><em><a href="https://pi-hole.net/">Pi-hole</a></em> - Um servidor DNS para redes criado principalmente para o Raspberry Pi. Bloqueia anúncios, rastreadores, e domínios maliciosos para todos os dispositivos da sua rede.</li>
+      <li><em><a href="https://gitlab.com/quidsup/notrack">NoTrack</a></em> - Um servidor DNS para redes parecido com o Pi-hole para bloquear anúncios, rastreadores, e domínios maliciosos.</li>
     </ul>
   </li>
-  <li><strong>Further reading:</strong>
+  <li><strong>Mais leituras (em Inglês):</strong>
     <ul>
-      <li>On Firefox, DoH and ESNI</li>
+      <li>Sobre Firefox, DoH e ESNI</li>
           <ul>
               <li><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver">Trusted Recursive Resolver (DoH) on MozillaWiki</a></li>
               <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1500289">Firefox bug report requesting the ability to use ESNI without DoH</a></li>
               <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1542754">Firefox bug report requesting the ability to use Android 9+'s Private DNS (DoT) and benefit from encrypted SNI without having to enable DoH</a></li>
               <li><a href="https://blog.cloudflare.com/encrypted-sni/">Encrypt it or lose it: how encrypted SNI works on Cloudflare blog</a></li>
           </ul>
-      <li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">QNAME Minimization and Your Privacy</a> by the Internet Systems Consortium (ISC)</li>
-      <li><a href="https://www.isc.org/dnssec/">DNSSEC and BIND 9</a> by the ISC</li>
+      <li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">QNAME Minimization and Your Privacy</a> por Internet Systems Consortium (ISC)</li>
+      <li><a href="https://www.isc.org/dnssec/">DNSSEC and BIND 9</a> por ISC</li>
     </ul>
   </li>
 </ul>
->>>>>>> upstream/master
