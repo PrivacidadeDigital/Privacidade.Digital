@@ -1,42 +1,11 @@
 <h1 id="produtividade" class="anchor"><a href="#produtividade"><i class="fas fa-link anchor-icon"></i></a> Ferramentas de Produtividade</h1>
 
-<<<<<<< HEAD
-<div class="row mb-2">
-
-  {% include card.html 
-    color="success"
-    title="CryptPad"
-    image="/assets/img/provider/CryptPad.png"
-    description="CryptPad é uma alternativa a ferramentas Office e serviços na Nuvem, construída com privacidade em mente. 
-    Todo o conteúdo é encriptado com criptografia ponta-a-ponta. É grátis e de código-fonte aberto, habilitando membros da comunidade e especialistas a verificar 
-    sua segurança ao auditar seu código. O time responsável pelo desenvolvimento é mantido com doações e concessões. A criação de conta não é obrigatória, 
-    e pode ser usado anonimamente pelo navegador Tor."
-    url="https://cryptpad.fr/"
-    footer='SO: Linux, macOS, Windows, Web.'
-  %}
-
-  {% include card.html 
-  color="primary"
-  title="Etherpad"
-  image="/assets/img/tools/Etherpad.png"
-  url="https://etherpad.org/"
-  footer="SO: Windows, macOS, Linux."
-  description="Etherpad é um editor online de código-fonte aberto e altamente customizável, fornecendo edição colaborativa em tempo real, 
-  algo como um editor ao vivo com diversos autores, rodando no seu navegador. 
-  Escreva artigos, comunicados de imprensa, listas de tarefas, etc. 
-  <a href=https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad>Sites que rodam Etherpad</a>"
-  %}
-
-  {% include card.html 
-  color="warning"
-=======
 {%
   include cardv2.html
   title="CryptPad"
   image="/assets/img/provider/CryptPad.png"
-  description="<strong>CryptPad</strong> is a private-by-design alternative to popular office tools and cloud services. All content is end-to-end encrypted. It is free and open source, enabling anyone to verify its security by auditing the code. The development team is supported by donations and grants. No registration is required, and it can be used anonymously via Tor Browser."
+  description="<strong>CryptPad</strong> é uma alternativa a ferramentas Office e serviços na Nuvem, construída com privacidade em mente. Todo o conteúdo é encriptado de ponta-a-ponta. É grátis, livre e de código-fonte aberto, habilitando membros da comunidade e especialistas a verificar ua segurança ao auditar seu código. O time responsável pelo desenvolvimento é mantido com doações e concessões. A criação de conta não é obrigatória, e pode ser utilizado anonimamente pelo navegador Tor."
   website="https://cryptpad.fr/"
-  forum="https://forum.privacytools.io/t/discussion-cryptpad-productivity-tools/1537"
   github="https://github.com/xwiki-labs/cryptpad"
   web="https://cryptpad.fr/"
 %}
@@ -45,9 +14,8 @@
   include cardv2.html
   title="Etherpad"
   image="/assets/img/tools/Etherpad.png"
-  description="<strong>Etherpad</strong> is a highly customizable open source online editor providing collaborative editing in real-time. <a href=https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad>Here are a list of sites that run Etherpad</a>."
+  description="<strong>Etherpad</strong> é um editor online de código-fonte aberto e altamente customizável, fornecendo edição colaborativa em tempo real, algo como um editor ao vivo com diversos autores, rodando no seu navegador. <a href=https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad>Aqui está uma lista de sites que rodam Etherpad</a>."
   website="https://etherpad.org/"
-  forum="https://forum.privacytools.io/t/discussion-etherpad-productivity-tools/1538"
   github="https://github.com/ether/etherpad-lite"
   windows="https://etherpad.org/#download"
   linux="https://etherpad.org/#download"
@@ -56,20 +24,11 @@
 
 {%
   include cardv2.html
->>>>>>> upstream/master
   title="Write.as"
   image="/assets/img/tools/WriteAs.png"
-  description="<strong>Write.as</strong> is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model."
+  description="<strong>Write.as</strong> é uma plataforma de blog disponível em diversos SOs e focada em privacidade. É anônima por padrão, te deixando publicar sem que crie contas. Se você decidir criar uma conta, o sistema não precisa de nenhuma informação pessoal. Sem anúncios, livre de distrações, e construído com base num modelo de negócios sustentável."
   website="https://write.as/"
-  forum="https://forum.privacytools.io/t/discussion-write-as-productivity-tools/1539"
   tor="http://writeas7pm7rcdqg.onion"
-<<<<<<< HEAD
-  footer="SO: Windows, macOS, Linux, Android, iOS, Chrome OS, Web."
-  description="Write.as é uma plataforma de blog disponível em diversos SOs e focada em privacidade. É anônima por padrão, te deixando publicar sem que crie contas. 
-  Se você decidir criar uma conta, o sistema não precisa de nenhuma informação pessoal. Sem anúncios, livre de distrações, e construído com base num modelo de negócios 
-  sustentável."
-  %}
-=======
   git="https://code.as/writeas"
   web="https://write.as/apps"
   linux="https://write.as/apps"
@@ -78,21 +37,19 @@
   ios="https://write.as/apps"
 %}
 
-<h1 id="metadata-removal-tools" class="anchor">
-  <a href="#metadata-removal-tools"
+<h1 id="ferramentas-remocao-metadados" class="anchor">
+  <a href="#ferramentas-remocao-metadados"
     ><i class="fas fa-link anchor-icon"></i>
-  </a> Metadata Removal Tools
+  </a> Ferramentas de Remoção de Metadados
 </h1>
->>>>>>> upstream/master
 
 <div class="row mb-2">
 {%
   include cardv2.html
   title="MAT2"
   image="/assets/img/tools/MAT2.png"
-  description="<strong>MAT2</strong> is free software, which allows the removal of metadata of image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for Nautilus, the default file manager of GNOME."
+  description="<strong>MAT2</strong> é um software livre que permite a remoção de metadados de imagens, áudio, torrent, e documentos. Também fornece a ferramenta na linha de comando quanto numa interface gráfica através de uma extensão para o Nautilus, o gerenciador de arquivos padrão do GNOME."
   website="https://0xacab.org/jvoisin/mat2"
-  forum="https://forum.privacytools.io/t/discussion-mat/1559"
   gitlab="https://0xacab.org/jvoisin/mat2"
   linux=""
   mac=""
@@ -103,37 +60,11 @@
 <h3>Menções honrosas</h3>
 
 <ul>
-<<<<<<< HEAD
-  <li>
-    <a href="https://crypt.ee/">Cryptee</a> - Serviço para armazenar documentos, arquivos e fotos. Também é bom para sua privacidade.
-  </li>
-  <li>
-    <a href="https://ethercalc.net/">EtherCalc</a> - 
-    EtherCalc é uma planilha de dados web. Dados são salvos na web, e pessoas podem modificar o mesmo documento em tempo real. 
-    Mudanças são instantaneamente refletidas em todas as telas. Trabalhe junto com outras pessoas em inventários, formulários de pesquisa, listas de gerenciamento, 
-    sessões de brainstorming, etc.
-  </li>
-  <li>
-    <a href="https://disroot.org/">disroot.org</a> - Serviço gratuito que oferece Etherpad, EtherCalc e PrivateBin.
-  </li>
-  <li>
-    <a href="https://dudle.inf.tu-dresden.de/anonymous/">dudle</a> - 
-    Uma aplicação online de agendamento, que é gratuita e de código-fonte aberto. Agende reuniões ou faça pequenas enquetes online. 
-    Não há coleta de emails ou a necessidade de registro.
-  </li>
-  <li>
-    <a href="https://www.libreoffice.org/">LibreOffice</a> - Coleção de softwares Office livres compatíveis com Word, PowerPoint, Excel, etc.
-  </li>
-  <li>
-    <a href="https://vscodium.com/">VSCodium</a> - Fork do editor Visual Studio Code sem o rastreamento da Microsoft.
-  </li>
-=======
-  <li><a href="https://crypt.ee/">Cryptee</a> - Free privacy-friendly service for storing Documents, files and Photos</li>
-  <li><a href="https://ethercalc.net/">EtherCalc</a> - EtherCalc is a web spreadsheet. Data is saved on the web, and people can edit the same document at the same time. Changes are instantly reflected on all screens. Work together on inventories, survey forms, list management, brainstorming sessions.</li>
-  <li><a href="https://disroot.org/">Disroot</a> - Free privacy-friendly service that offers Etherpad, EtherCalc and PrivateBin.</li>
-  <li><a href="https://dudle.inf.tu-dresden.de/anonymous/">dudle</a> - An online scheduling application, free and open source. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
+  <li><a href="https://crypt.ee/">Cryptee</a> - Serviço para armazenar documentos, arquivos e fotos. Também é bom para sua privacidade.</li>
+  <li><a href="https://ethercalc.net/">EtherCalc</a> - EtherCalc é uma planilha de dados web. Dados são salvos na web, e pessoas podem modificar o mesmo documento em tempo real. Modificações são instantaneamente refletidas em todas as telas. Trabalhe junto com outras pessoas em inventários, formulários de pesquisa, listas de gerenciamento, sessões de brainstorming, etc.</li>
+  <li><a href="https://disroot.org/">Disroot</a> - Serviço gratuito que oferece Etherpad, EtherCalc e PrivateBin.</li>
+  <li><a href="https://dudle.inf.tu-dresden.de/anonymous/">dudle</a> - Uma aplicação online de agendamento, que é gratuita e de código-fonte aberto. Agende reuniões ou faça pequenas enquetes online. Não há coleta de emails ou a necessidade de registro.</li>
   <li><a href="https://framadate.org/">Framadate</a> - A free and open source online service for planning an appointment or making a decision quickly and easily. No registration is required.</li>
-  <li><a href="https://www.libreoffice.org/">LibreOffice</a> - Free and open source office suite.</li>
-  <li><a href="https://vscodium.com/">VSCodium</a> - Fork of Microsoft's Visual Studio Code editor without branding or telemetry.</li>
->>>>>>> upstream/master
+  <li><a href="https://www.libreoffice.org/">LibreOffice</a> - Coleção de softwares livre do tipo Office e compatíveis com Word, PowerPoint, Excel, etc.</li>
+  <li><a href="https://vscodium.com/">VSCodium</a> - Fork do editor Visual Studio Code sem o rastreamento da Microsoft.</li>
 </ul>
