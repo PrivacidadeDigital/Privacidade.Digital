@@ -1,3 +1,8 @@
+A licença deste projeto está abaixo da linha pontilhada. Para mais 
+informações e um resumo da licença em Português do Brasil, acesse 
+<https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR>
+-------------------------------------------------------------------
+
 CC0 1.0 Universal
 
 Statement of Purpose
@@ -111,6 +116,4 @@ Affirmer's express Statement of Purpose.
   d. Affirmer understands and acknowledges that Creative Commons is not a
   party to this document and has no duty or obligation with respect to this
   CC0 or use of the Work.
-
-Para mais informações e um resumo da licença em Português do Brasil, acesse
-<https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR>
+  
