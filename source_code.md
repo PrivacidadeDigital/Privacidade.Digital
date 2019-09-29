@@ -203,28 +203,17 @@ Menções Honrosas
 
 - Password Safe: https://sourceforge.net/projects/passwordsafe/files/
 
-<<<<<<< HEAD
 ## Sincronização de Calendário e Contatos
+
   Nextcloud: https://github.com/nextcloud
-=======
-## Calendar and Contacts Sync
->>>>>>> upstream/master
 
 Nextcloud: https://github.com/nextcloud
 
-<<<<<<< HEAD
-   Menções Honrosas:
-.
-    fruux: https://fruux.com/opensource/
-.
-    Flock: https://github.com/signalapp/Flock
-=======
 EteSync: https://github.com/etesync
 
-Worth Mentioning:
+Menção Honrosa:
 
 - fruux: https://fruux.com/opensource/
->>>>>>> upstream/master
 
 ## Encriptação de Arquivos
 
@@ -234,12 +223,8 @@ GNU Privacy Guard: https://github.com/gpg/gnupg
 
 PeaZip: https://github.com/giorgiotani/PeaZip/
 
-<<<<<<< HEAD
-
 Menções Honrosas:
-=======
-Worth Mentioning:
->>>>>>> upstream/master
+
 - Cryptomator: https://github.com/cryptomator/cryptomator
 
 - DiskCryptor: https://github.com/smartinm/diskcryptor
@@ -248,13 +233,10 @@ Worth Mentioning:
 
 - Hat.sh: https://github.com/sh-dv/hat.sh
 
-<<<<<<< HEAD
-## Redes Independentes
-=======
 - Keka: https://www.keka.io/
 
-## Self-contained Networks
->>>>>>> upstream/master
+## Redes Independentes
+
  TorBrowser: https://gitweb.torproject.org/tor.git
 
  I2p: https://github.com/i2p
@@ -272,6 +254,7 @@ Worth Mentioning:
    IPFS: https://github.com/ipfs + https://github.com/ipfs-shipyard
 
 ## Redes Sociais Descentralizadas
+
  Mastodon: https://github.com/tootsuite/mastodon
 
  diaspora*: https://github.com/diaspora/diaspora/
@@ -334,13 +317,10 @@ PowerDNS: https://github.com/PowerDNS/pdns
 
 - Stubby: https://github.com/getdnsapi/stubby
 
-<<<<<<< HEAD
-## Notas Digitais
-=======
 - Unbound: https://github.com/NLnetLabs/unbound
 
-## Digital Notebook
->>>>>>> upstream/master
+## Notas Digitais
+
  Joplin: https://github.com/laurent22/joplin
 
  Standard Notes: https://github.com/standardnotes/
@@ -354,6 +334,7 @@ PowerDNS: https://github.com/PowerDNS/pdns
    Org-mode: https://code.orgmode.org/bzg/org-mode
 
 ## Serviços Paste
+
  PrivateBin: https://github.com/PrivateBin/PrivateBin/
 
  ZeroBin: https://github.com/sebsauvage/ZeroBin
@@ -367,51 +348,15 @@ PowerDNS: https://github.com/PowerDNS/pdns
    Disroot: https://github.com/PrivateBin/PrivateBin via https://disroot.org/en/services/privatebin
   website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
 
-
-<<<<<<< HEAD
 ## Ferramentas de Produtividade
- Etherpad: https://github.com/ether/etherpad-lite
-=======
-## Productivity Tools
->>>>>>> upstream/master
 
 CryptPad: https://github.com/xwiki-labs/cryptpad
 
-<<<<<<< HEAD
- Texto Protegido:
-Frontend: ?
-Backend: proprietário
-
-  Menções Honrosas
-
-   Cryptee: https://github.com/cryptee
-Backend: proprietário
-
-   EtherCalc: https://github.com/audreyt/ethercalc
-
-   Disroot:
-  Email:
-  Cloud: https://github.com/nextcloud/server
-  Diaspora/Social-Network: https://github.com/diaspora/
-  Forum: https://github.com/discourse/discourse
-  Chat: http://hg.prosody.im/
-  Pads: https://github.com/ether/etherpad-lite
-  Pastebin: https://github.com/PrivateBin/PrivateBin via https://disroot.org/en/services/privatebin
-  Upload:
- Lufi: https://framagit.org/fiat-tux/hat-softwares/lufi
-  Search:
- Searx: https://github.com/asciimoo/searx
-  Polls:
- Framadate: https://git.framasoft.org/framasoft/framadate
-  Project Board:
- Taiga: https://github.com/taigaio/
- Website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
-=======
 Etherpad: https://github.com/ether/etherpad-lite
 
 Write.as: https://code.as/writeas
 
-### Worth Mentioning
+### Menções Honrosas
 
 - Cryptee: https://github.com/cryptee
 
@@ -422,7 +367,6 @@ Write.as: https://code.as/writeas
 - Dudle: https://github.com/kellerben/dudle/
 
 - Framadate: https://framagit.org/framasoft/framadate/framadate
->>>>>>> upstream/master
 
 - LibreOffice: https://gerrit.libreoffice.org/
 
@@ -431,6 +375,7 @@ Write.as: https://code.as/writeas
 MAT2: https://0xacab.org/jvoisin/mat2
 
 ## Sistemas Operacionais de PC
+
  QubesOS: https://github.com/QubesOS
 
  Debian: https://codesearch.debian.net/
@@ -448,6 +393,7 @@ MAT2: https://0xacab.org/jvoisin/mat2
    Whonix: https://github.com/Whonix/Whonix
 
 ## Sistemas Operacionais Live CD
+
    Tails: https://tails.boum.org/contribute/git/
 
    KNOPPIX: Desconhecido (Mais info. em https://knopper.net/knoppix-info/index-en.html)
@@ -464,7 +410,8 @@ MAT2: https://0xacab.org/jvoisin/mat2
     Tiny Core Linux:
     https://www.openhub.net/p/tinycorelinux/enlistments
 
-## Sistemas Operacionais Live CD
+## Sistemas Operacionais Móveis
+
    LineageOS: https://github.com/lineageos
 .
     Menções Honrosas
@@ -480,6 +427,7 @@ MAT2: https://0xacab.org/jvoisin/mat2
 NetGuard: https://github.com/M66B/NetGuard/
 
 ## Firmware para Roteadores
+
    OpenWRT: https://git.openwrt.org/?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.1
 
    pfSense: http://github.com/pfsense
@@ -487,7 +435,6 @@ NetGuard: https://github.com/M66B/NetGuard/
    libreCMC: https://gogs.librecmc.org/libreCMC/libreCMC
 .
     Menções Honrosas:
-
 
    OpenBSD: https://github.com/openbsd
 
