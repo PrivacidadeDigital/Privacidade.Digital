@@ -1,7 +1,7 @@
 <h1 id="webrtc" class="anchor"><a href="#webrtc"><i class="fas fa-link anchor-icon"></i></a> Vazamento de IP por WebRTC</h1>
 
 <div class="alert alert-danger" role="alert">
-  <strong>WebRTC é um protocolo de comunicação recente que depende de JavaScript para vazar seu endereço IP verdadeiro, mesmo com VPN habilitada.</strong>
+  <strong>WebRTC é um protocolo de comunicação recente que depende de JavaScript. Ele pode vazar seu endereço IP verdadeiro, até mesmo ao utilizar uma VPN.</strong>
 </div>
 
 <p>Mesmo que extensões como o NoScript previnam isso, é provável que seja uma boa ideia bloquer o protocolo diretamente
@@ -17,8 +17,8 @@
 <p><strong>Passo a passo:</strong></p>
 
 <ol class="long-string-list">
-  <li>Digite "about:config" na barra de endereço do Firefox e aperte Enter.</li>
-  <li>Aperto o botão "Eu aceito o risco!"</li>
+  <li>Digite "about:config" na barra de endereço do Firefox e aperte a tecla Enter</li>
+  <li>Aperte o botão "Eu aceito o risco!"</li>
   <li>Pesquise por "media.peerconnection.enabled"</li>
   <li>Clique duas vezes no valor do registro da configuração; a coluna "Valor" deve se tornar "false"</li>
   <li>Pronto. Agora faça o teste de vazamento WebRTC novamente.</li>
@@ -42,8 +42,8 @@
 
 <h3>Como consertar o vazamento WebRTC no Google Chrome?</h3>
 
-<p>WebRTC não pode ser completamente desabilitado no Chrome, porém é possível mudar configurações de rotas relacionadas (e previnir vazamentos) usando uma extensão. 
-  Duas soluções de código aberto incluem <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> 
+<p>WebRTC não pode ser completamente desabilitado no Chrome, porém é possível mudar configurações de rotas relacionadas (e prevenir vazamentos) usando uma extensão. 
+  Duas soluções de código-fonte aberto incluem <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> 
   (opções podem precisar ser trocadas dependendo da situação), e <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a>
   (selecione "Impedir o protocolo WebRTC de vazar endereços de IP locais" em Configurações).</p>
 
