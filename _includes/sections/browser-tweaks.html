@@ -7,8 +7,8 @@
 <h3>Preparação:</h3>
 
 <ol>
-  <li>Digite "about:config" na barra de endereço do seu Firefox e aperte enter.</li>
-  <li>Clique no botão "Eu aceito o risco!" para continuar</li>
+  <li>Digite "about:config" na barra de endereço do seu Firefox e aperte a tecla Enter.</li>
+  <li>Clique no botão "Eu aceito o risco!" para continuar.</li>
   <li>Pesquise a configuração da lista abaixo e troque seu valor para o valor que recomendamos...</li>
   <li>Para que você entenda melhor: true significa verdadeiro e <code>false</code> significa falso em Inglês. 
   Por isso, preferências com o valor <code>true</code> serão ativadas e preferências com o valor <code>false</code> serão desativadas.
@@ -52,13 +52,13 @@
 
   <dt>browser.sessionstore.max_tabs_undo = 0</dt>
   <dd>Mesmo que o Firefox esteja configurado para não armazenar o histórico, abas fechadas são armazenadas
-    temporariamente em Menu -&gt; Biblioteca -&gt; Histórico -&gt;Abas fechadas recentemente. 
+    temporariamente em Menu -&gt; Biblioteca -&gt; Histórico -&gt; Abas fechadas recentemente. 
     Siga essa recomendação para não armazenar nenhuma aba fechada.</dd>
 
   <dt>browser.urlbar.speculativeConnect.enabled = false</dt>
   <dd>Desativa o pré-carregamento e autocompletamento de URLs. Firefox carrega URLs previamente que autocompletam quando um
     usuário digita na barra de endereço, o que é um problema se as URLs sugeridas não forem sites que o usuário queira se conectar. 
-    <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Fonte</a></dd>
+    <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Fonte</a> (em Inglês).</dd>
 
   <dt>dom.battery.enabled = false</dt>
   <dd>O status da bateria do seu dispositivo pode estar sendo rastreado caso essa preferência estiver habilitada.</dd>
@@ -67,25 +67,19 @@
   <dd>Desativa a funcionalidade que permite que sites recebam uma notificação quando você copia, cola ou corta algo de
     uma página, o que os deixariam saber qual parte da página foi selecionada.</dd>
 
-<<<<<<< HEAD
-  <dt>geo.enabled = false</dt>
-  <dd>Desativa geolocalização.</dd>
-
-=======
->>>>>>> upstream/master
   <dt>media.eme.enabled = false</dt>
   <dd>
-    <p>Desativa a reprodução de conteúdos HTML5 controlados por DRM, que, se habilitada, faz download automático do
-      Módulo de Desencriptação Widevine distribuído pela Google Inc. 
-      <a href="https://support.mozilla.org/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads">Detalhes</a>
+    <p>Desativa a reprodução de conteúdo HTML5 controlado por DRM, que, se habilitada, faz download automático do
+      Módulo de Desencriptação Widevine distribuído pela Google. 
+      <a href="https://support.mozilla.org/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads">Detalhes</a> (em Inglês).
     </p>
     <p>Conteúdos controlados por DRM precisa que plugins Adobe Flash ou Microsoft Silverlight ainda sejam capazes de serem
       executados, instalados e habilitados no Firefox.</p>
   </dd>
 
   <dt>media.gmp-widevinecdm.enabled = false</dt>
-  <dd>Desativa o Módulo de Desencriptação Widevine distribuído pela Google Inc., usado para reproduzir conteúdos HTML5 controlados por DRM. 
-    <a href="https://support.mozilla.org/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling">Detalhes</a>
+  <dd>Desativa o Módulo de Desencriptação Widevine distribuído pela Google, usado para reproduzir conteúdo HTML5 controlado por DRM. 
+    <a href="https://support.mozilla.org/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling">Detalhes</a> (em Inglês).
   </dd>
 
   <dt>media.navigator.enabled = false</dt>
@@ -114,7 +108,7 @@
 
   <dt>network.http.referer.trimmingPolicy = 2</dt>
   <dd>
-    Envia somente scheme, host, e porta no cabeçalho <code>Referer</code>. <a href="https://pt.wikipedia.org/wiki/HTTP_referer">Saiba o que é Referer</a>
+    Envia somente scheme, host, e porta no cabeçalho <code>Referer</code>. <a href="https://pt.wikipedia.org/wiki/HTTP_referer">Saiba o que é Referer</a>.
     <ul>
       <li>0 = Enviar a URL completa no cabeçalho <code>Referer</code></li>
       <li>1 = Enviar a URL sem a string query no cabeçalho <code>Referer</code></li>
@@ -126,8 +120,8 @@
   <dd>
     Envia cabeçalho <code>Referer</code> somende quando os hostnames são exatamente iguais. (Nota: se você perceber que
     os sites não estiverem funcionando da forma correta, você
-    pode tentar <code>1</code> combinado com a configuração <code>XOriginTrimmingPolicy</code> abaixo.) <a
-      href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Fonte</a>
+    pode tentar <code>1</code> combinado com a configuração <code>XOriginTrimmingPolicy</code> abaixo). <a
+      href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Fonte</a> (em Inglês).
     <ul>
       <li>0 = Enviar cabeçalho <code>Referer</code> em todos os casos</li>
       <li>1 = Enviar cabeçalho <code>Referer</code> para os mesmos sites eTLD</li>
@@ -138,7 +132,7 @@
   <dt>network.http.referer.XOriginTrimmingPolicy = 2</dt>
   <dd>
     Enviar somente scheme, host, e porta no cabeçalho <code>Referer</code> de requisições com diferentes origens. 
-    <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Fonte</a>
+    <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Fonte</a> (em Inglês).
     <ul>
       <li>0 = Enviar URL completa no cabeçalho <code>Referer</code></li>
       <li>1 = Enviar URL sem a string query no cabeçalho <code>Referer</code></li>
@@ -146,22 +140,22 @@
     </ul>
   </dd>
 
-  <dt>Looking for TRR, DoH or ESNI?</dt>
-  <dd>They have moved to <a href="/providers/dns/#icanndns">our DNS page</a>.</dd>
+  <dt>Procurando por configurações sobre TRR, DoH ou ESNI?</dt>
+  <dd>Elas mudaram para <a href="/provedores/dns/#icanndns">nossa página sobre DNS</a>.</dd>
 
   <dt>webgl.disabled = true</dt>
-  <dd>Desabilita WebGL, que pode ser um risco de segurança. 
-    <a href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Fonte</a></dd>
+  <dd>Desabilita WebGL, tecnologia que pode ser um risco de segurança. 
+    <a href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Fonte</a> (em Inglês).</dd>
 
   <dt>browser.sessionstore.privacy_level = 2</dt>
   <dd>
-    Essa preferência controla quando armazenar informações extra sobre a sessão. Tais informações incluem conteúdos de formulários, posições de
-    barras de rolagem, cookies, e dados de POST. 
-    <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">Detalhes</a>
+    Esta preferência controla quando armazenar informações extra sobre a sessão. Tais informações incluem conteúdos de formulários, posições de
+    barras de rolagem, cookies, e dados POST. 
+    <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">Detalhes</a> (em Inglês).
     <ul>
-      <li>0 = Armazenar dados extra da sessão para qualquer site. (Padrão a partir do Firefox 4.)</li>
-      <li>1 = Armazenar dados extra da sessão somente para sites não encriptados (sem HTTPS). (Padrão antes do
-        Firefox 4.)</li>
+      <li>0 = Armazenar dados extra da sessão para qualquer site. Padrão a partir do Firefox 4.</li>
+      <li>1 = Armazenar dados extra da sessão somente para sites não encriptados (sem HTTPS). Padrão antes do
+        Firefox 4.</li>
       <li>2 = Nunca armazenar dados extra da sessão.</li>
     </ul>
   </dd>
@@ -174,7 +168,7 @@
     difíceis de notar. Essa preferência mostra o código Punycode do domínio do site que você está visitando para evitar ser enganado 
     por indivíduos mal intencionados que criam sites que se parecem com o verdadeiro, mas na verdade só usa caracteres muito parecidos em seu nome,
     com o objetivo de enganar e roubar as informações dos usuários. 
-    <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Fonte</a>
+    <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Fonte</a> (em Inglês).
   </dd>
 
   <dt>extensions.blocklist.url = https://blocklists.settings.services.mozilla.com/v1/blocklist/3/%20/%20/</dt>
@@ -182,30 +176,17 @@
     <p>Limita a quantidade de informação identificável enviada quando requisitando a lista de extensões perigosas do Mozilla.
       <p>Opcionalmente, a lista pode ser desabilitada completamente ao modificar
         <code>extensions.blocklist.enabled</code> para <code>false</code> para melhorar a privacidade, porém piorar sua segurança.
-        <a href="https://old.reddit.com/r/privacytoolsIO/comments/9uqeew/firefox_tip_sanitize_firefox_blocklist_url_so_it/">Fonte</a>
+        <a href="https://old.reddit.com/r/privacytoolsIO/comments/9uqeew/firefox_tip_sanitize_firefox_blocklist_url_so_it/">Fonte</a> (em Inglês).
       </p>
   </dd>
 </dl>
 
-<<<<<<< HEAD
-<h3>Modelos de user.js</h3>
-
-<div class="alert alert-success" role="alert">O <strong>user.js</strong> é um arquivo de configuração que pode controlar centenas de preferências do Firefox. 
-  Nesta seção iremos mostrar alguns links de arquivos pré-configurados para melhorar sua privacidade no Firefox.</div>
-
+<h3 id="user.js">Modelos user.js para o Firefox</h3>
 <ul>
-  <li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - 
-  Um modelo user.js de Firefox para configurar e enrijecer a privacidade, segurança e prevenção de idenficação por impressão digital.</li>
-  <li><a href="https://github.com/pyllyukko/user.js">pyllyukko/user.js</a> - 
-  Esse é um arquivo de configuração user.js para enrijecer as configurações do Firefox e deixá-lo mais seguro.</li>
-=======
-<h3 id="user.js">Firefox user.js Templates</h3>
-<ul>
-	<li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting.</li>
->>>>>>> upstream/master
+	<li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - Um modelo user.js de Firefox para configurar e enrijecer a privacidade, segurança e prevenção de idenficação por impressão digital.</li>
 </ul>
 
-<h3>Informações relacionadas</h3>
+<h3>Informações Relacionadas (em Inglês)</h3>
 
 <ul>
   <li><a href="https://ffprofile.com/">ffprofile.com</a> - Te ajuda a criar um perfil de Firefox com as configurações
@@ -216,5 +197,5 @@
     Firefox que serve para alterar as configurações de segurança de forma fácil, com um painel na barra de ferramentas.
   </li>
   <li><a href="https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/">Firefox Privacy Guide
-      For Dummies</a> - Guia com métodos para melhorar sua privacidade e segurança no Firefox (alguns desses métodos já foram tratados aqui).</li>
+      For Dummies</a> - Guia com métodos para melhorar sua privacidade e segurança no Firefox (alguns desses métodos já foram ensinados aqui).</li>
 </ul>
