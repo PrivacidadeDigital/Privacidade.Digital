@@ -12,7 +12,7 @@
 {% 
   include cardv2.html
   title="DNSCrypt: Ferramenta"
-  image="/assets/img/tools/DNSCrypt.png"
+  image="/assets/img/tools/DNSCrypt-Proxy.png"
   description="Um protocolo responsável por proteger a comunicação entre cliente e provedor DNS. O protocolo DNSCrypt usa criptografia de curvas elípticas de alta velocidade e segurança e é bastante similar ao DNSCurve, mas com foco na segurança da comunicação entre um cliente e seu resolvedor de primeiro nível."
   website="https://dnscrypt.info/"
   github="https://github.com/jedisct1/dnscrypt-proxy"
@@ -25,8 +25,8 @@
 <h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> Provedores de DNS ICANN Encriptados</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Nota: Utilizar um resolvedor DNS encriptado não irá torná-lo anônimo, nem esconder seu tráfego de Internet do seu provedor de Internet. 
-    Mas irá prevenir "DNS hijacking", e fazer com que suas requisições DNS sejam mais difíceis de bisbilhotar ou falsificar. 
+  <strong>Nota: Utilizar um resolvedor DNS encriptado não irá torná-lo anônimo, nem esconderá seu tráfego da Internet do seu provedor. 
+    No entanto, poderá te ajudar prevenindo "DNS hijacking", e fazer com que suas requisições DNS sejam mais difíceis de bisbilhotar ou falsificar. 
     Se você utiliza o serviço DNS da Google, é recomendado que escolha uma alternativa daqui.</strong>
 </div>
 
@@ -126,7 +126,7 @@
         <td>Sim</td>
         <td>
           <span class="no-text-wrap">
-            Ads, rastreadores,
+            Anúncios, rastreadores,
           </span>
           <span class="no-text-wrap">
              domínios maliciosos
@@ -153,7 +153,7 @@
 
       <tr>
         <td data-value="Cloudflare">
-          <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare é uma das maiores redes do mundo, e pode ser um problema ao se considerar anonimidade e descentralização."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
+          <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare é uma das maiores redes do mundo, o que pode ser um problema nos quesitos anonimidade e descentralização."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
         </td>
         <td>Anycast (sediado nos
           <span class="no-text-wrap">
@@ -187,7 +187,7 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Resolvedores de CZ.NIC não coletam nenhum dado pessoal, nem informações sobre páginas das quais seu computador envia dados."'>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Resolvedores da CZ.NIC não coletam nenhum dado pessoal, nem informações sobre páginas das quais seu computador envia dados."'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
@@ -258,7 +258,7 @@
           </a>
         </td>
         <td>Sem fins lucrativos</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nós NÃO salvamos logs de dados com seu endereço de IP ou requisições DNS durante operações normais. Nós NÃO compartilhamos dados de requisições com terceiros que não estão diretamente envolvidos em resolver a requisição (por exemplo enviando requisições para nameservers autoritários para resolvâ-las)."' href="https://appliedprivacy.net/privacy-policy/">Parcial</a></td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nós NÃO salvamos logs de dados com seu endereço de IP ou requisições DNS durante operações normais. Nós NÃO compartilhamos dados de requisições com terceiros que não estão diretamente envolvidos em resolver a requisição."' href="https://appliedprivacy.net/privacy-policy/">Parcial</a></td>
         <td data-value="dot/443">
           <span class="no-text-wrap">
             DoH,
@@ -480,13 +480,13 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nada é logado, nem informações sobre os usuários nem do uso deste serviço. Eu mantenho gráficos do número total de requisições, mas nenhuma informação pessoalmente identificável é salva. Os dados que são salvos nunca serão vendidos nem usados para nada exceto planejar a capacidade do serviço."'>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nada é logado: nem informações sobre usuários, nem sobre o uso deste serviço. Eu mantenho gráficos do número total de requisições, mas nenhuma informação pessoalmente identificável é salva. Os dados que são salvos nunca serão vendidos nem usados para nada, exceto planejar a capacidade do serviço."'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
         <td>Projeto Hobby</td>
         <td>Não</td>
-        <td data-value="doh">DoT</td> <!-- "hack" to group "DoT" values (when sorted) with "DoH" values -->
+        <td data-value="doh">DoT</td>
         <td>Sim</td>
         <td>Não</td>
         <td>Não</td>
@@ -505,47 +505,47 @@
 <h4>Glossário</h4>
 
 <ul>
-  <li>DNS-over-TLS (DoT) - Um protocolo de segurança para DNS encriptado na porta 853. Alguns provedores suportam a porta 443 que geralmente funciona em qualquer local, enquanto a porta 853 é comumente bloqueada por firewalls restritivos. DoT tem dois modos:</li>
+  <li>DNS-over-TLS (DoT) - Um protocolo de segurança para DNS encriptado, realizado na porta 853. Alguns provedores também suportam a porta 443, que geralmente funciona em qualquer local, enquanto a porta 853 é comumente bloqueada por firewalls restritivos. DoT tem dois modos:</li>
     <ul>
-        <li>Modo Oportunístico: o cliente tentar estabelecer uma conexão DNS-over-TLS com o servidor na porta 853 sem verificar a validade do certificado de segurança. Se a conexão falhar, DNS não-encriptado será utilizado. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="Em outras palavras este modo deixa seu tráfego DNS vulnerável à SSL Strip e ataques MITM"><i class="fas fa-exclamation-triangle"></i></span></li>
-        <li>Modo Estrito: o cliente se conecta com um hostname específico e verifica a validade do certificado de segurança para o mesmo. Se a validação falha, nenhuma requisição DNS é feita até que a mesma ocorra com sucesso</li>
+        <li>Modo Oportunístico: o cliente tenta estabelecer uma conexão DNS-over-TLS com o servidor na porta 853, sem verificar a validade do certificado de segurança. Se a conexão falhar, DNS não-encriptado será utilizado. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="Em outras palavras este modo deixa seu tráfego DNS vulnerável a SSL Strip e ataques MITM"><i class="fas fa-exclamation-triangle"></i></span></li>
+        <li>Modo Estrito: o cliente se conecta com um hostname específico e verifica a validade do certificado de segurança do mesmo. Se a validação falha, nenhuma requisição DNS é feita até que a mesma ocorra com sucesso.</li>
     </ul>
-  <li>DNS-over-HTTPS (DoH) - Similar ao DoT, mas utilizando HTTPS, com tráfego indistinguível do tráfego "normal" de HTTPS na porta 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contém metadados como o user-agent (no qual pode incluir informações do sistema), que são enviados ao servidor DNS."><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
-  <li>DNSCrypt - Um método antigo, porém robusto de encriptar DNS.</li>
+  <li>DNS-over-HTTPS (DoH) - Similar ao DoT, mas utilizando HTTPS, com tráfego indistinguível do tráfego HTTPS "normal" na porta 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contém metadados como o user-agent (no qual pode incluir informações do sistema), que são enviados ao servidor DNS."><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+  <li>DNSCrypt - Um método antigo de encriptar DNS, porém robusto.</li>
 </ul>
 
-<h4>Como verificar se o DNS está encriptado</h4>
+<h4>Como Verificar Se o DNS Está Encriptado</h4>
 
 <ul>
   <li>DoH / DoT
     <ul>
-      <li>Verifique o site <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="Seu provedor de DNS pode não aparecer com seu próprio nome, então compare as respostas com o que você conhece ou pode encontrar a respeito do seu provedor DNS. Apenas lembre-se de certificar que você não veja seu provedor de Internet ou algum provedor DNS não-encriptado antigo seu."><i class="fas fa-exclamation-triangle"></i></span></li>
-      <li>Verifique o site do seu provedor de DNS. Eles podem ter alguma página que verifica que você está utilizando o DNS deles. Exemplos incluem <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> e <a href="https://1.1.1.1/help">Cloudflare</a>.</li>
-      <li>Se estiver utilizando o Trusted Recursive Resolver (TRR) do Firefox, navegue até <code>about:networking#dns</code>. Se a coluna TRR estiver como "true" para alguns campus, você está utilizando DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='Alguns campus irão ter o valor "false" dependendo do valor do atributo network.trr.mode em about:config'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+      <li>Verifique no site <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="Seu provedors DNS pode não aparecer com seu nome verdadeiro, então compare as respostas com o que você conhece ou possa encontrar a respeito do seu provedor DNS. Apenas lembre-se de verificar que não apareça seu provedor de Internet ou algum provedor DNS não-encriptado antigo seu."><i class="fas fa-exclamation-triangle"></i></span></li>
+      <li>Verifique no site do seu provedor DNS. Eles podem ter alguma página que verifica se você está utilizando o DNS deles. Exemplos incluem <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> e <a href="https://1.1.1.1/help">Cloudflare</a>.</li>
+      <li>Se estiver utilizando o Trusted Recursive Resolver (TRR) do Firefox, navegue até <code>about:networking#dns</code>. Se a coluna TRR estiver como <code>true</code> para alguns campos, você está utilizando DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='Alguns campos irão ter o valor "false" dependendo do valor do atributo network.trr.mode em about:config'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
     </ul>
   </li>
-  <li>dnscrypt-proxy - Verifique <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">na wiki dnscrypt-proxy a guia de como verificar se sua DNS está encriptada</a>.</li>
-  <li>DNSSEC - Verifique o <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test por Matthäus Wander</a>.</li>
-  <li>Minimização QNAME - Rode <code>dig +short txt qnamemintest.internet.nl</code> na linha de comando do seu sistema operacional (dica <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">desse slide da NLnet Labs</a>). Se você estiver utilizando Windows 10, rode <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> pelo PowerShell. A seguinte mensagem deve ser retornada: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
+  <li>dnscrypt-proxy - Verifique <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">na wiki dnscrypt-proxy a guia de como verificar se sua DNS está encriptada</a> (em Inglês).</li>
+  <li>DNSSEC - Verifique em <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test por Matthäus Wander</a> (em Inglês).</li>
+  <li>Minimização QNAME - Execute <code>dig +short txt qnamemintest.internet.nl</code> na linha de comando do seu sistema operacional (dica <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">desse slide da NLnet Labs</a>, em Inglês). Se você estiver utilizando Windows 10, execute <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> no PowerShell. A seguinte mensagem deve ser retornada: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
 </ul>
 
 <h3>Menções Honrosas e Informações Adicionais</h3>
 
 <ul>
-  <li><strong>Clientes de DNS Encriptado para desktop:</strong>
+  <li><strong>Clientes de DNS Encriptado para Computadores:</strong>
     <ul>
       <li><em>Firefox</em> vem com suporte a DoH embutido com Cloudflare selecionado como resolvedor padrão, mas pode ser configurado para utilizar qualquer resolvedor DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='"Cloudflare concordou em coletar somente uma quantidade limitada de dados sobre as requisições DNS que são enviadas para o resolvedor Cloudflare para Firefox."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Atualmente a Mozilla está <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conduzindo estudos</a> antes de habilitar DoH por padrão para todos os usuários Firefox residentes dos EUA.</li>
           <ul>
-              <li>DNS sobre HTTPS pode ser habilitado em Menu -> Preferências (<code>about:preferences</code>) -> Configurações de rede -> Ativar DNS sobre HTTPS. Em "Usar provedor" selecione "Personalizado", e digite o endereço do seu provedor DoH.</li>
+              <li>DNS-over-HTTPS pode ser habilitado em Menu -> Preferências (<code>about:preferences</code>) -> Configurações de rede -> Ativar DNS sobre HTTPS. Em "Usar provedor" selecione "Personalizado", e digite o endereço do seu provedor DoH.</li>
               <li>Usuários avançados podem habilitar a configuração em <code>about:config</code> ao mudar os valores de <code>network.trr.custom_uri</code> e <code>network.trr.uri</code> para o endereço que você encontrar na documentação do seu provedor DoH e o valor de <code>network.trr.mode</code> para <code>2</code>. Também pode ser vantajoso mudar o valor de <code>network.security.esni.enabled</code> para <code>True</code>, de forma que habilita SNI encriptado e faça sites que suportam ESNI um pouco mais difíceis de rastrear.</li>
           </ul>
     </ul>
   </li>
-  <li><strong>Clientes de DNS Encriptado para dispositivos móveis:</strong>
+  <li><strong>Clientes de DNS Encriptado para Dispositivos Móveis:</strong>
     <ul>
       <li><em>Android 9</em> já incluí um cliente DoT embutido <a href="https://support.google.com/android/answer/9089903">por padrão</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...mas com algumas desvantagens"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
         <ul>
-          <li>Nós recomendamos selecionar <em>Nome do host do provedor de DNS particular</em> e digitar o endereço DoT da documentação do seu provedor DoT para habilitar modo estrito (ver Termos acima). <span class="badge badge-warning" data-toggle="tooltip" data-original-title="If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity."><i class="fas fa-exclamation-triangle"></i></span></li>
+          <li>Nós recomendamos selecionar <em>Nome do host do provedor de DNS particular</em> e digitar o endereço DoT da documentação do seu provedor DoT para habilitar o modo estrito (ver termos acima). <span class="badge badge-warning" data-toggle="tooltip" data-original-title="Se você estiver numa rede que bloqueia o acesso à porta 853, o Android mostrará um erro sobre a rede não ter conexão à Internet."><i class="fas fa-exclamation-triangle"></i></span></li>
         </ul>
       <li><em><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a></em> - Um cliente DNSCrypt e DoH com <a href="https://github.com/s-s/dnscloak">código-fonte aberto</a> para iOS por <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Organização de hospedagem sem fins lucrativos e de caridade para projetos internacionais de Software Livre."' href="https://techcultivation.org/">Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</li>
       <li><em><a href="https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md">Nebulo</a></em> - Um aplicativo Android com código-fonte aberto que suporta DoH e DoT. Também suporta cachê para respostas DNS e salvar logs de registro locais para requisições DNS.</li>
