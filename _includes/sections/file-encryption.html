@@ -6,54 +6,12 @@
   </strong>
 </div>
 
-<<<<<<< HEAD
-<div class="row mb-2">
-
-  {% include card.html color="success"
-  title="VeraCrypt: Encriptação de Disco"
-  image="/assets/img/tools/VeraCrypt.png"
-  url="https://veracrypt.fr/"
-  footer="SO: Windows, macOS, Linux."
-  description="VeraCrypt é um software gratuito, com código-fonte disponível. Ele é usado para realizar encriptografia em tempo real 
-  e pode criar um disco virtual encriptado dentro de um arquivo, partição encriptada, ou dispositivo de armazenamento inteiro através de autentificação pré-boot. 
-  VeraCrypt é um fork do projeto TrueCrypt, que foi descontinuado. Ele foi publicado em 22 de junho de 2013, e segundo os seus desenvolvedores, 
-  sua segurança melhorou muito desde então. Além disso, melhorias na segurança e problemas apontados pela auditoria do código do TrueCrypt foram solucionados."
-  %}
-
-  {% include card.html color="primary"
-  title="GNU Privacy Guard - Encriptação de Email"
-  image="/assets/img/tools/GnuPG.png"
-  url="https://gpgtools.org/"
-  footer="SO: Windows, macOS, Linux, Android, BSD."
-  description="GnuPG é uma alternativa com licença GPL para os softwares de criptografia PGP. 
-  GnuPG é complacente com o RFC 4880, atual padrão IETF de especificações para o OpenPGP. 
-  As versão atuais do PGP (e do Filecrypt, da Veridis) são compatíveis com o GnuPG e outros sistemas OpenPGP. 
-  GnuPG é parte do projeto GNU de software da Free Software Foundation, e recebeu um grande financiamento do governo alemão. 
-  <a href=\"https://gpgtools.org/\">GPGTools, para macOS</a>"
-  %}
-
-  {% include card.html color="warning"
-  title="PeaZip: Encriptação de Arquivos"
-  image="/assets/img/tools/PeaZip.png"
-  url="http://www.peazip.org/"
-  footer="SO: Windows, Linux, BSD."
-  description="PeaZip é um gerenciador de arquivos gratuito e com código-fonte aberto, criado por Giorgio Tani. 
-  Ele tem suporte para o seu formato de arquivo nativo PEA 
-  (que possui compressão de arquivos, divisão multivolume de arquivos, encriptação autenticada flexível e esquema de checagem de integridade), 
-  além de outros formatos mais populares, com um foco especial em lidar com formatos de código-fonte aberto. 
-  PeaZip tem suporte para 181 extensões de arquivos (em sua versao 5.5.1).
-  <p><strong>Alternativa para macOS:</strong> <a href=\"https://www.keka.io/\">Keka</a> é um gerenciador de arquivos gratuito e com código-fonte aberto.</p>"
-  %}
-
-</div>
-=======
 {%
   include cardv2.html
-  title="VeraCrypt - Disk Encryption"
+  title="VeraCrypt: Encriptação para Dispositivos de Armazenamento"
   image="/assets/img/tools/VeraCrypt.png"
-  description="<strong>VeraCrypt</strong> is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. It was initially released on June 22, 2013. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed."
+  description="<strong>VeraCrypt</strong> é um software gratuito e com código-fonte disponível para inspeção, usado para criptografia em tempo real. O programa pode criar um dispositivo de armazenamento virtual encriptado num arquivo, mas também pode ser usado para encriptar uma partição ou HDs inteiros com autenticação antes do boot de sistemas operacionais. VeraCrypt é um fork do projeto TrueCrypt, que foi descontinuado. Foi originalmente lançado no dia 22 de Junho de 2013. De acordo com seus desenvolvedores, melhorias de segurança foram implementadas e problemas levantados na primeira audição de segurança do TrueCrypt foram resolvidos."
   website="https://veracrypt.fr/"
-  forum="https://forum.privacytools.io/t/discussion-veracrypt-file-encryption/1532"
   git="https://www.veracrypt.fr/code/"
   windows="https://www.veracrypt.fr/en/Downloads.html"
   linux="https://www.veracrypt.fr/en/Downloads.html"
@@ -62,11 +20,10 @@
 
 {%
   include cardv2.html
-  title="GNU Privacy Guard - Email Encryption"
+  title="GNU Privacy Guard: Encriptação para Emails"
   image="/assets/img/tools/GnuPG.png"
-  description="<strong>GnuPG</strong> is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems. GnuPG is a part of the Free Software Foundation's GNU software project, and has received major funding from the German government."
+  description="<strong>GnuPG</strong> é uma alternativa sob licença GPL ao conjunto de softwares proprietários de criptografia PGP. GnuPG é complacente com o RFC 4880, que é o padrão atual da IETF que trata de implementações OpenPGP. As versões atuais do PGP (e Filecrypt) funcionam corretamente com o GnuPG e outros sistemas que aderem aos padrões OpenPGP. GnuPG faz parte do projeto GNU da Free Software Foundation, e recebeu um enorme financiamento do governo alemão."
   website="https://gnupg.org/"
-  forum="https://forum.privacytools.io/t/discussion-gnupg-file-encryption/1533"
   git="https://gnupg.org/download/git.html"
   windows="https://gnupg.org/download/index.html"
   linux="https://gnupg.org/download/index.html"
@@ -76,44 +33,21 @@
 
 {%
   include cardv2.html
-  title="PeaZip - File Archive Encryption"
+  title="PeaZip: Encriptação para Arquivos"
   image="/assets/img/tools/PeaZip.png"
-  description="<strong>PeaZip</strong> is a free and open-source file manager and file archiver made by Giorgio Tani. It supports its native PEA archive format (featuring compression, multi volume split and flexible authenticated encryption and integrity check schemes) and other mainstream formats, with special focus on handling open formats. It supports 180+ archive formats."
+  description="<strong>PeaZip</strong> é um gerenciador e compressor de arquivos. É software livre, grátis e tem código-fonte aberto, criado por Giorgio Tani. Suporta o formato de arquivos nativo do programa: o PEA (com funcionalidades de compressão, divisão em vários volumes, autenticação, encriptação e esquemas de checagem de integridade), mas também suporta outros formatos mais populares, com foco em formatos abertos. Suporta mais de 180 formatos de compressão de arquivos."
   website="http://www.peazip.org"
-  forum="https://forum.privacytools.io/t/discussion-peazip-file-encryption/1534"
   source="https://sourceforge.net/projects/peazip/files/"
   windows="https://www.peazip.org/"
   linux="https://www.peazip.org/"
 %}
->>>>>>> upstream/master
 
-<h3>Menções honrosas</h3>
+<h3>Menções Honrosas</h3>
 
 <ul>
-<<<<<<< HEAD
-  <li>
-    <a href="https://cryptomator.org/">Cryptomator</a> - 
-    Encriptação AES gratuita feita no cliente para seus arquivos na nuvem. Software de código-fonte aberto: sem backdoors, sem registros.
-  </li>
-  <li>
-    <a href="https://diskcryptor.net/">DiskCryptor</a> - 
-    Um sistema de encriptação para discos completos ou partições para Windows. Inclui a habilidade de encriptar a partição em que o SO está instalado.
-  </li>
-  <li>
-    <a href="https://gitlab.com/cryptsetup/cryptsetup/">Linux Unified Key Setup (LUKS)</a> - 
-    Um sistema de encriptação de disco completo para Linux usando dm-crypt como o backend da encriptação do disco. 
-    Incluído por padrão no Ubuntu (mas não ativado por padrão). Disponível também para Windows e outras distribuições GNU/Linux.
-  </li>
-  <li>
-    <a href="https://hat.sh/">Hat.sh</a> - 
-    Uma aplicação web JavaScript e multi-plataforma que provém encriptação segura de arquivos usando o algoritmo AES-256-GCM no seu navegador. Também pode ser baixado e rodado offline.
-    </a>
-  </li>
-=======
-  <li><a href="https://cryptomator.org/">Cryptomator</a> - Free client-side AES encryption for your cloud files. Open source software: No backdoors, no registration.</li>
-  <li><a href="https://diskcryptor.net/">DiskCryptor</a> - A full disk and partition encryption system for Windows including the ability to encrypt the partition and disk on which the OS is installed.</li>
-  <li><a href="https://gitlab.com/cryptsetup/cryptsetup/">Linux Unified Key Setup (LUKS)</a> - A full disk encryption system for Linux using dm-crypt as the disk encryption backend. Included by default in Ubuntu. Available for Windows and Linux.</li>
-  <li><a href="https://hat.sh/">Hat.sh</a> - A cross-platform, serverless JavaScript web application that provides secure file encryption using the AES-256-GCM algorithm in your browser. It can also be downloaded and run offline.</a></li>
-  <li><a href="https://www.keka.io/">Keka</a> - A macOS-only, open-source file archiver with the ability to encrypt files.</li>
->>>>>>> upstream/master
+  <li><a href="https://cryptomator.org/">Cryptomator</a> - Encriptação AES gratuita feita no cliente para seus arquivos na nuvem. Software com código-fonte aberto: sem backdoors, sem registros.</li>
+  <li><a href="https://diskcryptor.net/">DiskCryptor</a> - Um sistema de encriptação para HDs inteiros ou partições no Windows. Inclui a habilidade de encriptar a partição em que o SO está instalado.</li>
+  <li><a href="https://gitlab.com/cryptsetup/cryptsetup/">Linux Unified Key Setup (LUKS)</a> - Um sistema de encriptação de HDs para Linux usando dm-crypt como o backend da encriptação do disco. Incluído por padrão no Ubuntu (mas não ativado por padrão). Disponível também para Windows e várias distribuições GNU/Linux. </li>
+  <li><a href="https://hat.sh/">Hat.sh</a> - Uma aplicação web JavaScript e multi-plataforma que provém encriptação segura de arquivos usando o algoritmo AES-256-GCM no seu navegador. Também pode ser baixado e rodado offline.</a></li>
+  <li><a href="https://www.keka.io/">Keka</a> - Um compressor de arquivos disponível somente para macOS, com código-fonte aberto e funcionalidade de encriptação de arquivos.</li>
 </ul>
