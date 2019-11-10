@@ -1,14 +1,8 @@
-<<<<<<< HEAD
 title: Privacidade Digital - Encriptação Contra a Vigilância Global em Massa
+name: Privacidade Digital
 description: Você está sendo vigiado. Equipe-se com conhecimento, encriptação e privacidade para resistir à vigilância global em massa.
 url: "https://www.privacidade.digital"
-=======
-title: PrivacyTools - Encryption Against Global Mass Surveillance
-name: PrivacyTools
-description: You are being watched. PrivacyTools provides knowledge, encryption, and software recommendations to protect you against global mass surveillance.
-url: "https://www.privacytools.io"
-production_url: "https://www.privacytools.io"
->>>>>>> upstream/master
+production_url: "https://www.privacidade.digital"
 sass:
   style: compressed
 plugins:
