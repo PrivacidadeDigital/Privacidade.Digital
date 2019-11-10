@@ -16,6 +16,9 @@
   windows="https://nextcloud.com/install/"
   linux="https://nextcloud.com/install/"
   mac="https://nextcloud.com/install/"
+  freebsd="https://www.freshports.org/deskutils/nextcloudclient/"
+  openbsd="http://openports.se/www/nextcloud"
+  netbsd="http://pkgsrc.se/www/php-nextcloud"
   android="https://nextcloud.com/install/"
   ios="https://nextcloud.com/install/"
 %}
@@ -24,7 +27,11 @@
   include cardv2.html
   title="Email Providers"
   image="/assets/img/misc/email.png"
+<<<<<<< HEAD
   description='Muitos provedores de email também oferecem serviços de sincronização de calendário e contatos. Dê uma olhada na <a href="/provedores/email">seção Provedores de Email</a> para escolher um provedor de email e checar se eles também oferecem sincronização de calendário e/ou contatos.'
+=======
+  description='Many email providers also offer calendar and or contacts sync services. Refer to the <a href="/providers/email">Email Providers section</a> to choose an email provider and check if they also offer calendar and/or contacts sync.'
+>>>>>>> upstream/master
   website="/providers/email"
 %}
 
@@ -32,22 +39,37 @@
   include cardv2.html
   title="EteSync"
   image="/assets/img/provider/etesync.png"
+<<<<<<< HEAD
   description="<strong>EteSync</strong> é um serviço seguro com encriptação de ponta-a-ponta, sincronização na nuvem de informações pessoais de agenda e backup para Android e qualquer SO que suporta CalDAV/CardDAV. Custa $14 por ano para usar, ou você pode hospedá-lo no seu próprio servidor sem nenhuma cobrança adicional."
+=======
+  description="<strong>EteSync</strong> is a secure, end-to-end encrypted, and journaled personal information (e.g. contacts and calendar) cloud synchronization and backup for Android and any OS that supports CalDAV/CardDAV. It costs $24 per year to use, or you can host the server yourself for free."
+>>>>>>> upstream/master
   website="https://www.etesync.com/"
   github="https://github.com/etesync"
-  web="https://www.etesync.com/"
-  linux="https://www.etesync.com/"
-  android="https://www.etesync.com/"
+  web="https://client.etesync.com/"
+  windows="https://github.com/etesync/etesync-dav/blob/master/README.md#installation"
+  mac="https://github.com/etesync/etesync-dav/blob/master/README.md#installation"
+  linux="https://github.com/etesync/etesync-dav/blob/master/README.md#installation"
+  fdroid="https://f-droid.org/packages/com.etesync.syncadapter/"
+  googleplay="https://play.google.com/store/apps/details?id=com.etesync.syncadapter"
 %}
 
 <h3>Menções Honrosas</h3>
 
 <ul>
   <li>
+<<<<<<< HEAD
     <a href="https://fruux.com/">fruux</a> - sistema unificado de contatos/calendários que funciona em múltiplas plataformas e dispositivos.
   </li>
 
   <li>
     <a href="../nuvem">Backups na nuvem</a> - considere exportar seu calendário e/ou contatos regularmente e salvá-los em dispositivos de armazenamento separados, ou armazená-los num serviço na nuvem (após <a href="../encriptacao/#encriptar">encriptá-los</a>).
+=======
+    <a href="https://fruux.com/">fruux</a> - A unified contacts/calendaring system that works across platforms and devices.
+  </li>
+
+  <li>
+    <a href="../cloud">cloud backups</a> - Consider regularly exporting your calendar and or contacts and backing them up on a separate storage drive or uploading them to cloud storage (ideally after <a href="../encryption-tools/">encrypting</a> them).
+>>>>>>> upstream/master
   </li>
 </ul>
