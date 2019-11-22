@@ -1,113 +1,141 @@
-# Contributing Guidelines
+# Contribuindo para Privacidade Digital
 
-Please read this document in full before contributing.
+Esta comunidade agradece a sua pessoa por tirar um pouco do seu tempo e interesse para ajudar o projeto, pois ele precisa de você! :+1:
 
-- [Rules](#rules)
-- [Quality over Quantity](#quality-over-quantity)
-- [Software Criteria](#software-criteria)
-  - [Main (All Software)](#main)
-  - [Providers](#providers)
-    - [DNS](#dns)
-    - [VPN](#vpn)
-    - [Email](#email)
-  - [Hardware](#hardware)
-  - [Software](#software)
-  - [Encryption](#encryption)
-  - [Operating Systems](#operating-systems)
-- [Images](#images)
-- [Licensing](#licensing)
-- [Contributing via email](#contributing-via-email)
+Este documento é uma coleção de diretrizes para contribuições em Português, para que o trabalho feito aqui seja mais padronizado. No entanto, o que for apresentado não são regras rigorosamente cobradas. Estas diretrizes te ajudarão a contribuir de forma mais efetiva, para que as contribuições sejam aplicadas da forma mais rápida e adequada.
 
-## Rules
+#### Sumário
 
-- Be nice and respectful.
-- English only.
-- Be constructive.
-- Please feel free to *review changes* in the *files changed* tab of any
-  pull request at any time.
-- See also our [Code of Conduct](https://github.com/privacytoolsIO/.github/blob/master/CODE_OF_CONDUCT.md)
+[Código de Conduta](#código-de-conduta)
 
-## Quality over Quantity
+[Eu não quero ler esse texto gigante, só quero perguntar uma coisa!](#eu-não-quero-ler-esse-texto-gigante-só-quero-perguntar-uma-coisa)
 
-We're trying to keep it simple and promote the best tools, not all of them.
+[O que devo saber antes de começar?](#o-que-devo-saber-antes-de-começar)
+* [O projeto Privacidade Digital](#o-projeto-privacidade-digital)
+* [Requisitos intelectuais e métodos alternativos de contribuição](#requisitos-intelectuais-e-métodos-alternativos-de-contribuição)
 
-## Software Criteria
+[Como posso contribuir?](#como-posso-contribuir)
+* [Divulgando o projeto](#divulgando-o-projeto)
+* [Reportando erros no projeto](#reportando-erros-no-projeto)
+* [Sugerindo novidades e melhorias](#sugerindo-novidades-e-melhorias)
+* [Criando Pull Requests](#criando-pull-requests)
+* [Entrando no Time de Colaborades Frequentes (TCF)](#entrando-no-time-de-colaboradores-frequentes-tcf)
+* [Doando para o projeto](#doando-para-o-projeto)
 
-### Main
+[Padrões no Código](#padrões-no-código)
 
-- Easy to use. Could your mother use that tool or service? Usability is most important.
-- Cross-platform / Accessible.
-- Privacy respecting.
-- Open Source / Free Software is preferred but not required.
-- Prioritize Products without Vendor Lock-in (decentralized/self-hostable) or data interoperability.
+## Código de Conduta
 
-There can be exceptions if no software is available that meet the criteria.
+Este repositório e suas contribuições precisam respeitar o [Código de Conduta](CODE_OF_CONDUCT.md). A conformidade com tal código de conduta é absolutamente necessária. Comportamento inaceitável deve ser reportado através de email para [contato@privacidade.digital](mailto:contato@privacidade.digital).
 
-Note: This criteria applies to all of the PrivacyTools website and recommendations.
+## Eu não quero ler esse texto gigante, só quero perguntar uma coisa!
 
-### Providers
+Embora a resposta para sua pergunta possa estar neste documento, reconhecemos a eventual necessidade de conversa mais direta, ou específica. Entre em contato com o time de colaboradores frequentes:
 
-- Prioritize Products by privacy respecting nationality.
+:email: Email: [contato@privacidade.digital](mailto:contato@privacidade.digital)
 
-### DNS
+:speech_balloon: Grupo Matrix: `#privacidade.digital-geral:matrix.org`
 
-- Supports DoH or DoT (We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it).
-- Supports DNSSEC (https://dnssec.vs.uni-due.de/ can test your current DNS provider).
-- Doesn't log IP addresses during normal operation (If your suggestion logs, please compare its privacy policy with other servers on our table that keep logs).
-- Preferably supports QNAME minimization (if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` or `Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl` if you are on Windows 10)
+:bird: DM no Twitter: [@PrivacidadeJa](https://twitter.com/PrivacidadeJa)
 
-### VPN
+:exclamation: O método mais seguro de comunicação é por troca de email encriptado. No grupo de conversa Matrix, é possível enviar mensagens seguras para colaboradores individuais. Embora se comunicar no Twitter seja válido, DMs não possuem criptografia ponta a ponta, portanto é o método de comunicação menos recomendado para sua privacidade.
 
-See https://www.privacytools.io/providers/vpn/#criteria for more details.
+## O que devo saber antes de começar?
 
-- Prioritize Products by privacy respecting nationality.
-- Cannot be based in USA or UK.
-- Must be accessible via Open Source Software (e.g. OpenVPN, WireGuard)
-- Use Encryption
-- Accept Cryptocurrency
-- No logging policy
+### O projeto Privacidade Digital
 
-### Email
+:shield: Privacidade Digital nasceu da vontade de um punhado de desenvolvedores web brasileiros em traduzir o site `www.privacytools.io`. No entanto, verificou-se a necessidade de algo com proporções um pouco mais amplas, para se adaptar à realidade brasileira e ajudar a população a se defender de invasões de privacidade digitais. No momento, os segmentos ativos do projeto são:
 
-- Outside of USA
-- Support SMTP SSL
-- Accessible Using Open Source Software (e.g. allows IMAP)
+* [Este repositório](https://github.com/PrivacidadeDigital/privacidade.digital/) e sua [wiki](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/): onde o desenvolvimento do projeto ocorre; onde damos dicas de como utilizar as plataformas Git e GitHub de forma facilitada
+* [Site](https://www.privacidade.digital/): onde residem dicas valiosas sobre como defender sua privacidade digital
+* [@PrivacidadeJa](https://twitter.com/PrivacidadeDigital) no Twitter: perfil oficial, com notícias e dicas sobre privacidade  
+* [@privacidade.digital](https://www.instagram.com/privacidade.digital/) no Instagram: perfil oficial, com notícias e dicas sobre privacidade, através de imagens
+* [Métodos válidos de contato](https://www.privacidade.digital/contato): plataformas escolhidas para contato com indivíduos, comunidades e outras entidades
 
-### Hardware
+### Requisitos intelectuais e métodos alternativos de contribuição
 
-- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or equivalent (if applicable)
-- Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when available.
-- Cannot lock users to a particular platform.
+O projeto não tem por objetivo restringir suas contribuições. Mesmo que não tenha os conhecimentos para utilizar esta plataforma ou para desenvolver sites, sua ajuda é encorajada! Entre em contato com o time de colaboradores frequentes, para que possam dar uma direção diferente à sua contribuição.
 
-### Software
+## Como posso contribuir?
 
-- Must be able to download over encrypted network (can be a mirror)
-- Must be Open Source Software
+Antes de prosseguir na leitura destas diretrizes, lembre-se que este é um projeto em Português, portanto evite utilizar outras línguas nas contribuições, a menos que seja necessária a inclusão da língua para explicar algo. 
 
-### Encryption
+### Divulgando o projeto
 
-- Only verifiable encryption is to be trusted
+Um dos jeitos mais fáceis de contribuir é divulgando o projeto! Como o objetivo do site é melhorar a privacidade do máximo de pessoas possível, qualquer divulgação é muito bem-vinda. Caso tenha gostado de nosso site ou outros segmentos deste projeto, mencione-os para as pessoas sempre que o assunto "privacidade digital" vir a tona. É um dos jeitos mais simples de ajudar a espalhar as dicas do site.
 
-### Operating Systems
+O domínio "privacidade.digital" foi escolhido justamente para ser algo fácil de ser acessado e lembrado por todas as pessoas falantes da Língua Portuguesa. Outros exemplos de divulgação incluem, mas não se limitam a:
 
-- Must state if recommends, depends on, or offers non-free software (contrib)
-- No Tracking Policy (opt-in analytics is ok)
+🗣️ Compartilhar links do site na sua rede social preferida.
 
-## Images
+🗣️ Compartilhar posts feitos em perfis oficiais do projeto nas redes sociais.
 
-- Provider logos are 200px x 70px ([example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/provider/Mullvad.png))
-- Tool logos are 120px x 120px ([example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/tools/Firefox.png))
+🗣️ Mencionar o site sempre quando discutir o assunto com as pessoas.
 
-## Licensing
+🗣️ Imprimir o conteúdo do site e entregar para pessoas da sua comunidade ou curso.
 
-The content and original technology of this website is made available under the Creative Commons Zero v1.0 Universal license text. Some files or folders may include works from other projects with separate licenses, and will be marked as such. **By contributing to this repository, contributors do not necessarily agree to sign a CLA or legally transfer their copyright to the project, but they do at a minimum agree to license their work under the current license of this repository: In this case, the Creative Commons Zero v1.0 Universal.**
+O conteúdo do site é dedicado ao domínio público. Você tem máxima liberdade judicial para divulgá-lo, da forma que desejar.
 
-## Contributing via email
+### Reportando erros no projeto
 
-If you have a GitHub account, or are able to create a GitHub account, we ask that you do not submit issues via email.
+Caso acredite que o projeto possua erros, você pode reportá-los através do GitHub. Mais especificadamente, abrindo uma instância da chamada [Issue](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/Criando-Issues), que nada mais é do que um post que registra um "problema" do repositório. Exemplos de erro incluem, mas não se limitam a:
 
-If you do not have a GitHub account, you may submit software recommendations or other issues via email without creating a GitHub account by emailing `privacytools@fire.fundersclub.com`. The subject line of your email will become the issue title. Your name will be included in the posted issue.
+:beetle: Texto em outras línguas. Exceção: quando o texto é devidamente explicado em Português.
 
-This repository uses [@fire-bot](https://github.com/fire-bot), [a service](https://fire.fundersclub.com) from FundersClub that converts incoming emails to GitHub issues. By sending a message to the email address above, you will be sharing your email address and message content with FundersClub. FundersClub has a privacy policy at [https://fundersclub.com/catalyst-privacy-policy/](https://fundersclub.com/catalyst-privacy-policy/) you should review before using this service. Any attachments you send via this service may be stored indefinitely by FundersClub for the purpose of making them available within the submitted GitHub issue.
+:beetle: Links quebrados e links que levam para páginas em outras línguas. Exceção: quando é avisado no texto que o link vai para página em outra língua.
 
-You can view an example of the created issues' format at [#1444](https://github.com/privacytoolsIO/privacytools.io/issues/1444).
+:beetle: Erros de Português no site ou qualquer segmento do projeto. Isso também inclui quando o texto fica confuso para o visitante, mesmo que não haja erro gramatical.
+
+:beetle: Erros gerais e de sintaxe no código do site, ou problemas em sua organização. Isso também inclui erros de design.
+
+### Sugerindo novidades e melhorias
+
+Você também pode sugerir coisas novas para o projeto, ou melhorias de coisas que já tenham sido feitas ou iniciadas. Para sugerir, basta abrir uma [Issue](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/Criando-Issues). Exemplos de sugestão incluem, mas não se limitam a:
+
+ :star2: Nova ferramenta ou recurso de privacidade digital a ser incluído no site e/ou divulgado nas redes sociais. Isso pode incluir links, textos, recomendações de software, podcasts, canais de vídeos, livros, etc.
+ 
+ :star2: Melhorias no design e identidade visual do projeto e seus diferentes segmentos. Isso pode incluir a troca de logotipos, cores, imagens, web design, etc.
+ 
+ :star2: Melhoria na forma de escrever em textos de qualquer arquivo deste repositório e posts em outros segmentos do projeto.
+ 
+ :star2: Novos projetos e segmentos. Isso pode incluir um novo site, campanha digital, perfil em rede social, etc.
+
+### Criando Pull Requests
+
+Você também pode criar Pull Requests (PRs), caso se sinta confortável o suficiente com o código. Para fazer isso, você precisará criar um fork do repositório, fazer as modificações desejadas e propor um merge através do PR. Os administradores do repositório, por sua vez, irão revisar suas modificações e aceitá-las caso estiverem de acordo. Também é possível que eles peçam que você faça modificações adicionais antes do merge ou reijeitarão suas modificações no código.
+
+Para evitar que seu código seja rejeitado, verifique se já não existe uma issue ou PR sobre o problema.
+
+Caso não saiba utilizar Git/GitHub, não se preocupe, pois serão feitos tutoriais amigáveis em breve.
+
+### Entrando no Time de Colaboradores Frequentes (TCF)
+
+Você acha que tem algo de **valor intelectual** para doar ao projeto de forma consistente e voluntária? Você acha que terá tempo para se dedicar ao projeto pelo menos 1 vez por semana? Se sim para ambas as perguntas, entre em contato. Exemplos de trabalhos que você poderá exercer como um colaborador frequente são, mas não se limitam a:
+
+:muscle: Participar ativamente de reuniões virtuais internas sobre o estado atual e futuro do projeto.
+
+:muscle: Gerenciar perfis oficiais do projeto em redes sociais.
+
+:muscle: Melhorar traduções Inglês-Português; melhorar linguagem do site para que seja mais acessível; revisar o site por erros gramaticais e de concordância.
+
+:muscle: Providenciar conselho legal para questões de privacidade digital e tecnologia no Brasil e outros países cuja língua oficial é Português.
+
+:muscle: Escrever artigos sobre privacidade e tecnologia.
+
+:muscle: Preparar pequenos cursos ou tutoriais para tornar o conhecimento sobre privacidade mais acessível.
+
+### Doando para o projeto
+
+Manter um site custa tempo e dinheiro, o que é parcialmente financiado por colaboradores. Atualmente, gastamos dinheiro com as seguintes coisas:
+
+:money_with_wings: Domínio "privacidade.digital"
+
+:money_with_wings: Servidores de Email, Web e DNS 
+
+Para começar, doe 1 real. Saiba mais em: https://www.privacidade.digital/doar.
+
+Em breve também serão aceitas criptomoedas.
+
+## Padrões no Código
+
+Em breve.
