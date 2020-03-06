@@ -4,30 +4,30 @@ https://keybase.io/abbluiz
 
 I hereby claim:
 
-  * I am an admin of https://www.privacidade.digital
+  * I am an admin of https://privacidade.digital
   * I am abbluiz (https://keybase.io/abbluiz) on keybase.
-  * I have a public key ASBaaqOB0xR5_lyAqdiOxKAUMR1Xpe268Qu4ukqIQRbGtwo
+  * I have a public key ASB4Zp26hrUbTHb6EojkyehwHMzwARKq19m-CDRxYT82PAo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "01205a6aa381d31479fe5c80a9d88ec4a014311d57a5edbaf10bb8ba4a884116c6b70a",
+      "eldest_kid": "012078669dba86b51b4c76fa1288e4c9e8701cccf00112aad7d9be083471613f363c0a",
       "host": "keybase.io",
-      "kid": "01205a6aa381d31479fe5c80a9d88ec4a014311d57a5edbaf10bb8ba4a884116c6b70a",
+      "kid": "012078669dba86b51b4c76fa1288e4c9e8701cccf00112aad7d9be083471613f363c0a",
       "uid": "05336ae81b63880f93077016426aef19",
       "username": "abbluiz"
     },
     "merkle_root": {
-      "ctime": 1559625539,
-      "hash": "ce0d52c332ecbf6b4c25fc412fe6e19033ea1ca9b6e4fdc7e7305260fd69ff3769c81d11719a803db426ef637c43d442e995f613e1e353be5230d1a18f69b77c",
-      "hash_meta": "b1934f800329c4b953126fb19e5bb30953a48da93f52fd5e86065db31f3b4421",
-      "seqno": 5502731
+      "ctime": 1583511626,
+      "hash": "4795d5c1cd80fcd3e2663ce9fa37b6a3fbb928a606686e58a025c5fe88872dd278567f8b4270f5ddab10dc020f9c8a1b02f31ca1eb289d47f8cd87f831601f2e",
+      "hash_meta": "3eefceddf58f1367cf65005432d5e734d723bb2b15f6bbf30cd202e4062a97a5",
+      "seqno": 15089659
     },
     "service": {
-      "entropy": "sS7lDOCLED5/BbBI9QViaSYZ",
-      "hostname": "www.privacidade.digital",
+      "entropy": "ILxDRYy6clqz0IFlqnvDt371",
+      "hostname": "privacidade.digital",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -35,18 +35,18 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "4.0.0"
+    "version": "5.2.1"
   },
-  "ctime": 1559625554,
+  "ctime": 1583511644,
   "expire_in": 504576000,
-  "prev": "4772ce0cd38fa1061cde5c978851cc2792b935547dbd6dd4b429fcc11085aa82",
-  "seqno": 7,
+  "prev": "ac3dc616a7537efce08a859d9d873326f183602b644317e8822544442e0d0d17",
+  "seqno": 32,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWmqjgdMUef5cgKnYjsSgFDEdV6XtuvELuLpKiEEWxrcKp3BheWxvYWTESpcCB8QgR3LODNOPoQYc3lyXiFHMJ5K5NVR9vW3UtCn8wRCFqoLEIGkkqiQZHGh5Tq9ovHq5mULBTpCBJid4WrYkss4vpNLCAgHCo3NpZ8RAMbeehAzlYqtuXYmREBg8eVUX0PCFXBq1ckS6v/GLD57FRyVEZyT7+HyALQ3qKeVBDoAdto0nQa4KgkSRrts9CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGQQFUeJtlIk6LVheuQdOSTW3hy4InokMtqHpwIAgDFCo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgeGaduoa1G0x2+hKI5MnocBzM8AESqtfZvgg0cWE/NjwKp3BheWxvYWTESpcCIMQgrD3GFqdTfvzgioWdnYczJvGDYCtkQxfogiVERC4NDRfEIFTxEEqA6yA6fmQr6WZvbKqot3KgIbKc/fgdVCuQXPG2AgHCo3NpZ8RALyFfmu14BNU736xjv6tCfljM9EmE++wdOdMOAmIFzeVXcsH64PIhZtm35ukQHTOuTj04PnvFiEpbuaahG6v6DqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEveojqjVipZtEZoQFLluMqUS20eLP4DMPZzIf8Z89HAo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
