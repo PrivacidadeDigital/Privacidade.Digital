@@ -12,31 +12,31 @@
       {% endif %}
 
       <meta itemprop="affiliation" content="PrivacyTools" />
-      <h6 class="card-subtitle mb-2 text-muted" itemprop="jobTitle">{{ include.role | default: "Contributor" }}</h6>
-      <p class="card-text" {% if include.bio %}itemprop="description"{% endif %}>{{ include.bio | default: "<i>Hmm, this user hasn't written a bio quite yet :(</i>" }}</p>
+      <h6 class="card-subtitle mb-2 text-muted" itemprop="jobTitle">{{ include.role | default: "Contribuidor" }}</h6>
+      <p class="card-text" {% if include.bio %}itemprop="description"{% endif %}>{{ include.bio | default: "<i>Hmm, esse usuário ainda não escreveu uma bio :(</i>" }}</p>
       {% if include.email %}
       <a href="mailto:{{ include.email }}" aria-label="Email" class="card-link" itemprop="email">
         <i class="fas fa-envelope" aria-hidden="true" title="{{ include.email }}"></i>
       </a>
       {% endif %}
       {% if include.website %}
-      <a href="{{ include.website }}" aria-label="Website" class="card-link" itemprop="url">
-        <i class="fas fa-link" aria-hidden="true" title="Website"></i>
+      <a href="{{ include.website }}" aria-label="Site" class="card-link" itemprop="url">
+        <i class="fas fa-link" aria-hidden="true" title="Site"></i>
       </a>
       {% endif %}
       {% if include.mastodon %}
       <a href="{{ include.mastodon }}" aria-label="Mastodon" class="card-link" itemprop="sameAs">
-        <i class="fab fa-mastodon" aria-hidden="true" title="Mastodon Profile"></i>
+        <i class="fab fa-mastodon" aria-hidden="true" title="Perfil Mastodon"></i>
       </a>
       {% endif %}
       {% if include.twitter %}
       <a href="https://twitter.com/{{ include.twitter }}" aria-label="Twitter" class="card-link" itemprop="sameAs">
-        <i class="fab fa-twitter" aria-hidden="true" title="Twitter Profile"></i>
+        <i class="fab fa-twitter" aria-hidden="true" title="Perfil Twitter"></i>
       </a>
       {% endif %}
       {% if include.blog %}
       <a href="https://blog.privacytools.io/author/{{ include.blog }}" aria-label="Blog" class="card-link" itemprop="sameAs">
-        <i class="fas fa-pen-nib" aria-hidden="true" title="PrivacyTools Blog Author"></i>
+        <i class="fas fa-pen-nib" aria-hidden="true" title="Blog PrivacyTools"></i>
       </a>
       {% endif %}
     </div>
