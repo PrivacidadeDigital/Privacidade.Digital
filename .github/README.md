@@ -12,6 +12,8 @@
 
 :loudspeaker: [Entrar em Contato](https://www.privacidade.digital/contato)
 
+:loudspeaker: [Mastodon](https://mastodon.social/@PrivacidadeJa)
+
 :bird: [Twitter](https://twitter.com/PrivacidadeJa)
 
 :camera: [Instagram](https://www.instagram.com/privacidade.digital)
