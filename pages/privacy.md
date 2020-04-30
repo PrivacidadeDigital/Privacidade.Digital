@@ -2,7 +2,7 @@
 layout: page
 permalink: /privacidade/
 title: "Perguntas Frequentes de Privacidade"
-description: "This Privacy Statement explains what information PrivacyTools and its related entities collect about its users, what we do with that information, and how we handle the content you place in our products and services."
+description: "Esta página explica quais informações a iniciativa Privacidade Digital e entidades relacionadas coletam sobre seus usuários, o que é feito com essas informações, entre outras coisas."
 ---
 
 ## Quem é {{ site.name }}?
@@ -20,6 +20,10 @@ Nada além disso pode ser logado, visto que não utilizamos nenhum tipo de track
 ## Como posso entrar em contato com o time {{ site.name }} sobre privacidade?
 
 Você pode entrar em contato com nosso time através dos métodos descritos na nossa [página de contato]({{ site.production_url }}/contato/).
+
+## O PrivacyTools tem a mesmo tipo de conduta quanto a coleta de dados?
+
+Não. O PrivacyTools oferece serviços adicionais que nós ainda não oferecemos, e isso muda drasticamente sua conduta de coleta de dados. Favor, visitar a página de privacidade do projeto em Inglês para saber mais.
 
 ## Como posso ficar sabendo de mudanças que ocorrem nesta página?
 
