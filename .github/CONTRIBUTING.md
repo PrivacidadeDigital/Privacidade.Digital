@@ -1,8 +1,8 @@
-# Contribuindo para Privacidade Digital
+# Contribuindo para nossa iniciativa
 
-Esta comunidade agradece a sua pessoa por tirar um pouco do seu tempo e interesse para ajudar o projeto, pois ele precisa de você! :+1:
+Nós agrademos por tirar um pouco do seu tempo e interesse para ajudar o projeto, pois ele está precisando de novos colaboradores!
 
-Este documento é uma coleção de diretrizes para contribuições em Português, para que o trabalho feito aqui seja mais padronizado. No entanto, o que for apresentado não são regras rigorosamente cobradas. Estas diretrizes te ajudarão a contribuir de forma mais efetiva, para que as contribuições sejam aplicadas da forma mais rápida e adequada.
+Este documento é uma coleção de diretrizes para contribuições em Português, para que o trabalho feito aqui seja mais organizado. No entanto, o que for apresentado não são regras rigorosamente cobradas. Estas diretrizes te ajudarão a contribuir de forma mais efetiva, para que as contribuições sejam aplicadas de forma mais rápida e adequada.
 
 #### Sumário
 
@@ -30,15 +30,17 @@ Este repositório e suas contribuições precisam respeitar o [Código de Condut
 
 ## Eu não quero ler esse texto gigante, só quero perguntar uma coisa!
 
-Embora a resposta para sua pergunta possa estar neste documento, reconhecemos a eventual necessidade de conversa mais direta, ou específica. Entre em contato com o time de colaboradores frequentes:
+Embora a resposta para sua pergunta possa estar neste documento, reconhecemos a eventual necessidade de comunicação mais direta, ou específica. Entre em contato com o time de colaboradores frequentes:
 
 :email: Email: [contato@privacidade.digital](mailto:contato@privacidade.digital)
 
 :speech_balloon: Grupo Matrix: `#privacidade.digital-geral:matrix.org`
 
+:speech_balloon: DM no Mastodon: [@PrivacidadeJa@mastodon.social](https://mastodon.social/@PrivacidadeJa)
+
 :bird: DM no Twitter: [@PrivacidadeJa](https://twitter.com/PrivacidadeJa)
 
-:exclamation: O método mais seguro de comunicação é por troca de email encriptado. No grupo de conversa Matrix, é possível enviar mensagens seguras para colaboradores individuais. Embora se comunicar no Twitter seja válido, DMs não possuem criptografia ponta a ponta, portanto é o método de comunicação menos recomendado para sua privacidade.
+:exclamation: O método mais seguro de comunicação é por troca de email encriptado. Também no chat Matrix, é possível enviar mensagens seguras para colaboradores individuais. Embora se comunicar no Mastodon e Twitter seja válido, DMs não possuem criptografia ponta a ponta, portanto é o método de comunicação menos recomendado para sua privacidade.
 
 ## O que devo saber antes de começar?
 
@@ -48,13 +50,14 @@ Embora a resposta para sua pergunta possa estar neste documento, reconhecemos a 
 
 * [Este repositório](https://github.com/PrivacidadeDigital/privacidade.digital/) e sua [wiki](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/): onde o desenvolvimento do projeto ocorre; onde damos dicas de como utilizar as plataformas Git e GitHub de forma facilitada
 * [Site](https://www.privacidade.digital/): onde residem dicas valiosas sobre como defender sua privacidade digital
-* [@PrivacidadeJa](https://twitter.com/PrivacidadeDigital) no Twitter: perfil oficial, com notícias e dicas sobre privacidade  
-* [@privacidade.digital](https://www.instagram.com/privacidade.digital/) no Instagram: perfil oficial, com notícias e dicas sobre privacidade, através de imagens
+* [@PrivacidadeJa@mastodon.social](https://mastodon.social/PrivacidadeJa) no Mastodon: perfil oficial, com notícias e dicas sobre privacidade
+* [@PrivacidadeJa](https://twitter.com/PrivacidadeJa) no Twitter: perfil oficial, com notícias e dicas sobre privacidade (posts replicados do Mastodon)
+* [@privacidade.digital](https://www.instagram.com/privacidade.digital/) no Instagram: perfil oficial, com notícias e dicas sobre privacidade, através de imagens (inativo)
 * [Métodos válidos de contato](https://www.privacidade.digital/contato): plataformas escolhidas para contato com indivíduos, comunidades e outras entidades
 
 ### Requisitos intelectuais e métodos alternativos de contribuição
 
-O projeto não tem por objetivo restringir suas contribuições. Mesmo que não tenha os conhecimentos para utilizar esta plataforma ou para desenvolver sites, sua ajuda é encorajada! Entre em contato com o time de colaboradores frequentes, para que possam dar uma direção diferente à sua contribuição.
+O projeto não tem por objetivo restringir suas contribuições. Mesmo que não tenha os conhecimentos para utilizar esta plataforma ou para desenvolver sites, sua ajuda é encorajada! Entre em contato com o time de colaboradores frequentes, para que possam dar uma direção diferente à sua colaboração.
 
 ## Como posso contribuir?
 
@@ -62,7 +65,7 @@ Antes de prosseguir na leitura destas diretrizes, lembre-se que este é um proje
 
 ### Divulgando o projeto
 
-Um dos jeitos mais fáceis de contribuir é divulgando o projeto! Como o objetivo do site é melhorar a privacidade do máximo de pessoas possível, qualquer divulgação é muito bem-vinda. Caso tenha gostado de nosso site ou outros segmentos deste projeto, mencione-os para as pessoas sempre que o assunto "privacidade digital" vir a tona. É um dos jeitos mais simples de ajudar a espalhar as dicas do site.
+Um dos jeitos mais fáceis de contribuir é divulgando o projeto! Como o objetivo do site é melhorar a privacidade do maior número de pessoas possível, qualquer divulgação é muito bem-vinda. Caso tenha gostado de nosso site ou outros segmentos deste projeto, mencione-os para as pessoas sempre que o assunto "privacidade digital" vir a tona. É um dos jeitos mais simples de ajudar a espalhar as dicas do site.
 
 O domínio "privacidade.digital" foi escolhido justamente para ser algo fácil de ser acessado e lembrado por todas as pessoas falantes da Língua Portuguesa. Outros exemplos de divulgação incluem, mas não se limitam a:
 
@@ -90,7 +93,7 @@ Caso acredite que o projeto possua erros, você pode reportá-los através do Gi
 
 ### Sugerindo novidades e melhorias
 
-Você também pode sugerir coisas novas para o projeto, ou melhorias de coisas que já tenham sido feitas ou iniciadas. Para sugerir, basta abrir uma [Issue](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/Criando-Issues). Exemplos de sugestão incluem, mas não se limitam a:
+Você também pode sugerir coisas novas para o projeto, ou melhorias de coisas que já tenham sido feitas ou iniciadas. Para sugerir, basta abrir uma [Issue](https://github.com/PrivacidadeDigital/privacidade.digital/wiki/Criando-Issues). Exemplos de sugestões incluem, mas não se limitam a:
 
  :star2: Nova ferramenta ou recurso de privacidade digital a ser incluído no site e/ou divulgado nas redes sociais. Isso pode incluir links, textos, recomendações de software, podcasts, canais de vídeos, livros, etc.
  
@@ -102,15 +105,15 @@ Você também pode sugerir coisas novas para o projeto, ou melhorias de coisas q
 
 ### Criando Pull Requests
 
-Você também pode criar Pull Requests (PRs), caso se sinta confortável o suficiente com o código. Para fazer isso, você precisará criar um fork do repositório, fazer as modificações desejadas e propor um merge através do PR. Os administradores do repositório, por sua vez, irão revisar suas modificações e aceitá-las caso estiverem de acordo. Também é possível que eles peçam que você faça modificações adicionais antes do merge ou reijeitarão suas modificações no código.
+Você também pode criar Pull Requests (PRs), caso se sinta confortável o suficiente com o código-fonte do site. Para fazer isso, você precisará criar um fork do repositório, fazer as modificações desejadas e propor um merge através do PR. Os administradores do repositório, por sua vez, irão revisar suas modificações e aceitá-las caso estiverem de acordo. Também é possível que eles peçam que você faça modificações adicionais antes do merge ou reijeitarão suas modificações no código.
 
 Para evitar que seu código seja rejeitado, verifique se já não existe uma issue ou PR sobre o problema.
 
-Caso não saiba utilizar Git/GitHub, não se preocupe, pois serão feitos tutoriais amigáveis em breve.
+Caso não saiba utilizar Git/GitHub, não se preocupe, existem muitos tutoriais amigáveis pela Internet. Além disso você também pode entrar em contato direto conosco com sugestões, caso necessário.
 
 ### Entrando no Time de Colaboradores Frequentes (TCF)
 
-Você acha que tem algo de **valor intelectual** para doar ao projeto de forma consistente e voluntária? Você acha que terá tempo para se dedicar ao projeto pelo menos 1 vez por semana? Se sim para ambas as perguntas, entre em contato. Exemplos de trabalhos que você poderá exercer como um colaborador frequente são, mas não se limitam a:
+Você acha que tem algo de **valor intelectual** para doar ao projeto de forma consistente e voluntária? Você acha que terá tempo para se dedicar ao projeto pelo menos 1 vez por mês? Se sim para ambas as perguntas, entre em contato. Exemplos de trabalhos que você poderá exercer como um colaborador frequente são, mas não se limitam a:
 
 :muscle: Participar ativamente de reuniões virtuais internas sobre o estado atual e futuro do projeto.
 
