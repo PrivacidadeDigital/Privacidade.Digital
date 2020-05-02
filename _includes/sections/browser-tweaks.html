@@ -38,18 +38,6 @@
   <dd>Essa é a proteção de rastreamento nova da Mozilla. Ela usa uma lista da Disconnect.me para filtrar rastreadores, o
     que é redundante se você já estiver usando uBlock Origin, portanto só deixe em <code>true</code> caso você não esteja utilizando essa extensão.</dd>
 
-<<<<<<< HEAD
-  <dt>browser.cache.offline.enable = false</dt>
-  <dd>Desativa cache offline.</dd>
-
-  <dt>browser.safebrowsing.malware.enabled = false</dt>
-  <dd>Desativa as checagens de malware do Google. Risco de segurança, mas um ganho em privacidade.</dd>
-
-  <dt>browser.safebrowsing.phishing.enabled = false</dt>
-  <dd>Desativa a proteção de phishing do Google. Risco de segurança, mas um ganho em privacidade.</dd>
-
-=======
->>>>>>> upstream/master
   <dt>browser.send_pings = false</dt>
   <dd>Caso esteja habilitada, essa preferência ajuda sites a rastrear seus cliques.</dd>
 
@@ -62,12 +50,6 @@
   <dd>Desativa o pré-carregamento e autocompletamento de URLs. Firefox carrega URLs previamente que autocompletam quando um
     usuário digita na barra de endereço, o que é um problema se as URLs sugeridas não forem sites que o usuário queira se conectar. 
     <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Fonte</a> (em Inglês).</dd>
-
-<<<<<<< HEAD
-  <dt>dom.battery.enabled = false</dt>
-  <dd>O status da bateria do seu dispositivo pode estar sendo rastreado caso essa preferência estiver habilitada.</dd>
-=======
->>>>>>> upstream/master
 
   <dt>dom.event.clipboardevents.enabled = false</dt>
   <dd>Desativa a funcionalidade que permite que sites recebam uma notificação quando você copia, cola ou corta algo de
@@ -100,32 +82,7 @@
       <li>2 = Bloquear todos os cookies por padrão</li>
     </ul>
   </dd>
-
-<<<<<<< HEAD
-  <dt>network.cookie.lifetimePolicy = 2</dt>
-  <dd>
-    Cookies são deletados no fim da sessão.
-    <ul>
-      <li>0 = Aceitar cookies normalmente</li>
-      <li>1 = Perguntar toda vez antes de aceitar um cookie</li>
-      <li>2 = Aceitar somente para a sessão atual</li>
-      <li>3 = Aceitar por N dias</li>
-    </ul>
-  </dd>
-
-  <dt>network.http.referer.trimmingPolicy = 2</dt>
-  <dd>
-    Envia somente scheme, host, e porta no cabeçalho <code>Referer</code>. <a href="https://pt.wikipedia.org/wiki/HTTP_referer">Saiba o que é Referer</a>.
-    <ul>
-      <li>0 = Enviar a URL completa no cabeçalho <code>Referer</code></li>
-      <li>1 = Enviar a URL sem a string query no cabeçalho <code>Referer</code></li>
-      <li>2 = Enviar somente scheme, host, e porta no cabeçalho <code>Referer</code></li>
-    </ul>
-  </dd>
-=======
-
->>>>>>> upstream/master
-
+  
   <dt>network.http.referer.XOriginPolicy = 2</dt>
   <dd>
     Envia cabeçalho <code>Referer</code> somente quando os hostnames são exatamente iguais. (Nota: se você perceber que
@@ -170,12 +127,6 @@
     </ul>
   </dd>
 
-<<<<<<< HEAD
-  <dt>extensions.pocket.enabled = false</dt>
-  <dd>Desabilita completamente a extensão Pocket.</dd>
-=======
->>>>>>> upstream/master
-
   <dt>network.IDN_show_punycode = true</dt>
   <dd>Não renderizar IDNs como seu equivalente em Punycode te deixa vulnerável a ataques de phising que podem ser muito
     difíceis de notar. Essa preferência mostra o código Punycode do domínio do site que você está visitando para evitar ser enganado 
@@ -183,19 +134,6 @@
     com o objetivo de enganar e roubar as informações dos usuários. 
     <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Fonte</a> (em Inglês).
   </dd>
-
-<<<<<<< HEAD
-  <dt>extensions.blocklist.url = https://blocklists.settings.services.mozilla.com/v1/blocklist/3/%20/%20/</dt>
-  <dd>
-    <p>Limita a quantidade de informação identificável enviada quando requisitando a lista de extensões perigosas do Mozilla.
-      <p>Opcionalmente, a lista pode ser desabilitada completamente ao modificar
-        <code>extensions.blocklist.enabled</code> para <code>false</code> para melhorar a privacidade, porém piora sua segurança.
-        <a href="https://old.reddit.com/r/privacytoolsIO/comments/9uqeew/firefox_tip_sanitize_firefox_blocklist_url_so_it/">Fonte</a> (em Inglês).
-      </p>
-  </dd>
-</dl>
-=======
->>>>>>> upstream/master
 
 <h3 id="user.js">Modelos user.js para o Firefox</h3>
 <ul>
