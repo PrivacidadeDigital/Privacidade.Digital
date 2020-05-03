@@ -13,7 +13,7 @@
 
       <meta itemprop="affiliation" content="Privacidade Digital" />
       <h6 class="card-subtitle mb-2 text-muted" itemprop="jobTitle">{{ include.role | default: "Colaborador" }}</h6>
-      <p class="card-text" {% if include.bio %}itemprop="description"{% endif %}>{{ include.bio | default: "<i>(Esse colaborador ainda não escreveu uma bio)</i>" }}</p>
+      <p class="card-text" {% if include.bio %}itemprop="description"{% endif %}>{{ include.bio | default: "<i>(Este colaborador ainda não escreveu uma bio)</i>" }}</p>
       {% if include.email %}
       <a href="mailto:{{ include.email }}" aria-label="Email" class="card-link" itemprop="email">
         <i class="fas fa-envelope" aria-hidden="true" title="{{ include.email }}"></i>

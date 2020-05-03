@@ -73,9 +73,14 @@
       Licenças JavaScript
     </a>
     <p class="mt-2">
+      {%- assign m = site.time | date: "%-m" -%}
       <strong>Sem Anúncios, Sem Google Analytics, Sem Afiliados, Sem Requisições Entre Sites.</strong>
       <em>{{ site.name }} é um site de propósito social que contém informações para proteger a segurança dos seus dados e a sua privacidade. Nunca confie a sua privacidade com qualquer empresa, sempre encripte.</em>
       <a href="/politica-de-privacidade/">Veja nossa política de privacidade</a>.
+    </p>
+
+    <p class="mt-2">
+      O site foi atualizado pela última vez em {{ site.time | date: "%-d de " }}{% case m %}{% when '1' %}Janeiro{% when '2' %}Fevereiro{% when '3' %}Mar&ccedil;o{% when '4' %}Abril{% when '5' %}Maio{% when '6' %}Junho{% when '7' %}Julho{% when '8' %}Agosto{% when '9' %}Setembro{% when '10' %}Outubro{% when '11' %}Novembro{% when '12' %}Dezembro{% endcase %}{{ site.time | date: " de %Y" }}.
     </p>
 
   </div>
