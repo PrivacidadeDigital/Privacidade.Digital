@@ -1,4 +1,4 @@
-[![privacidade.digital](./assets/img/layout/logo.png)](https://www.privacidade.digital/)
+[![privacidade.digital](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/assets/img/layout/logo.png)](https://www.privacidade.digital/)
 
 [![Contributor Convenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
@@ -18,7 +18,7 @@
 
 :camera: [Instagram](https://www.instagram.com/privacidade.digital) (Inativo)
 
-## Construindo o Site
+## Desenvolvimento
 
 Teste e modifique o site na sua máquina local:
 
