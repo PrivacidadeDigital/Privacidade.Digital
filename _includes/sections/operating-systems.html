@@ -35,22 +35,16 @@ tor="http://sejnfjrq6szgca7v.onion"
 gitlab="https://salsa.debian.org/qa/debsources"
 %}
 
-<<<<<<< HEAD
-<h3>Aviso</h3>
-=======
-<h3>Worth Mentioning</h3>
+<h3>Menções Honrosas</h3>
 
 <ul>
-  <li><a href="https://www.openbsd.org/">OpenBSD</a> <span class="badge badge-info">BSD</span> - A project that produces a free, multi-platform 4.4BSD-based UNIX-like operating system. Emphasizes portability, standardization, correctness, proactive security and integrated cryptography.</li>
-  <li><a href="https://www.archlinux.org/">Arch Linux</a> <span class="badge badge-info">GNU/Linux</span> <span class="badge badge-warning" data-toggle="tooltip" title="This software may depend on or recommend non-free software.">contrib <i class="far fa-question-circle"></i></span> - A simple, lightweight Linux distribution. It is composed predominantly of free and open-source software, and supports community involvement. <a href="https://www.parabola.nu/">Parabola</a> is a
-    completely open source version of Arch Linux.</li>
-  <li><a href="https://trisquel.info/">Trisquel</a> <span class="badge badge-info">GNU/Linux</span> - Derived from Ubuntu, this project aims for a fully free software system without proprietary software or firmware and uses Linux-libre, a version of the Linux kernel with the non-free code (binary blobs) removed.</li>
-  <li><a href="https://www.whonix.org/">Whonix</a> <span class="badge badge-info">GNU/Linux</span> - A Debian-based security-focused Linux distribution. It aims to provide privacy, security and anonymity on the internet. The operating system consists of two virtual machines, a "Workstation"
-    and a Tor "Gateway". All communication are forced through the Tor network to accomplish this.</li>
+  <li><a href="https://www.openbsd.org/">OpenBSD</a> <span class="badge badge-info">BSD</span> - Um projeto que mantém um sistema operacional tipo Unix, grátis, multi-plataforma e baseado no 4.4BSD. Tem ênfase em portabilidade, padronização, exatidão e segurança proativa com criptografia integrada.</li>
+  <li><a href="https://www.archlinux.org/">Arch Linux</a> <span class="badge badge-info">GNU/Linux</span> <span class="badge badge-warning" data-toggle="tooltip" title="Esse SO pode depender ou recomendar software não-livre.">contrib <i class="far fa-question-circle"></i></span> - Uma distribuição Linux leve e simples. É composta por software com código-fonte aberto e livre em sua maioria, e tem um forte envolvimento da comunidade. <a href="https://www.parabola.nu/">Parabola</a> é uma versão do Arch Linux com código-fonte completamente aberto.</li>
+  <li><a href="https://trisquel.info/">Trisquel</a> <span class="badge badge-info">GNU/Linux</span> - Derivado do Ubuntu, esse projeto tem por objetivo ser um sistema com software completamente livre, sem nenhuma parte proprietária, e usa o Linux-libre, uma versão do kernel Linux sem o código-fonte não-livre (binary blobs).</li>
+  <li><a href="https://www.whonix.org/">Whonix</a> <span class="badge badge-info">GNU/Linux</span> - Uma distribuição Linux baseada em Debian com foco em segurança. Ela almeja a privacidade, segurança e anonimidade na Internet. O sistema operacional consiste em duas máquinas virtuais, uma "Estação de Trabalho" e uma "Porta Tor". Toda a comunicação é forçada a passar primeiro pela rede Tor.</li>
 </ul>
 
-<h3>Warning</h3>
->>>>>>> upstream/master
+<h3>Aviso</h3>
 
 <ul>
   <li><a href="#win10"><i class="fas fa-link"></i> Não utilize o Windows 10 - Ele é um pesadelo para sua privacidade</a></li>
@@ -60,30 +54,18 @@ gitlab="https://salsa.debian.org/qa/debsources"
 
 <p><em><a href="https://support.microsoft.com/pt-br/help/4073757/protect-windows-devices-from-speculative-execution-side-channel-attack">Isto também afeta o Windows 10</a>, mas o mesmo não expõe instruções de mitigação tão facilmente. Usuários de MacOS devem ler o artigo <a href="https://support.apple.com/pt-br/HT210108">Como ativar a correção completa para as vulnerabilidades MDS</a> no site de suporte da Apple.</em></p>
 
-<<<<<<< HEAD
-<p>Ao rodar um kernel suficientemente recente, você pode checar as vulnerabilidades de CPU que o mesmo detecta utilizando o comando <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. Ao usar <code>tail -n +1</code> ao invés de <code>cat</code>, os nomes dos arquivos também se tornam visíveis.</p>
-=======
-<p>When running a enough recent Linux kernel, you can check the CPU vulnerabilities it detects by <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. By using <code>tail -n +1</code> instead of <code>cat</code>, the file names are also visible.</p>
->>>>>>> upstream/master
+<p>Ao rodar um kernel relativamente recente, você pode checar as vulnerabilidades de CPU que o mesmo detecta utilizando o comando <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. Ao usar <code>tail -n +1</code> ao invés de <code>cat</code>, os nomes dos arquivos também se tornam visíveis.</p>
 
 <p>
     Caso você tenha um CPU da Intel, talvez você note que "SMT vulnerable" apareça ao rodar o comando <code>tail</code> sugerido anteriormente. Para mitigar o problema, desabilite <a href="https://pt.wikipedia.org/wiki/Hyper-threading">hyper-threading</a> através do menu UEFI/BIOS. Você também pode rodar os comandos abaixo caso seu sistema/distribuição usa GRUB e tem suporte a <code>/etc/default/grub.d/</code>:
 </p>
 
 <ol>
-<<<<<<< HEAD
   <li><code>sudo mkdir /etc/default/grub.d/</code> para criar um diretório adicional para a configuração grub</li>
-  <li><code>echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT mds=full,nosmt" | sudo tee /etc/default/grub.d/mds.conf</code> para criar um novo arquivo de configuração grub com o echoed</li>
-  <li><code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code> para gerar um novo arquivo de configuração grub incluindo o boot flag do kernel</li>
+  <li><code>echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT l1tf=full,force mds=full,nosmt mitigations=auto,nosmt nosmt=force" | sudo tee /etc/default/grub.d/mitigations.cfg</code> para criar um novo arquivo de configuração grub com o resultado do comando echo</li>
+  <li><code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code> para gerar um novo arquivo de configuração grub incluindo os novos boot flags do kernel</li>
   <li><code>sudo reboot</code> para reiniciar</li>
-  <li>após reiniciar, cheque <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> novamente para ver se o MDS agora mostra "SMT disabled."</li>
-=======
-  <li><code>sudo mkdir /etc/default/grub.d/</code> to create a directory for additional grub configuration</li>
-  <li><code>echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT l1tf=full,force mds=full,nosmt mitigations=auto,nosmt nosmt=force" | sudo tee /etc/default/grub.d/mitigations.cfg</code> to create a new grub config file source with the echoed content</li>
-  <li><code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code> to generate a new grub config file including these new kernel boot flags</li>
-  <li><code>sudo reboot</code> to reboot</li>
-  <li>after the reboot, check <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> again to see that everything referring to SMT now says "SMT disabled."</li>
->>>>>>> upstream/master
+  <li>após reiniciar, cheque <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> novamente para ver se tudo que faz referência a SMT agora mostra "SMT disabled."</li>
 </ol>
 
 <h5>Mais Leituras (em Inglês)</h5>
@@ -96,15 +78,3 @@ gitlab="https://salsa.debian.org/qa/debsources"
   <li><a href="https://mdsattacks.com/">RIDL and Fallout: MDS attacks on mdsattacks.com</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading">Simultaneous multithreading on Wikipedia</a></li>
 </ul>
-<<<<<<< HEAD
-
-<h3>Menções Honrosas</h3>
-
-<ul>
-  <li><a href="https://www.openbsd.org/">OpenBSD</a> <span class="badge badge-info">BSD</span> - Um projeto que mantém um sistema operacional tipo Unix, grátis, multi-plataforma e baseado no 4.4BSD. Tem ênfase em portabilidade, padronização, exatidão e segurança proativa com criptografia integrada.</li>
-  <li><a href="https://www.archlinux.org/">Arch Linux</a> <span class="badge badge-info">GNU/Linux</span> <span class="badge badge-warning" data-toggle="tooltip" title="Este SO pode depender ou recomendar software não-livre.">contrib <i class="far fa-question-circle"></i></span> - Uma distribuição Linux leve e simples. É composta por software de código-fonte aberto e livre em sua maioria, e tem um forte envolvimento da comunidade. <a href="https://www.parabola.nu/">Parabola</a> é uma versão do Arch Linux com código-fonte completamente aberto.</li>
-  <li><a href="https://trisquel.info/">Trisquel</a> <span class="badge badge-info">GNU/Linux</span> - Derivado do Ubuntu, este projeto tem por objetivo ser um sistema com software completamente livre, sem nenhuma parte proprietária, e usa o Linux-libre, uma versão do kernel Linux com o código-fonte não-livre (binary blobs) removido.</li>
-  <li><a href="https://www.whonix.org/">Whonix</a> <span class="badge badge-info">GNU/Linux</span> - Uma distribuição Linux baseada em Debian com foco em segurança. Ela almeja a privacidade, segurança e anonimidade na Internet. O sistema operacional consiste em duas máquinas virtuais, uma "Estação de Trabalho" e uma "Porta Tor". Toda a comunicação é forçada a passar primeiro pela rede Tor.</li>
-</ul>
-=======
->>>>>>> upstream/master
