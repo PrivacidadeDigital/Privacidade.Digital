@@ -1,6 +1,6 @@
 [![privacidade.digital](./assets/img/layout/logo.png)](https://www.privacidade.digital/)
 
-[![Build Status](https://travis-ci.org/PrivacidadeDigital/privacidade.digital.svg?branch=master)](https://travis-ci.org/PrivacidadeDigital/privacidade.digital) [![Contributor Convenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Contributor Convenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 #### Links & Documentos Importantes
 
@@ -10,13 +10,13 @@
 
 :loudspeaker: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
 
-:loudspeaker: [Entrar em Contato](https://www.privacidade.digital/contato)
+:loudspeaker: [Entrar em Contato](https://www.privacidade.digital/sobre)
 
 :loudspeaker: [Mastodon](https://mastodon.social/@PrivacidadeJa)
 
-:bird: [Twitter](https://twitter.com/PrivacidadeJa)
+:bird: [Twitter](https://twitter.com/PrivacidadeJa) (Posts são réplicas do feed Mastodon)
 
-:camera: [Instagram](https://www.instagram.com/privacidade.digital)
+:camera: [Instagram](https://www.instagram.com/privacidade.digital) (Inativo)
 
 ## Construindo o Site
 
