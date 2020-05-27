@@ -6,16 +6,7 @@ Este documento é uma coleção de diretrizes para contribuições em Português
 
 #### Sumário
 
-<<<<<<< HEAD
 [Código de Conduta](#código-de-conduta)
-=======
-- Be nice and respectful.
-- English only.
-- Be constructive.
-- Please feel free to *review changes* in the *files changed* tab of any
-  pull request at any time.
-- See also our [Code of Conduct](https://github.com/privacytools/.github/blob/master/CODE_OF_CONDUCT.md)
->>>>>>> upstream/master
 
 [Eu não quero ler esse texto gigante, só quero perguntar uma coisa!](#eu-não-quero-ler-esse-texto-gigante-só-quero-perguntar-uma-coisa)
 
@@ -80,13 +71,7 @@ O domínio "privacidade.digital" foi escolhido justamente para ser algo fácil d
 
 🗣️ Compartilhar links do site na sua rede social preferida.
 
-<<<<<<< HEAD
 🗣️ Compartilhar posts feitos em perfis oficiais do projeto nas redes sociais.
-=======
-- SVG file format is strongly preferred. PNG files can be used as a fallback if images are too complex or otherwise unsuitable as a vector format.
-- Provider logo dimensions are 384px x 128px ([example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/svg/3rd-party/mullvad.svg))
-- Tool logo dimensions are 120px x 120px ([SVG example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/svg/3rd-party/firefox_browser.svg), [PNG example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/png/3rd-party/claws_mail.png))
->>>>>>> upstream/master
 
 🗣️ Mencionar o site sempre quando discutir o assunto com as pessoas.
 
@@ -100,7 +85,6 @@ Caso acredite que o projeto possua erros, você pode reportá-los através do Gi
 
 :beetle: Texto em outras línguas. Exceção: quando o texto é devidamente explicado em Português.
 
-<<<<<<< HEAD
 :beetle: Links quebrados e links que levam para páginas em outras línguas. Exceção: quando é avisado no texto que o link vai para página em outra língua.
 
 :beetle: Erros de Português no site ou qualquer segmento do projeto. Isso também inclui quando o texto fica confuso para o visitante, mesmo que não haja erro gramatical.
@@ -158,6 +142,3 @@ Em breve também serão aceitas criptomoedas.
 ## Padrões no Código
 
 Em breve.
-=======
-You can view an example of the created issues' format at [#1444](https://github.com/privacytools/privacytools.io/issues/1444).
->>>>>>> upstream/master

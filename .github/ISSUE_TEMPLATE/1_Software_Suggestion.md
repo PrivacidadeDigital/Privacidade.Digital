@@ -1,27 +1,25 @@
 ---
-name: "🆕 Software Suggestion"
-about: Suggest new software that enhances privacy.
-title: "🆕 Software Suggestion | "
-labels: 🆕 software suggestion
+name: "🆕 Sugestão de Software"
+about: Sugerir novo software que melhora privacidade.
+title: "🆕 Sugestão de Software | "
+labels: software sugestão site
 ---
 
-## Basic Information
+## Informações Básicas
 
-**Name:**
-**Category:**
+**Nome:**
+**Categoria:**
 **URL:**
 
-## Description
+## Descrição
 
+## Por que estou fazendo esta sugestão
 
+<!-- Algo que você gostaria de nos falar sobre o software em questão? -->
 
-## Why I am making the suggestion
+## Minha conexão com o software
 
-<!-- Anything you would like to tell us about the software? -->
+<!-- Você é o autor? Competidor? Apenas não gosta do software por algum outro motivo? -->
 
+- [ ] Eu irei manter esse post atualizado se algo que eu tenha apresentado mudou ou se eu me lembrar de alguma conexão que eu tenha com o software.
 
-## My connection with the software
-
-<!-- Are you the author? Enthustiastic or early adopter? Friends with the author or requested by them to open the isue? An employee of the software maker? -->
-
-- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.

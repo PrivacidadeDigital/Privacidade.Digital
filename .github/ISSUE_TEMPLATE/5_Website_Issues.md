@@ -1,23 +1,14 @@
 ---
-name: "🌐 Website Issue"
-about: Report a bug with the website. (NO CONTENT ISSUES)
-title: "🌐 Website Issue | "
-labels: 🌐 website issue
+name: "🌐 Problema do Site"
+about: Reportar um bug do site (NÃO RELACIONADO A CONTEÚDO).
+title: "🌐 Problema do Site | "
+labels: bug site
 ---
 
-<!--
-
-READ ME FIRST:
-This is NOT the place to request changes to the content of the website.
-This is NOT the place to report issues with our services. (That is https://github.com/privacytools/services/issues/new)
-This is ONLY for reporting bugs or technical issues with www.privacytools.io.
-
--->
-
-## Description
+## Descrição
 
 <!--
-## Screenshots
+## Capturas de Tela
 
-Please add screenshots if applicable
+Favor adicionar capturas de tela caso necessário
 -->
