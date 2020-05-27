@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Domain Name Systems (DNS)</h1>
 
 {% 
@@ -32,18 +33,33 @@
   <strong>Nota: Utilizar um resolvedor DNS encriptado não irá torná-lo anônimo, nem esconderá seu tráfego de Internet do seu provedor. 
     No entanto, poderá te ajudar prevenindo "DNS hijacking", e fazer com que suas requisições DNS sejam mais difíceis de bisbilhotar ou falsificar. 
     Se você utiliza o serviço DNS da Google, é recomendado que escolha uma alternativa daqui.</strong>
+=======
+<h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Encrypted Domain Name System (DNS) Resolvers</h1>
+
+<div class="alert alert-warning" role="alert">
+  <strong>Note: Using an encrypted DNS resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But, it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.</strong>
+>>>>>>> upstream/master
 </div>
 
 <div class="table-responsive">
   <table class="table sortable-theme-bootstrap" data-sortable>
     <thead>
       <tr>
+<<<<<<< HEAD
         <th data-sorted="true" data-sorted-direction="ascending">Provedor DNS ICANN</th>
         <th data-sortable="true">Localizações dos Servidores</th>
         <th data-sortable="false">Política de Privacidade</th>
         <th data-sortable="true">Tipo</th>
         <th data-sortable="true">Log de Dados</th>
         <th data-sortable="true">Protocolos</th>
+=======
+        <th data-sorted="true" data-sorted-direction="ascending">DNS Provider</th>
+        <th data-sortable="true">Server Locations</th>
+        <th data-sortable="false">Privacy Policy</th>
+        <th data-sortable="true">Type</th>
+        <th data-sortable="true">Logging</th>
+        <th data-sortable="true">Protocols</th>
+>>>>>>> upstream/master
         <th data-sortable="true">DNSSEC</th>
         <th data-sortable="true">Minimização QNAME</th>
         <th data-sortable="true">Filtragem</th>
@@ -63,8 +79,10 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://adguard.com/en/privacy/dns.html" href="https://adguard.com/en/privacy/dns.html">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://adguard.com/en/privacy/dns.html">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>Comercial</td>
@@ -81,8 +99,10 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/AdguardTeam/AdGuardDNS/" href="https://github.com/AdguardTeam/AdGuardDNS/">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://github.com/AdguardTeam/AdGuardDNS/">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>
@@ -111,9 +131,19 @@
           </span>
         </td>
         <td>
+<<<<<<< HEAD
           <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Sem log de dados."'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
+=======
+          <div
+            class="btn-secondary btn-icon"
+            title="&quot;No logs.&quot;"
+            data-toggle="tooltip"
+            data-placement="bottom">
+            <span class="fas fa-globe"></span>
+          </div>
+>>>>>>> upstream/master
         </td>
         <td>Projeto Hobby</td>
         <td>Não</td>
@@ -133,13 +163,25 @@
             Anúncios, rastreadores,
           </span>
           <span class="no-text-wrap">
+<<<<<<< HEAD
             domínios maliciosos
             <span class="badge badge-warning" data-toggle="tooltip" data-original-title="E alguns domínios adicionais."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
+=======
+            malicious domains
+            {% include badge.html
+            link="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"
+            color="warning"
+            icon="fas fa-exclamation-triangle"
+            tooltip="And some wildcard and IDN domains."
+            %}
+>>>>>>> upstream/master
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/ookangzheng/blahdns/" href="https://github.com/ookangzheng/blahdns/">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://github.com/ookangzheng/blahdns/">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>
@@ -157,7 +199,17 @@
 
       <tr>
         <td data-value="Cloudflare">
+<<<<<<< HEAD
           <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare é uma das maiores redes do mundo, o que pode ser um problema nos quesitos anonimidade e descentralização."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
+=======
+          <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a>
+          {% include badge.html
+          link="https://codeberg.org/crimeflare/cloudflare-tor/"
+          color="warning"
+          icon="fas fa-exclamation-triangle"
+          tooltip="Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization."
+          %}
+>>>>>>> upstream/master
         </td>
         <td>Anycast (sediado nos
           <span class="no-text-wrap">
@@ -166,16 +218,27 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.cloudflare.com/privacypolicy/" href="https://www.cloudflare.com/privacypolicy/">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://www.cloudflare.com/privacypolicy/">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
+<<<<<<< HEAD
         <td>Comercial</td>
         <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nós iremos coletar dados limitados de requisições DNS enviadas aos resolvedores. Esses dados não contém endereços de IP de usuários ou qualquer tipo de informação identificável, e grande parte dos dados é armazenado por apenas 24 horas."' href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Parcial</a></td>
         <td>DoH, DoT, DNSCrypt</td>
         <td>Sim</td>
         <td>Sim</td>
         <td>Não</td>
+=======
+        <td>Commercial</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We will collect limited DNS query data that is sent to the resolvers. This data does not contain user IP addresses or any other personally identifiable information, and the bulk of the data is only stored for 24 hours."' href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Some</a></td>
+        <td>DoH, DoT</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>No</td>
+>>>>>>> upstream/master
         <td>?</td>
         <td>Auto-Hospedagem</td>
       </tr>
@@ -191,8 +254,17 @@
           </span>
         </td>
         <td>
+<<<<<<< HEAD
           <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Resolvedores da CZ.NIC não coletam nenhum dado pessoal, nem informações sobre páginas das quais seu computador envia dados."'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+=======
+          <div
+            class="btn-secondary btn-icon"
+            title="&quot;CZ.NIC resolvers neither collect any personal data nor gather information on pages where your computer sends personal data.&quot;"
+            data-toggle="tooltip"
+            data-placement="bottom">
+            <span class="fas fa-globe"></span>
+>>>>>>> upstream/master
           </a>
         </td>
         <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"CZ.NIC é uma associação de pessoas jurídicas, fundada em 1998 por provedores de Internet líderes do mercado."' href="https://www.nic.cz/page/351/about-association/">Associação</a></td>
@@ -206,6 +278,7 @@
       </tr>
 
       <tr>
+<<<<<<< HEAD
         <td data-value="dnswarden">
           <a href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md">dnswarden</a>
         </td>
@@ -247,6 +320,8 @@
       </tr>
 
       <tr>
+=======
+>>>>>>> upstream/master
         <td data-value="Foundation for Applied Privacy">
           <a href="https://appliedprivacy.net/services/dns/">Foundation for Applied Privacy</a>
         </td>
@@ -257,8 +332,10 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://appliedprivacy.net/privacy-policy" href="https://appliedprivacy.net/privacy-policy">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://appliedprivacy.net/privacy-policy">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>Sem fins lucrativos</td>
@@ -293,8 +370,10 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.nextdns.io/privacy" href="https://www.nextdns.io/privacy">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://www.nextdns.io/privacy">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>Comercial</td>
@@ -333,8 +412,10 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://nixnet.xyz/privacy/" href="https://nixnet.xyz/privacy/">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://nixnet.xyz/privacy/">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>
@@ -352,8 +433,10 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://git.nixnet.xyz/NixNet/dns" href="https://git.nixnet.xyz/NixNet/dns">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://git.nixnet.xyz/NixNet/dns">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>
@@ -374,8 +457,10 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://powerdns.org/doh/privacy.html" href="https://powerdns.org/doh/privacy.html">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://powerdns.org/doh/privacy.html">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>Projeto Hobby</td>
@@ -385,8 +470,10 @@
         <td>Não</td>
         <td>Não</td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/PowerDNS/pdns" href="https://github.com/PowerDNS/pdns">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://github.com/PowerDNS/pdns">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>
@@ -398,7 +485,16 @@
 
       <tr>
         <td data-value="Quad9">
+<<<<<<< HEAD
           <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Fundadores incluem a Global Cyber Alliance, composta pela City of London Police e Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></span>
+=======
+          <a href="https://quad9.net/">Quad9</a>
+          {% include badge.html
+          color="warning"
+          icon="fas fa-exclamation-triangle"
+          tooltip="Founders include the Global Cyber Alliance, composed of the City of London Police and Manhattan District Attorney's Office."
+          %}
+>>>>>>> upstream/master
         </td>
         <td>Anycast (sediado nos
           <span class="no-text-wrap">
@@ -407,8 +503,10 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://quad9.net/policy/" href="https://quad9.net/policy/">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://quad9.net/policy/">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>Sem fins lucrativos</td>
@@ -431,6 +529,7 @@
       </tr>
 
       <tr>
+<<<<<<< HEAD
         <td data-value="SecureDNS">
           <a href="https://securedns.eu/">SecureDNS</a>
         </td>
@@ -464,6 +563,8 @@
       </tr>
 
       <tr>
+=======
+>>>>>>> upstream/master
         <td data-value="Snopyta">
           <a href="https://snopyta.org/service/dns/index.html">Snopyta</a>
         </td>
@@ -474,12 +575,14 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://snopyta.org/privacy_policy/" href="https://snopyta.org/privacy_policy/">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          <a
+            class="btn-secondary btn-icon"
+            href="https://snopyta.org/privacy_policy/">
+            <span class="fas fa-globe"></span>
           </a>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='Part of LibreHosters, "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."' href="https://libreho.st/">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="Part of LibreHosters, &quot;a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms.&quot;" href="https://libreho.st/">
             Informal collective
           </a>
         </td>
@@ -521,9 +624,19 @@
           </span>
         </td>
         <td>
+<<<<<<< HEAD
           <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nada é logado: nem informações sobre usuários, nem sobre o uso deste serviço. Eu mantenho gráficos do número total de requisições, mas nenhuma informação pessoalmente identificável é salva. Os dados que são salvos nunca serão vendidos nem usados para nada, exceto planejar a capacidade do serviço."'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
+=======
+          <div
+            class="btn-secondary btn-icon"
+            title="&quot;Absolutely nothing is being logged, neither about the users nor the usage of this service. I do keep graphs of the total number of queries, but no personally identifiable information is saved. The data that is saved will never be sold or used for anything except capacity planning of the service.&quot;"
+            data-toggle="tooltip"
+            data-placement="bottom">
+            <span class="fas fa-globe"></span>
+          </div>
+>>>>>>> upstream/master
         </td>
         <td>Projeto Hobby</td>
         <td>Não</td>
@@ -542,6 +655,7 @@
     </tbody>
   </table>
 </div>
+<<<<<<< HEAD
 
 <h4>Glossário</h4>
 
@@ -621,3 +735,5 @@
     </ul>
   </li>
 </ul>
+=======
+>>>>>>> upstream/master

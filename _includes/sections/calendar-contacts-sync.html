@@ -9,9 +9,17 @@
 {%
   include cardv2.html
   title="Nextcloud"
+<<<<<<< HEAD
   image="/assets/img/provider/Nextcloud.png"
   description="<strong>Nextcloud</strong> é um pacote de softwares para criar e usar serviços de armazenamento de arquivos, tanto para clientes quanto servidores. Isso inclui sincronização de calendário através de CalDAV e contatos através de CardDAV. Nextcloud é livre, gratuito e de código-fonte aberto, portanto permitindo que qualquer pessoa instale-o e opere-o num servidor privado, sem nenhuma cobrança adicional."
   website="https://nextcloud.com/"
+=======
+  image="/assets/img/svg/3rd-party/nextcloud.svg"
+  description="<strong>Nextcloud</strong> is a suite of client-server software for creating and using file hosting services. This includes calendar sync via CalDAV and contacts sync via CardDAV. Nextcloud is free and open-source, thereby allowing anyone to install and operate it without charge on a private server."
+  website="https://nextcloud.com/"
+  privacy-policy="https://nextcloud.com/privacy/"
+  forum="https://forum.privacytools.io/t/discussion-nextcloud-calender-contacts-sync-tools/1535"
+>>>>>>> upstream/master
   github="https://github.com/nextcloud"
   windows="https://nextcloud.com/install/"
   linux="https://nextcloud.com/install/"
@@ -25,6 +33,7 @@
 
 {%
   include cardv2.html
+<<<<<<< HEAD
   title="Provedores de Email"
   image="/assets/img/misc/email.png"
   description='Muitos provedores de email também oferecem serviços de sincronização de calendário e contatos. Dê uma olhada na <a href="/provedores/email">seção Provedores de Email</a> para escolher um provedor de email e checar se eles também oferecem sincronização de calendário e/ou contatos.'
@@ -37,13 +46,33 @@
   image="/assets/img/provider/etesync.png"
   description="<strong>EteSync</strong> é um serviço seguro com encriptação de ponta-a-ponta, sincronização na nuvem de informações pessoais de agenda e backup para Android e qualquer SO que suporta CalDAV/CardDAV. Custa $14 por ano para usar, ou você pode hospedá-lo no seu próprio servidor sem nenhuma cobrança adicional."
   website="https://www.etesync.com/"
+=======
+  title="EteSync"
+  image="/assets/img/svg/3rd-party/etesync.svg"
+  description="<strong>EteSync</strong> is a secure, end-to-end encrypted, and privacy-respecting cloud backup and synchronization software for your personal information (e.g. contacts and calendars). There are native clients for Android, iOS, and the web, and an adapter layer for most desktop clients. It costs $24 per year to use, or you can host the server yourself for free."
+  website="https://www.etesync.com/"
+  privacy-policy="https://www.etesync.com/tos/#privacy"
+  forum="https://forum.privacytools.io/t/discussion-etesync-calender-contacts-sync-tools/1536"
+>>>>>>> upstream/master
   github="https://github.com/etesync"
   web="https://client.etesync.com/"
-  windows="https://github.com/etesync/etesync-dav/blob/master/README.md#installation"
-  mac="https://github.com/etesync/etesync-dav/blob/master/README.md#installation"
-  linux="https://github.com/etesync/etesync-dav/blob/master/README.md#installation"
+  windows="https://www.etesync.com/install/dav/"
+  mac="https://www.etesync.com/install/dav/"
+  linux="https://www.etesync.com/install/dav/"
+  freebsd="https://www.etesync.com/install/dav/"
+  openbsd="https://www.etesync.com/install/dav/"
+  netbsd="https://www.etesync.com/install/dav/"
   fdroid="https://f-droid.org/packages/com.etesync.syncadapter/"
   googleplay="https://play.google.com/store/apps/details?id=com.etesync.syncadapter"
+  ios="https://www.etesync.com/install/ios/"
+%}
+
+{%
+  include cardv2.html
+  title="Email Providers"
+  image="/assets/img/svg/layout/email.svg"
+  description='Many email providers also offer calendar and or contacts sync services. Refer to our <a href="/providers/email">Email Provider recommendations</a> to choose an email provider and see if they also offer calendar and/or contacts sync.'
+  website="/providers/email"
 %}
 
 <h3>Menções Honrosas</h3>
@@ -54,6 +83,14 @@
   </li>
 
   <li>
+<<<<<<< HEAD
     <a href="../nuvem">Backups na nuvem</a> - Considere exportar seu calendário e/ou contatos regularmente e salvá-los em dispositivos de armazenamento separados, ou armazená-los num serviço na nuvem (após <a href="../encriptacao/#encriptar">encriptá-los</a>).
+=======
+    <a href="../cloud">Cloud backups</a> - Consider regularly exporting your calendar and or contacts and backing them up on a separate storage drive or uploading them to cloud storage (ideally after <a href="../encryption-tools/">encrypting</a> them).
+  </li>
+
+  <li>
+    <a href="https://github.com/39aldo39/DecSync">DecSync</a> - DecSync can be used to synchronize RSS, contacts, and calendars without a server by using file synchronization software such as <a href="https://syncthing.net/">Syncthing</a>.
+>>>>>>> upstream/master
   </li>
 </ul>

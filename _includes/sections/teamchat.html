@@ -1,33 +1,63 @@
+<<<<<<< HEAD
 <h1 id="teamchat" class="anchor"><a href="#chat-equipe"><i class="fas fa-link anchor-icon"></i></a> Plataformas de Chat em Equipe</h1>
 
 <div class="alert alert-warning" role="alert">
   <strong>Se seu projeto ou organização utiliza plataformas como <a href="https://tosdr.org/#discord">Discord</a> ou <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a>, recomendamos que utilize uma alternativa daqui.</strong>
+=======
+<h1 id="teamchat" class="anchor">
+  <a href="#teamchat">
+    <i class="fas fa-link anchor-icon"></i>
+  </a> Team Chat Platforms
+</h1>
+
+<div class="alert alert-warning" role="alert">
+  <strong>If your project or organization currently uses a platform like <a href="https://tosdr.org/#discord">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.</strong>
+>>>>>>> upstream/master
 </div>
 
 {%
   include cardv2.html
+<<<<<<< HEAD
   title="Riot.im (Matrix)"
   image="/assets/img/tools/Riot.png"
   description="Riot.im é uma aplicação livre de mensagens descentralizadas baseado no protocolo <a href\"https://matrix.org/\">Matrix</a>, um protocolo aberto recente para comunicação em tempo real, oferecendo encriptação E2E opcional. Também tem funcionalidades de ponte, permitindo que você se conecte a outros protocolos de chat como IRC, ou Telegram."
   labels="warning:<a href=//github.com/vector-im/riot-web/issues/6779>Experimental</a>:Sobre E2EE, a encriptação de ponta-a-ponta está em beta, e o clente móvel afirma 'Encriptação de ponta-a-ponta está em beta e pode não ser confiável. Você ainda não deve confirar nessa funcionalidade para manter seus dados seguros.'"
   website="https://about.riot.im/"
+=======
+  title="Riot"
+  image="/assets/img/svg/3rd-party/riotim.svg"
+  description='<a href="//about.riot.im">Riot.im</a> is the reference client for the <a href="//matrix.org/docs/guides/introduction">Matrix</a> network. The <a href="//matrix.org/docs/spec">Matrix open standard</a> is an open-source standard for secure, decentralized, real-time communication.<br />'
+  labels="text==VoIP"
+  website="https://about.riot.im/"
+  privacy-policy="https://riot.im/privacy"
+  forum="https://forum.privacytools.io/t/discussion-riot-im/665/"
+>>>>>>> upstream/master
   github="https://github.com/vector-im/riot-web/"
   windows="https://riot.im/download/desktop/"
   mac="https://riot.im/download/desktop/"
   linux="https://riot.im/download/desktop/"
   fdroid="https://f-droid.org/repository/browse/?fdid=im.vector.alpha"
   googleplay="https://play.google.com/store/apps/details?id=im.vector.app"
-  ios="https://itunes.apple.com/us/app/vector.im/id1083446067"
+  ios="https://itunes.apple.com/app/vector.im/id1083446067"
   web="https://riot.im/app/"
 %}
 
 {%
   include cardv2.html
   title="Rocket.chat"
+<<<<<<< HEAD
   image="/assets/img/tools/rocket.chat.png"
   description="Rocket.chat é uma plataforma com código-fonte aberto e auto-hospedável para comunicação em equipe. Tem opções experimentais e opcionais de federação e E2EE."
   labels="warning:<a href=//rocket.chat/docs/user-guides/end-to-end-encryption/>Experimental</a>:Sobre E2EE, a documentação do projeto afirma 'Essa funcionalidade está em fase de testes (alpha). Além disso, não está disponível para dispositivos móveis'. Caso a senha de decriptação for comprometida, todas as mensagens seriam vazadas. A funcionalidade de federação também foi algo adicionado recentemente, o que pode causar problemas."
   website="https://rocket.chat/"
+=======
+  image="/assets/img/svg/3rd-party/rocketchat.svg"
+  description="Rocket.chat is an self-hostable open source platform for team communication. It has optional federation and experimental E2EE."
+  labels="color==warning::link==https://rocket.chat/docs/user-guides/end-to-end-encryption/::text==Experimental E2EE::tooltip==Regarding E2EE their documentation states 'This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. Federation was also added afterwards, potentially causing room for mistakes.|text==VoIP"
+  website="https://rocket.chat/"
+  privacy-policy="https://rocket.chat/privacy"
+  forum="https://forum.privacytools.io/t/discussion-rocket-chat/1223"
+>>>>>>> upstream/master
   github="https://github.com/rocketchat/"
   windows="https://rocket.chat/install"
   mac="https://itunes.apple.com/us/app/rocket-chat/id1086818840"
@@ -40,21 +70,31 @@
 {%
   include cardv2.html
   title="Keybase"
+<<<<<<< HEAD
   image="/assets/img/tools/keybase.png"
   description='Keybase fornece um chat em equipe com criptografia de ponta-a-ponta. O serviço também foi <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">auditado independentemente (PDF)</a>.'
   labels="warning:<a href=//github.com/keybase/client/issues/6374>Aviso</a>:O servidor do Keybase roda com código-fonte proprietário e é centralizado."
   website="https://keybase.io/"
+=======
+  image="/assets/img/svg/3rd-party/keybase.svg"
+  description='Keybase provides a hosted team chat with E2EE. Its protocol has also been <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">indepedently audited (PDF)</a>. Keybase can help you prove you own social media accounts through the use of cryptographic signing of "<a href="https://en.wikipedia.org/wiki/Keybase#Identity_proofs">identity proofs</a>".'
+  labels="color==warning::link==https://github.com/keybase/client/issues/6374::text==Warning::tooltip==This software relies on a closed-source central server.| color==info::link==https://github.com/privacytools/privacytools.io/issues/1894::text==Ownership change::tooltip==Keybase has recently been acquired by Zoom."
+  website="https://keybase.io/"
+  privacy-policy="https://keybase.io/docs/privacypolicy"
+  forum="https://forum.privacytools.io/t/discussion-keybase/1224"
+>>>>>>> upstream/master
   tor="http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/"
   github="https://github.com/Keybase"
   windows="https://keybase.io/docs/the_app/install_windows"
   mac="https://keybase.io/docs/the_app/install_macos"
   linux="https://keybase.io/docs/the_app/install_linux"
   freebsd="https://www.freshports.org/security/keybase/"
-  googleplay="https://play.google.com/store/apps/details?id=io.keybase.ossifrage&hl=en_US"
-  ios="https://keybase.io/_/download/keybase-for-ios"
-  firefox="https://addons.mozilla.org/en-US/firefox/addon/keybase-for-firefox/"
+  googleplay="https://play.google.com/store/apps/details?id=io.keybase.ossifrage"
+  ios="https://apps.apple.com/app/keybase-crypto-for-everyone/id1044461770"
+  firefox="https://addons.mozilla.org/firefox/addon/keybase-for-firefox/"
   chrome="https://chrome.google.com/webstore/detail/keybase-for-reddit/ognfafcpbkogffpmmdglhbjboeojlefj"
 %}
+<<<<<<< HEAD
 
 
 <h3>Menção Honrosa</h3>
@@ -62,3 +102,5 @@
 <ul>
   <li><a href="https://wire.com/en/products/pro-secure-team-collaboration/">Wire Pro</a> - Comunicação em equipe com E2EE (pago). <span class="badge badge-warning" data-toggle="tooltip" title="Ainda que a edição gratuita do Wire é recomendada, não testamos a edição Pro.">Não testado <i class="far fa-question-circle"></i></span></li>
 </ul>
+=======
+>>>>>>> upstream/master

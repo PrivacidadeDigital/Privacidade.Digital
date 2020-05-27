@@ -7,12 +7,18 @@
 <h3>Preparação:</h3>
 
 <ol>
+<<<<<<< HEAD
   <li>Digite "about:config" na barra de endereço do seu Firefox e aperte a tecla Enter.</li>
   <li>Clique no botão "Eu aceito o risco!" para continuar.</li>
   <li>Pesquise a configuração da lista abaixo e troque seu valor para o valor que recomendamos...</li>
   <li>Para que você entenda melhor: true significa verdadeiro e <code>false</code> significa falso em Inglês. 
   Por isso, preferências com o valor <code>true</code> serão ativadas e preferências com o valor <code>false</code> serão desativadas.
   No entanto, os valores das configurações nem sempre serão definidos em termos de falso e verdadeiro.</li>
+=======
+  <li>Enter "about:config" in the firefox address bar and press enter.</li>
+  <li>Press the button "Accept the Risk and Continue" [FF71+] or "I accept the risk".</li>
+  <li>Follow the instructions below...</li>
+>>>>>>> upstream/master
 </ol>
 
 <h3>Começando:</h3>
@@ -35,17 +41,24 @@
   <dd>[FF67+] Bloqueia mineração de criptomoedas.</dd>
 
   <dt>privacy.trackingprotection.enabled = true</dt>
+<<<<<<< HEAD
   <dd>Essa é a proteção de rastreamento nova da Mozilla. Ela usa uma lista da Disconnect.me para filtrar rastreadores, o
     que é redundante se você já estiver usando uBlock Origin, portanto só deixe em <code>true</code> caso você não esteja utilizando essa extensão.</dd>
+=======
+  <dd>This is Mozilla's new built-in tracking protection. One of it's benefits is blocking tracking (i.e. Google Analytics) on <a href="https://github.com/gorhill/uMatrix/wiki/Privileged-Pages">privileged pages</a> where add-ons that usually do that are disabled.</dd>
+>>>>>>> upstream/master
 
   <dt>browser.send_pings = false</dt>
   <dd>Caso esteja habilitada, essa preferência ajuda sites a rastrear seus cliques.</dd>
 
+<<<<<<< HEAD
   <dt>browser.sessionstore.max_tabs_undo = 0</dt>
   <dd>Mesmo que o Firefox esteja configurado para não armazenar o histórico, abas fechadas são armazenadas
     temporariamente em Menu -&gt; Biblioteca -&gt; Histórico -&gt; Abas fechadas recentemente. 
     Siga essa recomendação para não armazenar nenhuma aba fechada.</dd>
 
+=======
+>>>>>>> upstream/master
   <dt>browser.urlbar.speculativeConnect.enabled = false</dt>
   <dd>Desativa o pré-carregamento e autocompletamento de URLs. Firefox carrega URLs previamente que autocompletam quando um
     usuário digita na barra de endereço, o que é um problema se as URLs sugeridas não forem sites que o usuário queira se conectar. 
@@ -107,9 +120,12 @@
     </ul>
   </dd>
 
+<<<<<<< HEAD
   <dt>Procurando por configurações sobre TRR, DoH ou ESNI?</dt>
   <dd>Elas mudaram para <a href="/provedores/dns/#icanndns">nossa página sobre DNS</a>.</dd>
 
+=======
+>>>>>>> upstream/master
   <dt>webgl.disabled = true</dt>
   <dd>Desabilita WebGL, tecnologia que pode ser um risco de segurança. 
     <a href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Fonte</a> (em Inglês).</dd>
@@ -127,6 +143,7 @@
     </ul>
   </dd>
 
+<<<<<<< HEAD
   <dt>network.IDN_show_punycode = true</dt>
   <dd>Não renderizar IDNs como seu equivalente em Punycode te deixa vulnerável a ataques de phising que podem ser muito
     difíceis de notar. Essa preferência mostra o código Punycode do domínio do site que você está visitando para evitar ser enganado 
@@ -134,15 +151,44 @@
     com o objetivo de enganar e roubar as informações dos usuários. 
     <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Fonte</a> (em Inglês).
   </dd>
+=======
+  <dt>beacon.enabled = false</dt>
+  <dd>Disables sending additional analytics to web servers. <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon">Details</a></dd>
+
+  <dt>browser.safebrowsing.downloads.remote.enabled = false</dt>
+  <dd>Prevents Firefox from sending information about downloaded executable files to Google Safe Browsing to determine whether it should be blocked for safety reasons. <a href="https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work#w_what-information-is-sent-to-mozilla-or-its-partners-when-phishing-and-malware-protection-are-enabled">Details</a></dd>
+
+  <dt>Disable Firefox prefetching pages it thinks you will visit next:</dt>
+  <dd>
+  Prefetching causes cookies from the prefetched site to be loaded and other potentially unwanted behavior. Details <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ">here</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control">here</a>.
+  <ul>
+    <li>network.dns.disablePrefetch = true</li>
+    <li>network.dns.disablePrefetchFromHTTPS = true</li>
+    <li>network.predictor.enabled = false</li>
+    <li>network.predictor.enable-prefetch = false</li>
+    <li>network.prefetch-next = false</li>
+  </dd>
+
+  <dt>network.IDN_show_punycode = true</dt>
+  <dd>Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Source</a></dd>
+
+  <dt>Looking for TRR, DoH or ESNI?</dt>
+  <dd>They have moved to <a href="/providers/dns/#dns">our DNS page</a>.</dd>
+>>>>>>> upstream/master
 
 <h3 id="user.js">Modelos user.js para o Firefox</h3>
 <ul>
+<<<<<<< HEAD
 	<li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - Um modelo user.js de Firefox para configurar e enrijecer a privacidade, segurança e prevenção de idenficação por impressão digital.</li>
+=======
+   <li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting.</li>
+>>>>>>> upstream/master
 </ul>
 
 <h3>Informações Relacionadas (em Inglês)</h3>
 
 <ul>
+<<<<<<< HEAD
   <li><a href="https://ffprofile.com/">ffprofile.com</a> - Te ajuda a criar um perfil de Firefox com as configurações
     padrão que você gosta. No fim do processo, você pode salvar o arquivo do seu perfil e usá-lo em qualquer instalação Firefox.</li>
   <li><a href="http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences">mozillazine.org</a> -
@@ -153,3 +199,10 @@
   <li><a href="https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/">Firefox Privacy Guide
       For Dummies</a> - Guia com métodos para melhorar sua privacidade e segurança no Firefox (alguns desses métodos já foram ensinados aqui).</li>
 </ul>
+=======
+  <li><a href="https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/">Firefox Privacy: Tips and Tricks for Better Browsing</a> - A good starting guide for users looking to keep their data private and secure.</li>
+  <li><a href="https://ffprofile.com/">ffprofile.com</a> - Helps you to create a Firefox profile with the defaults you like.</li>
+  <li><a href="https://addons.mozilla.org/firefox/addon/privacy-settings/">Privacy Settings</a> - A Firefox add-on to alter built-in privacy settings easily with a toolbar panel.</li>
+  <li><a href="https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/">Firefox Privacy Guide For Dummies</a> - Guide on ways (already discussed and others) to improve your privacy and safety on Firefox.</li>
+</ul>
+>>>>>>> upstream/master
