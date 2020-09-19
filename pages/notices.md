@@ -1,34 +1,34 @@
 ---
 layout: page
-permalink: /notices/
-title: "Notices and Disclaimers"
-description: "PrivacyTools is provided with good intentions on an &quot;as-is&quot; basis, without warranty, and disclaiming liability for damages."
+permalink: /notas/
+title: "Notas e Avisos Legais"
+description: "Notas e avisos legais acerca da iniciativa Privacidade Digital"
 ---
 
-<span class="badge badge-secondary mt-5">Section 1</span>
-# Legal Disclaimer
+<span class="badge badge-secondary mt-5">Seção 1</span>
+# Aviso Legal
 
-<span class="lead">PrivacyTools is not a law firm. As such, the PrivacyTools website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with PrivacyTools or other contributors about our website create an attorney-client relationship.</span>
+<span class="lead">Privacidade.Digital não é uma firma de Direito ou Advocacia. Portanto, o site Privacidade.Digital, assim como o PrivacyTools e seus contribuidores não estão fornecendo conselhos legais de Advocacia. O material presente neste site e nossas recomendações e guias não constituem conselhos legais. Contribuir com o site ou comunicar-se conosco e outros colaboradores não cria um relacionamento entre advogado e cliente.</span>
 
-Running this website, like any human endeavor, involves uncertainty and trade-offs. We hope this website helps, but it may include mistakes, and can’t address every situation. If you have any questions about your situation, we encourage you to do your own research, seek out other experts, and discuss with your and the PrivacyTools community. If you have any legal questions, you should consult with your own legal counsel before moving forward.
+Administrar este site, como qualquer outro empenho humano, envolve incertezas e lados negativos. Nós temos a esperança de que este site ajuda seus visitantes, mas pode incluir erros, e não cobre todas as situações possíveis. Se você possui alguma dúvida específica sobre sua situação, nós te encorajamos a fazer suas próprias pesquisas, procurar ajuda profissional, e discutir com membros da nossa comunidade. Se você possui dúvidas de caráter legal, você deve consultar uma organização especializada no assunto antes de continuar suas pesquisas.
 
-PrivacyTools is an open source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the PrivacyTools project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. PrivacyTools does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the website or otherwise relating to such materials on the website or on any third-party sites linked on this site.
+A iniciativa Privacidade Digital é um projeto com código-fonte aberto sob licenças que, para a proteção do próprio site e seus colaboradores, deixam claro que este site (bem como o projeto original em Inglês, PrivacyTools) é um projeto sem qualquer garantia, portanto isento de responsabilidades por danos que você possa vir a tomar ao utilizar o site ou qualquer recomendação contina nele.
 
-PrivacyTools additionally does not warrant that this website will be constantly available, or available at all.
+Privacidade Digital também não garante que este site estará constantemente disponível, ou disponível em geral.
 
-<span class="badge badge-secondary mt-5">Section 2</span>
-# Licenses
+<span class="badge badge-secondary mt-5">Seção 2</span>
+# Licenças
 
-<span class="lead">Content copyright on this website is waived under the terms of [CC0 1.0 Universal](https://github.com/privacytools/privacytools.io/blob/master/LICENSE.txt).</span>
+<span class="lead">Direitos autorais de conteúdo neste site estão dispensados sob a licença [CC0 1.0 Universal](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/LICENSE.txt).</span>
 
-In certain jurisdictions, namely those in which the copyright waiver in the CC0-1.0 is judged for any reason to be legally invalid or ineffective under applicable law, content may be copyright &copy; PrivacyTools contributors, released under the [CC 1.0 Universal](https://github.com/privacytools/privacytools.io/blob/master/LICENSE.txt) license.
+Em certas jurisdições, em específico àquelas em que a dispensão dos direitos autorais no CC0-1.0 seja inválida por qualquer motivo, ou ineficaz de acordo com a lei local, direitos autorais poderão estar em vigor para &copy; colaboradores do PrivacyTools e Privacidade Digital, sob a licença [CC 1.0 Universal](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/LICENSE.txt).
 
-**Content** on this website is based on [github.com/privacytools/privacytools.io](https://github.com/privacytools/privacytools.io) and is made freely available under the CC-1.0.
+**Conteúdo** neste site é baseado em [github.com/privacytools/privacytools.io](https://github.com/privacytools/privacytools.io) e [github.com/PrivacidadeDigital/privacidade.digital](https://github.com/PrivacidadeDigital/privacidade.digital) e é livremente disponível sob a CC-1.0.
 
-Code, including source files and code samples if any in the content, is released under CC-1.0, with the following exceptions:
+Código, incluindo arquivos de código-fonte e exemplos de código caso disponível em nosso conteúdo, está disponível sob CC-1.0, com as seguintes exceções:
 
-- Bootstrap code is under the MIT license. See: [github.com/twbs/bootstrap/blob/master/LICENSE](https://github.com/twbs/bootstrap/blob/master/LICENSE)
-- [jQuery](https://github.com/privacytools/privacytools.io/blob/master/assets/js/jquery-3.3.1.min.js) is under the MIT license. See: [jquery.org/license](https://jquery.org/license/)
+- Código Bootstrap está disponível sob a licença MIT. Veja: [github.com/twbs/bootstrap/blob/master/LICENSE](https://github.com/twbs/bootstrap/blob/master/LICENSE)
+- [jQuery](https://github.com/privacytools/privacytools.io/blob/master/assets/js/jquery-3.3.1.min.js) está disponível sob a licença MIT. Veja: [jquery.org/license](https://jquery.org/license/)
 - [Popper.js](https://github.com/privacytools/privacytools.io/blob/master/assets/js/popper.min.js) is under the MIT license. See: [github.com/FezVrasta/popper.js/raw/master/LICENSE.md](https://github.com/FezVrasta/popper.js/raw/master/LICENSE.md)
 - [Sortable](https://github.com/privacytools/privacytools.io/blob/master/assets/js/sortable.min.js) is under the MIT license. See: [github.com/HubSpot/sortable/raw/master/LICENSE](https://github.com/HubSpot/sortable/raw/master/LICENSE)
 - The Font Awesome icons are under CC-BY-4.0, Font Awesome fonts are under SIL OFL 1.1, and Font Awesome code is under the MIT License. See: [fontawesome.com/license/free](https://fontawesome.com/license/free)
