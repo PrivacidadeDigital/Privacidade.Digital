@@ -55,4 +55,4 @@ Você não deve conduzir nenhuma atividade de coleta dados sistêmica ou automat
 - Mineração de Dados
 - ‘Framing’ (IFrames)
 
-Nós levamos a segurança de nosso site, infraestrutura e serviços de forma muito séria.
+Nós levamos a segurança, infraestrutura e serviços do nosso site de forma muito séria.
