@@ -8,4 +8,4 @@ font/.fontcustom-manifest.json
 assets/webfonts/ptio-font-preview.html
 .vendor/
 .bundle/
-.code-workspace
+*.code-workspace
