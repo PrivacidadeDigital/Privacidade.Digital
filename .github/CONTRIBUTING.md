@@ -22,8 +22,9 @@ Este documento é uma coleção de diretrizes para contribuições em Português
 * [Entrando no Time de Colaborades Frequentes (TCF)](#entrando-no-time-de-colaboradores-frequentes-tcf)
 * [Doando para o projeto](#doando-para-o-projeto)
 
-[Diretrizes de Desenvolvimento](#diretrizes-de-desenvolvimento)
-* [Links Externos](#links-externos)
+[Diretrizes de Desenvolvimento e Tradução](#diretrizes-de-desenvolvimento-e-tradução)
+* [Links para Recursos Externos](#links-para-recursos-externos)
+* [Traduzindo Recursos Externos](#traduzindo-recursos-externos)
 
 ## Código de Conduta
 
@@ -148,14 +149,14 @@ Primeiramente, é essencial que você saiba sobre a importância da [Wiki deste 
 
 Após inteirar-se sobre o desenvolvimento pela Wiki, nós encorajamos que todo desenvolvedor interessado a ajudar-nos entre em nossa sala de chat Matrix em [#privacidade.digital-geral:matrix.org](https://matrix.to/#/!IDBaYHDZqNwkCKlmTA:matrix.org?via=matrix.org). Por lá, você poderá se introduzir em nosso meio e esclarecer qualquer dúvida que tenha acerca do que você leu. Te esperamos por lá!
 
-### Links Externos
+### Links para Recursos Externos
 
-Caso já esteja familiarizado com nosso site, irá perceber a existência de inúmeras listas de links externos para que o visitante se eduque melhor em determinado assunto. Claro que esses links nem sempre estão organizados em listas, mas às vezes espalhados pelo texto do site.
+Caso já esteja familiarizado com nosso site, irá perceber a existência de inúmeras listas de links externos para que o visitante se eduque melhor em determinado assunto. Claro que esses links nem sempre estão organizados em listas, mas às vezes espalhados pelo conteúdo do site.
 
-1. A primeira coisa que você deve fazer quando editar esse tipo de link, é entrar no link em questão e verificar a linguagem principal utilizada no site que o link leva.
-2. Caso o conteúdo não esteja em Português, verifique se não existe uma opção para trocar a língua para o Português.
-3. Caso exista uma versão do site em Português, troque o link no Privacidade.Digital para o link em Português e traduza o título do link conforme necessário.
-4. Caso o site esteja disponível somente em Inglês ou noutra língua, não traduza o título, deixando o texto original mas adicionando uma indicação de que o recurso estará disponível na língua em questão conforme exemplos abaixo.
+1. A primeira coisa que você deve fazer quando editar e traduzir esse tipo de link, é entrar no link em questão para ver qual é a linguagem principal utilizada por lá.
+2. Caso o conteúdo não esteja em Português, verifique se não existe uma opção para trocar a língua do site.
+3. Caso exista uma versão do site em Português, troque o link no código-fonte para o link em Português e traduza o texto do link conforme necessário.
+4. Caso o site esteja disponível somente em Inglês ou noutra língua, não devemos traduzir o texto, mas adicionando uma indicação de que o recurso estará disponível numa língua diferente, conforme exemplos abaixo.
 
 #### Exemplo 1
 
@@ -165,13 +166,13 @@ O texto desse link apresenta somente a própria URL do site:
 <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>
 ```
 
-Ao vasculhar o site `https://www.dnsleaktest.com/` percebemos que a língua principal utilizada é o Inglês e não existe opção para mudar para Português. Devemos modificar o código acima da seguinte forma:
+Ao vasculhar o site `https://www.dnsleaktest.com/` percebemos que a língua principal utilizada é o Inglês e não existe opção para trocar pra Português. Devemos então adicionar um aviso sobre isso:
 
 ```
 <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a> (recurso em Inglês)
 ```
 
-Nós adicionamos um texto após o link para indicar que o site está disponível em Inglês, e não Português. Agora sim!
+Nós adicionamos um texto após o link para indicar que o site está disponível em Inglês, e não Português. Também não modificamos o texto do link, pois não se deve traduzir URLs. Agora sim!
 
 #### Exemplo 2
 
@@ -181,19 +182,21 @@ O que há de errado no código a seguir?
 <em>Android 9</em> já incluí um cliente DoT embutido <a href="https://support.google.com/android/answer/9089903">por padrão</a>
 ```
 
-Ao vasculhar o site `https://support.google.com/android/answer/9089903` percebemos que a língua utilizada é o Inglês, mas existe uma opção de trocar essa língua para o Português do Brasil, redirecionando a página para outro link que agora apresenta o mesmo conteúdo, mas em Português. 
+Primeiramente, a palavra `incluí` está acentuada de forma incorreta. Deve-se utilizar `inclui` nesse caso.
 
-Logo, o erro do código acima é utilizar um link com texto em Português, mas cuja URL seja a de um recurso em Inglês. Isso acaba confundindo o visitante, que provavelmente esperaria algo em sua língua. Porque esse recurso também está disponível em nossa língua, devemos substituir a URL no código-fonte com o link em Português que encontramos ao vasculhar o site:
+Após consertar o erro gramatical, devemos vasculhar o site `https://support.google.com/android/answer/9089903`. Percebemos que a língua utilizada é o Inglês, mas existe uma opção de trocar essa língua pra Português do Brasil, redirecionando a página para outro link que agora apresenta o mesmo conteúdo, mas em Português.
+
+Podemos concluir então que outro erro do código acima é utilizar um link com texto em Português, mas cuja URL seja a de um recurso em Inglês. Isso acaba confundindo o visitante, que provavelmente esperaria algo em sua língua. Para nossa sorte, nós encontramos a versão em Português do site, então é só editar a URL para a versão correta:
 
 ```
-<em>Android 9</em> já incluí um cliente DoT embutido <a href="https://support.google.com/android/answer/9654714?hl=pt-BR">por padrão</a>
+<em>Android 9</em> já inclui um cliente DoT embutido <a href="https://support.google.com/android/answer/9654714?hl=pt-BR">por padrão</a>
 ```
 
 Agora sim!
 
 #### Exemplo 3
 
-Analise o seguinte código:
+Vamos analisar o seguinte código:
 
 ```
 <h3>Related Information</h3>
@@ -205,13 +208,13 @@ Analise o seguinte código:
 </ul>
 ```
 
-Podemos percebemos que tudo está em Inglês, logo precisaremos traduzir isto. Começamos a traduzir pelo título, que vira:
+Podemos percebemos que tudo está em Inglês, logo precisaremos traduzir esse trecho. Começamos a traduzir pelo título, que se torna:
 
 ```
 <h3>Informações Relacionadas</h3>
 ```
 
-Então prosseguimos com os links da lista. Vasculhamos os sites um por um, verificando a existência de opções em Português. Tiramos a conclusão de que todos os três links só estão disponíveis em Inglês... o que devemos fazer? Nesse caso, não devemos traduzir os textos dos links, e devemos indicar de alguma forma o visitante de que se tratam de recursos em Inglês. Poderíamos fazer do mesmo jeito que fizemos no Exemplo 2, mas nesse caso, seria mais adequado indicar no título da seção de que todos os links estarão em Inglês:
+Então prosseguimos com os links da lista abaixo do título. Vasculhamos os links da lista um por um, verificando a existência de versões em Português. Tiramos a conclusão de que todos os três links só apontam para sites disponíveis em Inglês... o que devemos fazer? Nesse caso, não devemos traduzir os textos dos links, mas devemos indicar para o visitante que os links se tratam de recursos em Inglês. Poderíamos fazer isso da mesmo forma que fizemos no Exemplo 2, mas nesse caso, seria mais apropriado indicar no título do trecho de que todos os links estarão em Inglês:
 
 ```
 <h3>Informações Relacionadas (em Inglês)</h3>
@@ -223,12 +226,14 @@ Então prosseguimos com os links da lista. Vasculhamos os sites um por um, verif
 </ul>
 ```
 
-Agora sim! Não precisamos traduzir o texto dos links, porque não queremos dar a falsa ideia de que o conteúdo estará em Português, e deixamos claro no título da seção que os recursos estarão em Inglês.
+Agora sim! Não precisamos traduzir o texto dos links, porque não queremos dar a falsa ideia de que o conteúdo estará em Português, e deixamos claro no título desse trecho de que todos os recursos da lista estarão em Inglês.
 
-#### Links Externos: A Situação Ideal, Porém Trabalhosa
+### Traduzindo Recursos Externos
 
-Você deve ter percebido que a grande maioria dos links levarão para recursos em outras línguas. Isso é ruim, pois gostaríamos de que esses recursos externos também fossem traduzidos. O ideal seria traduzir também esses recursos internos. Nesse caso, você pode comunicar seu desejo em traduzir algum recurso externo para nós e iremos tentar entrar em contato com os responsáveis pelo site externo. Muitos desses sites são iniciativas comunitárias que estão abertas a contribuições.
+Você deve ter percebido que a grande maioria dos links do site levarão para recursos em outras línguas. Isso é ruim, pois gostaríamos de que esses recursos externos também fossem traduzidos. O ideal seria traduzir esses recursos. 
 
-Claro que isso é extremamente trabalhoso pela quantidade elevada de links e pelo esforço na comunicação com todas essas entidades externas sobre a tradução de seus conteúdos. Mas em alguns casos, pode ser que valha a pena, então compartilhe seus planos de traduzir quaisquer recursos externos e peça ajuda a mais tradutores comunitários! 
+Nesse caso, você pode comunicar seu desejo em traduzir algum recurso externo para nós e poderemos unir esforços na tradução, tentando também entrar em contato com os responsáveis pelo site externo para saber sobre diretrizes de tradução. Muitos desses sites são iniciativas comunitárias que estão abertas a contribuições.
 
-Quando o recurso for finalmente traduzido, edite o link e traduza seu texto conforme as diretrizes apresentadas anteriormente.
+Claro que isso é extremamente trabalhoso pela quantidade elevada de recursos externos e pelo esforço na comunicação com todas essas entidades externas sobre a tradução de seus conteúdos. Mas em alguns casos, pode ser que esse esforço valha a pena, então compartilhe seus planos de traduzir quaisquer recursos externos e peça ajuda a mais tradutores comunitários para podermos unir esforços! 
+
+Quando o recurso for finalmente traduzido, edite a URL do link e traduza o texto conforme as diretrizes apresentadas anteriormente em [Links para Recursos Externos](#links-para-recursos-externos).
