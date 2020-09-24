@@ -236,6 +236,6 @@ Caso tenha interesse em traduzir algum recurso externo, deve entrar em contato c
 
 Claro que isso é extremamente trabalhoso pela quantidade elevada de recursos externos e pelo esforço na comunicação com todas essas entidades externas sobre a tradução de seus conteúdos. Mas em alguns casos, pode ser que esse esforço valha a pena, então compartilhe seus planos de traduzir quaisquer recursos externos e peça ajuda a mais tradutores comunitários para podermos unir esforços! 
 
-Um exemplo que ocorreu de verdade durante o desenvolvimento do Privacidade.Digital, foi a tradução completa da interface gráfica do aplicativo Turtl para o Português do Brasil, feita pelo colaborador [LABB](https://github.com/abbluiz). 
+Um exemplo que ocorreu de verdade durante o desenvolvimento do Privacidade.Digital, foi a [tradução completa da interface gráfica do aplicativo Turtl](https://github.com/turtl/js/blob/master/locales/pt_br.js) para o Português do Brasil, feita pelo colaborador [LABB](https://github.com/abbluiz). Esse aplicativo é recomendado em nosso site, mas não possuia versão em Português, mas agora já tem!
 
 Quando o recurso for finalmente traduzido, edite a URL do link e traduza o texto conforme as diretrizes apresentadas anteriormente em [Links para Recursos Externos](#links-para-recursos-externos).
