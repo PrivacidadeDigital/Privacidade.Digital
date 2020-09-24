@@ -230,10 +230,12 @@ Agora sim! Não precisamos traduzir o texto dos links, porque não queremos dar 
 
 ### Traduzindo Recursos Externos
 
-Você deve ter percebido que a grande maioria dos links do site levarão para recursos em outras línguas. Isso é ruim, pois gostaríamos de que esses recursos externos também fossem traduzidos. O ideal seria traduzir esses recursos. 
+Você deve ter percebido que a grande maioria dos links do site levarão para recursos em outras línguas. Isso é ruim, pois gostaríamos de que esses recursos externos também fossem traduzidos. O ideal seria traduzir todos esses recursos. 
 
-Nesse caso, você pode comunicar seu desejo em traduzir algum recurso externo para nós e poderemos unir esforços na tradução, tentando também entrar em contato com os responsáveis pelo site externo para saber sobre diretrizes de tradução. Muitos desses sites são iniciativas comunitárias que estão abertas a contribuições.
+Caso tenha interesse em traduzir algum recurso externo, deve entrar em contato com outros colaboradores de nosso projeto, para que possamos unir esforços na tradução, tentando também entrar em contato com os responsáveis pelo site externo para saber sobre possíveis diretrizes de tradução. Muitos desses sites são iniciativas comunitárias que estão abertas a contribuições.
 
 Claro que isso é extremamente trabalhoso pela quantidade elevada de recursos externos e pelo esforço na comunicação com todas essas entidades externas sobre a tradução de seus conteúdos. Mas em alguns casos, pode ser que esse esforço valha a pena, então compartilhe seus planos de traduzir quaisquer recursos externos e peça ajuda a mais tradutores comunitários para podermos unir esforços! 
+
+Um exemplo que ocorreu de verdade durante o desenvolvimento do Privacidade.Digital, foi a tradução completa da interface gráfica do aplicativo Turtl para o Português do Brasil, feita pelo colaborador @abbluiz. 
 
 Quando o recurso for finalmente traduzido, edite a URL do link e traduza o texto conforme as diretrizes apresentadas anteriormente em [Links para Recursos Externos](#links-para-recursos-externos).
