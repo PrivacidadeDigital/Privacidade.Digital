@@ -193,3 +193,42 @@ Agora sim!
 
 #### Exemplo 3
 
+Analise o seguinte código:
+
+```
+<h3>Related Information</h3>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law">Wikipedia page on key disclosure law</a></li>
+  <li><a href="https://law.stackexchange.com/questions/1523/can-a-us-citizen-be-required-to-provide-the-authentication-key-for-encrypted-dat">law.stackexchange.com question about key disclosure law in US</a></li>
+  <li><a href="https://peertube.mastodon.host/videos/watch/e09915eb-5962-4830-a02f-8da5c2b59e71">DEFCON 20: Crypto and the Cops: the Law of Key Disclosure and Forced Decryption</a></li>
+</ul>
+```
+
+Podemos percebemos que tudo está em Inglês, logo precisaremos traduzir isto. Começamos a traduzir pelo título, que vira:
+
+```
+<h3>Informações Relacionadas</h3>
+```
+
+Então prosseguimos com os links da lista. Vasculhamos os sites um por um, verificando a existência de opções em Português. Tiramos a conclusão de que todos os três links só estão disponíveis em Inglês... o que devemos fazer? Nesse caso, não devemos traduzir os textos dos links, e devemos indicar de alguma forma o visitante de que se tratam de recursos em Inglês. Poderíamos fazer do mesmo jeito que fizemos no Exemplo 2, mas nesse caso, seria mais adequado indicar no título da seção de que todos os links estarão em Inglês:
+
+```
+<h3>Informações Relacionadas (em Inglês)</h3>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law">Wikipedia page on key disclosure law</a></li>
+  <li><a href="https://law.stackexchange.com/questions/1523/can-a-us-citizen-be-required-to-provide-the-authentication-key-for-encrypted-dat">law.stackexchange.com question about key disclosure law in US</a></li>
+  <li><a href="https://peertube.mastodon.host/videos/watch/e09915eb-5962-4830-a02f-8da5c2b59e71">DEFCON 20: Crypto and the Cops: the Law of Key Disclosure and Forced Decryption</a></li>
+</ul>
+```
+
+Agora sim! Não precisamos traduzir o texto dos links, porque não queremos dar a falsa ideia de que o conteúdo estará em Português, e deixamos claro no título da seção que os recursos estarão em Inglês.
+
+#### Links Externos: A Situação Ideal, Porém Trabalhosa
+
+Você deve ter percebido que a grande maioria dos links levarão para recursos em outras línguas. Isso é ruim, pois gostaríamos de que esses recursos externos também fossem traduzidos. O ideal seria traduzir também esses recursos internos. Nesse caso, você pode comunicar seu desejo em traduzir algum recurso externo para nós e iremos tentar entrar em contato com os responsáveis pelo site externo. Muitos desses sites são iniciativas comunitárias que estão abertas a contribuições.
+
+Claro que isso é extremamente trabalhoso pela quantidade elevada de links e pelo esforço na comunicação com todas essas entidades externas sobre a tradução de seus conteúdos. Mas em alguns casos, pode ser que valha a pena, então compartilhe seus planos de traduzir quaisquer recursos externos e peça ajuda a mais tradutores comunitários! 
+
+Quando o recurso for finalmente traduzido, edite o link e traduza seu texto conforme as diretrizes apresentadas anteriormente.
