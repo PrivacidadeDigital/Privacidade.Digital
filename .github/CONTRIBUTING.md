@@ -153,10 +153,10 @@ Após inteirar-se sobre o desenvolvimento pela Wiki, nós encorajamos que todo d
 
 Caso já esteja familiarizado com nosso site, irá perceber a existência de inúmeras listas de links externos para que o visitante se eduque melhor em determinado assunto. Claro que esses links nem sempre estão organizados em listas, mas às vezes espalhados pelo conteúdo do site.
 
-1. A primeira coisa que você deve fazer quando editar e traduzir esse tipo de link, é entrar no link em questão para ver qual é a linguagem principal utilizada por lá.
+1. A primeira coisa que você deve fazer quando editar e traduzir esse tipo de link, é entrar no site em questão para ver qual é a linguagem principal utilizada pelo recurso externo.
 2. Caso o conteúdo não esteja em Português, verifique se não existe uma opção para trocar a língua do site.
 3. Caso exista uma versão do site em Português, troque o link no código-fonte para o link em Português e traduza o texto do link conforme necessário.
-4. Caso o site esteja disponível somente em Inglês ou noutra língua, não devemos traduzir o texto, mas adicionando uma indicação de que o recurso estará disponível numa língua diferente, conforme exemplos abaixo.
+4. Caso o site esteja disponível somente em Inglês ou noutra língua, não devemos traduzir o texto, mas sim adicionar uma indicação de que o recurso estará disponível numa língua diferente, conforme exemplos abaixo.
 
 #### Exemplo 1
 
@@ -214,7 +214,7 @@ Podemos percebemos que tudo está em Inglês, logo precisaremos traduzir esse tr
 <h3>Informações Relacionadas</h3>
 ```
 
-Então prosseguimos com os links da lista abaixo do título. Vasculhamos os links da lista um por um, verificando a existência de versões em Português. Tiramos a conclusão de que todos os três links só apontam para sites disponíveis em Inglês... o que devemos fazer? Nesse caso, não devemos traduzir os textos dos links, mas devemos indicar para o visitante que os links se tratam de recursos em Inglês. Poderíamos fazer isso da mesmo forma que fizemos no Exemplo 2, mas nesse caso, seria mais apropriado indicar no título do trecho de que todos os links estarão em Inglês:
+Então prosseguimos com os links da lista abaixo do título. Vasculhamos os links da lista um por um, verificando a existência de versões em Português. Tiramos a conclusão de que todos os três links só apontam para sites disponíveis em Inglês... o que devemos fazer? Nesse caso, não devemos traduzir os textos dos links, mas devemos indicar para o visitante que os links se tratam de recursos em Inglês. Poderíamos fazer isso da mesma forma que fizemos no Exemplo 2, mas nesse caso, seria mais apropriado indicar no título do trecho de que todos os links estarão em Inglês:
 
 ```
 <h3>Informações Relacionadas (em Inglês)</h3>
