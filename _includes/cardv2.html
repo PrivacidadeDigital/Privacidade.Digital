@@ -36,32 +36,44 @@
         height="120"
         width="120"
         class="panel-pic"
-        alt="{{include.title}}"
+        alt="{{include.title}} logo"
       >
       {{ include.description }}
       {% if include.labels %}
       {% assign labels = include.labels | split:"|" %}
-        {% for label in labels %}
-          {% assign label_data = label | split:":" %}
-          {% assign color = label_data[0] %}
-          {% assign text = label_data[1] %}
-          {% assign tooltip = label_data[2] | default: false %}
-          {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
-          <span
-            class="badge badge-{{color}}"
-            {% if tooltip %}
-              data-toggle="tooltip"
-              title="{{ tooltip }}"
-              > {{text}} {{ help_icon }}
-            {% else %}
-              > {{text}}
+      {% for label in labels %}
+        {% assign label_data = label | split:"::" %}
+          {% for label_attr in label_data %}
+            {% assign attr = label_attr | split:"==" %}
+            {% if attr[0] == "color" %}
+              {% assign color = attr[1] %}
+            {% elsif attr[0] == "link" %}
+              {% assign link = attr[1] %}
+            {% elsif attr[0] == "text" %}
+              {% assign text = attr[1] %}
+            {% elsif attr[0] == "icon" %}
+              {% assign icon = attr[1] %}
+            {% elsif attr[0] == "tooltip" %}
+              {% assign tooltip = attr[1] %}
             {% endif %}
-          </span>
-        {% endfor %}
+          {% endfor %}
+        {% include badge.html
+          link=link
+          color=color
+          text=text
+          icon=icon
+          tooltip=tooltip
+        %}
+        {% assign color = nil %}
+        {% assign link = nil %}
+        {% assign text = nil %}
+        {% assign icon = nil %}
+        {% assign tooltip = nil %}
+      {% endfor %}
       {% endif %}
     </p>
     <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
-      <div class="d-flex flex-shrink-0 mr-1">
+      <div class="flow-root flex-shrink-0 mr-1">
         <a
           href="{{include.website}}"
           rel="noopener"
@@ -69,6 +81,15 @@
           <i class="fas fa-external-link-alt fa-fw"></i>
           Website
         </a>
+        {% if include.privacy-policy %}
+        <a
+          href="{{include.privacy-policy}}"
+          rel="noopener"
+          class="btn btn-warning mt-1 mr-1">
+          <i class="fas fa-book fa-fw"></i>
+          Privacy Policy
+        </a>
+        {% endif %}
         {% if include.forum %}
           <a
             href="{{include.forum}}"
@@ -82,7 +103,7 @@
           <a
             href="{{include.tor}}"
             rel="noopener"
-            class="hover-text-decoration-none mt-1 mr-1"
+            class="btn icon-btn hover-text-decoration-none mt-1 mr-1"
             data-toggle="tooltip"
             data-placement="bottom"
             data-original-title="Precisa do software Tor para ter acesso: torproject.org">
@@ -93,7 +114,7 @@
           <a
             href="{{include.i2p}}"
             rel="noopener"
-            class="hover-text-decoration-none mt-1 mr-1"
+            class="btn icon-btn hover-text-decoration-none mt-1 mr-1"
             data-toggle="tooltip"
             data-placement="bottom"
             data-original-title="Precisa de software adicional para ter acesso: geti2p.net">

@@ -1,6 +1,7 @@
 <h1 id="firmware" class="anchor"><a href="#firmware"><i class="fas fa-link anchor-icon"></i></a> Firmware para Roteadores</h1>
 
 {% include cardv2.html
+<<<<<<< HEAD
 title="OpenWrt"
 image="/assets/img/tools/OpenWrt.png"
 description="OpenWrt é um sistema operacional baseado em Linux, usado principalmente em sistemas embarcados para rotear o tráfego de redes. Os principais componentes são o kernel Linux, util-linux, uClibc e BusyBox. Todos os componentes são otimizados para seu tamanho, para que o SO seja pequeno o suficiente para caber num armazenamento e memória limitados, o que é comum em roteadores caseiros."
@@ -35,3 +36,24 @@ git="https://gogs.librecmc.org/libreCMC/libreCMC"
   <li><a href="https://www.openbsd.org/">OpenBSD</a> <span class="badge badge-info">BSD</span> - Um projeto que mantém um sistema operacional tipo Unix, grátis, multiplataforma e baseado no 4.4BSD. Possui ênfase em portabilidade, padronização, exatidão e segurança proativa com criptografia integrada.</li>
   <li><a href="https://dd-wrt.com/">DD-WRT</a> <span class="badge badge-info">Linux</span> <span class="badge badge-warning" data-toggle="tooltip" title="Esse software pode depender ou recomendar software não-livre.">contrib <i class="far fa-question-circle"></i></span> - Um firmware baseado em Linux para roteadores de ponto de acesso wireless. É compatível com diversos modelos de roteadores e pontos de acesso.</li>
 </ul>
+=======
+  title="OpenWrt"
+  image="/assets/img/svg/3rd-party/openwrt.svg"
+  image-dark="/assets/img/svg/3rd-party/openwrt-dark.svg"
+  description="OpenWrt is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers."
+  badges="info:Linux"
+  website="https://openwrt.org/"
+  git="https://git.openwrt.org/"
+%}
+
+{% include cardv2.html
+  title="pfSense"
+  image="/assets/img/svg/3rd-party/pfsense.svg"
+  image-dark="/assets/img/svg/3rd-party/pfsense-dark.svg"
+  description="pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and as a VPN endpoint."
+  badges="info:BSD"
+  website="https://www.pfsense.org/"
+  privacy-policy="https://www.pfsense.org/privacy.html"
+  github="https://github.com/pfsense/"
+%}
+>>>>>>> upstream/master
