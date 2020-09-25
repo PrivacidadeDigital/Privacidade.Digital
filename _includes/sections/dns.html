@@ -34,14 +34,23 @@
     No entanto, poderá te ajudar prevenindo "DNS hijacking", e fazer com que suas requisições DNS sejam mais difíceis de bisbilhotar ou falsificar. 
     Se você utiliza o serviço DNS da Google, é recomendado que escolha uma alternativa daqui.</strong>
 =======
+<<<<<<< HEAD
 <h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Encrypted Domain Name System (DNS) Resolvers</h1>
 
 <div class="alert alert-warning" role="alert">
   <strong>Note: Using an encrypted DNS resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But, it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.</strong>
+=======
+<h1 id="dns" class="anchor">
+  <a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Encrypted DNS Resolvers
+</h1>
+
+<div class="alert alert-warning" role="alert">
+  DNS-over-HTTPS, DNS-over-TLS, and DNSCrypt resolvers will not make you anonymous. Using Anonymized DNSCrypt hides <i>only</i> your DNS traffic from your Internet Service Provider. However, using any of these protocols will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here. See the <a href="#dns-definitions">definitions</a> below.
+>>>>>>> 94584aed28c6ed72205575e2c9893c6fd6dcd854
 >>>>>>> upstream/master
 </div>
 
-<div class="table-responsive">
+<div id="dns-table" class="table-responsive">
   <table class="table sortable-theme-bootstrap" data-sortable>
     <thead>
       <tr>
@@ -85,17 +94,28 @@
             <span class="fas fa-globe"></span>
           </a>
         </td>
+<<<<<<< HEAD
         <td>Comercial</td>
         <td>Não</td>
+=======
+        <td>Commercial</td>
+       <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We store aggregated performance metrics of our DNS server, namely the number of complete requests to a particular server, the number of blocked requests, the speed of processing requests.
+We keep and store the database of domains requested in the last 24 hours. We need this information to identify and block new trackers and threats.
+We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters."' href="https://adguard.com/en/privacy/dns.html">Some</a></td>
+>>>>>>> upstream/master
         <td>DoH, DoT, DNSCrypt</td>
         <td>Sim</td>
         <td>Sim</td>
         <td>
           <span class="no-text-wrap">
+<<<<<<< HEAD
             Anúncios, rastreadores, 
           </span>
           <span class="no-text-wrap">
             domínios maliciosos
+=======
+            Based on server choice
+>>>>>>> upstream/master
           </span>
         </td>
         <td>
@@ -106,6 +126,9 @@
           </a>
         </td>
         <td>
+          <span class="no-text-wrap">
+            <a href="https://www.choopa.com/">Choopa, LLC</a>,
+          </span>
           <span class="no-text-wrap">
             <a href="https://flops.ru/en/about.html">Serveroid, LLC</a>
           </span>
@@ -128,6 +151,10 @@
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-jp"></span>
             Japão
+          </span>
+          <span class="no-text-wrap">
+            <span class="flag-icon flag-icon-sg"></span>
+            Singapore
           </span>
         </td>
         <td>
@@ -168,12 +195,18 @@
             <span class="badge badge-warning" data-toggle="tooltip" data-original-title="E alguns domínios adicionais."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
 =======
             malicious domains
+<<<<<<< HEAD
             {% include badge.html
             link="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"
             color="warning"
             icon="fas fa-exclamation-triangle"
             tooltip="And some wildcard and IDN domains."
             %}
+=======
+          </span>
+          <span class="no-text-wrap">
+            Based on server choice only for DoH
+>>>>>>> 94584aed28c6ed72205575e2c9893c6fd6dcd854
 >>>>>>> upstream/master
           </span>
         </td>
@@ -189,9 +222,6 @@
             <a href="https://www.choopa.com/">Choopa, LLC</a>,
           </span>
           <span class="no-text-wrap">
-            <a href="https://www.datacenterlight.ch/">Data Center Light</a>,
-          </span>
-          <span class="no-text-wrap">
             <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
           </span>
         </td>
@@ -203,12 +233,15 @@
           <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare é uma das maiores redes do mundo, o que pode ser um problema nos quesitos anonimidade e descentralização."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
 =======
           <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a>
+<<<<<<< HEAD
           {% include badge.html
           link="https://codeberg.org/crimeflare/cloudflare-tor/"
           color="warning"
           icon="fas fa-exclamation-triangle"
           tooltip="Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization."
           %}
+=======
+>>>>>>> 94584aed28c6ed72205575e2c9893c6fd6dcd854
 >>>>>>> upstream/master
         </td>
         <td>Anycast (sediado nos
@@ -233,11 +266,23 @@
         <td>Não</td>
 =======
         <td>Commercial</td>
+<<<<<<< HEAD
         <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We will collect limited DNS query data that is sent to the resolvers. This data does not contain user IP addresses or any other personally identifiable information, and the bulk of the data is only stored for 24 hours."' href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Some</a></td>
         <td>DoH, DoT</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>No</td>
+=======
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title="Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is only stored for 25 hours." href="https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/">Some</a></td>
+        <td>DoH, DoT</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>
+          <span class="no-text-wrap">
+            Based on server choice
+          </span>
+        </td>
+>>>>>>> 94584aed28c6ed72205575e2c9893c6fd6dcd854
 >>>>>>> upstream/master
         <td>?</td>
         <td>Auto-Hospedagem</td>
@@ -279,56 +324,23 @@
 
       <tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <td data-value="dnswarden">
           <a href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md">dnswarden</a>
-        </td>
-        <td>
-          <span class="no-text-wrap">
-            <span class="flag-icon flag-icon-de"></span>
-            Alemanha
-          </span>
-        </td>
-        <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc" href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
-          </a>
-        </td>
-        <td>Projeto Hobby</td>
-        <td>Não</td>
-        <td data-value="dot/443">
-          <span class="no-text-wrap">
-            DoH,
-            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Além da porta 853, também suporta a 443">
-              DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>,
-            </span>
-          </span>
-          DNSCrypt
-        </td>
-        <td>Sim</td>
-        <td>Sim</td>
-        <td>
-          <span class="no-text-wrap">
-            Depende do servidor escolhido
-          </span>
-        </td>
-        <td>?</td>
-        <td>
-          <span class="no-text-wrap">
-            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
-          </span>
-        </td>
-      </tr>
-
-      <tr>
 =======
->>>>>>> upstream/master
         <td data-value="Foundation for Applied Privacy">
           <a href="https://appliedprivacy.net/services/dns/">Foundation for Applied Privacy</a>
+>>>>>>> 94584aed28c6ed72205575e2c9893c6fd6dcd854
         </td>
         <td>
           <span class="no-text-wrap">
+<<<<<<< HEAD
+            <span class="flag-icon flag-icon-de"></span>
+            Alemanha
+=======
             <span class="flag-icon flag-icon-at"></span>
-            Áustria
+            Austria
+>>>>>>> upstream/master
           </span>
         </td>
         <td>
@@ -338,6 +350,77 @@
             <span class="fas fa-globe"></span>
           </a>
         </td>
+<<<<<<< HEAD
+        <td>Projeto Hobby</td>
+        <td>Não</td>
+        <td data-value="dot/443">
+          <span class="no-text-wrap">
+            DoH,
+            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Além da porta 853, também suporta a 443">
+              DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>,
+=======
+        <td>Non-Profit</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We do NOT log your IP address or DNS queries during normal operations. We do NOT share query data with third parties that are not directly involved with resolving the query (i.e. sending queries to authoritative nameservers for resolution)."' href="https://appliedprivacy.net/privacy-policy/">Some</a></td>
+        <td data-value="dot/443">
+          <span class="no-text-wrap">
+            DoH,
+            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853">
+              DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>
+>>>>>>> upstream/master
+            </span>
+          </span>
+        </td>
+<<<<<<< HEAD
+        <td>Sim</td>
+        <td>Sim</td>
+        <td>
+          <span class="no-text-wrap">
+            Depende do servidor escolhido
+          </span>
+        </td>
+=======
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>No</td>
+>>>>>>> upstream/master
+        <td>?</td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://www.ipax.at/">IPAX OG</a>
+          </span>
+        </td>
+      </tr>
+
+      <tr>
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/master
+        <td data-value="Foundation for Applied Privacy">
+          <a href="https://appliedprivacy.net/services/dns/">Foundation for Applied Privacy</a>
+=======
+        <td data-value="LibreDNS">
+          <a href="https://libredns.gr/">LibreDNS</a>
+>>>>>>> 94584aed28c6ed72205575e2c9893c6fd6dcd854
+        </td>
+        <td>
+          <span class="no-text-wrap">
+<<<<<<< HEAD
+            <span class="flag-icon flag-icon-at"></span>
+            Áustria
+=======
+            <span class="flag-icon flag-icon-de"></span>
+            Germany
+>>>>>>> upstream/master
+          </span>
+        </td>
+        <td>
+          <a
+            class="btn-secondary btn-icon"
+            href="https://libreops.cc/terms.html">
+            <span class="fas fa-globe"></span>
+          </a>
+        </td>
+<<<<<<< HEAD
         <td>Sem fins lucrativos</td>
         <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Nós NÃO salvamos logs de dados com seu endereço de IP ou requisições DNS durante operações normais. Nós NÃO compartilhamos dados de requisições com terceiros que não estão diretamente envolvidos em resolver a requisição."' href="https://appliedprivacy.net/privacy-policy/">Parcial</a></td>
         <td data-value="dot/443">
@@ -352,9 +435,32 @@
         <td>Sim</td>
         <td>Não</td>
         <td>?</td>
+=======
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="Part of LibreHosters, &quot;a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms.&quot;" href="https://libreho.st/">
+            Informal collective
+          </a>
+        </td>
+        <td>No</td>
+        <td>DoH, DoT</td>
+        <td>Yes</td>
+        <td>Yes</td>
+>>>>>>> upstream/master
         <td>
           <span class="no-text-wrap">
-            <a href="https://www.ipax.at/">IPAX OG</a>
+            Based on server choice only for DoH
+          </span>
+        </td>
+        <td>
+          <a
+            class="btn-secondary btn-icon"
+            href="https://gitlab.com/libreops/libredns">
+            <span class="fas fa-globe"></span>
+          </a>
+        </td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
           </span>
         </td>
       </tr>
@@ -489,11 +595,14 @@
           <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Fundadores incluem a Global Cyber Alliance, composta pela City of London Police e Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></span>
 =======
           <a href="https://quad9.net/">Quad9</a>
+<<<<<<< HEAD
           {% include badge.html
           color="warning"
           icon="fas fa-exclamation-triangle"
           tooltip="Founders include the Global Cyber Alliance, composed of the City of London Police and Manhattan District Attorney's Office."
           %}
+=======
+>>>>>>> 94584aed28c6ed72205575e2c9893c6fd6dcd854
 >>>>>>> upstream/master
         </td>
         <td>Anycast (sediado nos
@@ -656,7 +765,11 @@
   </table>
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 94584aed28c6ed72205575e2c9893c6fd6dcd854
 
+<<<<<<< HEAD
 <h4>Glossário</h4>
 
 <ul>
@@ -736,4 +849,126 @@
   </li>
 </ul>
 =======
+<<<<<<< HEAD
+=======
+<h1 id="dns-desktop-clients" class="anchor">
+  <a href="#dns-desktop-clients">
+    <i class="fas fa-link anchor-icon"></i>
+  </a> Encrypted DNS Client Recommendations for Desktop
+</h1>
+
+{%
+	include cardv2.html
+	title="Unbound"
+	image="/assets/img/svg/3rd-party/unbound.svg"
+	description='A validating, recursive, caching DNS resolver, supporting DNS-over-TLS, and has been <a href="https://ostif.org/our-audit-of-unbound-dns-by-x41-d-sec-full-results/">independently audited</a>.'
+	website="https://nlnetlabs.nl/projects/unbound/about/"
+	forum="https://forum.privacytools.io/t/discussion-unbound/3563"
+	github="https://github.com/NLnetLabs/unbound"
+%}
+
+{%
+	include cardv2.html
+	title="dnscrypt-proxy"
+	image="/assets/img/svg/3rd-party/dnscrypt-proxy.svg"
+	description='A DNS proxy with support for DNSCrypt, DNS-over-HTTPS, and <a href="https://github.com/DNSCrypt/dnscrypt-protocol/blob/master/ANONYMIZED-DNSCRYPT.txt">Anonymized DNSCrypt</a>, a <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">relay-based protocol that the hides client IP address.</a>'
+	website="https://github.com/DNSCrypt/dnscrypt-proxy/wiki"
+	forum="https://forum.privacytools.io/t/discussion-dnscrypt-proxy/1498"
+	github="https://github.com/DNSCrypt/dnscrypt-proxy"
+%}
+
+{%
+	include cardv2.html
+	title="Stubby"
+	image="/assets/img/png/3rd-party/stubby.png"
+	description='An application that acts as a local DNS-over-TLS stub resolver. Stubby can be used in <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Clients#DNSPrivacyClients-Unbound/Stubbycombination">combination with Unbound</a> by managing the upstream TLS connections (since Unbound cannot yet re-use TCP/TLS connections) with Unbound providing a local cache.'
+	website="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby"
+	forum="https://forum.privacytools.io/t/discussion-stubby/3582"
+	github="https://github.com/getdnsapi/stubby"
+%}
+
+{%
+	include cardv2.html
+	title="Firefox's built-in DNS-over-HTTPS resolver"
+	image="/assets/img/svg/3rd-party/firefox_browser.svg"
+	description='Firefox comes with built-in DNS-over-HTTPS support for <a href="https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/">NextDNS and Cloudflare</a> but users can manually any other DoH resolver.'
+	labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/firefox::text==Warning::tooltip==Cloudflare logs a limited amount of data about the DNS requests that are sent to their custom resolver for Firefox."
+	website="https://support.mozilla.org/en-US/kb/firefox-dns-over-https"
+	privacy-policy="https://wiki.mozilla.org/Security/DOH-resolver-policy"
+	forum="https://forum.privacytools.io/t/discussion-firefox-s-built-in-dns-over-https-resolver/3564"
+%}
+
+<h1 id="dns-android-clients" class="anchor">
+	<a href="#dns-android-clients">
+		<i class="fas fa-link anchor-icon"></i>
+	</a> Encrypted DNS Client Recommendations for Android
+</h1>
+
+{%
+	include cardv2.html
+	title="Android 9's built-in DNS-over-TLS resolver"
+	image="/assets/img/svg/3rd-party/android.svg"
+	description="Android 9 (Pie) comes with built-in DNS-over-TLS support without the need for a 3rd-party application."
+	labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.google.com/speed/public-dns/docs/using#android_9_pie_or_later::text==Warning::tooltip==Android 9's DoT settings have no effect when used concurrently with VPN-based apps which override the DNS."
+	website="https://support.google.com/android/answer/9089903#private_dns"
+	forum="https://forum.privacytools.io/t/discussion-android-9s-built-in-dns-over-tls-resolver/3562"
+%}
+
+{%
+	include cardv2.html
+	title="Nebulo"
+	image="/assets/img/png/3rd-party/nebulo.png"
+	description='An open-source Android client supporting DNS-over-HTTPS and DNS-over-TLS, caching DNS responses, and locally logging DNS queries.'
+	website="https://git.frostnerd.com/PublicAndroidApps/smokescreen/-/blob/master/README.md"
+	privacy-policy="https://smokescreen.app/privacypolicy"
+	forum="https://forum.privacytools.io/t/discussion-nebulo/3565"
+	fdroid="https://git.frostnerd.com/PublicAndroidApps/smokescreen#f-droid"
+	googleplay="https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen"
+	source="https://git.frostnerd.com/PublicAndroidApps/smokescreen"
+%}
+
+<h1 id="dns-ios-clients" class="anchor">
+	<a href="#dns-ios-clients">
+		<i class="fas fa-link anchor-icon"></i>
+	</a> Encrypted DNS Client Recommendations for iOS
+</h1>
+
+{%
+	include cardv2.html
+	title="DNSCloak"
+	image="/assets/img/png/3rd-party/dnscloak.png"
+	description='An open-source iOS client supporting DNS-over-HTTPS, DNSCrypt, and <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki">dnscrypt-proxy</a> options such as caching DNS responses, locally logging DNS queries, and custom block lists. Users can <a href="https://blog.privacytools.io/adding-custom-dns-over-https-resolvers-to-dnscloak/">add custom resolvers by DNS stamp</a>.'
+	website="https://github.com/s-s/dnscloak/blob/master/README.md"
+	privacy-policy="https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view"
+	forum="https://forum.privacytools.io/t/discussion-dnscloak/3566"
+	ios="https://apps.apple.com/app/id1452162351"
+	github="https://github.com/s-s/dnscloak"
+%}
+
+<h2 id="dns-definitions" class="anchor">
+	<a href="#dns-definitions">
+		<i class="fas fa-link anchor-icon"></i>
+	</a> Definitions
+</h2>
+
+<h4>DNS-over-TLS (DoT)</h4>
+<p>
+  A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls.
+</p>
+
+<h4>DNS-over-HTTPS (DoH)</h4>
+<p>
+  Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443 and more difficult to block. {% include badge.html color="warning" text="Warning" tooltip="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server." link="https://tools.ietf.org/html/rfc8484#section-8.2" icon="fas fa-exclamation-triangle" %}
+</p>
+
+<h4>DNSCrypt</h4>
+<p>
+  With an <a href="https://dnscrypt.info/protocol/">open specification</a>, DNSCrypt is an older, yet robust method for encrypting DNS.
+</p>
+
+<h4>Anonymized DNSCrypt</h4>
+<p>
+  A <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">lightweight protocol</a> that hides the client IP address by using pre-configured relays to forward encrypted DNS data. This is a relatively new protocol created in 2019 currently only supported by <a href="#dns-desktop-clients">dnscrypt-proxy</a> and a limited number of <a href="https://github.com/DNSCrypt/dnscrypt-resolvers/blob/master/v2/relays.md">relays</a>.
+</p>
+>>>>>>> 94584aed28c6ed72205575e2c9893c6fd6dcd854
 >>>>>>> upstream/master
