@@ -2,7 +2,7 @@
 layout: page
 permalink: /notices/
 title: "Notas e Avisos Legais"
-description: "O site Privacidade.Digital é disponibilizado para a comunidade com boas intenções, mas sem garantias."
+description: "O site Privacidade.Digital é disponibilizado para a comunidade com a melhor das intenções, mas sem garantias."
 ---
 
 <span class="badge badge-secondary mt-5">Section 1</span>
