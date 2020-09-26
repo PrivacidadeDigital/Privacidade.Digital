@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /notices/
-title: "Notices and Disclaimers"
-description: "PrivacyTools is provided with good intentions on an &quot;as-is&quot; basis, without warranty, and disclaiming liability for damages."
+title: "Notas e Avisos Legais"
+description: "O site Privacidade.Digital é disponibilizado para a comunidade com boas intenções, mas sem garantias."
 ---
 
 <span class="badge badge-secondary mt-5">Section 1</span>
