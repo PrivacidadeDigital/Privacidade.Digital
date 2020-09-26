@@ -1,6 +1,4 @@
-A licença deste projeto está abaixo da linha pontilhada. Para mais 
-informações e um resumo da licença em Português do Brasil, acesse 
-<https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR>
+PT-BR: <https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR>
 -------------------------------------------------------------------
 
 CC0 1.0 Universal
