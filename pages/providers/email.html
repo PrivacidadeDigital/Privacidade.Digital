@@ -10,85 +10,86 @@ description: "Encontre um provedor de email seguro e que não passa por cima da 
 {% include sections/email-providers.html %}
 
 <hr>
-<h1 id="criteria" class="anchor"><a href="#criteria"><i class="fas fa-link anchor-icon"></i></a> Our Email Provider Criteria</h1>
+<h1 id="criterios" class="anchor"><a href="#criterios"><i class="fas fa-link anchor-icon"></i></a> Nossos Critérios para Provedores de Email</h1>
 
-<p><strong>Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.</strong> We have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.</p>
+<p><strong>Note que não somos afiliados com nenhum dos provedores que recomendamos. Isso nos permite fornecer recomendações completamente objetivas.</strong> Nós desenvolvemos um conjunto claro de requisitos para qualquer provedor de Email que deseja ser recomendado, o que inclui implementar as melhoras práticas da indústria, tecnologia moderna, etc. Nós sugerimos que você se familiarize com esta lista antes de escolher seu provedor de Email, e conduza suas próprias pesquisas para se assegurar que o provedor que escolher é realmente a melhor escolha.</p>
 
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Jurisdiction" %}</h3>
-      <p>Operating outside the five/nine/fourteen-eyes countries is not necessarily a guarantee of privacy, and there are other factors to consider. However, we believe that avoiding these countries is important if you wish to avoid mass government dragnet surveillance, especially from the United States. Read our page on <a href="/providers/#ukusa">global mass surveillance and avoiding the US and UK</a> to learn more about why we feel this is important.</p>
+      <h3>{% include badge.html color="info" text="Jurisdição" %}</h3>
+      <p>Operar fora dos países "Cinco/Nove/Quatorze olhos" não necessariamente uma garantia de privacidade, e existem outros fatores a serem considerados. No entanto, nós acreditamos que evitar esses países é importante se você deseja driblar a vigilância em massa operada por governos, em especial os Estados Unidos. Leia nossa página em <a href="/provedores/#ukusa">vigilância global em massa e evitando os EUA e Reino Unido</a> para aprender por que nós sentimos que isso é importante.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo Necessário:</strong></p>
       <ul>
-        <li>Operating outside the USA or other Five Eyes countries.</li>
+        <li>Opera fora dos EUA e outros países integrantes do "Cinco Olhos".</li>
       </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor Caso:</strong></p>
       <ul>
-        <li>Operating outside the USA or other Fourteen Eyes countries.</li>
-        <li>Operating inside a country with strong consumer protection laws.</li>
-      </ul>
-    </div>
-
-    <div class="col-12">
-      <h3>{% include badge.html color="info" text="Technology" %}</h3>
-      <p>We regard these features as important in order to provide a safe and optimal service to users. Users should consider the provider which has the features they require.</p>
-    </div>
-    <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
-      <ul>
-        <li>Encrypts account data at rest.</li>
-        <li>Integrated webmail encryption provides convenience to users who want improve on having no <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">E2EE</a> encryption.</li>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
-      <ul>
-        <li>Encrypts account data at rest with zero-access encryption.</li>
-        <li>Allow users to use their own <a href="https://en.wikipedia.org/wiki/Domain_name">domain name</a>. Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad, be acquired by another company which doesn't prioritize privacy etc.</li>
-        <li>Support for <a href="https://wiki.gnupg.org/WKD">WKD</a> to allow improved discovery of public OpenPGP keys via HTTP. <br> GnuPG users can get a key by typing: <code>gpg --locate-key example_user@example.com</code></li>
-        <li>Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.</li>
-        <li>Availability of the email provider's services via an <a href="https://en.wikipedia.org/wiki/.onion">onion service</a>.</li>
-        <li><a href="https://en.wikipedia.org/wiki/Email_address#Subaddressing">Subaddressing</a> support.</li>
-        <li><a href="https://en.wikipedia.org/wiki/Email_filtering">Catch all</a> or <a href="https://en.wikipedia.org/wiki/Email_alias">aliases</a> for users who own their own domains.</li>
-        <li>Use of standard email access protocols such as <a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a>, <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> or <a href="https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol">JMAP</a>. Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.</li>
+        <li>Opera fora dos EUA e outros países integrantes do "Quatorze Olhos".</li>
+        <li>Opera dentro de um país onde as leis de proteção ao consumidor são fortes.</li>
       </ul>
     </div>
 
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Privacy" %}</h3>
-      <p>We prefer our recommended providers to collect as little data as possible.</p>
+      <h3>{% include badge.html color="info" text="Tecnologia" %}</h3>
+      <p>Nós tratamos essas funcionalidades como importantes para promover um serviço seguro e melhorado para seus usuários. Usuários devem considerar adotar o provedor que fornece as funcionalidades que precisam.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo Necessário:</strong></p>
       <ul>
-        <li>Protect sender's IP address. Filter it from showing in the <code>Received</code> header field.</li>
-        <li>Don't require personally identifiable information (PII) besides username and password.</li>
-        <li>Privacy policy that meets the requirements defined by the GDPR</li>
+        <li>Encripta dados da conta nos servidores de Email.</li>
+        <li>Possui encriptação embutida no webmail, fornecendo conveniência para usuários que querem melhorar ao não utilizar <a href="https://pt.wikipedia.org/wiki/Criptografia_de_ponta-a-ponta">criptografia de ponta-a-ponta</a>.</li>
       </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor Caso:</strong></p>
       <ul>
-        <li>Accepts Bitcoin, cash, and other forms of cryptocurrency and/or anonymous payment options (gift cards, etc.)</li>
+        <li>Encripta dados da conta nos servidores, impossibilitando o acesso de todos menos o próprio usuário.</li>
+        <li>Permite que seus usuários possam utilizar seus próprios <a href="https://pt.wikipedia.org/wiki/Nome_de_dom%C3%ADnio">nomes de domínio</a>. Nomes de domínio próprios são importantes para os usuários porque os permite manter o mesmo email caso desejem trocar de provedor.</li>
+        <li>Suporta <a href="https://wiki.gnupg.org/WKD">WKD</a>, melhorando a descoberta de chaves OpenPGP públicas via HTTP. <br> Usuários de GnuPG podem procurar uma chave através do seguinte comando: <code>gpg --locate-key email-de-exemplo@exemplo.com</code></li>
+        <li>Suporta caixas de entrada temporárias para usuários externos. Isso é útil quando você precisa enviar um email encriptado, sem de fato mandar a cópia do email para o recipiente. Esses emails geralmente tem um período de validade que após vencido, são automaticamente deletados. Eles também não precisam que o recipiente configure nenhum tipo de criptografia como o OpenPGP.</li>
+        <li>Disponibiliza seus serviços através de um <a href="https://pt.wikipedia.org/wiki/.onion">serviço onion</a>.</li>
+        <li>Suporta <a href="https://en.wikipedia.org/wiki/Email_address#Subaddressing">subaddressing</a> (link de recurso em Inglês).</li>
+        <li>Suporta <a href="https://en.wikipedia.org/wiki/Email_alias">aliases</a> (link de recurso em Inglês) e <a href="https://en.wikipedia.org/wiki/Email_filtering">Email filtering</a> (link de recurso em Inglês) para usuários com seus próprios domínios.</li>
+        <li>Usa protocolos de acesso padronizados como o <a href="https://pt.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a>, <a href="https://pt.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> ou <a href="https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol">JMAP</a> (link de recurso em Inglês). A padronização de protocolos de acesso garante que os usuários possam fazer o download de todos os seus emails, caso queiram trocar de provedor.</li>
       </ul>
     </div>
 
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Security" %}</h3>
-      <p>Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their users.</p>
+      <h3>{% include badge.html color="info" text="Privacidade" %}</h3>
+      <p>Nós preferimos que os provedores que recomendamos coletem somente o mínimo de dados que seja possível.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo Necessário:</strong></p>
       <ul>
-        <li>Protection of webmail with <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">two-factor authentication (2FA)</a>, such as <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a>.</li>
-        <li>Encryption at rest, (e.g. <a href="https://en.wikipedia.org/wiki/dm-crypt">dm-crypt</a>) this protects the contents of the servers in case of unlawful seizure.</li>
-        <li><a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a> support.</li>
-        <li>No <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">TLS</a> errors/vulnerabilities when being profiled by tools such as <a href="https://www.hardenize.com">Hardenize</a>, <a href="https://testssl.sh">testssl.sh</a> or <a href="https://www.ssllabs.com/ssltest">Qualys SSL Labs</a>, this includes certificate related errors, poor or weak ciphers suites, weak DH parameters such as those that led to <a href="https://en.wikipedia.org/wiki/Logjam_(computer_security)">Logjam</a>.</li>
+        <li>Protege o endereço IP de quem envia, evitando que apareça no campo <code>Received</code> do header da mensagem.</li>
+        <li>Requer somente usuário e senha, evitando a requisção de informações identificáveis.</li>
+        <li>Possui política de privacidade que adere aos requisitos definidos pela GDPR.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Melhor Caso:</strong></p>
+      <ul>
+        <li>Aceita Bitcoin, dinheiro, e outros métodos de pagamento que sejam com criptomoedas e/ou opções anônimas (gift cards, etc.)</li>
+        <li>Possui política de privacidade que adere aos requisitos definidos pela LGPD (lei brasileira de proteção de dados).</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Segurança" %}</h3>
+      <p>Servidores de Email lidam com dados extremamente sensíveis. Nós esperamos que os provedores adotem as melhores práticas da indústria para proteger seus usuários.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Mínimo Necessário:</strong></p>
+      <ul>
+        <li>Fornece um webmail protegido com <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">two-factor authentication</a> (link de recurso em Inglês), como o <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a> (link de recurso em Inglês).</li>
+        <li>Encripta dados nos servidores, como por exemplo utilizando o <a href="https://pt.wikipedia.org/wiki/Dm-crypt">dm-crypt</a>. Isso protege o conteúdo dos servidores em caso de acesso ilegal e não-autorizado.</li>
+        <li>Suporta <a href="https://pt.wikipedia.org/wiki/DNSSEC">DNSSEC</a></li>
+        <li>Possui zero erros/vulnerabilidades <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">TLS</a> (link de recurso em Inglês) quando sendo testados por ferramentas como <a href="https://www.hardenize.com">Hardenize</a> (recurso em Inglês), <a href="https://testssl.sh">testssl.sh</a> (recurso em Inglês) ou <a href="https://www.ssllabs.com/ssltest">Qualys SSL Labs</a>. Isso inclui testes com erros de certificados, conjunto ruim ou fraco de algoritmos de encriptação, parâmetros facos de DH como aqueles que levam a <a href="https://en.wikipedia.org/wiki/Logjam_(computer_security)">Logjam</a> (link de recurso em Inglês).</li>
         <li>A valid <a href="https://tools.ietf.org/html/rfc8461">MTA-STS</a> and <a href="https://tools.ietf.org/html/rfc8460">TLS-RPT</a> policy.</li>
         <li>Valid <a href="https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities">DANE</a> records.</li>
         <li>Valid <a href="https://en.wikipedia.org/wiki/Sender_Policy_Framework">SPF</a>, <a href="https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail">DKIM</a> and <a href="https://en.wikipedia.org/wiki/DMARC">DMARC</a>, with the policy <code>p</code> value set to either <code>none</code>, <code>quarantine</code> or <code>reject</code>.</li>
