@@ -50,12 +50,12 @@ description: "Encontre um provedor de email seguro e que não passa por cima da 
       <ul>
         <li>Encripta dados da conta nos servidores, impossibilitando o acesso de todos menos o próprio usuário.</li>
         <li>Permite que seus usuários possam utilizar seus próprios <a href="https://pt.wikipedia.org/wiki/Nome_de_dom%C3%ADnio">nomes de domínio</a>. Nomes de domínio próprios são importantes para os usuários porque os permite manter o mesmo email caso desejem trocar de provedor.</li>
-        <li>Suporta <a href="https://wiki.gnupg.org/WKD">WKD</a>, melhorando a descoberta de chaves OpenPGP públicas via HTTP. <br> Usuários de GnuPG podem procurar uma chave através do seguinte comando: <code>gpg --locate-key email-de-exemplo@exemplo.com</code></li>
+        <li>Suporta <a href="https://wiki.gnupg.org/WKD">WKD</a> (link leva a site com info. em Inglês), melhorando a descoberta de chaves OpenPGP públicas via HTTP. <br> Usuários de GnuPG podem procurar uma chave através do seguinte comando: <code>gpg --locate-key email-de-exemplo@exemplo.com</code></li>
         <li>Suporta caixas de entrada temporárias para usuários externos. Isso é útil quando você precisa enviar um email encriptado, sem de fato mandar a cópia do email para o recipiente. Esses emails geralmente tem um período de validade que após vencido, são automaticamente deletados. Eles também não precisam que o recipiente configure nenhum tipo de criptografia como o OpenPGP.</li>
         <li>Disponibiliza seus serviços através de um <a href="https://pt.wikipedia.org/wiki/.onion">serviço onion</a>.</li>
-        <li>Suporta <a href="https://en.wikipedia.org/wiki/Email_address#Subaddressing">subaddressing</a> (link de recurso em Inglês).</li>
-        <li>Suporta <a href="https://en.wikipedia.org/wiki/Email_alias">aliases</a> (link de recurso em Inglês) e <a href="https://en.wikipedia.org/wiki/Email_filtering">Email filtering</a> (link de recurso em Inglês) para usuários com seus próprios domínios.</li>
-        <li>Usa protocolos de acesso padronizados como o <a href="https://pt.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a>, <a href="https://pt.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> ou <a href="https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol">JMAP</a> (link de recurso em Inglês). A padronização de protocolos de acesso garante que os usuários possam fazer o download de todos os seus emails, caso queiram trocar de provedor.</li>
+        <li>Suporta <a href="https://en.wikipedia.org/wiki/Email_address#Subaddressing">subaddressing</a> (link leva a site com info. em Inglês).</li>
+        <li>Suporta <a href="https://en.wikipedia.org/wiki/Email_alias">aliases</a> (link leva a site com info. em Inglês) e <a href="https://en.wikipedia.org/wiki/Email_filtering">Email filtering</a> (link leva a site com info. em Inglês) para usuários com seus próprios domínios.</li>
+        <li>Usa protocolos de acesso padronizados como o <a href="https://pt.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a>, <a href="https://pt.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> ou <a href="https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol">JMAP</a> (link leva a site com info. em Inglês). A padronização de protocolos de acesso garante que os usuários possam fazer o download de todos os seus emails, caso queiram trocar de provedor.</li>
       </ul>
     </div>
 
@@ -86,99 +86,99 @@ description: "Encontre um provedor de email seguro e que não passa por cima da 
     <div class="col-md-6">
       <p><strong>Mínimo Necessário:</strong></p>
       <ul>
-        <li>Fornece um webmail protegido com <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">two-factor authentication</a> (link de recurso em Inglês), como o <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a> (link de recurso em Inglês).</li>
+        <li>Fornece um webmail protegido com <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">two-factor authentication</a> (link leva a site com info. em Inglês), como o <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a> (link leva a site com info. em Inglês).</li>
         <li>Encripta dados nos servidores, como por exemplo utilizando o <a href="https://pt.wikipedia.org/wiki/Dm-crypt">dm-crypt</a>. Isso protege o conteúdo dos servidores em caso de acesso ilegal e não-autorizado.</li>
         <li>Suporta <a href="https://pt.wikipedia.org/wiki/DNSSEC">DNSSEC</a></li>
-        <li>Possui zero erros/vulnerabilidades <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">TLS</a> (link de recurso em Inglês) quando sendo testados por ferramentas como <a href="https://www.hardenize.com">Hardenize</a> (recurso em Inglês), <a href="https://testssl.sh">testssl.sh</a> (recurso em Inglês) ou <a href="https://www.ssllabs.com/ssltest">Qualys SSL Labs</a>. Isso inclui testes com erros de certificados, conjunto ruim ou fraco de algoritmos de encriptação, parâmetros facos de DH como aqueles que levam a <a href="https://en.wikipedia.org/wiki/Logjam_(computer_security)">Logjam</a> (link de recurso em Inglês).</li>
-        <li>A valid <a href="https://tools.ietf.org/html/rfc8461">MTA-STS</a> and <a href="https://tools.ietf.org/html/rfc8460">TLS-RPT</a> policy.</li>
-        <li>Valid <a href="https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities">DANE</a> records.</li>
-        <li>Valid <a href="https://en.wikipedia.org/wiki/Sender_Policy_Framework">SPF</a>, <a href="https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail">DKIM</a> and <a href="https://en.wikipedia.org/wiki/DMARC">DMARC</a>, with the policy <code>p</code> value set to either <code>none</code>, <code>quarantine</code> or <code>reject</code>.</li>
-        <li>A server suite preference of TLS 1.2 or later and a plan for <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/">Deprecating TLSv1.0 and TLSv1.1</a>.</li>
-        <li><a href="https://en.wikipedia.org/wiki/SMTPS">SMTPS</a> submission, assuming SMTP is used.</li>
-        <li>Website security standards such as:</li>
+        <li>Possui zero erros/vulnerabilidades <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">TLS</a> (link leva a site com info. em Inglês) quando sendo testados por ferramentas como <a href="https://www.hardenize.com">Hardenize</a> (recurso em Inglês), <a href="https://testssl.sh">testssl.sh</a> (recurso em Inglês) ou <a href="https://www.ssllabs.com/ssltest">Qualys SSL Labs</a> (recurso em Inglês). Isso inclui testes com erros de certificados, conjunto ruim ou fraco de algoritmos de encriptação, parâmetros fracos de DH como aqueles que levam a <a href="https://en.wikipedia.org/wiki/Logjam_(computer_security)">Logjam</a> (link leva a site com info. em Inglês).</li>
+        <li>Possui políticas de <a href="https://tools.ietf.org/html/rfc8461">MTA-STS</a> (link leva a site com info. em Inglês) e <a href="https://tools.ietf.org/html/rfc8460">TLS-RPT</a> (link leva a site com info. em Inglês) válidas.</li>
+        <li>Possui entradas <a href="https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities">DANE</a> (link leva a site com info. em Inglês) válidas.</li>
+        <li>Possui <a href="https://pt.wikipedia.org/wiki/Sender_Policy_Framework">SPF</a>, <a href="https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail">DKIM</a> (link leva a site com info. em Inglês) e <a href="https://pt.wikipedia.org/wiki/DMARC">DMARC</a> válidos, com o valor da diretiva <code>p</code> configurada com <code>none</code>, <code>quarantine</code> ou <code>reject</code>.</li>
+        <li>Possui servidores com TLS versão 1.2 ou mais nova e um plano para desativas as versões 1.0 e 1.1. <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/">Deprecating TLSv1.0 and TLSv1.1</a> (recurso em Inglês).</li>
+        <li>Suporta submissão <a href="https://en.wikipedia.org/wiki/SMTPS">SMTPS</a> (link leva a site com info. em Inglês), assumindo que SMTP é utilizado.</li>
+        <li>Suporta bons padrões de segurança web, incluindo:</li>
           <ul>
-            <li><a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HTTP Strict Transport Security</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Subresource_Integrity">Subresource Integrity</a> if loading things from external domains.</li>
+            <li><a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HTTP Strict Transport Security</a> (recurso em Inglês)</li>
+            <li><a href="https://en.wikipedia.org/wiki/Subresource_Integrity">Subresource Integrity</a> (recurso em Inglês), caso precisa carregar recursos de domínios externos.</li>
           </ul>
       </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor Caso:</strong></p>
       <ul>
-        <li>Support for hardware authentication, ie <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">U2F</a> and <a href="https://en.wikipedia.org/wiki/WebAuthn">WebAuthn</a>. U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate users, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated <a href="https://en.wikipedia.org/wiki/Domain_name">domain name</a>.</li>
-        <li>Zero access encryption, builds on encryption at rest. The difference being the provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.</li>
-        <li><a href="https://tools.ietf.org/html/rfc6844">DNS Certification Authority Authorization (CAA) Resource Record</a> in addition to DANE support.</li>
-        <li>Implementation of <a href="https://en.wikipedia.org/wiki/Authenticated_Received_Chain">Authenticated Received Chain (ARC)</a>, this is useful for users who post to mailing lists <a href="https://tools.ietf.org/html/rfc8617">RFC8617</a>.</li>
-        <li>Bug-bounty programs and/or a coordinated vulnerability-disclosure process.</li>
-        <li>Website security standards such as:</li>
+        <li>Suporta métodos de autenticação via hardware, como <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">U2F</a> (link leva a site com info. em Inglês) e <a href="https://en.wikipedia.org/wiki/WebAuthn">WebAuthn</a> (link leva a site com info. em Inglês). U2F e WebAuthn são mais seguros porque eles utilizam uma chave privada armazenada nos dispositivos físicos do cliente para autenticar os usuários, ao invés de um segredo compartilhado que é armazenado no servidor web e no cliente, no caso do TOTP por exemplo. Além disso, U2F e WebAuthn são mais resistentes a phishing porque sua resposta de autenticação é baseada no <a href="https://pt.wikipedia.org/wiki/Nome_de_dom%C3%ADnio">nome de domínio</a> autenticado.</li>
+        <li>Possui encriptação que impossibilita o acesso de todos, menos do próprio usuário. Dessa forma, o provedor não tem acesso às chaves de encriptação utilizadas para desencriptar os dados que eles armazenam. Isso previne que um funcionário mal intencionado vaze dados que eles tem acesso, e previne um adversário remoto de roubar os dados ao ganhar acesso não autorizado aos servidores.</li>
+        <li>Suporta <a href="https://tools.ietf.org/html/rfc6844">DNS Certification Authority Authorization (CAA) Resource Record</a> (link leva a site com info. em Inglês), além do suporte a DANE.</li>
+        <li>Implementa <a href="https://en.wikipedia.org/wiki/Authenticated_Received_Chain">Authenticated Received Chain (ARC)</a> (link leva a site com info. em Inglês), o que é útil para usuários que postam em listas de email <a href="https://tools.ietf.org/html/rfc8617">RFC8617</a> (link leva a site com info. em Inglês).</li>
+        <li>Possui programas de recompensa para caça de bugs e/ou processo coordenado de divulgação de vulnerabilidades.</li>
+        <li>Suporta bons padrões de segurança web, incluindo:</li>
           <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Content_Security_Policy">Content Security Policy (CSP)</a></li>
-            <li><a href="https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct">Expect-CT</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Content_Security_Policy">Content Security Policy (CSP)</a> (link leva a site com info. em Inglês)</li>
+            <li><a href="https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct">Expect-CT</a> (link leva a site com info. em Inglês)</li>
           </ul>
       </ul>
     </div>
 
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Trust" %}</h3>
-      <p>You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.</p>
+      <h3>{% include badge.html color="info" text="Confiança" %}</h3>
+      <p>Você não confiaria suas finanças a alguém com uma identidade falsa, então porque você confiaria seu email? Nós exigimos que nossos provedores recomendados sejam transparentes acerca de suas propriedades e líderes. Nós também gostaríamos de ver relatórios de transparência frequentes, especialmente no que diz respeito a como requisições do governo são lidadas.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo Necessário:</strong></p>
       <ul>
-        <li>Public-facing leadership or ownership.</li>
+        <li>Liderança aberta e acessível ao público.</li>
       </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor Caso:</strong></p>
       <ul>
-        <li>Public-facing leadership.</li>
-        <li>Frequent transparency reports.</li>
+        <li>Liderança aberta e acessível ao público.</li>
+        <li>Relatórios de transparência frequentes.</li>
       </ul>
     </div>
 
     <div class="col-12">
       <h3>{% include badge.html color="info" text="Marketing" %}</h3>
-      <p>With the email providers we recommend we like to see responsible marketing.</p>
+      <p>Nós queremos ver marketing responsável com os provedores de email que recomendamos.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo Necessário:</strong></p>
       <ul>
-          <li>Must self host analytics (no Google Analytics etc). The provider's site must also comply with <a href="https://en.wikipedia.org/wiki/Do_Not_Track">DNT (Do Not Track)</a> for those users who want to opt-out.</li>
+          <li>Deve ter seu próprio sistema de analytics (sem Google Analytics etc). O site do provedor também deve obedecer ao <a href="https://en.wikipedia.org/wiki/Do_Not_Track">DNT (Do Not Track)</a> (link leva a site com info. em Inglês) para aqueles usuários que gostariam de desabilitar o rastreamento em seus navegadores.</li>
       </ul>
-      <p>Must not have any marketing which is irresponsible:</p>
+      <p>Não deve realizar nenhum marketing considerado irresponsável:</p>
         <ul>
-          <li>Claims of "unbreakable encryption". Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.</li>
-          <li>Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, e.g.:</li>
+          <li>Não deve fazer alegações de "criptografia inquebrável". Criptografia (ou Encriptação) deve ser utilizada com a intenção de que no futuro possa se tornar fraca, pois a tecnologia avança rapidamente e é só uma questão de tempo para que algoritmos de criptografia sejam quebrados.</li>
+          <li>Não deve fazer promessas e garantias de proteger 100% da sua anonimidade. Quando alguém faz uma alegação que algo é 100% geralmente significa que não há certezas para falhas. No entanto, nós sabemos que usuários podem invalidar seu próprio anonimato de várias formas diferentes, incluindo:</li>
           <ul>
-            <li>Reusing personal information e.g. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)</li>
-            <li><a href="/browsers/#fingerprint">Browser fingerprinting</a></li>
+            <li>Usar informações pessoais (contas email, nomes de usuário únicos, etc) que os mesmos utilizaram sem software que fornecem anonimidade (Tor, VPN, etc)</li>
+            <li><a href="/navegadores/#impressao_digital">Impressão digital dos navegadores</a></li>
           </ul>
         </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor Caso:</strong></p>
       <ul>
-        <li>Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.</li>
+        <li>Possui documentação clara e fácil de se ler. Isso inclui documentação sobre coisas como configurar autenticação de duas etapas, clientes de email, OpenPGP, etc.</li>
       </ul>
     </div>
 
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Additional Functionality" %}</h3>
-      <p>While not strictly requirements, there are some factors we looked into when determining which providers to recommend.</p>
+      <h3>{% include badge.html color="info" text="Funcionalidades Adicionais" %}</h3>
+      <p>Apesar de não serem estritamente necessários, existem alguns fatores adicionais que nós investigamos quando determinando quais provedores recomendamos.</p>
     </div>
   </div>
 </div>
 <hr>
 
-<h1 id="email-encryption" class="anchor"><a href="#email-encryption"><i class="fas fa-link anchor-icon"></i></a> Email encryption</h1>
+<h1 id="encriptacao-de-emails" class="anchor"><a href="#encriptacao-de-emails"><i class="fas fa-link anchor-icon"></i></a> Encriptação de Emails</h1>
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h3>What is end-to-end encryption (E2EE) encryption in email?</h3>
-      <p><a href="https://en.wikipedia.org/wiki/End-to-end_encryption">End-to-end encryption (E2EE)</a> is a way of encrypting email contents so that nobody but the recipient(s) can read the email message.</p>
-      <h3>How can I encrypt my email?</h3>
-      <p>The standard way to do email E2EE and have it work between different email providers is with <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP">OpenPGP</a>. There are different implementations of the OpenPGP standard, the most common being <a href="https://en.wikipedia.org/wiki/GNU_Privacy_Guard">GnuPG</a> and <a href=https://openpgpjs.org>OpenPGP.js</a>.</p>
-      <p>There is another standard that was popular with business called <a href="https://en.wikipedia.org/wiki/S/MIME">S/MIME</a>, however it requires a certificate issued from a <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificate Authority</a> (not all of them issue S/MIME certificates). It has support in <a href="https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731">G Suite Enterprise/Education</a> and <a href="https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480">Office 365 Business or Exchange Server 2016, 2019</a>.</p>
+      <h3>O que é criptografia de ponta-a-ponta (E2EE em Inglês) nos emails?</h3>
+      <p><a href="https://pt.wikipedia.org/wiki/Criptografia_de_ponta-a-ponta">Criptografia de ponta-a-ponta</a> é uma forma de encriptar o conteúdo de um email para que ninguém consiga ler a mensagem, exceto os devidos recipientes da mesma.</p>
+      <h3>Como eu posso encriptar meu email?</h3>
+      <p>O jeito padrão de encriptar email de uma forma que funciona para diferentes provedores é com <a href="https://pt.wikipedia.org/wiki/OpenPGP">OpenPGP</a>. Existem diferentes implementações do padrão OpenPGP, sendo o mais comum o <a href="https://pt.wikipedia.org/wiki/GNU_Privacy_Guard">GnuPG</a> e <a href=https://openpgpjs.org>OpenPGP.js</a> (recurso em Inglês).</p>
+      <p>Existe outro padrão que era popular em ambientes empresariais chamado <a href="https://en.wikipedia.org/wiki/S/MIME">S/MIME</a> (link leva a site com info. em Inglês), porém ele precisa que um certificado seja  however it requires a certificate issued from a <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificate Authority</a> (not all of them issue S/MIME certificates). It has support in <a href="https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731">G Suite Enterprise/Education</a> and <a href="https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480">Office 365 Business or Exchange Server 2016, 2019</a>.</p>
       <h3>What software can I use to get E2EE?</h3>
       <p>Email providers which allow you to use standard access protocols like <a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a> and <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> can be used with any of the <a href="/software/email/">email clients we recommend</a>. This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.</p>
     </div>
