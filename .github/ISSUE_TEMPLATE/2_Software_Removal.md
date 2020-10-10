@@ -1,6 +1,6 @@
 ---
-name: "❌ Software Removal"
-about: Suggest the removal of outdated, insecure, or otherwise bad software.
+name: "❌ Remoção de Software"
+about: Sugira a remoção de software ruim, desatualizado, e/ou Suggest the removal of outdated, insecure, or otherwise bad software.
 title: "❌ Software Removal | "
 labels: ❌ software removal
 ---
