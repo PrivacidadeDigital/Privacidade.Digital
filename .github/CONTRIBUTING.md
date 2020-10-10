@@ -6,16 +6,7 @@ Este documento é uma coleção de diretrizes para contribuições em Português
 
 #### Sumário
 
-<<<<<<< HEAD
 [Código de Conduta](#código-de-conduta)
-=======
-- Be nice and respectful.
-- English only.
-- Be constructive.
-- Please feel free to *review changes* in the *files changed* tab of any
-  pull request at any time.
-- See also our [Code of Conduct](https://github.com/privacytools/.github/blob/master/CODE_OF_CONDUCT.md)
->>>>>>> upstream/master
 
 [Eu não quero ler esse texto gigante, só quero perguntar uma coisa!](#eu-não-quero-ler-esse-texto-gigante-só-quero-perguntar-uma-coisa)
 
