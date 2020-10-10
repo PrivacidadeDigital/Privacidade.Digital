@@ -1,17 +1,15 @@
-<!-- PLEASE READ OUR CODE OF CONDUCT (https://wiki.privacytools.io/view/PrivacyTools:Code_of_Conduct) AND CONTRIBUTING GUIDELINES (https://github.com/privacytools/privacytools.io/blob/master/.github/CONTRIBUTING.md) BEFORE SUBMITTING -->
+<!-- FAVOR LER CÓDIGO DE CONDUTA (https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/.github/CODE_OF_CONDUCT.md), DIRETRIZES DE CONTRIBUIÇÃO (https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/.github/CONTRIBUTING.md) E WIKI DO REPOSITÓRIO (https://github.com/PrivacidadeDigital/privacidade.digital/wiki) ANTES DE SUBMETER O PULL REQUEST -->
 
-## Description
+## Descrição
 
-Resolves: #none <!-- A link to the (discussion) issue resolved by this pull request. There must be a discussion issue here at GitHub, before a pull request of software/service suggestion can be considered for merging. -->
+Resolve: #nenhum <!-- Link(s) para Issues resolvidos por este Pull Request. Deve existir uma Issue aqui no GitHub, antes do Pull Request ser criado SE for a respeito da inclusão de algum software our serviço a ser recomendado. -->
 
-#### Check List <!-- Please add an x in each box below, like so: [x] -->
+#### Check List <!-- Favor adicionar um x em cada caixa abaixo, dessa forma: [x] -->
 
-- [ ] I understand that by not opening an issue about a software/service/similar addition/removal, this pull request will be closed without merging.
+- [ ] Eu entendo que ao não abrir uma Issue sobre a inclusão ou remoção de uma recomendação de software ou serviço, este pull request será fechado sem merge.
 
-- [ ] I have read and understand [the contributing guidelines](https://github.com/privacytools/privacytools.io/blob/master/.github/CONTRIBUTING.md).
+- [ ] Eu li e compreendi [as diretrizes de contribuição](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/.github/CONTRIBUTING.md).
 
-- [ ] The project is [Free Libre](https://en.wikipedia.org/wiki/Free_software) and/or [Open Source](https://en.wikipedia.org/wiki/Open-source_software) Software
+- [ ] Caso esteja adicionando uma recomendação de software, o mesmo se trata de um [Software Livre](https://pt.wikipedia.org/wiki/Software_livre), e/ou possui [código-fonte aberto](https://pt.wikipedia.org/wiki/Software_de_c%C3%B3digo_aberto).
 
-* Netlify preview for the mainly edited page: <!-- link or Non Applicable? Edit this in afterwards -->
-
-* Code repository of the project (if applicable):
+* Repositório do projeto a ser recomendado (caso aplicável):
