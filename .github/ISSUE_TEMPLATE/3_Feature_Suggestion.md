@@ -1,8 +1,8 @@
 ---
-name: "✨ Feature Suggestion"
-about: Suggest a new feature/section/page for the website.
-title: "✨ Feature Suggestion | "
-labels: ✨ enhancement
+name: "✨ Sugerir Novidade"
+about: Sugerir uma novidade/seção/página para o site.
+title: "✨ Sugestão de Funcionalidade | "
+labels: ✨ melhoria
 ---
 
-## Description
+## Descrição

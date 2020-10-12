@@ -16,7 +16,7 @@ labels: 🆕 software sugestão
 
 ## Por que estou fazendo esta sugestão?
 
-<!-- Insira qualquer coisa que queira nos dizer sobre o software que está recomendando -->
+<!-- Insira qualquer coisa que queira nos dizer sobre o software em questão -->
 
 ## Meu vínculo com o software
 
