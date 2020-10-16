@@ -1,16 +1,8 @@
 ---
 layout: page
-<<<<<<< HEAD
 permalink: /provedores/email/
 title: "Email Seguro"
-description: "Encontre um provedor de email seguro que não irá passar por cima da sua privacidade. Não se acomode com plataformas sustentadas por anúncios e nunca confie em nenhuma empresa com sua privacidade: sempre encripte seus dados."
----
-
-{% include sections/email-providers.html %}
-=======
-permalink: /providers/email/
-title: "Private Email Providers"
-description: "Find a secure email provider that will keep your privacy in mind. Don't settle for ad-supported platforms. Never trust any company with your privacy, always encrypt."
+description: "Encontre um provedor de email seguro que não irá passar por cima da sua privacidade. Não se acomode com plataformas sustentadas por anúncios e nunca confie sua privacidade a nenhuma empresa: sempre criptografe seus dados."
 ---
 
 {% include sections/email-warning.html %}
@@ -18,106 +10,106 @@ description: "Find a secure email provider that will keep your privacy in mind. 
 {% include sections/email-providers.html %}
 
 <hr>
-<h1 id="criteria" class="anchor"><a href="#criteria"><i class="fas fa-link anchor-icon"></i></a> Our Email Provider Criteria</h1>
+<h1 id="criterios" class="anchor"><a href="#criterios"><i class="fas fa-link anchor-icon"></i></a> Nossos Critérios de Provedor de Email</h1>
 
-<p><strong>Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.</strong> We have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.</p>
+<p><strong>Por favor, note que não somos afiliados a nenhum dos provedores que recomendamos. Isso nos permite fornecer recomendações completamente objetivas.</strong> Desenvolvemos um conjunto claro de requisitos para qualquer provedor de email que deseja ser recomendado, incluindo a implementação de práticas recomendadas do setor, tecnologia moderna e outros requisitos. Sugerimos que você se familiarize com esta lista antes de escolher um provedor de email e conduza sua própria pesquisa para garantir que o provedor de email que você escolheu seja a escolha certa para você.</p>
 
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Jurisdiction" %}</h3>
-      <p>Operating outside the five/nine/fourteen-eyes countries is not necessarily a guarantee of privacy, and there are other factors to consider. However, we believe that avoiding these countries is important if you wish to avoid mass government dragnet surveillance, especially from the United States. Read our page on <a href="/providers/#ukusa">global mass surveillance and avoiding the US and UK</a> to learn more about why we feel this is important.</p>
+      <h3>{% include badge.html color="info" text="Jurisdição" %}</h3>
+      <p>Operar fora dos países dos cinco/nove/quatorze olhos não é necessariamente uma garantia de privacidade e há outros fatores a serem considerados. No entanto, acreditamos que evitar esses países é importante se você deseja evitar a vigilância em massa por parte do governo, especialmente dos Estados Unidos. Leia nossa página em <a href="/provedores/#ukusa">vigilância global em massa e evite serviços hospedados nos EUA e Reino Unido</a> para aprender mais sobre porque achamos que isso é importante.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo para se Qualificar:</strong></p>
       <ul>
-        <li>Operating outside the USA or other Five Eyes countries.</li>
+        <li>Operar fora dos EUA ou outros países dos Cinco Olhos.</li>
       </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor cenário:</strong></p>
       <ul>
-        <li>Operating outside the USA or other Fourteen Eyes countries.</li>
-        <li>Operating inside a country with strong consumer protection laws.</li>
-      </ul>
-    </div>
-
-    <div class="col-12">
-      <h3>{% include badge.html color="info" text="Technology" %}</h3>
-      <p>We regard these features as important in order to provide a safe and optimal service to users. Users should consider the provider which has the features they require.</p>
-    </div>
-    <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
-      <ul>
-        <li>Encrypts account data at rest.</li>
-        <li>Integrated webmail encryption provides convenience to users who want improve on having no <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">E2EE</a> encryption.</li>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
-      <ul>
-        <li>Encrypts account data at rest with zero-access encryption.</li>
-        <li>Allow users to use their own <a href="https://en.wikipedia.org/wiki/Domain_name">domain name</a>. Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad, be acquired by another company which doesn't prioritize privacy etc.</li>
-        <li>Support for <a href="https://wiki.gnupg.org/WKD">WKD</a> to allow improved discovery of public OpenPGP keys via HTTP. <br> GnuPG users can get a key by typing: <code>gpg --locate-key example_user@example.com</code></li>
-        <li>Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.</li>
-        <li>Availability of the email provider's services via an <a href="https://en.wikipedia.org/wiki/.onion">onion service</a>.</li>
-        <li><a href="https://en.wikipedia.org/wiki/Email_address#Subaddressing">Subaddressing</a> support.</li>
-        <li><a href="https://en.wikipedia.org/wiki/Email_filtering">Catch all</a> or <a href="https://en.wikipedia.org/wiki/Email_alias">aliases</a> for users who own their own domains.</li>
-        <li>Use of standard email access protocols such as <a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a>, <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> or <a href="https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol">JMAP</a>. Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.</li>
+        <li>Operar fora dos EUA ou qualquer outro país dos Quatorze Olhos.</li>
+        <li>Operar em um país com fortes leis de proteção ao consumidor.</li>
       </ul>
     </div>
 
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Privacy" %}</h3>
-      <p>We prefer our recommended providers to collect as little data as possible.</p>
+      <h3>{% include badge.html color="info" text="Tecnologia" %}</h3>
+      <p>Consideramos estes recursos como importantes para fornecer um serviço seguro e ótimo aos usuários. Os usuários devem considerar o fornecedor que possuem os recursos que eles necessitam.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo para se Qualificar:</strong></p>
       <ul>
-        <li>Protect sender's IP address. Filter it from showing in the <code>Received</code> header field.</li>
-        <li>Don't require personally identifiable information (PII) besides username and password.</li>
-        <li>Privacy policy that meets the requirements defined by the GDPR</li>
+        <li>Criptografa os dados da conta em repouso.</li>
+        <li>A criptografia integrada no webmail oferece conveniência aos usuários que desejam melhorar o fato de não possurirem <a href="https://pt.wikipedia.org/wiki/Criptografia_de_ponta-a-ponta">Criptografia de ponta-a-ponta</a> (E2EE).</li>
       </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor cenário:</strong></p>
       <ul>
-        <li>Accepts Bitcoin, cash, and other forms of cryptocurrency and/or anonymous payment options (gift cards, etc.)</li>
+        <li>Criptografa os dados da conta em repouso com criptografia de zero acesso.</li>
+        <li>Permite aos usuários utilizarem seu próprio <a href="https://pt.wikipedia.org/wiki/Nome_de_dom%C3%ADnio">Nome de domínio</a>. Nomes de domínio personalizados são importantes para os usuários porque permitem que eles mantenham o funcionamento de seus emails independente do provedor, caso ele se torne ruim, seja adquirido por outra empresa que não prioriza a privacidade, etc.</li>
+        <li>Oferece suporte ao <a href="https://wiki.gnupg.org/WKD">WKD</a> (em inglês) para permitir a descoberta aprimorada de chaves públicas OpenPGP via HTTP. <br>Os usuários do GnuPG podem obter uma chave digitando: <code>gpg --locate-key example_user@example.com</code></li>
+        <li>Oferece suporte para uma caixa de email temporária para usuários externos. Isso é útil quando você deseja enviar um email criptografado, sem enviar ao destinatário uma cópia em texto legível à outros. Essas caixas de email temporárias geralmente têm uma vida útil limitada e, em seguida, são excluídas automaticamente. Elas também não exigem que o destinatário configure qualquer criptografia como OpenPGP.</li>
+        <li>Disponibilidade dos serviços do provedor de email via um <a href="https://pt.wikipedia.org/wiki/.onion">serviço .onion</a>.</li>
+        <li>Oferece suporte a <a href="https://en.wikipedia.org/wiki/Email_address#Subaddressing">Subaddressing</a>.</li>
+        <li><a href="https://en.wikipedia.org/wiki/Email_filtering">Catch all</a> ou <a href="https://en.wikipedia.org/wiki/Email_alias">apelidos</a> para usuários que possuem seus próprios domínios.</li>
+        <li>Uso de protocolos padrão de acesso de email, como <a href="https://pt.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a>, <a href="https://pt.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> ou <a href="https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol">JMAP</a>. Os protocolos padrão de acesso garantem que os usuários possam baixar facilmente todos os seus emails caso desejem mudar para outro provedor.</li>
       </ul>
     </div>
 
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Security" %}</h3>
-      <p>Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their users.</p>
+      <h3>{% include badge.html color="info" text="Privacidade" %}</h3>
+      <p>Preferimos que nossos provedores recomendados coletem o mínimo possível de dados dos usuários.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo para se Qualificar:</strong></p>
       <ul>
-        <li>Protection of webmail with <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">two-factor authentication (2FA)</a>, such as <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a>.</li>
-        <li>Encryption at rest, (e.g. <a href="https://en.wikipedia.org/wiki/dm-crypt">dm-crypt</a>) this protects the contents of the servers in case of unlawful seizure.</li>
-        <li><a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a> support.</li>
-        <li>No <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">TLS</a> errors/vulnerabilities when being profiled by tools such as <a href="https://www.hardenize.com">Hardenize</a>, <a href="https://testssl.sh">testssl.sh</a> or <a href="https://www.ssllabs.com/ssltest">Qualys SSL Labs</a>, this includes certificate related errors, poor or weak ciphers suites, weak DH parameters such as those that led to <a href="https://en.wikipedia.org/wiki/Logjam_(computer_security)">Logjam</a>.</li>
-        <li>A valid <a href="https://tools.ietf.org/html/rfc8461">MTA-STS</a> and <a href="https://tools.ietf.org/html/rfc8460">TLS-RPT</a> policy.</li>
-        <li>Valid <a href="https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities">DANE</a> records.</li>
-        <li>Valid <a href="https://en.wikipedia.org/wiki/Sender_Policy_Framework">SPF</a>, <a href="https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail">DKIM</a> and <a href="https://en.wikipedia.org/wiki/DMARC">DMARC</a>, with the policy <code>p</code> value set to either <code>none</code>, <code>quarantine</code> or <code>reject</code>.</li>
-        <li>A server suite preference of TLS 1.2 or later and a plan for <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/">Deprecating TLSv1.0 and TLSv1.1</a>.</li>
-        <li><a href="https://en.wikipedia.org/wiki/SMTPS">SMTPS</a> submission, assuming SMTP is used.</li>
-        <li>Website security standards such as:</li>
+        <li>Proteja o endereço IP do remetente. Filtre-o para que não apareça no campo <code>Recebido</code> do cabeçalho.</li>
+        <li>Não exija informações de identificação pessoal (IIP) além de nome de usuário e senha.</li>
+        <li>Política de privacidade que atenda aos requisitos definidos pela GDPR (<em>General Data Protection Regulation</em>; lei européia de proteção de dados)</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Melhor cenário:</strong></p>
+      <ul>
+        <li>Aceita Bitcoin, dinheiro e outras formas de criptomoeda e/ou opções de pagamento anônimas (cartões-presente, etc.)</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Segurança" %}</h3>
+      <p>Os servidores de e-mail lidam com muitos dados bastante sensíveis. Esperamos que os provedores adotem as melhores práticas do setor para proteger seus usuários.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Mínimo para se Qualificar:</strong></p>
+      <ul>
+        <li>Proteção do webmail com <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">autenticação de dois fatores</a>, como <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a>.</li>
+        <li>Criptografia em repouso (por exemplo, <a href="https://pt.wikipedia.org/wiki/Dm-crypt">dm-crypt</a>). Isso protege o conteúdo dos servidores em caso de apreensão ilegal.</li>
+        <li>Suporte a <a href="https://pt.wikipedia.org/wiki/DNSSEC">DNSSEC</a>.</li>
+        <li>Sem erros/vulnerabilidades <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">TLS</a> ao ser perfilado por ferramentas como <a href="https://www.hardenize.com">Hardenize</a>, <a href="https://testssl.sh">testssl.sh</a> ou <a href="https://www.ssllabs.com/ssltest">Qualys SSL Labs</a>. Isso inclui erros relacionados a certificados, conjuntos de criptografia ruins ou fracos ou parâmetros de DH fracos, como aqueles que levaram ao <a href="https://en.wikipedia.org/wiki/Logjam_(computer_security)">Logjam</a>.</li>
+        <li>Uma política válida de <a href="https://tools.ietf.org/html/rfc8461">MTA-STS</a> e <a href="https://tools.ietf.org/html/rfc8460">TLS-RPT</a>.</li>
+        <li>Registros <a href="https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities">DANE</a> válidos.</li>
+        <li><a href="https://pt.wikipedia.org/wiki/Sender_Policy_Framework">SPF</a>, <a href="https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail">DKIM</a> e <a href="https://pt.wikipedia.org/wiki/DMARC">DMARC</a> válidos, com valor <code>p</code> da política definido como <code>nenhum</code>, <code>quarentena</code> ou <code>rejeitar</code>.</li>
+        <li>Uma preferência de suíte de servidor com TLS 1.2 ou posterior e um plano para <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/">Suspensão de uso de TLSv1.0 e TLSv1.1</a>.</li>
+        <li>Envio de <a href="https://en.wikipedia.org/wiki/SMTPS">SMTPS</a>, supondo que SMTP seja usado.</li>
+        <li>Padrões de segurança do site, como:</li>
           <ul>
             <li><a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HTTP Strict Transport Security</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Subresource_Integrity">Subresource Integrity</a> if loading things from external domains.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Subresource_Integrity">Subresource Integrity</a> se estiver carregando coisas de domínios externos.</li>
           </ul>
       </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor cenário:</strong></p>
       <ul>
-        <li>Support for hardware authentication, ie <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">U2F</a> and <a href="https://en.wikipedia.org/wiki/WebAuthn">WebAuthn</a>. U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate users, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated <a href="https://en.wikipedia.org/wiki/Domain_name">domain name</a>.</li>
-        <li>Zero access encryption, builds on encryption at rest. The difference being the provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.</li>
-        <li><a href="https://tools.ietf.org/html/rfc6844">DNS Certification Authority Authorization (CAA) Resource Record</a> in addition to DANE support.</li>
-        <li>Implementation of <a href="https://en.wikipedia.org/wiki/Authenticated_Received_Chain">Authenticated Received Chain (ARC)</a>, this is useful for users who post to mailing lists <a href="https://tools.ietf.org/html/rfc8617">RFC8617</a>.</li>
-        <li>Bug-bounty programs and/or a coordinated vulnerability-disclosure process.</li>
-        <li>Website security standards such as:</li>
+        <li>Suporte para autenticação de hardware, ou seja, <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">U2F</a> e <a href="https://en.wikipedia.org/wiki/WebAuthn">WebAuthn</a>. U2F e WebAuthn são mais seguros, pois usam uma chave privada armazenada em um dispositivo de hardware do lado do cliente para autenticar usuários, em oposição a um segredo compartilhado que é armazenado no servidor da web e no lado do cliente ao usar TOTP. Além disso, U2F e WebAuthn são mais resistentes a phishing, pois sua resposta de autenticação é baseada no <a href="https://pt.wikipedia.org/wiki/Nome_de_dom%C3%ADnio">nome de domínio</a> autenticado.</li>
+        <li>Criptografia de zero acesso; baseia-se na criptografia em repouso. A diferença é que o provedor não possui as chaves para descriptografar os dados que possui. Isso evita que um funcionário não autorizado vaze dados aos quais eles tem acesso ou que um adversário remoto libere dados roubados ao obter acesso não autorizado ao servidor.</li>
+        <li><a href="https://tools.ietf.org/html/rfc6844">DNS Certification Authority Authorization (CAA) Resource Record</a> juntamente com suporte a DANE.</li>
+        <li>Implementação de <a href="https://en.wikipedia.org/wiki/Authenticated_Received_Chain">Authenticated Received Chain (ARC)</a>; isto é útil para usuários que postam em listas de discussão <a href="https://tools.ietf.org/html/rfc8617">RFC8617</a>.</li>
+        <li>Programas de recompensa por bugs e/ou um processo coordenado de divulgação de vulnerabilidades.</li>
+        <li>Padrões de segurança do site, como:</li>
           <ul>
             <li><a href="https://en.wikipedia.org/wiki/Content_Security_Policy">Content Security Policy (CSP)</a></li>
             <li><a href="https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct">Expect-CT</a></li>
@@ -126,103 +118,103 @@ description: "Find a secure email provider that will keep your privacy in mind. 
     </div>
 
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Trust" %}</h3>
-      <p>You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.</p>
+      <h3>{% include badge.html color="info" text="Confiança" %}</h3>
+      <p>Você não confiaria suas finanças a alguém com uma identidade falsa, certo? Então por que confiar seu e-mail a essa pessoa? Exigimos que nossos provedores recomendados sejam transparentes sobre sua propriedade ou liderança. Também gostaríamos de ver relatórios de transparência frequentes, especialmente em relação a como as solicitações de governos são tratadas.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo para se Qualificar:</strong></p>
       <ul>
-        <li>Public-facing leadership or ownership.</li>
+        <li>Liderança ou propriedade publicamente visível.</li>
       </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor cenário:</strong></p>
       <ul>
-        <li>Public-facing leadership.</li>
-        <li>Frequent transparency reports.</li>
+        <li>Liderança publicamente visível.</li>
+        <li>Relatórios de transparência frequentes.</li>
       </ul>
     </div>
 
     <div class="col-12">
       <h3>{% include badge.html color="info" text="Marketing" %}</h3>
-      <p>With the email providers we recommend we like to see responsible marketing.</p>
+      <p>Gostamos de ver um marketing responsável por parte dos provedores de email que recomendamos.</p>
     </div>
     <div class="col-md-6">
-      <p><strong>Minimum to Qualify:</strong></p>
+      <p><strong>Mínimo para se Qualificar:</strong></p>
       <ul>
-          <li>Must self host analytics (no Google Analytics etc). The provider's site must also comply with <a href="https://en.wikipedia.org/wiki/Do_Not_Track">DNT (Do Not Track)</a> for those users who want to opt-out.</li>
+          <li>Deve hospedar plataformas de análises próprias (nada de Google Analytics, etc.). O site do provedor também deve cumprir a solicitação de <a href="https://en.wikipedia.org/wiki/Do_Not_Track">DNT (Do Not Track)</a> para aqueles usuários que assim desejarem.</li>
       </ul>
-      <p>Must not have any marketing which is irresponsible:</p>
+      <p>Não deve haver marketing irresponsável:</p>
         <ul>
-          <li>Claims of "unbreakable encryption". Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.</li>
-          <li>Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, e.g.:</li>
+          <li>Alegações de "criptografia inquebrável". A criptografia deve ser usada com a intenção de que pode não ser secreta no futuro, quando houver tecnologia para quebrá-la.</li>
+          <li>Fazendo garantias de proteção do anonimato a 100%. Quando alguém afirma que alguma coisa é 100%, isso na verdade significa que não há certeza de falha. Sabemos que os usuários podem facilmente romper seu anonimato de várias maneiras, por exemplo:</li>
           <ul>
-            <li>Reusing personal information e.g. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)</li>
-            <li><a href="/browsers/#fingerprint">Browser fingerprinting</a></li>
+            <li>Reutilizando informações pessoais (como contas de e-mail, pseudônimos exclusivos, etc) que eles acessaram sem software de anonimato (Tor, VPN, etc)</li>
+            <li><a href="/navegadores/#impressao_digital">Impressão digital do navegador</a></li>
           </ul>
         </ul>
     </div>
     <div class="col-md-6">
-      <p><strong>Best Case:</strong></p>
+      <p><strong>Melhor cenário:</strong></p>
       <ul>
-        <li>Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.</li>
+        <li>Documentação clara e fácil de ler. Isso inclui coisas como configuração de autenticação de dois fatores, clientes de e-mail, OpenPGP, etc.</li>
       </ul>
     </div>
 
     <div class="col-12">
-      <h3>{% include badge.html color="info" text="Additional Functionality" %}</h3>
-      <p>While not strictly requirements, there are some factors we looked into when determining which providers to recommend.</p>
+      <h3>{% include badge.html color="info" text="Funcionalidades Adicionais" %}</h3>
+      <p>Embora não sejam requisitos estritos, há alguns fatores que analisamos ao determinar quais provedores recomendar.</p>
     </div>
   </div>
 </div>
 <hr>
 
-<h1 id="email-encryption" class="anchor"><a href="#email-encryption"><i class="fas fa-link anchor-icon"></i></a> Email encryption</h1>
+<h1 id="criptografia-email" class="anchor"><a href="#criptografia-email"><i class="fas fa-link anchor-icon"></i></a> Criptografia de Email</h1>
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h3>What is end-to-end encryption (E2EE) encryption in email?</h3>
-      <p><a href="https://en.wikipedia.org/wiki/End-to-end_encryption">End-to-end encryption (E2EE)</a> is a way of encrypting email contents so that nobody but the recipient(s) can read the email message.</p>
-      <h3>How can I encrypt my email?</h3>
-      <p>The standard way to do email E2EE and have it work between different email providers is with <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP">OpenPGP</a>. There are different implementations of the OpenPGP standard, the most common being <a href="https://en.wikipedia.org/wiki/GNU_Privacy_Guard">GnuPG</a> and <a href=https://openpgpjs.org>OpenPGP.js</a>.</p>
-      <p>There is another standard that was popular with business called <a href="https://en.wikipedia.org/wiki/S/MIME">S/MIME</a>, however it requires a certificate issued from a <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificate Authority</a> (not all of them issue S/MIME certificates). It has support in <a href="https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731">G Suite Enterprise/Education</a> and <a href="https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480">Office 365 Business or Exchange Server 2016, 2019</a>.</p>
-      <h3>What software can I use to get E2EE?</h3>
-      <p>Email providers which allow you to use standard access protocols like <a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a> and <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> can be used with any of the <a href="/software/email/">email clients we recommend</a>. This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.</p>
+      <h3>O que é criptografia de ponta-a-ponta (<em>end-to-end encryption</em> ou E2EE) em emails?</h3>
+      <p><a href="https://pt.wikipedia.org/wiki/Criptografia_de_ponta-a-ponta">Criptografia de ponta-a-ponta</a> é uma forma de criptografar o conteúdo do email para que ninguém, exceto o(s) destinatário(s), possa ler a mensagem.</p>
+      <h3>Como posso criptografar meu e-mail?</h3>
+      <p>A maneira padrão de enviar emails com E2EE e fazê-lo funcionar entre diferentes provedores de e-mail é com <a href="https://pt.wikipedia.org/wiki/Pretty_Good_Privacy">OpenPGP</a>. Existem diferentes implementações do padrão OpenPGP, sendo a mais comum a <a href="https://pt.wikipedia.org/wiki/GNU_Privacy_Guard">GnuPG</a> e a <a href=https://openpgpjs.org>OpenPGP.js</a>.</p>
+      <p>Há outro padrão popular entre as empresas, chamado <a href="https://en.wikipedia.org/wiki/S/MIME">S/MIME</a>, embora isso requeira um certificado emitido por um <a href="https://pt.wikipedia.org/wiki/Autoridade_de_certifica%C3%A7%C3%A3o">Autoridade de certificação</a> (nem todos eles emitem certificados S/MIME). Ele é suportado no <a href="https://support.google.com/a/topic/9061730?hl=pt-BR&ref_topic=9061731">Google Workspace (anteriormente chamado G Suite)</a> e <a href="https://support.microsoft.com/pt-br/office/criptografar-mensagens-utilizando-s-mime-no-outlook-na-web-878c79fc-7088-4b39-966f-14512658f480?ui=pt-br&rs=pt-br&ad=br">Office 365 Business or Exchange Server 2016, 2019</a>.</p>
+      <h3>Que software posso usar para ter criptografia de ponta-a-ponta?</h3>
+      <p>Provedores de email que permitem que você use protocolos de acesso padrão como <a href="https://pt.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a> e <a href="https://pt.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> podem ser usados com quaisquer dos <a href="/software/email/">cliente de email que recomendamos</a>. Isso pode ser menos seguro, pois você depende dos provedores de email para garantir que sua implementação de criptografia funcione e não seja comprometida de alguma forma.</p>
     </div>
     <div class="col-md-6">
-      <h3>How do I protect my private keys?</h3>
-      <p>A smartcard (such as a <a href="https://support.yubico.com/support/solutions/articles/15000006420-using-your-yubikey-with-openpgp">Yubikey</a> or <a href="https://www.nitrokey.com">Nitrokey</a>) works by receiving an encrypted email message from a device (phone, tablet, computer etc) running an email/webmail client. The message is then decrypted by the smartcard and the decrypted content is sent back to the device.</p>
-      <p>It is advantageous for the decryption to occur on the smartcard so as to avoid possibly exposing your private key to a compromised device.</p>
+      <h3>Como faço para proteger minhas chaves privadas?</h3>
+      <p>Um cartão inteligente (como <a href="https://support.yubico.com/support/solutions/articles/15000006420-using-your-yubikey-with-openpgp">Yubikey</a> ou <a href="https://www.nitrokey.com">Nitrokey</a>) funciona recebendo uma mensagem de email criptografada de um dispositivo (telefone, tablet, computador, etc) que roda um cliente de e-mail/webmail. A mensagem é então descriptografada pelo cartão inteligente e o conteúdo descriptografado é enviado de volta para o dispositivo.</p>
+      <p>É vantajoso que a descriptografia ocorra no cartão inteligente para evitar a possível exposição de sua chave privada a um dispositivo comprometido.</p>
     </div>
   </div>
 </div>
 
-<h1 id="metadata" class="anchor"><a href="#metadata"><i class="fas fa-link anchor-icon"></i></a> Email metadata</h1>
+<h1 id="metadados" class="anchor"><a href="#metadados"><i class="fas fa-link anchor-icon"></i></a> Metadados de Email</h1>
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h3>Who can see the email metadata?</h3>
-      <p>Email metadata is able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients. Sometimes email servers will also use external parties to protect against spam.</p>
-      <h3>What is email metadata?</h3>
-      <p>Email software will often show some visible headers that you may have seen such as: <code>To</code>, <code>From</code>, <code>Cc</code>, <code>Date</code>, <code>Subject</code>.
+      <h3>Quem pode ver os metadados do email?</h3>
+      <p>Os metadados de email podem ser vistos por seu software cliente de email (ou webmail) e por qualquer servidor que esteja retransmitindo sua mensagem para qualquer destinatário. Às vezes, os servidores de email também usam tereiros para proteção contra spam.</p>
+      <h3>O que são metadados de email?</h3>
+      <p>O software de email geralmente mostra alguns cabeçalhos visíveis que você pode ter visto, como: <code>Para</code>, <code>De</code>, <code>Cc</code>, <code>Data</code>, <code>Assunto</code>.
       </p>
-      <h3>When is email metadata used?</h3>
-      <p>Client software may use it to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among <a href="https://en.wikipedia.org/wiki/Email#Message_header">other purposes</a> not transparent to the user.</p>
+      <h3>Quando os metadados de email são usados?</h3>
+      <p>O software cliente pode usá-los para mostrar de quem é uma mensagem e a que horas foi recebida. Os servidores podem usá-los para determinar para onde uma mensagem de email deve ser enviada, entre <a href="https://en.wikipedia.org/wiki/Email#Message_header">outros propósitos</a> não transparentes ao usuário.</p>
     </div>
     <div class="col-md-6">
-      <h3>Where is the email metadata?</h3>
-      <p>Email metadata is stored in the <a href="https://en.wikipedia.org/wiki/Email#Message_header">message header</a> of the email message.</p>
-      <h3>Why can't email metadata be E2EE?</h3>
-      <p>Email metadata is is cruicial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally and is also optional, therefore, only the message content is protected.</p>
-      <h3>How is my metadata protected?</h3>
-      <p>When emails travel between email providers an encrypted connection is negotiated using <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">Opportunistic TLS</a>. This protects the metadata from outside observers, but as it is not E2EE, server administrators can snoop on the metadata of an email.</p>
+      <h3>Onde estão os metadados do email?</h3>
+      <p>Os metadados de email são armazenados no <a href="https://en.wikipedia.org/wiki/Email#Message_header">cabeçalho</a> da mensagem de email.</p>
+      <h3>Por que os metadados de email não podem ser criptografados de ponta-a-ponta?</h3>
+      <p>Os metadados de email são cruciais para a funcionalidade mais básica do email (de vem e para onde deve ir). A criptografia de ponta-a-ponta não foi integrada aos protocolos de email originalmente e também é opcional, portanto, apenas o conteúdo da mensagem é protegido.</p>
+      <h3>Como meus metadados são protegidos?</h3>
+      <p>Quando mensagens viajam entre provedores de email, uma conexão criptografada é negociada usando <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">Opportunistic TLS</a>. Isso protege os metadados de observadores externos, mas como não são criptografados de ponta-a-ponta, os administradores do servidor podem bisbilhotar os metadados de um email.</p>
     </div>
   </div>
 </div>
 
 <hr>
 
-<h1 id="cloaking" class="anchor"><a href="#cloaking"><i class="fas fa-link anchor-icon"></i></a> Email cloaking services</h1>
+<h1 id="cloaking" class="anchor"><a href="#cloaking"><i class="fas fa-link anchor-icon"></i></a> Serviços de Camuflagem de Email</h1>
 <div class="container">
   <a href="https://anonaddy.com">
     <img src="/assets/img/svg/3rd-party/anonaddy.svg"
@@ -231,42 +223,42 @@ description: "Find a secure email provider that will keep your privacy in mind. 
          alt="AnonAddy">
   </a>
   <br>
-  <p><strong><a href="https://anonaddy.com">AnonAddy</a></strong> lets users create aliases that forward to their email address. Can be self-hosted. <a href="https://github.com/anonaddy/anonaddy">Source code on GitHub</a>.</p>
+  <p>O <strong><a href="https://anonaddy.com">AnonAddy</a></strong> permite que os usuários criem apelidos que encaminham as mensagens para seu endereço de email. Pode ser auto-hospedado. <a href="https://github.com/anonaddy/anonaddy">Código-fonte no GitHub</a>.</p>
   <a href="https://simplelogin.io">
     <img src="/assets/img/svg/3rd-party/simplelogin.svg"
          width="180rem" class="img-fluid float-left mr-3"
          alt="SimpleLogin">
   </a>
   <br>
-  <p><strong><a href="https://simplelogin.io">SimpleLogin</a></strong> allows you to easily create aliases for your email. Can be self-hosted. <a href="https://github.com/simple-login/app">Source code on GitHub</a>.</p>
+  <p>O <strong><a href="https://simplelogin.io">SimpleLogin</a></strong> permite que você crie facilmente apelidos para seu email. Pode ser auto-hospedado. <a href="https://github.com/simple-login/app">Código-fonte no GitHub</a>.</p>
 </div>
 
-<h1 id="selfhosting" class="anchor"><a href="#selfhosting"><i class="fas fa-link anchor-icon"></i></a> Self-hosting Email</h1>
+<h1 id="selfhosting" class="anchor"><a href="#selfhosting"><i class="fas fa-link anchor-icon"></i></a> Auto-Hospedagem de Email</h1>
 <div class="container">
-  <p>Advanced users may consider setting up their own email server. Mailservers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.</p>
-  <h3>Combined software solutions</h3>
+  <p>Os usuários avançados podem considerar a criação de seu próprio servidor de email. Os servidores de email exigem atenção e manutenção contínua a fim de manter as coisas seguras e a entrega das mensagens confiável.</p>
+  <h3>Soluções de Software Combinadas</h3>
   <a href="https://mailinabox.email/">
     <img src="/assets/img/svg/3rd-party/mail-in-a-box.svg"
          width="80rem" class="img-fluid float-left mr-3"
          alt="Mail-in-a-Box">
   </a>
   <br>
-  <p><strong><a href="https://mailinabox.email">Mail-in-a-Box</a></strong> is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for users to set up their own mail server.</p>
+  <p>O <strong><a href="https://mailinabox.email">Mail-in-a-Box</a></strong> é um script de configuração automatizado para implantar um servidor de email no Ubuntu. Seu objetivo é facilitar aos usuários a configuração de seu próprio servidor de email.</p>
   <a href="https://mailcow.email/">
     <img src="/assets/img/svg/3rd-party/mailcow.svg"
          width="80rem" class="img-fluid float-left mr-3"
          alt="Mailcow">
   </a>
-  <p><strong><a href="https://mailcow.email">Mailcow</a></strong> is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mailserver with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support. <strong><a href="https://mailcow.github.io/mailcow-dockerized-docs/">Mailcow Dockerized docs</a></strong></p>
+  <p>O <strong><a href="https://mailcow.email">Mailcow</a></strong> é um servidor de email mais avançado, perfeito para aqueles com um pouco mais de experiência em Linux. Ele tem tudo o que você precisa em um container Docker: Um servidor de email com suporte DKIM, monitoramento de antivírus e spam, webmail e ActiveSync com SOGo e administração baseada na web com suporte para autenticação de dois fatores. <strong><a href="https://mailcow.github.io/mailcow-dockerized-docs/">Documentação do Mailcow Dockerized</a></strong></p>
 
-  <p>For a more manual approach we've picked out these two articles.</p>
+  <p>Para uma abordagem mais manual, selecionamos estes dois artigos (em inglês).</p>
     <ul>
       <li><a href="https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/">Setting up a mail server with OpenSMTPD, Dovecot and Rspamd</a> (2019)</li>
-      <li><a href="https://www.c0ffee.net/blog/mail-server-guide/">How To Run Your Own Mail Server</a> (August 2017)</li>
+      <li><a href="https://www.c0ffee.net/blog/mail-server-guide/">How To Run Your Own Mail Server</a> (Agosto de 2017)</li>
     </ul>
 </div>
 
-<h1 id="info" class="anchor"><a href="#info"><i class="fas fa-link anchor-icon"></i></a> Related Email Articles</h1>
+<h1 id="info" class="anchor"><a href="#info"><i class="fas fa-link anchor-icon"></i></a> Artigos Relacionados Sobre Email (em inglês)</h1>
 <div class="container">
   <div class="row">
     <ul>
@@ -276,4 +268,3 @@ description: "Find a secure email provider that will keep your privacy in mind. 
     </ul>
   </div>
 </div>
->>>>>>> upstream/master
