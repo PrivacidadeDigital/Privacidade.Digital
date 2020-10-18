@@ -1,21 +1,20 @@
 ---
-name: "❌ Software Removal"
-about: Suggest the removal of outdated, insecure, or otherwise bad software.
-title: "❌ Software Removal | "
-labels: ❌ software removal
+name: "❌ Remoção de Software"
+about: Sugira a remoção de um software recomendado que esteja desatualizado, inseguro, ou ruim em geral.
+title: "❌ Remoção de Software | "
+labels: ❌ software remoção
 ---
 
-## Description
+## Descrição
 
 
 
-## Why I am making the suggestion
+## Por que estou fazendo esta sugestão?
 
-<!-- Anything you would like to tell us about the software? -->
+<!-- Insira qualquer coisa que queira nos dizer sobre o software em questão -->
 
+## Meu vínculo com o software
 
-## My connection with the software
+<!-- Você é o autor? Competidor? Ou só odeia o software em questão por algum motivo? -->
 
-<!-- Are you the author? Competitor? Just hating the software with passsion for some reason? -->
-
-- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.
+- [ ] Eu irei manter este issue atualizado caso algo que eu tenha dito mude, ou eu me lembre de mais informações sobre o assunto.

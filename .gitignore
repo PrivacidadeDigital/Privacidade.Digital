@@ -6,10 +6,6 @@ font/assets/
 font/_sass/
 font/.fontcustom-manifest.json
 assets/webfonts/ptio-font-preview.html
-<<<<<<< HEAD
-.vendor/
-.bundle/
-=======
 vendor
+.vendor
 .bundle
->>>>>>> upstream/master

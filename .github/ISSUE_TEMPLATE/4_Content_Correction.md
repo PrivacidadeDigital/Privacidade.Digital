@@ -1,21 +1,21 @@
 ---
-name: "📝 Content Correction"
-about: Report any inaccurate, incorrect, or outdated information on the website.
-title: "📝 Correction | "
-labels: 📝 correction
+name: "📝 Corrigir Conteúdo"
+about: Avisar sobre qualquer informação que esteja errada ou desatualizada no site.
+title: "📝 Correção | "
+labels: 📝 correção
 ---
 
-## Description
+## Descrição
 
 
 
-## Why I am making the suggestion
+## Por que estou fazendo esta sugestão?
 
-<!-- Anything you would like to tell us about the software? -->
+<!-- Insira qualquer coisa que queira nos dizer sobre o software em questão -->
 
 
-## My connection with the software
+## Meu vínculo com o software
 
-<!-- Are you the author? Competitor? Just hating the software with passsion for some reason? -->
+<!-- Você é o autor? Competidor? Ou só odeia o software em questão por algum motivo? -->
 
-- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.
+- [ ] Eu irei manter este issue atualizado caso algo que eu tenha dito mude, ou eu me lembre de mais informações sobre o assunto.

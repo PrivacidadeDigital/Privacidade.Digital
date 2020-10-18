@@ -1,58 +1,61 @@
 ---
 layout: page
 permalink: /notices/
-title: "Notices and Disclaimers"
-description: "PrivacyTools is provided with good intentions on an &quot;as-is&quot; basis, without warranty, and disclaiming liability for damages."
+title: "Notas e Avisos Legais"
+description: "O site Privacidade.Digital é disponibilizado para a comunidade com a melhor das intenções, mas sem quaisquer garantias."
 ---
 
-<span class="badge badge-secondary mt-5">Section 1</span>
-# Legal Disclaimer
+<span class="badge badge-secondary mt-5">Preâmbulo</span>
+Por motivos de simplificação do texto, "IPD" se refere à Iniciativa Privacidade Digital, organização comunitária responsável por coordenar o desenvolvimento deste site.
 
-<span class="lead">PrivacyTools is not a law firm. As such, the PrivacyTools website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with PrivacyTools or other contributors about our website create an attorney-client relationship.</span>
+<span class="badge badge-secondary mt-5">Seção 1</span>
+# Aviso Legal
 
-Running this website, like any human endeavor, involves uncertainty and trade-offs. We hope this website helps, but it may include mistakes, and can’t address every situation. If you have any questions about your situation, we encourage you to do your own research, seek out other experts, and discuss with your and the PrivacyTools community. If you have any legal questions, you should consult with your own legal counsel before moving forward.
+<span class="lead">A IPD não é uma firma de advocacia. Portanto, o site Privacidade.Digital e seus colaboradores não estão fornecendo conselhos legais. O material e recomendações em nosso site e guias não constituem conselho legal. Além disso, contribuir com o site ou comunicar-se com os demais colaboradores sobre nosso site não cria um relacionamento protegido entre cliente e advogado.</span>
 
-PrivacyTools is an open source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the PrivacyTools project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. PrivacyTools does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the website or otherwise relating to such materials on the website or on any third-party sites linked on this site.
+Administrar esta iniciativa e site, como qualquer outro esforço humano, envolve incertezas e problemas. Nós temos a esperança de que este site ajude seus visitantes, mas ele pode incluir erros, e nós não podemos cobrir toda e qualquer situação. Se você tem perguntas sobre a sua situação, nós o encorajamos a fazer suas próprias pesquisas antes de qualquer coisa, procurar ajuda de especialistas, e discutir o problema entre os membros da sua comunidade e a nossa. Se você tiver qualquer pergunta de caráter legal, você deve consultar seu próprio conselho legal antes mesmo de conduzir suas pesquisas sobre os assuntos aqui tratados.
 
-PrivacyTools additionally does not warrant that this website will be constantly available, or available at all.
+O site Privacidade.Digital é um projeto com código-fonte aberto construído sob licenças que incluem termos que, para a proteção do próprio site e seus colaboradores, deixam claro que a IPD e o site são oferecidos "tal como os mesmos se encontram", sem garantias, e isentos de responsabilidades por danos resultantes do uso deste site ou qualquer recomendação contida nele. A IPD não garante ou faz qualquer representação relacionada à precisão, resultados prováveis, ou confiabilidade do uso de materiais do site ou qualquer material que por sua vez esteja relacionado ou quaisquer sites terceiros vinculados a este site.
 
-<span class="badge badge-secondary mt-5">Section 2</span>
-# Licenses
+Além disso, a IPD não garante que este site permanecerá disponível, muito menos constantemente disponível.
 
-<span class="lead">Content copyright on this website is waived under the terms of [CC0 1.0 Universal](https://github.com/privacytools/privacytools.io/blob/master/LICENSE.txt).</span>
+<span class="badge badge-secondary mt-5">Seção 2</span>
+# Licenças
 
-In certain jurisdictions, namely those in which the copyright waiver in the CC0-1.0 is judged for any reason to be legally invalid or ineffective under applicable law, content may be copyright &copy; PrivacyTools contributors, released under the [CC 1.0 Universal](https://github.com/privacytools/privacytools.io/blob/master/LICENSE.txt) license.
+<span class="lead">Direitos autorais de conteúdo neste site são renunciados sob os termos da licença [CC0 1.0 Universal](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/LICENSE.txt).</span>
 
-**Content** on this website is based on [github.com/privacytools/privacytools.io](https://github.com/privacytools/privacytools.io) and is made freely available under the CC-1.0.
+Em algumas jurisdições, em especial aquelas em que a renúncia de direitos autorais da licença CC0-1.0 é julgada legalmente inválida ou ineficaz por qualquer motivo, o conteúdo pode ser estar disponível sob direitos autorais dos &copy; Colaboradores do PrivacyTools e Privacidade Digital, disponível sob a licença [CC 1.0 Universal](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/LICENSE.txt).
 
-Code, including source files and code samples if any in the content, is released under CC-1.0, with the following exceptions:
+O **conteúdo** deste site é baseado em [github.com/privacytools/privacytools.io](https://github.com/privacytools/privacytools.io) e [github.com/PrivacidadeDigital/privacidade.digital](https://github.com/PrivacidadeDigital/privacidade.digital), disponível de forma livre e gratuita sob a licença CC-1.0.
 
-- Bootstrap code is under the MIT license. See: [github.com/twbs/bootstrap/blob/master/LICENSE](https://github.com/twbs/bootstrap/blob/master/LICENSE)
-- [jQuery](https://github.com/privacytools/privacytools.io/blob/master/assets/js/jquery-3.3.1.min.js) is under the MIT license. See: [jquery.org/license](https://jquery.org/license/)
-- [Popper.js](https://github.com/privacytools/privacytools.io/blob/master/assets/js/popper.min.js) is under the MIT license. See: [github.com/FezVrasta/popper.js/raw/master/LICENSE.md](https://github.com/FezVrasta/popper.js/raw/master/LICENSE.md)
-- [Sortable](https://github.com/privacytools/privacytools.io/blob/master/assets/js/sortable.min.js) is under the MIT license. See: [github.com/HubSpot/sortable/raw/master/LICENSE](https://github.com/HubSpot/sortable/raw/master/LICENSE)
-- The Font Awesome icons are under CC-BY-4.0, Font Awesome fonts are under SIL OFL 1.1, and Font Awesome code is under the MIT License. See: [fontawesome.com/license/free](https://fontawesome.com/license/free)
-- The PrivacyTools fonts, icons, and code in `fonts` are under ISC license. See: [github.com/privacytools/privacytools.io/blob/master/font/LICENSE](https://github.com/privacytools/privacytools.io/blob/master/font/LICENSE).
+No entanto, seu **código**, incluindo arquivos de código-fonte e exemplos de código no conteúdo do site, caso exista, está disponível sob a licença CC-1.0, com as seguintes exceções:
 
-Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub, released under [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
+- Código em Bootstrap disponível sob a licença MIT. Veja: [github.com/twbs/bootstrap/blob/master/LICENSE](https://github.com/twbs/bootstrap/blob/master/LICENSE)
+- [jQuery](https://github.com/privacytools/privacytools.io/blob/master/assets/js/jquery-3.3.1.min.js) disponível sob a licença MIT. Veja: [jquery.org/license](https://jquery.org/license/)
+- [Popper.js](https://github.com/privacytools/privacytools.io/blob/master/assets/js/popper.min.js) disponível sob a licença MIT. Veja: [github.com/FezVrasta/popper.js/raw/master/LICENSE.md](https://github.com/FezVrasta/popper.js/raw/master/LICENSE.md)
+- [Sortable](https://github.com/privacytools/privacytools.io/blob/master/assets/js/sortable.min.js) disponível sob a licença MIT. Veja: [github.com/HubSpot/sortable/raw/master/LICENSE](https://github.com/HubSpot/sortable/raw/master/LICENSE)
+- Os ícones da Font Awesome estão disponíveis sob a licença CC-BY-4.0, e as fontes da Font Awesome estão disponíveis sob a licença SIL OFL 1.1, e código-fonte da Font Awesome está disponível sob a licença MIT. Veja: [fontawesome.com/license/free](https://fontawesome.com/license/free)
+- As fontes, ícones, e código PrivacyTools no diretório `fonts` estão disponíveis sob a licença ISC. Veja: [github.com/PrivacidadeDigital/privacidade.digital/blob/master/font/LICENSE](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/font/LICENSE).
 
-This means that you can use the code and content in this repository **except** for the PrivacyTools [branding](https://github.com/privacytools/brand) in your own projects. PrivacyTools's brand trademarks include the "PrivacyTools" wordmark and shield logo. More information on the use of PrivacyTools's branding can be found on our [branding guidelines page](https://github.com/privacytools/brand).
+Porções desta própria página foram adotadas do site [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) no GitHub, disponível sob a licença [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE), em Inglês.
 
-We believe that the logos and other images in `assets` from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://en.wikipedia.org/wiki/Fair_use) allows the use of copyrighted image in order to identify the subject matter for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *You are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
+Nós acreditos que os logotipos e outras imagens em `assets` que sejam de provedores terceiros estão ou no domínio público ou sendo utilizados com o conceito de **fair use** em mente. Em resumo, o conceito de [fair use](https://pt.wikipedia.org/wiki/Fair_use) da legislação dos Estados Unidos permite o uso de imagens com direitos autorais em contextos relacionados à identificação de assuntos para comentários públicos. Também estamos levando em conta a [Lei Brasileira 9610/98](http://www.planalto.gov.br/ccivil_03/Leis/L9610.htm) que prevê limitações dos direitos autorais (artigo 46).
 
-When you contribute to this repository you are doing so under the above licenses.
+No entanto, esses logotipos e imagens ainda assim podem estar sujeitos a leis de marcas em uma ou mais jurisdições. Antes de utilizar esse conteúdo, favor certificar-se de que é utilizado em seu contexto permitido por lei, ou seja, utilizado para identificar a entidade ou organização que possui a marca e que você tem o direito de usá-la dentro das leis em que se aplicam nas circunstâncias de seu uso pretendido. *Você é o único responsável por se certificar que não está infringindo a marca ou direitos autorais de outra pessoa.*
 
-<span class="badge badge-secondary mt-5">Section 3</span>
-# Acceptable Use
+Ao contribuir com este repositório, você o faz sob as licenças descritas acima.
 
-<span class="lead">You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of PrivacyTools, or in any way which is unlawful, illegal, fraudulent, or harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.</span>
+<span class="badge badge-secondary mt-5">Seção 3</span>
+# Uso Aceitável
 
-You must not conduct any systematic or automated data collection activities on or in relation to this website without PrivacyTools's express written consent, including:
+<span class="lead">Você não deve utilizar este site de forma que cause ou possa vir a causar danos para o site, ou de forma que previna a disponibilidade ou acessibilidade do Privacidade.Digital, ou em qualquer forma que seja ilícita, ilegal, fraudulenta, ou prejudicial, ou em conexão com quaisquer objetivos ou atividades ilícitas, ilegais, fraudulentas, ou prejudiciais.</span>
 
-* Excessive Automated Scans
-* Denial of Service Attacks
+Você não deve conduzir nenhuma atividade de coleta de dados sistêmica ou automatizada neste site ou relacionada a este site sem a devida permissão em escrita da IPD, incluindo:
+
+* Scans automáticos em excesso
+* Ataques do tipo DoS
 * Scraping
-- Data Mining
+- Mineração de dados
 - ‘Framing’ (IFrames)
 
-We take the security of our website, infrastructure, and services very seriously. Our [SECURITY.md](https://github.com/privacytools/.github/blob/master/SECURITY.md) document outlines responsible disclosure guidelines and other security-related information.
+Nós levamos nossa segurança, infraestrutura, e serviços de forma muito séria.
