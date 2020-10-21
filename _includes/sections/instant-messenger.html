@@ -1,114 +1,32 @@
-<<<<<<< HEAD
-<h1 id="mensagens-instantaneas" class="anchor"><a href="#mensagens-instantaneas"><i class="fas fa-link anchor-icon"></i></a> Mensagens Instantâneas Encriptadas</h1>
-
-<div class="alert alert-warning" role="alert">
-  <strong>
-    Se você estiver utilizando aplicativos de mensagem como Telegram, LINE, Viber,  
-    <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, 
-    ou apenas mensagens SMS simples, recomendamos que escolha uma alternativa daqui.
-  </strong>
-</div>
-
-{% include cardv2.html
-title="Signal"
-image="/assets/img/tools/Signal.png"
-description="Signal é um aplicativo móvel desenvolvido pela Open Whisper Systems. O app fornece a habilidade de trocar mensagens instantâneas, assim como chamadas de voz e vídeo.
-Todas as comunicações utilizam criptografia de ponta-a-ponta. Signal é gratuito, livre e de código-fonte aberto."
-labels="success:VoIP"
-website="https://signal.org/"
-github="https://github.com/signalapp"
-windows="https://signal.org/download/"
-mac="https://signal.org/download/"
-linux="https://signal.org/download/"
-googleplay="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms"
-android="https://signal.org/android/apk/#apk-danger"
-ios="https://apps.apple.com/us/app/signal-private-messenger/id874139669"
-%}
-
-{% include cardv2.html
-title="Wire"
-image="/assets/img/tools/wire.png"
-description="Wire é um aplicativo de conversas, livre e com código-fonte aberto, possuindo criptografia de ponta-a-ponta. Tem funcionalidades de troca de mensagens, chamadas de voz e vídeo."
-labels="warning:<a href=//www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text>Aviso</a>:Wire armazena alguns metadados sobre seus usuários nos servidores. Esses dados incluem nomes de perfil, fotos de perfil, nomes de usuário, e lista das conexões e conversas dos usuários.|success:VoIP"
-website="https://wire.com/"
-github="https://github.com/wireapp/"
-windows="https://wire.com/en/download"
-mac="https://wire.com/en/download"
-linux="https://wire.com/en/download"
-googleplay="https://play.google.com/store/apps/details?id=com.wire"
-android="https://wire.com/en/download"
-ios="https://itunes.apple.com/app/wire/id930944768?mt=8"
-web="https://app.wire.com"
-%}
-
-<h3>Comparação Completa (em Inglês)</h3>
-<ul>
-	<li><a href="https://securechatguide.org/effguide.html">securechatguide.org</a> - Guia para escolher um aplicativo de mensagens.</li>
-	<li><a href="https://www.securemessagingapps.com/">securemessagingapps.com</a> - Comparação de aplicativos seguros de mensagens.</li>
-  <li><a href="https://www.thinkprivacy.io/messengers.html">thinkprivacy.io</a> - Comparação simples de aplicativos seguros de mensagens.</li>
-</ul>
-
-<h3>Menções Honrosas</h3>
-
-<ul>
-  <li><a href="https://briarproject.org/">Briar</a> - Um aplicativo de mensagens ultra-seguro e peer-to-peer que se conecta e estabelece a comunicação por Direct Wi-Fi, Bluetooth, ou Tor pela Internet, mantendo seus usuários protegidos de vigilância e censura.</li>
-  <li><a href="https://about.riot.im/">Riot</a> - Um aplicativo de mensagens com código-fonte aberto e descentralizado, que utiliza o protocolo Matrix. Esse aplicativo é mais recomendado para funcionar como um bate-papo de grandes grupos e times. Ainda que o Riot tenha a funcionalidade de realizar conversas individuais, nós acreditamos que há alternativas melhores para comunicações diretas.</li>
-  <li><a href="https://retroshare.cc/">RetroShare</a> - Um software de mensagens instantâneas encriptadas com E2E e chamadas de vídeo/voz. RetroShare também suporta Tor e I2P.</li>
-  <li><a href="https://xmpp.org/">XMPP</a> - Protocolo federado de mensagens com criptografia de ponta-a-ponta <a href="https://conversations.im/omemo/">OMEMO</a>, OTR, ou OpenPGP:</li>
-  <ul>
-    <li><a href="https://conversations.im/">Conversations</a> (Android) - Um cliente Jabber/XMPP com código-fonte aberto para smartphones Android 4.4+. <span class="badge badge-success">OMEMO</span></li>
-    <li><a href="https://gajim.org/">Gajim</a> (FreeBSD, Linux, Windows) - Um cliente XMPP com código-fonte aberto e funcionalidades robustas. <span class="badge badge-success">OMEMO</span></li>
-    <li><a href="https://monal.im/">Monal</a> (iOS, MacOS) - Um cliente XMPP em desenvolvimento ativo. <span class="badge badge-success">OMEMO</span> <span class="badge badge-success">VoIP</span></li>
-    <li><a href="https://omemo.top/">Outros clientes com suporte a OMEMO</a> (em Inglês).</li>
-  </ul>
-  <li><a href="https://www.kontalk.org/">Kontalk</a> - Uma rede de mensagens instantâneas liderada pela comunidade. Suporta criptografia de ponta-a-ponta. Tanto o canal cliente-servidor e o canal servidor-servidor são totalmente encriptados.</li>
-  <li><a href="https://keybase.io/">Keybase</a> - <span class="badge badge-warning" data-toggle="tooltip" title="Esse software depende de um servidor central com código-fonte fechado.">Aviso</span> Mensagens com criptografia de ponta-a-ponta com verificação social.</li>
-  <li><a href="https://status.im/">Status</a> - <span class="badge badge-warning">Experimental</span> Um mensageiro instantâneo com software livre e com código-fonte aberto, peer-to-peer, encriptado com suporte a DAPPs.</li>
-  <li> <a href="https://tox.chat/">Tox</a> - <span class="badge badge-warning">Experimental</span> Software livre de mensagens instantâneas e com código-fonte aberto, peer-to-peer, encriptado e com suporte a chamadas de vídeo. <span class="badge badge-success">VoIP</span></li>
-  <li><a href="https://jami.net/">Jami (antigo Ring/SFLphone)</a> - Dá controle total sobre suas comunicações e um nível incomparável de privacidade. Jami possui <em>mensagens de texto, chamadas de vídeo e voz, transferência de arquivos, e conferências de vídeo</em>. <span class="badge badge-success">VoIP</span></li>
-</ul>
-
-<h3>Informações Relacionadas (em Inglês)</h3>
-
-<ul>
-  <li><a href="https://firstlook.org/theintercept/2015/07/14/communicating-secret-watched/">Conversando em Segredo Enquanto Todos Estamos Sendo Vigiados - firstlook.org</a></li>
-  <li><a href="https://signal.org/android/apk/">Usuários avançados com necessidades especiais podem precisar fazer o download direto da APK do Signal. A maioria dos usuários não deve fazer isto em situações normais.</a></li>
-  <li>Audições independentes de segurança</li>
-  <ul>
-    <li><a href="https://eprint.iacr.org/2016/1013.pdf">A Formal Security Analysis of the Signal Messaging Protocol (2019)</a> por Katriel Cohn-Gordon, Cas Cremers, Benjamin Dowling, Luke Garratt e Douglas Stebila</li>
-    <li><a href="https://wire.com/en/security/#audits">Audições independentes de segurança</a> do site Wire</li>
-    <li><a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">Keybase's Protocol Security Review (2019)</a> por <a href="https://www.nccgroup.trust/">NCC Group</a></li>
-=======
 <h1 id="im" class="anchor">
   <a href="#im"><i class="fas fa-link anchor-icon"></i></a>
-  Encrypted Instant Messengers
+  Mensagens Instantâneas Criptografadas
 </h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS, you should pick an alternative here.</strong></div>
+  <strong>Se você estiver utilizando aplicativos de mensagem como Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, ou apenas mensagens SMS simples, recomendamos que escolha uma alternativa daqui.</strong></div>
 
-<p>We only recommend instant messenger programs or apps that support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">end-to-end encryption (E2EE)</a>. When E2EE is used, all transmissions (messages, voice, video, etc.) are encrypted <strong>before</strong> they are sent from your device. E2EE protects both the authenticity and confidentiality of the transmission as they pass through any part of the network (servers, etc.).</p>
+<p>Recomendamos apenas programas ou aplicativos de mensagens instantâneas que suportem <a href="https://pt.wikipedia.org/wiki/Criptografia_de_ponta-a-ponta">criptografia de ponta-a-ponta</a>. Quando a criptografia de ponta-a-ponta é usada, todas as transmissões (mensagens, voz, vídeo, etc.) são criptografadas <strong>antes</strong> de serem enviadas de seu dispositivo. A criptografia de ponta-a-ponta protege tanto a autenticidade quanto a confidencialidade da transmissão ao passar por qualquer parte da rede (servidores, etc.).</p>
 
-<p>All the client programs/apps we chose are <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">free and open-source software</a> unless otherwise mentioned. This to ensure that the code can be independently verified by experts now and in the future.</p>
+<p>Todos os programas/aplicativos clientes que escolhemos são <a href="https://pt.wikipedia.org/wiki/Software_livre_e_de_c%C3%B3digo_aberto">software livre e de código-fonte aberto</a> salvo se mencionado o contrário. Isto para garantir que o código possa ser verificado de forma independente por especialistas hoje e no futuro.</p>
 
-<p>We have described the three main types of messaging programs that exist: Centralized, Federated and Peer-to-Peer (P2P), with the advantages and disadvantages of each.</p>
+<p>Descrevemos os três principais tipos de programas de mensagens que existem: Centralizado, Federado e <em>Peer-to-Peer</em> (P2P), com as vantagens e desvantagens de cada um.</p>
 
-<h2 id="centralized" class="anchor">
-  <a href="#centralized"><i class="fas fa-link anchor-icon"></i></a>
-  Centralized
+<h2 id="centralizado" class="anchor">
+  <a href="#centralizado"><i class="fas fa-link anchor-icon"></i></a>
+  Centralizado
 </h2>
 
-<p>Centralized messengers are those where every participant is on the same server or network of servers controlled by the same organization.</p>
+<p>Mensageiros centralizados são aqueles em que cada participante está no mesmo servidor ou rede de servidores controlados pela mesma organização.</p>
 
 {%
   include cardv2.html
   title="Signal"
   image="/assets/img/svg/3rd-party/signal.svg"
-  description='Signal is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling. All communications are E2EE unless you choose to send as SMS. Its protocol has also been <a href="https://eprint.iacr.org/2016/1013.pdf">indepedently audited (PDF)</a>'
-  labels="color==warning::text==Requires phone number::tooltip==Signal requires your phone number as an personal identifier which means anyone you communicate with will see it.|text==VoIP"
+  description='Signal é um aplicativo móvel desenvolvido pela Signal Messenger LLC. O aplicativo fornece mensagens instantâneas, assim como chamadas de voz e vídeo. Todas as comunicações são criptografadas de ponta-a-ponta, a menos que você escolha enviar como SMS. Seu protocolo também tem sido <a href="https://eprint.iacr.org/2016/1013.pdf">auditado independentemente (PDF em inglês)</a>'
+  labels="color==warning::text==Exige número de telefone::tooltip==O sinal requer seu número de telefone como um identificador pessoal, o que significa que qualquer pessoa com quem você se comunicar o verá.|text==VoIP"
   website="https://signal.org/"
   privacy-policy="https://signal.org/legal/"
-  forum="https://forum.privacytools.io/t/discussion-signal/664"
   github="https://github.com/signalapp"
   windows="https://signal.org/download/"
   mac="https://signal.org/download/"
@@ -121,44 +39,43 @@ web="https://app.wire.com"
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-    <h3>Advantages</h3>
+    <h3>Vantagens</h3>
     <ul>
-      <li>New features and changes can be implemented more quickly.</li>
-      <li>Easier to get started with and to find contacts.</li>
+      <li>Novos recursos e mudanças podem ser implementados mais rapidamente.</li>
+      <li>Mais fácil de começar e de encontrar contatos.</li>
     </ul>
     </div>
   <div class="col-md-6">
-    <h3>Disadvantages</h3>
+    <h3>Desvantagens</h3>
     <ul>
-      <li>Centralized services could be more susceptible to <a href="#exploiting-centralized-networks">legislation requiring backdoor access</a>.</li>
-      <li>Can include <a href="https://drewdevault.com/2018/08/08/Signal.html">restricted control or access</a>. This can include things like:</li>
+      <li>Os serviços centralizados podem ser mais suscetíveis a <a href="#exploiting-centralized-networks">legislações que exigem acesso por backdoors</a>.</li>
+      <li>Pode incluir <a href="https://drewdevault.com/2018/08/08/Signal.html">controle ou acesso restrito</a>. Isso pode incluir coisas como:</li>
       <ul>
-        <li>Being <a href="https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165">forbidden from connecting third-party clients</a> to the centralized network that might provide for greater customization or better user experience. Often defined in Terms and Conditions of usage.</li>
-        <li>Poor or no documentation for third-party developers.</li>
+        <li>Ser <a href="https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165">proibido de conectar clientes de terceiros</a> à rede centralizada que possa proporcionar maior customização ou melhor experiência do usuário. Muitas vezes definido nos Termos e Condições de uso.</li>
+        <li>Pouca ou nenhuma documentação para desenvolvedores terceiros.</li>
       </ul>
-      <li>The <a href="https://blog.privacytools.io/delisting-wire">ownership</a>, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
+      <li>A <a href="https://blog.privacytools.io/delisting-wire">propriedade</a>, a política de privacidade e as operações do serviço podem mudar facilmente quando uma única entidade o controla, potencialmente comprometendo o serviço posteriormente.</li>
     </ul>
   </div>
   </div>
 </div>
 
 <div>
-  <h2 id="federated" class="anchor">
-    <a href="#federated"><i class="fas fa-link anchor-icon"></i></a>
-    Federated
+  <h2 id="federado" class="anchor">
+    <a href="#federado"><i class="fas fa-link anchor-icon"></i></a>
+    Federado
   </h2>
 
-  <p>Federated messengers use multiple, independent servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.</p>
+  <p>Os mensageiros federados utilizam múltiplos servidores independentes que são capazes de conversar uns com os outros (o e-mail é um exemplo de um serviço federado). A federação permite que os administradores de sistema controlem seu próprio servidor e ainda façam parte de uma rede de comunicações maior.</p>
 
 {%
   include cardv2.html
   title="Element"
   image="/assets/img/svg/3rd-party/element.svg"
-  description='<a href="https://element.io">Element</a> (formerly <a href="https://element.io/blog/welcome-to-element/">Riot</a>) is the reference client for the <a href="https://matrix.org/docs/guides/introduction">Matrix</a> network. The <a href="https://matrix.org/docs/spec">Matrix open standard</a> is an open-source standard for secure, decentralized, real-time communication.'
+  description='<a href="https://element.io">Element</a> (anteriormente <a href="https://element.io/blog/welcome-to-element/">Riot</a>) é o cliente de referência para a rede <a href="https://matrix.org/docs/guides/introduction">Matrix</a>. O <a href="https://matrix.org/docs/spec">padrão aberto Matrix</a> é um padrão de código-fonte aberto para comunicação segura, descentralizada e em tempo real.'
   labels="text==VoIP"
   website="https://element.io"
   privacy-policy="https://element.io/privacy"
-  forum="https://forum.privacytools.io/t/discussion-element-io/665"
   github="https://github.com/vector-im/element-web"
   windows="https://element.io/get-started"
   mac="https://element.io/get-started"
@@ -172,34 +89,33 @@ web="https://app.wire.com"
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h3>Advantages</h3>
+      <h3>Vantagens</h3>
       <ul>
-        <li>Allows for greater control over your own data when running your own server.</li>
-        <li>Allows you to choose who to trust your data with by choosing between multiple "public" servers.</li>
-        <li>Often allows for third party clients which can provide a more native, customized, or accessible experience.</li>
-        <li>Generally a less juicy target for governments wanting <a href="#exploiting-centralized-networks">backdoor access to everything</a> as the trust is decentralized. The server may be hosted independently from the organization developing the software.</li>
-        <li>Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (e.g., a family member)</li>
-        <li>Third-party developers can contribute code and add new features, instead of waiting for a private development team to do so.</li>
+        <li>Permite um maior controle sobre seus próprios dados ao executar seu próprio servidor.</li>
+        <li>Permite que você escolha com quem confiar seus dados, escolhendo entre vários servidores "públicos".</li>
+        <li>Muitas vezes permite clientes terceiros que podem fornecer uma experiência mais nativa, personalizada ou acessível.</li>
+        <li>Geralmente um alvo menos suculento para os governos que querem <a href="#exploiting-centralized-networks">acesso por backdoor para tudo</a> na medida em que a confiança é descentralizada. O servidor pode ser hospedado independentemente da organização que está desenvolvendo o software.</li>
+        <li>O software do servidor pode ser verificado para ver corresponde ao código-fonte público, assumindo que você tenha acesso ao servidor ou confie na pessoa que o hospede (por exemplo, um membro da família)</li>
+        <li>Os desenvolvedores terceiros podem contribuir com código e adicionar novas funcionalidades, em vez de esperar que uma equipe privada de desenvolvimento o faça.</li>
       </ul>
     </div>
     <div class="col-md-6">
-      <h3>Disadvantages</h3>
+      <h3>Desvantanges</h3>
       <ul>
-        <li>Adding new features is more complex, because these features need to be standardized and tested to ensure they work with all servers on the network.</li>
-        <li>Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).</li>
-        <li>Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is utilized.</li>
-        <li>Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with users on those servers.</li>
+        <li>Adicionar novos recursos é mais complexo, porque esses recursos precisam ser padronizados e testados para garantir que funcionem com todos os servidores da rede.</li>
+        <li>Alguns metadados podem estar disponíveis (por exemplo, informações como "quem está falando com quem", mas não o conteúdo real da mensagem se a criptografia de ponta-a-ponta for utilizada).</li>
+        <li>Os servidores federados geralmente requerem que você confie no administrador de seu servidor. Eles podem ser um hobbyista ou não ser um "profissional de segurança", e não podem oferecer documentos padrão como uma política de privacidade ou termos de serviço que detalham como seus dados são utilizados.</li>
+        <li>Os administradores de servidores às vezes optam por bloquear outros servidores, que são fonte de abuso não moderado ou quebram as regras gerais de comportamento aceito. Isto impedirá sua capacidade de se comunicar com os usuários nesses servidores.</li>
       </ul>
     </div>
   </div>
 </div>
 
 <div>
-  <h4>Worth Mentioning</h4>
+  <h4>Menção Honrosa</h4>
 
   <ul>
-    <li><a href="https://status.im">Status.im</a> - Encrypted instant messenger with an integrated <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> wallet (cryptocurrency) that also includes support for <a href="https://our.status.im/tag/dapps">DApps (decentralized apps)</a> (web apps in a curated store). Uses the <a href="https://our.status.im/status-launches-private-peer-to-peer-messaging-protocol/">Waku protocol (a fork of Whisper)</a> for P2P communication. Only available for iOS and Android.</li>
->>>>>>> upstream/master
+    <li><a href="https://status.im">Status.im</a> - Mensageiro instantâneo criptografado com uma carteira integrada de <a href="https://pt.wikipedia.org/wiki/Ethereum">Ethereum</a> (cripto moeda)que também inclui suporte para <a href="https://our.status.im/tag/dapps">DApps (decentralized apps)</a> (aplicativos web em uma loja com curadoria). Utiliza o <a href="https://our.status.im/status-launches-private-peer-to-peer-messaging-protocol/">protocolo Waku (um fork do Whisper)</a> para comunicação P2P. Disponível apenas para iOS e Android.</li>
   </ul>
 
   <h2 id="peer-to-peer" class="anchor">
@@ -207,16 +123,15 @@ web="https://app.wire.com"
     Peer to Peer (P2P)
   </h2>
 
-  <p>Peer-to-Peer instant messengers connect directly to each other without requiring third-party servers. Clients (peers) usually find each other through the use of a <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> network. Examples of this include <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT (distributed hash table)</a> (used with technologies like <a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)">torrents</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>, for example). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the <a href="https://www.scuttlebutt.nz">Scuttlebutt</a> social networking protocol). Once a peer has found a route to its contact via any of these methods, a direct connection between them is made.</p>
+  <p>Os mensageiros instantâneos <em>Peer-to-Peer</em> (ou ponto-a-ponto) conectam-se diretamente uns aos outros sem a necessidade de servidores de terceiros. Os clientes (pontos) geralmente se encontram através do uso de uma rede de <a href="https://pt.wikipedia.org/wiki/Sistema_de_processamento_distribu%C3%ADdo">computação distribuída</a>. Exemplos disso incluem <a href="https://pt.wikipedia.org/wiki/Distributed_hash_table">DHTs (tabelas hash distribuídas)</a> (usado com tecnologias como <a href="https://pt.wikipedia.org/wiki/BitTorrent">torrents</a> e <a href="https://pt.wikipedia.org/wiki/Sistema_de_Arquivos_Interplanet%C3%A1rio">IPFS</a>, por exemplo). Outra abordagem são as redes baseadas em proximidade, onde uma conexão é estabelecida através de WiFi ou Bluetooth (por exemplo, Briar ou o protocolo de rede social <a href="https://www.scuttlebutt.nz">Scuttlebutt</a>). Uma vez que um peer (ponto) tenha encontrado uma rota para seu contato através de qualquer um destes métodos, é feita uma conexão direta entre eles.</p>
 
 {%
   include cardv2.html
   title="Briar"
   image="/assets/img/svg/3rd-party/briar.svg"
-  description="Encrypted instant messenger that connects to contacts via Wi-Fi, Bluetooth, or Tor over the internet to synchronize messages. Technology such as this has proven to be useful when Internet availability is an issue, such as in times of crisis."
+  description="Mensageiro instantâneo criptografado que se conecta aos contatos via Wi-Fi, Bluetooth ou Tor pela Internet para sincronizar as mensagens. Tecnologias como estas têm se mostrado útil quando a disponibilidade da Internet é um problema, como em tempos de crise."
   website="https://briarproject.org"
   privacy-policy="https://briarproject.org/privacy-policy/"
-  forum="https://forum.privacytools.io/t/discussion-briar/2114"
   gitlab="https://code.briarproject.org/briar/briar"
   fdroid="https://f-droid.org/packages/org.briarproject.briar.android/"
   googleplay="https://play.google.com/store/apps/details?id=org.briarproject.briar.android"
@@ -226,11 +141,10 @@ web="https://app.wire.com"
   include cardv2.html
   title="Jami"
   image="/assets/img/svg/3rd-party/jami.svg"
-  description="Encrypted instant messaging and video calling software. All communications are E2EE using <a href=//jami.net/improving-performance-and-security-with-tls-1-3/>TLS 1.3</a> and never stored elsewhere than on user's devices, even when <a href=//jami.net/why-is-jami-truly-distributed/>TURN servers are used</a>."
-  labels="color==warning::link==https://git.jami.net/savoirfairelinux/ring-project/issues/765::text==Warning::tooltip==This software is partially centralized but can be self-hosted.|text==VoIP"
+  description="Programa de mensagens instantâneas e videochamadas criptografadas. Todas as comunicações são criptografadas de ponta-a-ponta usando <a href=//jami.net/improving-performance-and-security-with-tls-1-3/>TLS 1.3</a> e nunca armazenadas em outro lugar que não seja nos dispositivos do usuário, mesmo quando <a href=//jami.net/why-is-jami-truly-distributed/>servidores TURN são utilizados</a>."
+  labels="color==warning::link==https://git.jami.net/savoirfairelinux/ring-project/issues/765::text==Aviso::tooltip==Esse programa é parcialmente centralizado, mas pode ser auto-hospedado.|text==VoIP"
   website="https://jami.net/"
   privacy-policy="https://jami.net/privacy-policy/"
-  forum="https://forum.privacytools.io/t/discussion-jami/2116"
   gitlab="https://git.jami.net/savoirfairelinux"
   windows="https://jami.net/download-jami-windows"
   mac="https://jami.net/download-jami-macos"
@@ -243,21 +157,21 @@ web="https://app.wire.com"
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-    <h3>Advantages</h3>
+    <h3>Vantagens</h3>
     <ul>
-      <li>Minimal information is exposed to third parties.</li>
-      <li>Modern P2P platforms implement end-to-end encryption by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.</li>
+      <li>Informações mínimas são expostas a terceiros.</li>
+      <li>As modernas plataformas P2P implementam a criptografia de ponta-a-ponta por padrão. Não há servidores que possam potencialmente interceptar e decodificar suas transmissões, ao contrário dos modelos centralizados e federados.</li>
     </ul>
     </div>
     <div class="col-md-6">
-      <h3>Disadvantages</h3>
+      <h3>Desvantangens</h3>
       <ul>
-        <li>Reduced feature set:</li>
+        <li>Conjunto de recursos reduzidos:</li>
         <ul>
-          <li>Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.</li>
-          <li>Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.</li>
+          <li>As mensagens só podem ser enviadas quando ambos os pares estão online, entretanto, seu cliente pode armazenar mensagens localmente para esperar que o contato retorne online.</li>
+          <li>Geralmente aumenta o uso da bateria em dispositivos móveis, pois o cliente deve permanecer conectado à rede distribuída para saber quem está online.</li>
         </ul>
-        <li>Your <a href="https://en.wikipedia.org/wiki/IP_address">IP address</a> and that of the contacts you're communicating with may be visible if you do not use the software in conjunction with a <a href="/software/networks">self contained network</a>, such as <a href="https://www.torproject.org">Tor</a> or <a href="https://geti2p.net/">I2P</a>. Many countries have some form of mass surveillance and/or metadata retention.</li>
+        <li>Seu <a href="https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP">endereço de IP</a> e o dos contatos com os quais você está se comunicando pode ser visível se você não usar o software em junto com <a href="/software/redes">redes independentes</a>, como <a href="https://www.torproject.org">Tor</a> ou <a href="https://geti2p.net/">I2P</a>. Muitos países têm alguma forma de vigilância em massa e/ou retenção de metadados.</li>
       </ul>
     </div>
   </div>
