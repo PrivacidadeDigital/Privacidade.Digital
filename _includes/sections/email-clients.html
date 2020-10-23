@@ -1,11 +1,11 @@
 <h1 id="clientes" class="anchor"><a href="#clientes"><i class="fas fa-link anchor-icon"></i></a> Clientes de Email</h1>
 
 {% include cardv2.html
-<<<<<<< HEAD
 title="Thunderbird"
-image="/assets/img/tools/Thunderbird.png"
-description="Thunderbird é um programa de email gratuito e de código-fonte aberto. Também inclui notícias, calendário, chat (XMPP, IRC, Twitter), etc. Criado e mantido pela comunidade."
+image="/assets/img/svg/3rd-party/thunderbird.svg"
+description="O Thunderbird é um cliente de email multiplataforma, gratuito, de código-fonte aberto, que pode agregar newsgroup, feeds de notícias e chat (XMPP, IRC, Twitter) desenvolvido pela comunidade Thunderbird, e anteriormente pela Fundação Mozilla."
 website="https://www.thunderbird.net/"
+privacy-policy="https://www.mozilla.org/en-US/privacy/thunderbird/"
 source="https://hg.mozilla.org/comm-central/"
 windows="https://www.thunderbird.net/en-US/"
 mac="https://www.thunderbird.net/en-US/"
@@ -17,7 +17,7 @@ netbsd="http://pkgsrc.se/mail/thunderbird"
 
 {% include cardv2.html
 title="Claws Mail"
-image="/assets/img/tools/Claws-Mail.png"
+image="/assets/img/png/3rd-party/claws_mail.png"
 description="Claws Mail é um cliente de email baseado em GTK+ e também um cliente de notícias gratuito e de código-fonte aberto. Ele oferece uma configuração fácil e uma abundância de ferramentas. Em sua versão para Windows, está incluso uma coleção de programas de criptografia, o Gpg4win. Em sistemas Unix-like como o Linux, o GPG é praticamente nativo, por isso não há necessidade de ser incluído com o programa."
 website="https://www.claws-mail.org/"
 git="https://git.claws-mail.org/"
@@ -27,52 +27,22 @@ linux="https://www.claws-mail.org/downloads.php?section=downloads"
 freebsd="https://www.freshports.org/mail/claws-mail/"
 openbsd="http://openports.se/mail/claws-mail"
 netbsd="http://pkgsrc.se/mail/claws-mail"
-=======
-  title="Thunderbird"
-  image="/assets/img/svg/3rd-party/thunderbird.svg"
-  description="Thunderbird is a free, open source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client developed by the Thunderbird community, and previously by the Mozilla Foundation."
-  website="https://www.thunderbird.net/"
-  privacy-policy="https://www.mozilla.org/en-US/privacy/thunderbird/"
-  forum="https://forum.privacytools.io/t/discussion-thunderbird/659"
-  source="https://hg.mozilla.org/comm-central/"
-  windows="https://www.thunderbird.net/en-US/"
-  mac="https://www.thunderbird.net/en-US/"
-  linux="https://www.thunderbird.net/en-US/"
-  freebsd="https://www.freshports.org/mail/thunderbird/"
-  openbsd="http://openports.se/mail/mozilla-thunderbird"
-  netbsd="http://pkgsrc.se/mail/thunderbird"
-%}
-
-{% include cardv2.html
-  title="Claws Mail"
-  image="/assets/img/png/3rd-party/claws_mail.png"
-  description="Claws Mail is a free and open source, GTK-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win, an encryption suite for Windows."
-  website="https://www.claws-mail.org/"
-  forum="https://forum.privacytools.io/t/discussion-claws-mail/660"
-  git="https://git.claws-mail.org/"
-  windows="https://www.claws-mail.org/win32/"
-  mac="https://www.claws-mail.org/faq/index.php/Installation_and_Configuration#What_do_I_need_to_compile_Claws_Mail.3F"
-  linux="https://www.claws-mail.org/downloads.php?section=downloads"
-  freebsd="https://www.freshports.org/mail/claws-mail/"
-  openbsd="http://openports.se/mail/claws-mail"
-  netbsd="http://pkgsrc.se/mail/claws-mail"
->>>>>>> upstream/master
 %}
 
 <h3>Ferramentas de Privacidade para Email</h3>
 
 <ul>
   <li>
-    <a href="https://www.gpg4usb.org/">gpg4usb</a> - Um editor portátil muito fácil de usar para encriptar e desencriptar qualquer mensagem de texto ou arquivo. 
+    <a href="https://www.gpg4usb.org/">gpg4usb</a> - Um editor portátil muito fácil de usar para criptografar e descriptografar qualquer mensagem de texto ou arquivo. 
     Para Windows e Linux. <a href="https://theprivacyguide.org/tutorials/gpg.html">Tutorial GPG</a> (em Inglês).
   </li>
   <li>
     <a href="https://www.mailvelope.com/">Mailvelope</a> - Uma extensão de navegador que permite a troca de emails
-    encriptados seguindo o <a href="https://theprivacyguide.org/tutorials/pgp.html">padrão de criptografia OpenPGP</a>.
+    criptografados seguindo o <a href="https://theprivacyguide.org/tutorials/pgp.html">padrão de criptografia OpenPGP</a>.
   </li>
   <li>
     <a href="https://www.enigmail.net/">Enigmail</a> - Uma extensão de segurança para Thunderbird e Seamonkey. 
-    Ele permite que você escreva e receba mensagens de email marcadas e/ou encriptadas com o <a href="https://theprivacyguide.org/tutorials/pgp.html">padrão OpenPGP</a>.
+    Ele permite que você escreva e receba mensagens de email assinadas e/ou criptografadas com o <a href="https://theprivacyguide.org/tutorials/pgp.html">padrão OpenPGP</a>.
   </li>
   <li>
     <a href="https://addons.mozilla.org/thunderbird/addon/torbirdy/">TorBirdy</a> - TorBirdy configura Thunderbird para se conectar através da rede anônima Tor. 
@@ -91,7 +61,7 @@ netbsd="http://pkgsrc.se/mail/claws-mail"
     Ele suporta as caixas de email POP3 e IMAP, porém possui suporte apenas para <i>push mail</i> em IMAP.
   </li>
   <li>
-    <a href="https://www.gnupg.org/">GNU Privacy Guard</a> - Encriptação de Email. GnuPG é uma alternativa com licença GPL para os softwares de criptografia PGP. 
+    <a href="https://www.gnupg.org/">GNU Privacy Guard</a> - Criptografia de Email. O GnuPG é uma alternativa com licença GPL para os softwares de criptografia PGP. 
     <a href="https://theprivacyguide.org/tutorials/gpg.html">Tutorial</a> / Para macOS: <a href="https://gpgtools.org/">GPGTools</a>.
   </li>
   <li>
