@@ -1,18 +1,10 @@
 <h1 id="webrtc" class="anchor"><a href="#webrtc"><i class="fas fa-link anchor-icon"></i></a> Vazamento de IP por WebRTC</h1>
 
 <div class="alert alert-danger" role="alert">
-<<<<<<< HEAD
-  <strong>WebRTC é um protocolo de comunicação recente que depende de JavaScript. Ele pode vazar seu endereço IP verdadeiro, até mesmo ao utilizar uma VPN.</strong>
+  WebRTC é um protocolo de comunicação recente que depende de JavaScript. Ele pode vazar seu endereço IP verdadeiro, até mesmo ao utilizar uma VPN.
 </div>
 
-<p>Mesmo que extensões como o NoScript previnam isso, é provável que seja uma boa ideia bloquear o protocolo diretamente
-  também, só pra ter certeza.</p>
-=======
-  WebRTC is a new communication protocol that relies on JavaScript that can leak your actual IP address from behind your VPN.
-</div>
-
-<p>While software like NoScript prevents this, it's probably a good idea to block this protocol directly as well, just to be safe. <b>Note:</b> This disables browser-based call functionality that is used for webapps like Discord, Hangouts, Jitsi, etc.</p>
->>>>>>> upstream/master
+<p>Mesmo que extensões como o NoScript previnam isso, é provável que seja uma boa ideia bloquear o protocolo diretamente também, só pra ter certeza. <b>Nota:</b> Isso também irá desabilitar funcionalidades de chamadas de voz/vídeo pelo navegador, disponíveis em aplicativos web como Discord, Hangouts, Jitsi, etc.</p>
 
 <p>
   <a class="btn btn-warning" rel="noopener noreferrer" href="https://ipleak.net">Teste seu navegador agora</a>
@@ -46,30 +38,21 @@
   <a class="btn btn-primary" rel="noopener noreferrer" href="https://ipleak.net">Teste seu navegador novamente</a>
 </p>
 
-<<<<<<< HEAD
-<h3>Como consertar o vazamento WebRTC no Google Chrome?</h3>
-=======
-<h3>How to disable WebRTC in Safari?</h3>
+<h3>Como desabilitar o WebRTC no Safari?</h3>
 
-<p>Safari is far stricter with WebRTC than other major browsers, and it does not leak your IP address in its default configuration. If you'd like, you can follow these steps just to double-check your browser:</p>
+<p>Safari é bem mais restritivo com WebRTC do que outros navegadores mais conhecidos, e não vaza seu endereço IP com suas configurações padrão. Se você desejar, você pode seguir esses passos para checar que seu navegador está protegido nesse sentido:</p>
 
 <ol class="long-string-list">
-  <li>Choose "Preferences" under the Safari menu in your menu bar.</li>
-  <li>Select the Advanced tab and check the "Show Develop menu in menu bar" box.</li>
-  <li>Exit Preferences and open the Develop menu in your menu bar.</li>
-  <li>In the drop-down menu, open the "WebRTC" submenu and ensure "Enable Legacy WebRTC API" is unchecked. If it's grayed out, even better.</li>
+  <li>Selecione "Preferências" no menu do Safari na barra de opções.</li>
+  <li>Selecione a aba Avançado e marque a opção de habilitar o menu de desenvolvimento.</li>
+  <li>Saia de Preferências e abra o menu de desenvolvimento na sua barra de opções.</li>
+  <li>No menu drop-down, abra o submenu "WebRTC" para se certificar que a opção de habilitar a API legacy de WebRTC esteja desmarcada. Se estiver cinza, melhor ainda.</li>
 </ol>
 
-<h3>How to disable WebRTC in Google Chrome?</h3>
->>>>>>> upstream/master
+<h3>Como desabilitar o WebRTC no Google Chrome?</h3>
 
-<p>WebRTC não pode ser completamente desabilitado no Chrome, porém é possível mudar configurações de rota relacionadas (e prevenir vazamentos) usando uma extensão. Duas soluções com código-fonte aberto são <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (opções podem precisar ser trocadas dependendo da situação), e <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (selecione "Impedir o protocolo WebRTC de vazar endereços de IP locais" em Configurações).</p>
+<p>WebRTC não pode ser completamente desabilitado no Chrome, porém é possível mudar configurações de rota relacionadas usando uma extensão, previnindo assim vazamentos de IP. Duas soluções com código-fonte aberto são <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (opções podem precisar ser trocadas dependendo da situação), e <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (selecione "Impedir o protocolo WebRTC de vazar endereços de IP locais" em Configurações).</p>
 
 <h3>Mas e em outros navegadores?</h3>
 
-<<<<<<< HEAD
-<p>O Chrome de iOS, Internet Explorer e Safari ainda não implementam o protocolo WebRTC. 
-  <a href="#navegador"><i class="fas fa-link"></i> Mas nós recomendamos utilizar Firefox em todos os dispositivos.</a></p>
-=======
-<p>Chrome on macOS and Internet Explorer do not implement WebRTC yet. <a href="#browser"><i class="fas fa-link"></i> But we recommend using Firefox on all devices.</a></p>
->>>>>>> upstream/master
+<p>Chrome no macOS e o navegador Explorer ainda não implementam a tecnologia WebRTC. <a href="#browser"><i class="fas fa-link"></i> But we recommend using Firefox on all devices.</a></p>
