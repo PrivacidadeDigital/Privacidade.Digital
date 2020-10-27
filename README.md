@@ -1,6 +1,8 @@
-[![privacidade.digital](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/assets/img/layout/logo.png)](https://www.privacidade.digital/)
+[![Privacidade.Digital](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/assets/img/layout/logo.png)](https://www.privacidade.digital/)
 
-[![Contributor Convenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Código de Conduta](https://img.shields.io/badge/Contributor%20Covenant-v1.4%adotado-ff69b4.svg)](CODE_OF_CONDUCT.md)
+
+Criptografia contra a Vigilância Global em Massa
 
 #### Links & Documentos Importantes
 
@@ -12,20 +14,25 @@
 
 :loudspeaker: [Entrar em Contato](https://www.privacidade.digital/sobre)
 
-:loudspeaker: [Mastodon](https://mastodon.social/@PrivacidadeJa)
+:elephant: [Mastodon](https://mastodon.social/@PrivacidadeJa)
 
-:bird: [Twitter](https://twitter.com/PrivacidadeJa) (Posts são réplicas do feed Mastodon)
+:bird: [Twitter](https://twitter.com/PrivacidadeJa) (Tweets são cópias do Mastodon)
 
 :camera: [Instagram](https://www.instagram.com/privacidade.digital) (Inativo)
 
-## Desenvolvimento
+## Desenvolvimento Local
 
 Teste e modifique o site na sua máquina local:
 
-1. Instale [Ruby](https://www.ruby-lang.org/pt/documentation/installation/).
-1. Instale [bundler](https://bundler.io/) com `gem install bundler`.
-1. Rode `bundle install` para instalar as dependências necessárias.
-1. Usar `bundle exec jekyll build` para construir o site. O _output_ estará na pasta `_site`. Previsão automática também é possível através do comando `bundle exec jekyll serve`.
+1. Instale a última versão estável do [Ruby](https://www.ruby-lang.org/pt/documentation/installation/).
+1. Instale [Bundler](https://bundler.io/) v2.0.1:
+    * `gem install bundler -v 2.0.1`
+1. Instale as dependências necessárias:
+    * `bundle install`
+1. Gere o site (o resultado pode ser encontrado no diretório `_site`):
+    * `bundle exec jekyll build`
+1. Sirva o site localmente com reloading automático:
+    * `bundle exec jekyll serve --incremental --livereload`
 
 ## Línguas
 
@@ -43,8 +50,6 @@ Traduções da Comunidade:
 - [Polski / Polonês](https://pl.privacytools.io) - [Gitea](https://git.privacytools.io/pl-privacytoolsIO/pl.privacytools.io)
 - [Русский / Russo](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
-## Licença deste Projeto
+## Licença & Avisos
 
-Site disponível sob a licença "CC0" [Creative Commons Zero v1.0 Universal](https://www.privacidade.digital/LICENSE.txt), exceto quando outra for especificada. Onde a CC0 está em efeito, você pode copiar, modificar, distribuir e executar o projeto, mesmo para fins comerciais, tudo sem pedir autorização. [Saiba mais](https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR)
-
-Ao contribuir com este repositório, contribuintes não necessariamente concordam em assinar um contrato ou transferir seus direitos autorais para o projeto, mas no mínimo concordam em licensiar suas contribuições com a mesma licença deste repositório: Neste caso, a Creative Commons Zero v1.0 Universal.
+Favor visitar https://www.privacidade.digital/notas para informações sobre licenças e outros avisos. Privacidade.Digital é fornecido sem garantias e não se responsabiliza por danos. Ao contribuir com este repositório você concorda em licenciar seu trabalho nos mesmos termos da [licença](https://github.com/PrivacidadeDigital/Privacidade.Digital/blob/master/LICENSE.txt) deste repositório.
