@@ -1,18 +1,18 @@
 [![Privacidade.Digital](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/assets/img/layout/logo.png)](https://www.privacidade.digital/)
 
-[![Código de Conduta](https://img.shields.io/badge/Contributor%20Covenant-v1.4%adotado-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Código de Conduta](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adotado-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 Criptografia contra a Vigilância Global em Massa
 
 #### Links & Documentos Importantes
 
-:loudspeaker: [Código de Conduta](CODE_OF_CONDUCT.md)
+:innocent: [Código de Conduta](CODE_OF_CONDUCT.md)
 
-:loudspeaker: [Contribuindo com o Projeto](CONTRIBUTING.md)
+:muscle: [Contribuindo com o Projeto](CONTRIBUTING.md)
 
-:loudspeaker: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
+:book: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
 
-:loudspeaker: [Entrar em Contato](https://www.privacidade.digital/sobre)
+:speech_balloon: [Entrar em Contato](https://www.privacidade.digital/sobre/#contato)
 
 :elephant: [Mastodon](https://mastodon.social/@PrivacidadeJa)
 
