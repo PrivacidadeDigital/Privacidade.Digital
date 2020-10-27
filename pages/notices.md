@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /notices/
+permalink: /notas/
 title: "Notas e Avisos Legais"
 description: "O site Privacidade.Digital é disponibilizado para a comunidade com a melhor das intenções, mas sem quaisquer garantias."
 ---
