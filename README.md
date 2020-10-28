@@ -6,19 +6,21 @@ Criptografia contra a Vigilância Global em Massa
 
 #### Links & Documentos Importantes
 
-:innocent: [Código de Conduta](CODE_OF_CONDUCT.md)
+:innocent: [Código de Conduta](CODE_OF_CONDUCT.md) (Leia nossas regras para melhor convivência de colaboradores)
 
-:muscle: [Contribuindo com o Projeto](CONTRIBUTING.md)
+:muscle: [Colaborar com o Projeto](CONTRIBUTING.md) (Leia sobre como você pode colaborar com o projeto)
 
-:book: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki)
+:book: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki) (Aprenda sobre como colaborar em detalhes)
 
-:speech_balloon: [Entrar em Contato](https://www.privacidade.digital/sobre/#contato)
+:speech_balloon: [Sala de Bate-Papo Matrix](https://matrix.to/#/#privacidade.digital-geral:matrix.org) (Troque uma ideia com a comunidade)
 
-:elephant: [Mastodon](https://mastodon.social/@PrivacidadeJa)
+:envelope: [Entrar em Contato](https://www.privacidade.digital/sobre/#contato) (Fala com a gente)
 
-:bird: [Twitter](https://twitter.com/PrivacidadeJa) (Tweets são cópias do Mastodon)
+:elephant: [Mastodon](https://mastodon.social/@PrivacidadeJa) (Segue lá)
 
-:camera: [Instagram](https://www.instagram.com/privacidade.digital) (Inativo)
+:bird: [Twitter](https://twitter.com/PrivacidadeJa) (Segue lá, mas tweets são cópias do Mastodon)
+
+:camera: [Instagram](https://www.instagram.com/privacidade.digital) (Segue lá, mas tá inativo)
 
 ## Desenvolvimento Local
 
