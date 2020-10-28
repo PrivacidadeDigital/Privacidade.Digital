@@ -12,7 +12,7 @@
       {% endif %}
 
       <h6 class="card-subtitle mb-2 text-muted" itemprop="jobTitle">{% if include.role %}{{ include.role }}{% elsif include.emeritus %}Antigo Colaborador{% else %}Colaborador{% endif %}</h6>
-      {% if include.bio %}<p class="card-text" itemprop="description">{{ include.bio | default: "<i>Essa pessoa ainda não escreveu sua bio</i>" }}</p>{% endif %}
+      {% if include.bio %}<p class="card-text" itemprop="description">{{ include.bio | default: "<i>Essa pessoa ainda não escreveu uma bio</i>" }}</p>{% endif %}
       <div class="mx-n2">
         {% if include.email %}
         <a href="{{ include.email }}" aria-label="Email" class="mx-2 text-decoration-none" itemprop="email">
