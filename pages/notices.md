@@ -3,6 +3,7 @@ layout: page
 permalink: /notas/
 title: "Notas e Avisos Legais"
 description: "O site Privacidade.Digital é disponibilizado para a comunidade com a melhor das intenções, mas sem quaisquer garantias."
+breadcrumb: "Notas e Avisos Legais"
 ---
 
 <span class="badge badge-secondary mt-5">Preâmbulo</span>

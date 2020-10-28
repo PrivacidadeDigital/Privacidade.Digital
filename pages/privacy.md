@@ -1,8 +1,9 @@
 ---
 layout: page
 permalink: /privacidade/
-title: "Perguntas Sobre a Privacidade Deste Site"
+title: "Privacidade Neste Site"
 description: "Esta página explica quais informações a iniciativa Privacidade Digital e entidades relacionadas coletam sobre seus usuários, o que é feito com essas informações, entre outras coisas."
+breadcrumb: "Privacidade Neste Site"
 ---
 
 ## Quem é {{ site.name }}?
