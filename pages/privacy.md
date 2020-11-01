@@ -6,11 +6,11 @@ description: "Esta página explica quais informações a Iniciativa Privacidade 
 breadcrumb: "Privacidade Neste Site"
 ---
 
-## Quem é a Iniciativa Privadade Digital, ou IPD?
+## Quem é a Iniciativa Privacidade Digital, ou IPD?
 
-A IPD é uma iniciativa aberta e comunitária, responsável pela criação e manutenção deste site. A lista atual de membros do time de colaboradores frequentes [pode ser acessada através do GitHub](https://github.com/orgs/PrivacidadeDigital/people). 
+A IPD é uma iniciativa aberta e comunitária, responsável pela criação e manutenção deste site. A lista atual de membros do time de colaboradores frequentes [pode ser acessada através do GitHub](https://github.com/orgs/PrivacidadeDigital/people). Saiba mais na [página "Sobre Nós"]({{ site.production_url }}/sobre/).
 
-## Quem é a PrivacyTools?
+## Quem é o PrivacyTools?
 
 PrivacyTools é a organização responsável pelo site <a href="https://www.privacytools.io/">PrivacyTools.io</a>, cujo conteúdo é a inspiração e fonte de nosso trabalho, pois nós traduzimos e localizamos as páginas desse site e publicamos o resultado aqui.
 
