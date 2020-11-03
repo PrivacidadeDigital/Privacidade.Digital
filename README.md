@@ -6,9 +6,9 @@ Criptografia contra a Vigilância Global em Massa
 
 #### Links & Documentos Importantes
 
-:innocent: [Código de Conduta](CODE_OF_CONDUCT.md) (Leia nossas regras para melhor convivência de colaboradores)
+:innocent: [Código de Conduta](.github/CODE_OF_CONDUCT.md) (Leia nossas regras para melhor convivência de colaboradores)
 
-:muscle: [Colaborar com o Projeto](CONTRIBUTING.md) (Leia sobre como você pode colaborar com o projeto)
+:muscle: [Colaborar com o Projeto](.github/CONTRIBUTING.md) (Leia sobre como você pode colaborar com o projeto)
 
 :book: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki) (Aprenda sobre como colaborar em detalhes)
 
