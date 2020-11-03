@@ -1,4 +1,4 @@
-[![Privacidade.Digital](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/assets/img/layout/logo.png)](https://www.privacidade.digital/)
+[![Privacidade.Digital](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/assets/img/svg/layout/brand/vertical-light.svg)](https://www.privacidade.digital/)
 
 [![Código de Conduta](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adotado-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
