@@ -174,6 +174,7 @@ breadcrumb: "Email"
 <div class="container">
   <div class="row">
     <div class="col-md-6">
+<<<<<<< HEAD
       <h3>O que é criptografia de ponta-a-ponta (<em>end-to-end encryption</em> ou E2EE) em emails?</h3>
       <p><a href="https://pt.wikipedia.org/wiki/Criptografia_de_ponta-a-ponta">Criptografia de ponta-a-ponta</a> é uma forma de criptografar o conteúdo do email para que ninguém, exceto o destinatário, possa ler a mensagem.</p>
       <h3>Como posso criptografar meu email?</h3>
@@ -181,6 +182,15 @@ breadcrumb: "Email"
       <p>Há outro padrão popular entre as empresas, chamado <a href="https://en.wikipedia.org/wiki/S/MIME">S/MIME</a>, embora isso requeira um certificado emitido por uma <a href="https://pt.wikipedia.org/wiki/Autoridade_de_certifica%C3%A7%C3%A3o">autoridade de certificação</a> (nem todos eles emitem certificados S/MIME). Ele é suportado no <a href="https://support.google.com/a/topic/9061730?hl=pt-BR&ref_topic=9061731">Google Workspace (anteriormente chamado G Suite)</a> e <a href="https://support.microsoft.com/pt-br/office/criptografar-mensagens-utilizando-s-mime-no-outlook-na-web-878c79fc-7088-4b39-966f-14512658f480?ui=pt-br&rs=pt-br&ad=br">Office 365 Business ou Exchange Server 2016, 2019</a>.</p>
       <h3>Que software posso usar para ter criptografia de ponta-a-ponta?</h3>
       <p>Provedores de email que permitem que você use protocolos de acesso padrão como <a href="https://pt.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a> e <a href="https://pt.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> podem ser usados com qualquer um dos <a href="/software/email/">clientes de email que recomendamos</a>. Isso pode ser menos seguro, pois você depende dos provedores de email para garantir que sua implementação de criptografia funcione e não seja comprometida de alguma forma.</p>
+=======
+      <h3>What is end-to-end encryption (E2EE) encryption in email?</h3>
+      <p><a href="https://en.wikipedia.org/wiki/End-to-end_encryption">End-to-end encryption (E2EE)</a> is a way of encrypting email contents so that nobody but the recipient(s) can read the email message.</p>
+      <h3>How can I encrypt my email?</h3>
+      <p>The standard way to do email E2EE and have it work between different email providers is with <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP">OpenPGP</a>. There are different implementations of the OpenPGP standard, the most common being <a href="https://en.wikipedia.org/wiki/GNU_Privacy_Guard">GnuPG</a> and <a href=https://openpgpjs.org>OpenPGP.js</a>.</p>
+      <p>There is another standard that was popular with business called <a href="https://en.wikipedia.org/wiki/S/MIME">S/MIME</a>, however it requires a certificate issued from a <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificate Authority</a> (not all of them issue S/MIME certificates). It has support in <a href="https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731">Google Workplace</a> and <a href="https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480">Outlook for Web or Exchange Server 2016, 2019</a>.</p>
+      <h3>What software can I use to get E2EE?</h3>
+      <p>Email providers which allow you to use standard access protocols like <a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a> and <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> can be used with any of the <a href="/software/email/">email clients we recommend</a>. This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.</p>
+>>>>>>> upstream/master
     </div>
     <div class="col-md-6">
       <h3>Como faço para proteger minhas chaves privadas?</h3>
@@ -203,12 +213,21 @@ breadcrumb: "Email"
       <p>O software cliente pode usá-los para mostrar de quem é uma mensagem e a que horas foi recebida. Os servidores podem usá-los para determinar para onde uma mensagem de email deve ser enviada, entre <a href="https://en.wikipedia.org/wiki/Email#Message_header">outros propósitos</a> não transparentes ao usuário.</p>
     </div>
     <div class="col-md-6">
+<<<<<<< HEAD
       <h3>Onde estão os metadados do email?</h3>
       <p>Os metadados de email são armazenados no <a href="https://en.wikipedia.org/wiki/Email#Message_header">cabeçalho</a> da mensagem de email.</p>
       <h3>Por que os metadados de email não podem ser criptografados de ponta-a-ponta?</h3>
       <p>Os metadados de email são cruciais para a funcionalidade mais básica do email, pois possui informações sobre de onde vem a mensagem e para onde ela deve ir. A criptografia de ponta-a-ponta não foi integrada aos protocolos de email originalmente e também é opcional, portanto, apenas o conteúdo da mensagem é protegido.</p>
       <h3>Como meus metadados são protegidos?</h3>
       <p>Quando mensagens viajam entre provedores de email, uma conexão criptografada é negociada usando <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">Opportunistic TLS</a>. Isso protege os metadados de observadores externos, mas como não são criptografados de ponta-a-ponta, os administradores do servidor podem bisbilhotar os metadados de um email.</p>
+=======
+      <h3>Where is the email metadata?</h3>
+      <p>Email metadata is stored in the <a href="https://en.wikipedia.org/wiki/Email#Message_header">message header</a> of the email message.</p>
+      <h3>Why can't email metadata be E2EE?</h3>
+      <p>Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally and is also optional, therefore, only the message content is protected.</p>
+      <h3>How is my metadata protected?</h3>
+      <p>When emails travel between email providers an encrypted connection is negotiated using <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">Opportunistic TLS</a>. This protects the metadata from outside observers, but as it is not E2EE, server administrators can snoop on the metadata of an email.</p>
+>>>>>>> upstream/master
     </div>
   </div>
 </div>
