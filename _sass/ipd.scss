@@ -1,12 +1,82 @@
-// .shield-w-background {
+/*
+** PayPal Donate Button
+*/
 
-//     border-radius: 0.5rem;
-//     display: inline !important;
-//     height: 150px;
+$paypal-color:  #00457C;
 
-// }
+.btn-paypal {
 
-// .pd-logo {
-//     display: inline !important;
-//     height: 100px;
-// }
+    background-color: $paypal-color;
+    color:#FFF;
+    border-color:$paypal-color;
+
+}
+
+.btn-paypal:hover, .btn-paypal:focus, .btn-paypal:active, .btn-paypal.active, .open .dropdown-toggle.btn-paypal {
+
+    background-color: darken($paypal-color, 25%);
+    color:#FFF;
+    border-color: darken($paypal-color, 25%);
+
+}
+
+/*
+** PicPay Donate Button
+*/
+
+$picpay-color:  #21C25E;
+
+.btn-picpay {
+
+    background-color: $picpay-color;
+    color:#FFF;
+    border-color: $picpay-color;
+
+}
+
+.btn-picpay:hover, .btn-picpay:focus, .btn-picpay:active, .btn-picpay.active, .open .dropdown-toggle.btn-picpay {
+
+    background-color: darken($picpay-color, 25%);
+    color:#FFF;
+    border-color: darken($picpay-color, 25%);
+
+}
+
+.picpay-button-icon {
+
+    line-height: .75em;
+    width: 1.5em;
+    vertical-align: -0.25em;
+
+}
+
+/*
+** LiberaPay Donate Button
+*/
+
+$liberapay-color:   darken(#F6C915, 10%);
+
+.btn-liberapay {
+
+    background-color: $liberapay-color;
+    color:#FFF;
+    border-color: $liberapay-color;
+
+}
+
+.btn-liberapay:hover, .btn-liberapay:focus, .btn-liberapay:active, .btn-liberapay.active, .open .dropdown-toggle.btn-liberapay {
+
+    background-color: darken($liberapay-color, 15%);
+    color:#FFF;
+    border-color: darken($liberapay-color, 15%);
+
+}
+
+.liberapay-button-icon {
+
+    line-height: 1em;
+    width: 1.25em;
+    vertical-align: -0.25em;
+    fill: white;
+
+}

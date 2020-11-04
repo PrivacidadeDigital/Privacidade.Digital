@@ -34,7 +34,7 @@ Não. O PrivacyTools oferece serviços adicionais que nós não oferecemos atual
 
 ## Como posso ficar sabendo de mudanças que ocorrem nesta página?
 
-A versão atual desta página entrou em efeito no dia 7 de Novembro de 2020.
+A versão atual desta página entrou em efeito no dia 3 de Novembro de 2020.
 
 Nós iremos postar novas versões deste documento em [{{ site.production_url }}/privacidade/]({{ site.production_url }}/privacidade/). Nós podemos mudar a forma que anunciamos mudanças numa versão futura desta página.
 
