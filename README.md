@@ -6,21 +6,21 @@ Criptografia contra a Vigilância Global em Massa
 
 #### Links & Documentos Importantes
 
-:innocent: [Código de Conduta](.github/CODE_OF_CONDUCT.md) (Leia nossas regras para melhor convivência de colaboradores)
+:innocent: [Código de Conduta](.github/CODE_OF_CONDUCT.md) – Leia nossas regras de conduta para melhor harmonia entre os colaboradores
 
-:muscle: [Colaborar com o Projeto](.github/CONTRIBUTING.md) (Leia sobre como você pode colaborar com o projeto)
+:muscle: [Colaborar com o Projeto](.github/CONTRIBUTING.md) – Leia sobre como você pode colaborar com o projeto
 
-:book: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki) (Aprenda sobre como colaborar em detalhes)
+:book: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki) – Aprenda sobre como colaborar em detalhes
 
-:speech_balloon: [Sala de Bate-Papo Matrix](https://matrix.to/#/#privacidade.digital-geral:matrix.org) (Troque uma ideia com a comunidade)
+:speech_balloon: [Sala de Bate-Papo Matrix](https://matrix.to/#/#privacidade.digital-geral:matrix.org) – Troque uma ideia com a comunidade
 
-:envelope: [Entrar em Contato](https://www.privacidade.digital/sobre/#contato) (Fala com a gente)
+:envelope: [Entrar em Contato](https://www.privacidade.digital/sobre/#contato) – Fala com a gente
 
-:elephant: [Mastodon](https://mastodon.social/@PrivacidadeJa) (Segue lá)
+:elephant: [Mastodon](https://mastodon.social/@PrivacidadeJa) – Segue lá
 
-:bird: [Twitter](https://twitter.com/PrivacidadeJa) (Segue lá, mas tweets são cópias do Mastodon)
+:bird: [Twitter](https://twitter.com/PrivacidadeJa) – Segue lá, mas os tweets são cópias automáticas do Mastodon
 
-:camera: [Instagram](https://www.instagram.com/privacidade.digital) (Segue lá, mas tá inativo)
+:camera: [Instagram](https://www.instagram.com/privacidade.digital) – Segue lá, mas ainda tá inativo
 
 ## Desenvolvimento Local
 
