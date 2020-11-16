@@ -1,8 +1,8 @@
 ---
-name: "📝 Corrigir Conteúdo"
-about: Avisar sobre qualquer informação que esteja errada ou desatualizada no site.
+name: "Correção de Conteúdo"
+about: Avise sobre qualquer informação que esteja errada ou desatualizada no site.
 title: "📝 Correção | "
-labels: 📝 correção
+labels: Correção
 ---
 
 ## Descrição

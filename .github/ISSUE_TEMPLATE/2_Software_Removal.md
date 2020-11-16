@@ -1,8 +1,8 @@
 ---
 name: "❌ Remoção de Software"
-about: Sugira a remoção de um software recomendado que esteja desatualizado, inseguro, ou ruim em geral.
+about: Sugira a remoção de uma recomendação de software que esteja desatualizado, inseguro, ou ruim em geral.
 title: "❌ Remoção de Software | "
-labels: ❌ software remoção
+labels: Software Remoção Sugestão
 ---
 
 ## Descrição

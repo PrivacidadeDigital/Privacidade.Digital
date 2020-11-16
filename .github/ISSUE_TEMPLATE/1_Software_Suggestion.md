@@ -1,8 +1,8 @@
 ---
 name: "🆕 Sugestão de Software"
-about: Sugerir novo software que melhora a privacidade.
+about: Sugira nova recomendação de software que melhora a privacidade.
 title: "🆕 Sugestão de Software | "
-labels: 🆕 software sugestão
+labels: Software Sugestão
 ---
 
 ## Informações Básicas
