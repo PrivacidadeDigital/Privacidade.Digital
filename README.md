@@ -1,4 +1,4 @@
-[![Privacidade.Digital](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/assets/img/svg/layout/brand/horizontal-light.svg)](https://www.privacidade.digital/)
+[![Privacidade.Digital](https://github.com/PrivacidadeDigital/Privacidade.Digital/blob/main/assets/img/svg/layout/brand/horizontal-light.svg)](https://www.privacidade.digital/)
 
 [![Código de Conduta](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adotado-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
@@ -12,7 +12,7 @@ Criptografia contra a Vigilância Global em Massa
 
 :book: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki) – Aprenda sobre como colaborar em detalhes
 
-:speech_balloon: [Sala de Bate-Papo Matrix](https://matrix.to/#/#privacidade.digital-geral:matrix.org) – Troque uma ideia com a comunidade
+:speech_balloon: [Grupo/Chat Matrix](https://matrix.to/#/#privacidade.digital-geral:matrix.org) – Troque uma ideia com a comunidade
 
 :envelope: [Entrar em Contato](https://www.privacidade.digital/sobre/#contato) – Fala com a gente
 
@@ -54,4 +54,4 @@ Traduções da Comunidade:
 
 ## Licença & Avisos
 
-Favor visitar https://www.privacidade.digital/notas para informações sobre licenças e outros avisos. Privacidade.Digital é fornecido sem garantias e não se responsabiliza por danos. Ao contribuir com este repositório você concorda em licenciar seu trabalho nos mesmos termos da [licença](https://github.com/PrivacidadeDigital/Privacidade.Digital/blob/master/LICENSE.txt) deste repositório.
+Favor visitar https://www.privacidade.digital/notas para informações sobre licenças e outros avisos. Privacidade.Digital é fornecido sem garantias e não se responsabiliza por danos. Ao contribuir com este repositório você concorda em licenciar seu trabalho nos mesmos termos da [licença](https://github.com/PrivacidadeDigital/Privacidade.Digital/blob/main/LICENSE.txt) deste repositório.
