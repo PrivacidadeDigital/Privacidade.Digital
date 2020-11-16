@@ -1,5 +1,5 @@
 ---
-name: "Correção de Conteúdo"
+name: "📝 Correção de Conteúdo"
 about: Avise sobre qualquer informação que esteja errada ou desatualizada no site.
 title: "📝 Correção | "
 labels: Correção
