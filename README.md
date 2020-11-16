@@ -33,7 +33,7 @@ Teste e modifique o site na sua máquina local:
     * `bundle install`
 1. Gere o site (o resultado pode ser encontrado no diretório `_site`):
     * `bundle exec jekyll build`
-1. Sirva o site localmente com reloading automático:
+1. Ou sirva o site localmente com reloading automático:
     * `bundle exec jekyll serve --incremental --livereload`
 
 ## Línguas
