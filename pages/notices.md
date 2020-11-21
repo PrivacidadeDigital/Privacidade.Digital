@@ -23,11 +23,11 @@ Além disso, a IPD não garante que este site permanecerá disponível, muito me
 <span class="badge badge-secondary mt-5">Seção 2</span>
 # Licenças
 
-<span class="lead">Direitos autorais de conteúdo neste site são renunciados sob os termos da licença [CC0 1.0 Universal](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/LICENSE.txt).</span>
+<span class="lead">Direitos autorais de conteúdo neste site são renunciados sob os termos da licença [CC0 1.0 Universal](https://github.com/PrivacidadeDigital/Privacidade.Digital/blob/main/LICENSE.txt).</span>
 
-Em algumas jurisdições, em especial aquelas em que a renúncia de direitos autorais da licença CC0-1.0 é julgada legalmente inválida ou ineficaz por qualquer motivo, o conteúdo pode ser estar disponível sob direitos autorais dos &copy; Colaboradores do PrivacyTools e Iniciativa Privacidade Digital, disponível sob a licença [CC 1.0 Universal](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/LICENSE.txt).
+Em algumas jurisdições, em especial aquelas em que a renúncia de direitos autorais da licença CC0-1.0 é julgada legalmente inválida ou ineficaz por qualquer motivo, o conteúdo pode ser estar disponível sob direitos autorais dos &copy; Colaboradores do PrivacyTools e Iniciativa Privacidade Digital, disponível sob a licença [CC 1.0 Universal](https://github.com/PrivacidadeDigital/Privacidade.Digital/blob/main/LICENSE.txt).
 
-O **conteúdo** deste site é baseado em [github.com/privacytools/privacytools.io](https://github.com/privacytools/privacytools.io) e [github.com/PrivacidadeDigital/privacidade.digital](https://github.com/PrivacidadeDigital/Privacidade.Digital), disponível de forma livre e gratuita sob a licença CC-1.0.
+O **conteúdo** deste site é baseado em [github.com/privacytools/privacytools.io](https://github.com/privacytools/privacytools.io) e [github.com/PrivacidadeDigital/Privacidade.Digital](https://github.com/PrivacidadeDigital/Privacidade.Digital), disponível de forma livre e gratuita sob a licença CC-1.0.
 
 O **código-fonte** deste site, incluindo arquivos de código-fonte e exemplos de código-fonte presentes no conteúdo do site, caso existam, está disponível sob a licença CC-1.0, com as seguintes exceções:
 
@@ -36,7 +36,7 @@ O **código-fonte** deste site, incluindo arquivos de código-fonte e exemplos d
 - [Popper.js](https://github.com/privacytools/privacytools.io/blob/master/assets/js/popper.min.js) disponível sob a licença MIT. Veja: [github.com/FezVrasta/popper.js/raw/master/LICENSE.md](https://github.com/FezVrasta/popper.js/raw/master/LICENSE.md)
 - [Sortable](https://github.com/privacytools/privacytools.io/blob/master/assets/js/sortable.min.js) disponível sob a licença MIT. Veja: [github.com/HubSpot/sortable/raw/master/LICENSE](https://github.com/HubSpot/sortable/raw/master/LICENSE)
 - Os ícones da Font Awesome estão disponíveis sob a licença CC-BY-4.0, e as fontes da Font Awesome estão disponíveis sob a licença SIL OFL 1.1, e código-fonte da Font Awesome está disponível sob a licença MIT. Veja: [fontawesome.com/license/free](https://fontawesome.com/license/free)
-- As fontes, ícones, e código PrivacyTools no diretório `fonts` estão disponíveis sob a licença ISC. Veja: [github.com/PrivacidadeDigital/privacidade.digital/blob/master/font/LICENSE](https://github.com/PrivacidadeDigital/privacidade.digital/blob/master/font/LICENSE).
+- As fontes, ícones, e código PrivacyTools no diretório `fonts` estão disponíveis sob a licença ISC. Veja: [github.com/PrivacidadeDigital/Privacidade.Digital/blob/main/font/LICENSE](https://github.com/PrivacidadeDigital/Privacidade.Digital/blob/main/font/LICENSE).
 
 Porções desta própria página foram adotadas do site [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) no GitHub, disponível sob a licença [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE), em Inglês.
 

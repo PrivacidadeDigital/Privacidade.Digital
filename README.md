@@ -10,7 +10,7 @@ Criptografia contra a Vigilância Global em Massa
 
 :muscle: [Colaborar com o Projeto](.github/CONTRIBUTING.md) – Leia sobre como você pode colaborar com o projeto
 
-:book: [Wiki do Repositório](https://github.com/PrivacidadeDigital/privacidade.digital/wiki) – Aprenda sobre como colaborar em detalhes
+:book: [Wiki do Repositório](https://github.com/PrivacidadeDigital/Privacidade.Digital/wiki) – Aprenda sobre como colaborar em detalhes
 
 :speech_balloon: [Grupo/Chat Matrix](https://matrix.to/#/#privacidade.digital-geral:matrix.org) – Troque uma ideia com a comunidade
 
