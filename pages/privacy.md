@@ -28,14 +28,14 @@ Nada além disso pode ser registrado, visto que não utilizamos nenhum tipo de r
 
 Você pode entrar em contato com nossa comunidade através dos métodos descritos na [página "Sobre Nós"]({{ site.production_url }}/sobre/).
 
-## O PrivacyTools tem a mesmo tipo de conduta quanto a coleta de dados?
+## O PrivacyTools tem o mesmo tipo de conduta quanto a coleta de dados?
 
 Não. O PrivacyTools oferece serviços adicionais que nós não oferecemos atualmente, e isso muda drasticamente sua conduta de coleta de dados. Favor, visitar a página ["Privacy Q&A"](https://www.privacytools.io/privacy/) do PrivacyTools para saber mais (página em Inglês).
 
 ## Como posso ficar sabendo de mudanças que ocorrem nesta página?
 
-A versão atual desta página entrou em efeito no dia 3 de Novembro de 2020.
+A versão atual desta página entrou em efeito no dia 25 de Novembro de 2020.
 
-Nós iremos postar novas versões deste documento em [{{ site.production_url }}/privacidade/]({{ site.production_url }}/privacidade/). Nós podemos mudar a forma que anunciamos mudanças numa versão futura desta página.
+Nós iremos postar novas versões deste documento em [{{ site.production_url }}/privacidade/]({{ site.production_url }}/privacidade/). Nós podemos mudar a forma que anunciamos mudanças numa versão futura desta página. Mudanças técnicas não relacionadas ao conteúdo da página ou o conserto pontual de erros ortográficos podem não ser explicitamente anunciados.  
 
-Um [compilado de todas as modificações](https://github.com/PrivacidadeDigital/privacidade.digital/commits/master/pages/privacy.md) desta página pode ser acessado através do GitHub.
+Um [compilado de todas as modificações](https://github.com/PrivacidadeDigital/Privacidade.Digital/commits/main/pages/privacy.md) desta página pode ser acessado através do GitHub.
