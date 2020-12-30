@@ -29,18 +29,9 @@ Em algumas jurisdições, em especial aquelas em que a renúncia de direitos aut
 
 O **conteúdo** deste site é baseado em [github.com/privacytools/privacytools.io](https://github.com/privacytools/privacytools.io) e [github.com/PrivacidadeDigital/Privacidade.Digital](https://github.com/PrivacidadeDigital/Privacidade.Digital), disponível de forma livre e gratuita sob a licença CC-1.0.
 
-<<<<<<< HEAD
 O **código-fonte** deste site, incluindo arquivos de código-fonte e exemplos de código-fonte presentes no conteúdo do site, caso existam, está disponível sob a licença CC-1.0, com as seguintes exceções:
-=======
-- Bootstrap code is under the MIT license. See: [github.com/twbs/bootstrap/blob/master/LICENSE](https://github.com/twbs/bootstrap/blob/master/LICENSE)
-- [Popper.js](https://github.com/privacytools/privacytools.io/blob/master/assets/js/popper.min.js) is under the MIT license. See: [github.com/FezVrasta/popper.js/raw/master/LICENSE.md](https://github.com/FezVrasta/popper.js/raw/master/LICENSE.md)
-- [Sortable](https://github.com/privacytools/privacytools.io/blob/master/assets/js/sortable.min.js) is under the MIT license. See: [github.com/HubSpot/sortable/raw/master/LICENSE](https://github.com/HubSpot/sortable/raw/master/LICENSE)
-- The Font Awesome icons are under CC-BY-4.0, Font Awesome fonts are under SIL OFL 1.1, and Font Awesome code is under the MIT License. See: [fontawesome.com/license/free](https://fontawesome.com/license/free)
-- The PrivacyTools fonts, icons, and code in `fonts` are under ISC license. See: [github.com/privacytools/privacytools.io/blob/master/font/LICENSE](https://github.com/privacytools/privacytools.io/blob/master/font/LICENSE).
->>>>>>> upstream/master
 
 - Código em Bootstrap disponível sob a licença MIT. Veja: [github.com/twbs/bootstrap/blob/master/LICENSE](https://github.com/twbs/bootstrap/blob/master/LICENSE)
-- [jQuery](https://github.com/privacytools/privacytools.io/blob/master/assets/js/jquery-3.3.1.min.js) disponível sob a licença MIT. Veja: [jquery.org/license](https://jquery.org/license/)
 - [Popper.js](https://github.com/privacytools/privacytools.io/blob/master/assets/js/popper.min.js) disponível sob a licença MIT. Veja: [github.com/FezVrasta/popper.js/raw/master/LICENSE.md](https://github.com/FezVrasta/popper.js/raw/master/LICENSE.md)
 - [Sortable](https://github.com/privacytools/privacytools.io/blob/master/assets/js/sortable.min.js) disponível sob a licença MIT. Veja: [github.com/HubSpot/sortable/raw/master/LICENSE](https://github.com/HubSpot/sortable/raw/master/LICENSE)
 - Os ícones da Font Awesome estão disponíveis sob a licença CC-BY-4.0, e as fontes da Font Awesome estão disponíveis sob a licença SIL OFL 1.1, e código-fonte da Font Awesome está disponível sob a licença MIT. Veja: [fontawesome.com/license/free](https://fontawesome.com/license/free)
