@@ -3,6 +3,7 @@ name: Privacidade.Digital
 description: Você está sendo vigiado. Equipe-se com conhecimento, criptografia e privacidade para resistir à vigilância global em massa.
 url: "https://Privacidade.Digital"
 production_url: "https://Privacidade.Digital"
+baseurl: "Privacidade.Digital"
 sass:
   style: compressed
 plugins:
